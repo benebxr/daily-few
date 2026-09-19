@@ -1,0 +1,105 @@
+{
+ "date": "2026-09-19",
+ "thesis": "Learn what a holdout test can prove, and what it cannot.",
+ "scanned": 212,
+ "sourcesScanned": 38,
+ "picks": [
+  {
+   "id": "0919-ebay",
+   "title": "Consumer Heterogeneity and Paid Search Effectiveness: A Large-Scale Field Experiment",
+   "source": "NBER",
+   "author": "Blake, Nosko, Tadelis",
+   "url": "https://www.nber.org/papers/w20171",
+   "mode": "read",
+   "minutes": 30,
+   "track": "pro",
+   "domain": "Incrementality",
+   "score": 93,
+   "why": "The reference geo-holdout on paid search: non-brand ads switched off in some regions, sales compared with untouched ones. Use it to check a test design and to set expectations early about what a null result would mean.",
+   "lookFor": [
+    "How did they pick and match test and control regions, and how long did the holdout run before the estimate settled?",
+    "Which customer segments carried the incremental effect, and what is the equivalent cut in a subscription base?",
+    "How far did experimental returns fall below the attribution-based estimate, and what does that do to a CAC payback guardrail?"
+   ],
+   "gist": "Large field experiments at eBay measured the causal effect of paid search. Returns were a fraction of what attribution suggested. Brand keywords showed negligible benefit. Non-brand keywords moved only new and infrequent users, while frequent users absorbed most of the spend without changing behaviour. You can skim the econometrics; the design section and the segment results are the part to read slowly."
+  },
+  {
+   "id": "0919-mkt1",
+   "title": "Inside team MKT1's multiplayer AI setup",
+   "source": "MKT1 Newsletter",
+   "author": "Emily Kramer",
+   "url": "https://newsletter.mkt1.co/p/multiplayer-ai-team-mkt1",
+   "mode": "read",
+   "minutes": 14,
+   "track": "pro",
+   "domain": "AI enablement",
+   "score": 72,
+   "why": "You already run the single-player version of this. It is a worked example of making skills, context and routines team-grade for a marketing org, which is the AI enablement problem you own. Around 40% will be familiar; the team and internal-MCP sections are the new part.",
+   "lookFor": [
+    "Which three workflows in your commercial team would fail the vacation test today: builder offline, laptop closed?",
+    "Shared repo installed as a plugin, or an internal MCP: which fits a team that mostly works outside Claude Code?",
+    "Is an audience-facing MCP a real option for a partner channel?"
+   ],
+   "gist": "A three-person marketing team found most of its AI workflows lived on individual laptops. They rebuilt around two tests: does the work still run when a person or machine is offline, and can a new computer be productive in minutes. Skills live in shared repos, context stays in the team's existing tools and is read on demand, cloud routines only call shared skills, and maintenance skills keep the system from rotting. Heavy self-promotion throughout."
+  },
+  {
+   "id": "0919-gordon",
+   "title": "Can a model predict incrementality? With Brett Gordon, Stanford GSB",
+   "source": "Open Haus",
+   "author": "Olivia Kory, Brett Gordon",
+   "url": "https://www.haus.io/open-haus/can-a-model-predict-incrementality",
+   "mode": "listen",
+   "minutes": 47,
+   "track": "pro",
+   "domain": "Measurement science",
+   "score": 88,
+   "why": "Gordon is the academic behind the evidence that observational attribution misses experimental truth by wide margins. It prepares you for the conversation after a test ends: how far one experiment generalises into standing budget decisions. Haus sells experimentation tooling, so expect that slant.",
+   "lookFor": [
+    "Under which conditions is a model calibrated on experiments good enough to act on?",
+    "Can the gap between attributed and incremental serve as a standing correction factor?",
+    "Which data quality problems break experiments most often in practice?"
+   ],
+   "gist": "Gordon walks through his two ad measurement papers, the 'close enough' research and Predicted Incrementality by Experimentation. The thread is whether predictive models can stand in for experiments, how experiments validate them, and what attribution bias itself tells you."
+  }
+ ],
+ "practice": {
+  "id": "0919-p",
+  "type": "First principles",
+  "minutes": 15,
+  "title": "Write the verdict before you see the data",
+  "prompt": "On paper, before any data exists: write the decision rule for a holdout test. Which result makes you cut the spend, which makes you keep it, and which counts as inconclusive? Then list the two most likely ways the test could lie to you, and what you would check to catch each one.",
+  "reveal": "1. A decision rule has three zones, and the inconclusive zone needs a width. Decide it from the smallest effect that would change the budget decision.\n\n2. Usual suspects for a lying geo test: spillover between regions, a pre-period in which test and control were already drifting apart, brand search and organic absorbing the demand you switched off, and a window shorter than the lag between first click and paid conversion.\n\n3. For each suspect, name the check now. A check you invent after seeing the result is a rationalisation.\n\nCompare with what you wrote. What did you miss, and what did you have that is missing here?"
+ },
+ "cuts": [
+  {
+   "title": "Superhuman AI, The Neuron, The Diff: nine daily AI roundups in four days",
+   "source": "3 newsletters",
+   "reason": "News cycle. Nothing in them you would act on this month."
+  },
+  {
+   "title": "Grok Bot for GTM: what I automated in the first month",
+   "source": "GTM Strategist",
+   "reason": "Launch enthusiasm and a template listicle. You could build the two useful patterns in an hour."
+  },
+  {
+   "title": "Inside Gemini: how Google runs product for its model",
+   "source": "Lenny's Newsletter",
+   "reason": "Interesting background, no line to your problems this month, and long."
+  },
+  {
+   "title": "Coming to America",
+   "source": "Doomberg",
+   "reason": "The argument sits behind the paywall and depends on this week's news."
+  },
+  {
+   "title": "The growth tactics that got you here",
+   "source": "SaaSiest",
+   "reason": "Teaser only, and a premise you have already lived."
+  },
+  {
+   "title": "Friction Fiction",
+   "source": "Think Fast Talk Smart",
+   "reason": "Episode promo with no substance in the mail."
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "date": "2026-09-20",
+ "thesis": "Check a test design against the method. The long session gets the science.",
+ "scanned": 212,
+ "sourcesScanned": 38,
+ "picks": [
+  {
+   "id": "0920-geo",
+   "title": "Measuring Ad Effectiveness Using Geo Experiments",
+   "source": "Google Research",
+   "author": "Jon Vaver, Jim Koehler",
+   "url": "https://research.google/pubs/measuring-ad-effectiveness-using-geo-experiments/",
+   "mode": "read",
+   "minutes": 30,
+   "track": "pro",
+   "domain": "Geo-experiment method",
+   "score": 86,
+   "why": "The method paper behind most geo-holdout tooling. Hold a test plan against it: assignment of regions, pre-period, test period, and how the incremental return and its confidence interval are built.",
+   "lookFor": [
+    "How do they use the pre-test period to reduce variance, and how long does it need to be?",
+    "What does the paper imply about the number of regions and the size of the spend change needed to see an effect within a few weeks?",
+    "How do they treat carryover after the test ends, and do you need a cooldown window?"
+   ],
+   "gist": "Google's description of geo experiments: non-overlapping regions are randomly assigned to treatment or control and served through geo-targeted ads, which gives results that translate directly into bidding and budget decisions. The follow-on Trimmed Match work deals with a small number of very different regions."
+  },
+  {
+   "id": "0920-gallo",
+   "title": "The physiology-first approach to endurance training, with Dr Gabriele Gallo",
+   "source": "Training Science Podcast",
+   "author": "Paul Laursen, Gabriele Gallo",
+   "url": "https://www.buzzsprout.com/1917060/episodes/19443395-the-physiology-first-approach-to-endurance-training-with-dr-gabriele-gallo-and-prof-paul-laursen",
+   "mode": "listen",
+   "minutes": 80,
+   "track": "personal",
+   "domain": "Endurance science",
+   "score": 78,
+   "why": "Two working sports scientists on durability, the quality that decides the back half of a 70.3 run. It helps you judge whether ten training hours a week build fatigue resistance or only fresh-state fitness. Made for a long easy session.",
+   "lookFor": [
+    "How do low and high intensity interact across weeks, and what follows for a ten-hour week?",
+    "What role does carbohydrate availability play in durability, and should your long-session fuelling change?",
+    "Which durability test could you run yourself with a power meter?"
+   ],
+   "gist": "A physiology-centred framework for endurance coaching: train the physiology that drives performance instead of only copying race demands. Covers the interaction of low and high intensity over time, durability and fatigue resistance, carbohydrate use, and central versus peripheral fatigue."
+  }
+ ],
+ "practice": {
+  "id": "0920-p",
+  "type": "Estimate",
+  "minutes": 12,
+  "title": "How much carbohydrate does a 70.3 burn, and how much can you put back?",
+  "prompt": "No calculator app, no search. Estimate your total energy cost for a five-hour 70.3, the share that comes from carbohydrate, what you start with in storage, and what you can realistically take in per hour. Write every assumption down first. Which single assumption moves the answer most?",
+  "reveal": "One route, all ballpark figures:\n\n- Energy: roughly 700 to 800 kcal per hour at race effort, so about 3,500 to 4,000 kcal.\n- Carbohydrate share at that intensity: around 60 to 70%, so roughly 600 to 700 g.\n- Storage: about 400 to 500 g of glycogen in muscle and liver when well loaded.\n- Intake: 60 to 90 g per hour over about four and a half hours of feeding, so 270 to 400 g.\n\nStorage alone does not cover it. Intake closes the gap, and the carbohydrate share is the assumption with the most swing, which is why pacing the bike and fuelling are the same decision. Check the figures against what you heard in today's episode."
+ },
+ "cuts": [
+  {
+   "title": "The fourth dimension: physiological resilience",
+   "source": "Journal of Physiology",
+   "reason": "The source review behind today's episode. Queued for a desk slot if the episode leaves you wanting mechanisms."
+  },
+  {
+   "title": "This 3-step method to simplify your life",
+   "source": "Big Think",
+   "reason": "Generic. You already run a stricter version."
+  },
+  {
+   "title": "Claude's 25 highest ROI tasks",
+   "source": "AI Genius Lab",
+   "reason": "Listicle below your level."
+  },
+  {
+   "title": "Two reasons to meditate",
+   "source": "Making Sense",
+   "reason": "Fine, but it competes with the long-session slot and lost."
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "date": "2026-09-21",
+ "thesis": "Think like the investor who funds the plan.",
+ "scanned": 212,
+ "sourcesScanned": 38,
+ "picks": [
+  {
+   "id": "0921-signal",
+   "title": "I don't want to use your agent, I want my agent to use your thing",
+   "source": "The Signal",
+   "author": "Brendan Short",
+   "url": "https://www.thesignal.club/p/i-dont-want-to-use-your-agent-i-want",
+   "mode": "read",
+   "minutes": 4,
+   "track": "pro",
+   "domain": "AI distribution",
+   "score": 62,
+   "why": "Four minutes that state a thesis worth testing for software distribution. Thin on evidence, but the CarPlay analogy is a usable frame for the product conversation about MCP and API surfaces versus an in-app assistant.",
+   "lookFor": [
+    "What is your product's equivalent of tire-pressure data: context only your system holds that a customer's or partner's agent would want?",
+    "If the agent picks the tool, what replaces the signup funnel as the acquisition event you measure?"
+   ],
+   "gist": "In-app vendor agents lose because they lack the user's own context. Vendors should be the best surface and data source for the user's own agent and pipe proprietary data outward. Read only the editorial; the rest is a link round-up."
+  },
+  {
+   "id": "0921-tunguz",
+   "title": "The Harness Margin Opportunity",
+   "source": "Tomasz Tunguz",
+   "author": "Tomasz Tunguz",
+   "url": "https://www.linkedin.com/pulse/harness-margin-opportunity-tomasz-tunguz-z7acc",
+   "mode": "read",
+   "minutes": 4,
+   "track": "pro",
+   "domain": "AI unit economics",
+   "score": 57,
+   "why": "A compact model of how inference design drives gross margin and CAC payback in AI products. Useful the day you price or package an AI feature, and as an investor lens. It sits next to your live problems, which is why it is a four-minute slot.",
+   "lookFor": [
+    "Which AI-assisted steps in your product or support flow could be deterministic code, leaving the expensive model for the few that need it?",
+    "How much of the argument survives his own footnote that the quality gap is statistically undemonstrated?"
+   ],
+   "gist": "Same model, different harness, same result at far lower cost per task. Two illustrative vendors with identical revenue end up with very different gross margin and payback depending on how much work they route to cheap paths. His footnotes concede the numbers rest on assumptions."
+  },
+  {
+   "id": "0921-miller",
+   "title": "JD Miller's CRO playbook for PE-backed companies",
+   "source": "The Revenue Leadership Podcast",
+   "author": "Kyle Norton, JD Miller",
+   "url": "https://www.therevenueleadershippodcast.com/p/jd-millers-cro-playbook-for-pe-backed",
+   "mode": "listen",
+   "minutes": 60,
+   "track": "pro",
+   "domain": "CRO craft",
+   "score": 87,
+   "why": "The first-90-days problem of a revenue leader, from someone with twenty years as a CRO in PE-backed software: align with the investment thesis, build targets from historical data instead of optimism, and report in a cadence the board trusts. It is sales-led, so translate to a self-serve funnel as you listen. The duration is an estimate.",
+   "lookFor": [
+    "How does he decompose the annual number into new logos, cross-sell and price, and which lever is underused in your base?",
+    "What is on his weekly flash report, and what are the self-serve equivalents of his leading indicators?",
+    "What gets CROs past the typical 18-month tenure?"
+   ],
+   "gist": "Miller compares PE to house-flipping: a three-to-five-year window and a demand for fast returns. He covers annual planning from win rates, ramp times and attrition, segmentation by customer size, and a weekly flash report on leading indicators, and he keeps returning to the board's investment thesis."
+  }
+ ],
+ "practice": {
+  "id": "0921-p",
+  "type": "Teach-back",
+  "minutes": 8,
+  "title": "Explain to a smart twelve-year-old why clicks prove nothing",
+  "prompt": "Out loud or on paper, in plain words and with one everyday example of your own: why does 'people who clicked our ad bought the product' fail to show that the ad worked? If you reach for jargon, start the sentence again.",
+  "reveal": "A version that works: the man selling umbrellas at the station exit sells a lot when it rains. Handing each buyer a flyer first would make the flyer look brilliant, because everyone who got one bought an umbrella. They were going to buy anyway. To know what the flyer does, you need a second, similar exit where nobody gets one, and you compare.\n\nThat second exit is your control region. If your own example was weaker than this one, find out why. If it was better, use it in the next team meeting."
+ },
+ "cuts": [
+  {
+   "title": "What world-class GTM looks like in 2026",
+   "source": "Lenny's Podcast",
+   "reason": "Strong, but 86 minutes and enterprise-leaning. Queued for a day without a better fit."
+  },
+  {
+   "title": "Demystifying open source MMM",
+   "source": "Mobile Dev Memo",
+   "reason": "Answers what comes after the geo test. Queued for the checkpoint week."
+  },
+  {
+   "title": "AI Skills with Matt Pocock",
+   "source": "The Pragmatic Engineer",
+   "reason": "Craft you already practise daily."
+  },
+  {
+   "title": "Why Claude Code won't kill Clay",
+   "source": "Executive Brand",
+   "reason": "Vendor positioning, no operating lesson."
+  }
+ ]
+}
