@@ -20,7 +20,9 @@
     "What is your product's equivalent of tire-pressure data: context only your system holds that a customer's or partner's agent would want?",
     "If the agent picks the tool, what replaces the signup funnel as the acquisition event you measure?"
    ],
-   "gist": "In-app vendor agents lose because they lack the user's own context. Vendors should be the best surface and data source for the user's own agent and pipe proprietary data outward. Read only the editorial; the rest is a link round-up."
+   "gist": "In-app vendor agents lose because they lack the user's own context. Vendors should be the best surface and data source for the user's own agent and pipe proprietary data outward. Read only the editorial; the rest is a link round-up.",
+   "published": "2026-09-18",
+   "shelf": "fast"
   },
   {
    "id": "0921-tunguz",
@@ -38,7 +40,9 @@
     "Which AI-assisted steps in your product or support flow could be deterministic code, leaving the expensive model for the few that need it?",
     "How much of the argument survives his own footnote that the quality gap is statistically undemonstrated?"
    ],
-   "gist": "Same model, different harness, same result at far lower cost per task. Two illustrative vendors with identical revenue end up with very different gross margin and payback depending on how much work they route to cheap paths. His footnotes concede the numbers rest on assumptions."
+   "gist": "Same model, different harness, same result at far lower cost per task. Two illustrative vendors with identical revenue end up with very different gross margin and payback depending on how much work they route to cheap paths. His footnotes concede the numbers rest on assumptions.",
+   "published": "2026-09-17",
+   "shelf": "fast"
   },
   {
    "id": "0921-miller",
@@ -58,7 +62,10 @@
     "What gets CROs past the typical 18-month tenure?"
    ],
    "gist": "Miller compares PE to house-flipping: a three-to-five-year window and a demand for fast returns. He covers annual planning from win rates, ramp times and attrition, segmentation by customer size, and a weekly flash report on leading indicators, and he keeps returning to the board's investment thesis.",
-   "spotifyUrl": "https://open.spotify.com/episode/5NDaFwBmaFVfIcy4ldB9zc"
+   "spotifyUrl": "https://open.spotify.com/episode/5NDaFwBmaFVfIcy4ldB9zc",
+   "published": "2025-01-15",
+   "shelf": "slow",
+   "holds": "Planning and board reporting in investor-backed software change slowly. Nothing in it depends on the tools or market conditions of early 2025."
   }
  ],
  "practice": {

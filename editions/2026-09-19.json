@@ -21,7 +21,10 @@
     "Which customer segments carried the incremental effect, and what is the equivalent cut in a subscription base?",
     "How far did experimental returns fall below the attribution-based estimate, and what does that do to a CAC payback guardrail?"
    ],
-   "gist": "Large field experiments at eBay measured the causal effect of paid search. Returns were a fraction of what attribution suggested. Brand keywords showed negligible benefit. Non-brand keywords moved only new and infrequent users, while frequent users absorbed most of the spend without changing behaviour. You can skim the econometrics; the design section and the segment results are the part to read slowly."
+   "gist": "Large field experiments at eBay measured the causal effect of paid search. Returns were a fraction of what attribution suggested. Brand keywords showed negligible benefit. Non-brand keywords moved only new and infrequent users, while frequent users absorbed most of the spend without changing behaviour. You can skim the econometrics; the design section and the segment results are the part to read slowly.",
+   "published": "2014-05",
+   "shelf": "evergreen",
+   "holds": "The experimental logic does not age. The effect sizes are one marketplace's numbers from 2013, so take the method and leave the figures."
   },
   {
    "id": "0919-mkt1",
@@ -40,7 +43,9 @@
     "Shared repo installed as a plugin, or an internal MCP: which fits a team that mostly works outside Claude Code?",
     "Is an audience-facing MCP a real option for a partner channel?"
    ],
-   "gist": "A three-person marketing team found most of its AI workflows lived on individual laptops. They rebuilt around two tests: does the work still run when a person or machine is offline, and can a new computer be productive in minutes. Skills live in shared repos, context stays in the team's existing tools and is read on demand, cloud routines only call shared skills, and maintenance skills keep the system from rotting. Heavy self-promotion throughout."
+   "gist": "A three-person marketing team found most of its AI workflows lived on individual laptops. They rebuilt around two tests: does the work still run when a person or machine is offline, and can a new computer be productive in minutes. Skills live in shared repos, context stays in the team's existing tools and is read on demand, cloud routines only call shared skills, and maintenance skills keep the system from rotting. Heavy self-promotion throughout.",
+   "published": "2026-09-17",
+   "shelf": "fast"
   },
   {
    "id": "0919-gordon",
@@ -60,7 +65,9 @@
     "Which data quality problems break experiments most often in practice?"
    ],
    "gist": "Gordon walks through his two ad measurement papers, the 'close enough' research and Predicted Incrementality by Experimentation. The thread is whether predictive models can stand in for experiments, how experiments validate them, and what attribution bias itself tells you.",
-   "spotifyUrl": "https://open.spotify.com/episode/5tWoFA5OEVHZES7AQkzvT0"
+   "spotifyUrl": "https://open.spotify.com/episode/5tWoFA5OEVHZES7AQkzvT0",
+   "published": "2026-09-17",
+   "shelf": "slow"
   }
  ],
  "practice": {

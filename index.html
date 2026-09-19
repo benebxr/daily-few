@@ -244,6 +244,7 @@ details.more[open] summary{border-bottom:1px solid var(--line)}
 .sheet h2{font-weight:500;font-size:30px;line-height:1.06;letter-spacing:-.04em;margin:0;text-wrap:balance}
 .chips{display:flex;gap:5px;flex-wrap:wrap}
 .chip{font-size:13px;padding:6px 12px;border-radius:999px;background:var(--card-solid);box-shadow:inset 0 0 0 1px var(--line);color:var(--ink-2);white-space:nowrap;font-variant-numeric:tabular-nums}
+.chip.warn{box-shadow:inset 0 0 0 1px var(--out);color:var(--out);white-space:normal}
 .chip.lev{background:var(--btn);color:var(--btn-ink);box-shadow:none;font-weight:500}
 .block{display:flex;flex-direction:column;gap:8px}
 .block h4{margin:0;font-size:13px;font-weight:400;color:var(--ink-3)}
@@ -317,6 +318,10 @@ var parse=function(s){var p=String(s).split("-");return new Date(+p[0],+p[1]-1,+
 var TODAY=iso(new Date());
 var daysBetween=function(a,b){return Math.round((parse(b)-parse(a))/864e5)};
 var fmtDate=function(s,long){if(s==="DEMO")return "Example";var d=parse(s);return d.toLocaleDateString("en-GB",long?{weekday:"long",day:"numeric",month:"long"}:{weekday:"short",day:"numeric",month:"short"})};
+var MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+var fmtPub=function(v){v=String(v||"");var m=v.match(/^(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?$/);if(!m)return "";return (m[3]?(+m[3])+" ":"")+(m[2]?MON[+m[2]-1]+" ":"")+m[1]};
+var ageMonths=function(v,ref){var m=String(v||"").match(/^(\d{4})(?:-(\d{2}))?/);if(!m)return 0;var r=parse(ref);return (r.getFullYear()-(+m[1]))*12+(r.getMonth()+1-(+(m[2]||6)))};
+var SHELF={evergreen:"Evergreen",slow:"Durable",fast:"Time-sensitive"};
 var mins=function(m){m=Math.round(m||0);return m>=60?Math.floor(m/60)+"h"+(m%60?" "+pad(m%60):""):m+" min"};
 var clone=function(o){return JSON.parse(JSON.stringify(o||{}))};
 var uid=function(){return Date.now().toString(36)+Math.random().toString(36).slice(2,7)};
@@ -364,7 +369,7 @@ function dots(day){var total=160,scanned=Math.min(total,Math.max(+day.scanned||0
   var fresh=!dots.seen[day.date];dots.seen[day.date]=1;return '<div class="dots'+(fresh?" fresh":"")+'" aria-hidden="true">'+out+'</div>'}
 dots.seen={};
 function pickRow(day,p){var d=isDone(day.date,p.id);
-  return '<button class="row'+(d?" done":"")+'" data-pick="'+esc(p.id)+'"><span class="glyph'+(p.mode==="listen"?" l":"")+'">'+ic(p.mode==="listen"?"listen":p.mode==="watch"?"watch":"read")+'</span><span class="row-b"><span class="meta"><em>'+esc(p.source)+'</em><span>'+mins(p.minutes)+'</span><span>'+esc(p.domain||"")+'</span></span><h3>'+esc(p.title)+'</h3><p class="why">'+esc(p.why)+'</p></span><span class="tick">'+ic("check")+'</span></button>'}
+  return '<button class="row'+(d?" done":"")+'" data-pick="'+esc(p.id)+'"><span class="glyph'+(p.mode==="listen"?" l":"")+'">'+ic(p.mode==="listen"?"listen":p.mode==="watch"?"watch":"read")+'</span><span class="row-b"><span class="meta"><em>'+esc(p.source)+'</em><span>'+mins(p.minutes)+'</span>'+(p.published&&ageMonths(p.published,day.date)>=12?'<span>'+esc(String(p.published).slice(0,4))+'</span>':'')+'<span>'+esc(p.domain||"")+'</span></span><h3>'+esc(p.title)+'</h3><p class="why">'+esc(p.why)+'</p></span><span class="tick">'+ic("check")+'</span></button>'}
 function viewToday(){
   if(S.mode==="loading")return top()+'<div class="skel" style="height:150px"></div><div class="skel"></div><div class="skel"></div>';
   var day=currentDay();
@@ -424,7 +429,8 @@ function closeSheet(){var b=$("#backdrop");b.classList.remove("open");document.b
 function sheetTop(label){return '<div class="grab"></div><div class="sheet-top"><span class="step">'+label+'</span><button class="x" data-close="1" aria-label="Close">'+ic("x")+'</button></div>'}
 function renderSheet(){var s=S.sheet;if(!s)return;var day=S.days[s.date],el=$("#sheet"),h="";
   if(s.type==="pick"){var p=(day.picks||[]).filter(function(x){return x.id===s.id})[0];if(!p)return closeSheet();var u=safeUrl(p.url),done=isDone(day.date,p.id),rec=((st(day.date).recall||{})[p.id])||"";
-    if(s.step==="detail"){h=sheetTop('<span style="color:var(--ink-3)">'+esc(p.source)+(p.author?" · "+esc(p.author):"")+'</span>')+'<h2>'+esc(p.title)+'</h2><div class="chips"><span class="chip lev">Leverage '+(+p.score||0)+'</span><span class="chip">'+mins(p.minutes)+'</span><span class="chip">'+(p.mode==="listen"?"Listen":p.mode==="watch"?"Watch":"Read")+'</span><span class="chip">'+(p.track==="personal"?"Personal":"Professional")+'</span></div><div class="block"><h4>Why this, why now</h4><p>'+esc(p.why)+'</p></div>';
+    if(s.step==="detail"){h=sheetTop('<span style="color:var(--ink-3)">'+esc(p.source)+(p.author?" · "+esc(p.author):"")+'</span>')+'<h2>'+esc(p.title)+'</h2><div class="chips"><span class="chip lev">Leverage '+(+p.score||0)+'</span><span class="chip">'+mins(p.minutes)+'</span><span class="chip">'+(p.mode==="listen"?"Listen":p.mode==="watch"?"Watch":"Read")+'</span><span class="chip">'+(p.track==="personal"?"Personal":"Professional")+'</span>'+(p.published?'<span class="chip">'+esc(fmtPub(p.published))+'</span>':'')+(SHELF[p.shelf]?'<span class="chip">'+SHELF[p.shelf]+'</span>':'')+(p.shelf==="fast"&&daysBetween(day.date,TODAY)>45?'<span class="chip warn">Picked '+daysBetween(day.date,TODAY)+' days ago, may be outdated</span>':'')+'</div><div class="block"><h4>Why this, why now</h4><p>'+esc(p.why)+'</p></div>';
+      if(p.holds)h+='<div class="block"><h4>Why it still holds</h4><p style="font-size:16px;color:var(--ink-2)">'+esc(p.holds)+'</p></div>';
       if((p.lookFor||[]).length)h+='<div class="block"><h4>'+(p.mode==="listen"?"Listen":"Read")+' with these questions</h4><ul class="qs">'+p.lookFor.map(function(q){return '<li>'+esc(q)+'</li>'}).join("")+'</ul></div>';
       if(p.gist)h+='<details class="gist"><summary>Only two minutes? The gist</summary><p>'+esc(p.gist)+'</p></details>';
       if(done&&rec)h+='<div class="block"><h4>What you kept</h4><div class="mine">'+esc(rec)+'</div></div>';

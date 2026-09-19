@@ -21,7 +21,10 @@
     "What does the paper imply about the number of regions and the size of the spend change needed to see an effect within a few weeks?",
     "How do they treat carryover after the test ends, and do you need a cooldown window?"
    ],
-   "gist": "Google's description of geo experiments: non-overlapping regions are randomly assigned to treatment or control and served through geo-targeted ads, which gives results that translate directly into bidding and budget decisions. The follow-on Trimmed Match work deals with a small number of very different regions."
+   "gist": "Google's description of geo experiments: non-overlapping regions are randomly assigned to treatment or control and served through geo-targeted ads, which gives results that translate directly into bidding and budget decisions. The follow-on Trimmed Match work deals with a small number of very different regions.",
+   "published": "2011",
+   "shelf": "evergreen",
+   "holds": "Still the base design behind current geo-testing tools. Later work such as Trimmed Match refines the estimator for few, uneven regions. The design logic is unchanged."
   },
   {
    "id": "0920-gallo",
@@ -41,7 +44,9 @@
     "Which durability test could you run yourself with a power meter?"
    ],
    "gist": "A physiology-centred framework for endurance coaching: train the physiology that drives performance instead of only copying race demands. Covers the interaction of low and high intensity over time, durability and fatigue resistance, carbohydrate use, and central versus peripheral fatigue.",
-   "spotifyUrl": "https://open.spotify.com/episode/5REqZm80t9JiTBgdEYDEZY"
+   "spotifyUrl": "https://open.spotify.com/episode/5REqZm80t9JiTBgdEYDEZY",
+   "published": "2026-07-04",
+   "shelf": "slow"
   }
  ],
  "practice": {
