@@ -82,17 +82,11 @@ svg.i{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.6;stro
 .lede{margin:0;color:var(--ink-2);font-size:16px;max-width:32ch;text-wrap:pretty}
 .hero .lede{color:var(--ink);opacity:.75}
 
-.stage{display:flex;flex-direction:column;align-items:center;gap:0;padding-top:6px}
-.orb{--size:164px;--p:0;width:var(--size);aspect-ratio:1;position:relative;border-radius:47% 53% 52% 48%/51% 46% 54% 49%;
-  background:radial-gradient(circle at 32% 24%,rgba(255,255,255,.95) 0,rgba(255,255,255,0) 30%),radial-gradient(circle at 74% 78%,var(--in-b) 0,rgba(255,255,255,0) 52%),radial-gradient(circle at 22% 76%,var(--in-c) 0,rgba(255,255,255,0) 50%),radial-gradient(circle at 50% 50%,#F3E7FF 0,var(--in-a) 100%);
-  box-shadow:inset 0 0 22px rgba(255,255,255,.9),inset -14px -18px 38px rgba(150,50,235,.45),inset 12px 14px 26px rgba(255,255,255,.55),0 0 0 1.5px rgba(255,255,255,.7),0 0 38px rgba(255,120,220,.35);
-  animation:morph 11s ease-in-out infinite;flex:none}
-.orb::before{content:"";position:absolute;inset:0;margin:auto;width:calc(30% + 46% * var(--p));height:calc(30% + 46% * var(--p));border-radius:50%;background:radial-gradient(circle at 40% 35%,var(--in-b),var(--in-core) 70%);filter:blur(7px);opacity:1;transition:width .9s cubic-bezier(.3,1.3,.4,1),height .9s cubic-bezier(.3,1.3,.4,1)}
-.orb::after{content:"";position:absolute;inset:6%;border-radius:inherit;background:radial-gradient(ellipse at 30% 18%,rgba(255,255,255,.75),rgba(255,255,255,0) 38%);mix-blend-mode:screen}
-.orb.out{background:radial-gradient(circle at 32% 24%,rgba(255,255,255,.95) 0,rgba(255,255,255,0) 30%),radial-gradient(circle at 74% 78%,var(--out-b) 0,rgba(255,255,255,0) 52%),radial-gradient(circle at 22% 76%,var(--out-c) 0,rgba(255,255,255,0) 50%),radial-gradient(circle at 50% 50%,#FFF1E6 0,var(--out-a) 100%);box-shadow:inset 0 0 26px rgba(255,255,255,.85),inset -12px -16px 36px rgba(240,80,60,.32),inset 10px 12px 28px rgba(255,255,255,.5),0 0 0 1px rgba(255,255,255,.55)}
-.orb.out::before{background:radial-gradient(circle at 40% 35%,var(--out-b),var(--out-core) 70%)}
-.floor{width:150px;height:16px;border-radius:50%;background:radial-gradient(ellipse,rgba(70,30,140,.30),rgba(70,30,140,0) 70%);margin-top:16px;filter:blur(2px)}
-@keyframes morph{0%,100%{border-radius:47% 53% 52% 48%/51% 46% 54% 49%;transform:translateY(0) rotate(0)}33%{border-radius:53% 47% 46% 54%/46% 54% 48% 52%;transform:translateY(-5px) rotate(4deg)}66%{border-radius:49% 51% 55% 45%/54% 48% 52% 46%;transform:translateY(2px) rotate(-3deg)}}
+.stage{width:calc(100% + 32px);margin-inline:-16px}
+canvas.wave{display:block;width:100%;height:150px;color:var(--ink)}
+canvas.wave.sm{height:66px;margin-top:-6px}
+canvas.wave.bal{height:96px}
+.practice.done canvas.wave{filter:grayscale(1);opacity:.45}
 .count{margin:8px 0 0;font-size:15px;color:var(--ink-2);max-width:32ch;text-wrap:balance}
 .count strong{color:var(--ink);font-weight:600}
 .segs{display:flex;gap:6px;justify-content:center;flex-wrap:wrap;margin-top:2px}
@@ -108,9 +102,9 @@ svg.i{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.6;stro
 .group{background:var(--card);-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px);border-radius:26px;box-shadow:var(--shadow);overflow:hidden}
 .group.picks{background:none;-webkit-backdrop-filter:none;backdrop-filter:none;box-shadow:none;overflow:visible;display:flex;flex-direction:column;gap:10px}
 .row{display:flex;gap:13px;padding:16px;width:100%;align-items:flex-start;background:var(--card);-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px);border-radius:26px;box-shadow:var(--shadow)}
-.glyph{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;color:var(--ink);flex:none;background:radial-gradient(circle at 30% 25%,#fff,rgba(255,255,255,0) 45%),radial-gradient(circle at 70% 80%,var(--in-b),rgba(255,255,255,0) 60%),var(--in-a);box-shadow:inset 0 0 10px rgba(255,255,255,.8)}
-.glyph.l{background:radial-gradient(circle at 30% 25%,#fff,rgba(255,255,255,0) 45%),radial-gradient(circle at 70% 80%,#9FE3FF,rgba(255,255,255,0) 60%),var(--in-c)}
-.glyph svg.i{width:20px;height:20px;color:#1A0B3A}
+.glyph{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;color:var(--in);flex:none;background:var(--in-soft)}
+.glyph.l{background:color-mix(in srgb,var(--in-c) 20%,var(--card-solid));color:color-mix(in srgb,var(--in-c) 70%,var(--ink))}
+.glyph svg.i{width:20px;height:20px}
 .row-b{flex:1;min-width:0;display:flex;flex-direction:column;gap:5px}
 .meta{font-size:13px;color:var(--ink-3);display:flex;gap:6px;min-width:0;white-space:nowrap;font-variant-numeric:tabular-nums}
 .meta > *{flex:none}.meta > :last-child{flex:0 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis}.meta > :first-child{flex:none;max-width:64%;overflow:hidden;text-overflow:ellipsis}
@@ -126,20 +120,18 @@ svg.i{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.6;stro
 .tick svg.i{width:13px;height:13px;stroke-width:2.8}
 
 .practice{border-radius:30px;padding:26px 22px 22px;color:var(--ink);background:linear-gradient(160deg,var(--out-a) 0%,#FFD3D6 45%,var(--card-solid) 100%);display:flex;flex-direction:column;align-items:center;text-align:center;gap:12px;width:100%;box-shadow:var(--shadow)}
-.practice .orb{--size:92px;animation-duration:9s}
 .practice .meta{color:var(--ink);opacity:.7;justify-content:center}.practice .meta em{color:var(--ink)}
 .practice h3{margin:0;font-weight:500;font-size:27px;line-height:1.08;letter-spacing:-.035em;text-wrap:balance;max-width:14em}
 .practice p{margin:0;font-size:15px;color:var(--ink);opacity:.72;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;max-width:36ch}
 .pill{display:inline-flex;align-items:center;gap:8px;background:var(--btn);color:var(--btn-ink);font-weight:500;font-size:16px;border-radius:999px;padding:13px 24px;margin-top:4px}
 .pill svg.i{width:14px;height:14px;fill:currentColor;stroke:none}
 .practice.done{background:var(--card)}
-.practice.done .orb{filter:grayscale(1);opacity:.45;animation:none}
 .practice.done h3,.practice.done p{color:var(--ink-3)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .practice:not(.done){background:linear-gradient(160deg,#7A3522 0%,#4A2236 50%,var(--card-solid) 100%)}}
 :root[data-theme="dark"] .practice:not(.done){background:linear-gradient(160deg,#7A3522 0%,#4A2236 50%,var(--card-solid) 100%)}
 
 .resurface{background:var(--card);border-radius:26px;padding:16px 18px;display:flex;gap:14px;align-items:center;width:100%;box-shadow:var(--shadow)}
-.resurface .glyph{background:radial-gradient(circle at 30% 25%,#fff,rgba(255,255,255,0) 45%),radial-gradient(circle at 70% 80%,var(--out-b),rgba(255,255,255,0) 60%),var(--out-a)}
+.resurface .glyph{background:var(--out-soft);color:var(--out)}
 .resurface strong{display:block;font-size:17px;font-weight:500;letter-spacing:-.015em}
 .resurface small{font-size:14px;color:var(--ink-2)}
 
@@ -181,7 +173,9 @@ input::placeholder,textarea::placeholder{color:var(--ink-3)}
 .act.closed .meta em{color:var(--ink)}
 
 .ratio{display:flex;flex-direction:column;gap:16px;background:var(--card);-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px);border-radius:30px;padding:24px 20px 20px;box-shadow:var(--shadow)}
-.duo{display:grid;grid-template-columns:1fr 1fr;align-items:end;justify-items:center;gap:8px;min-height:150px}
+.duo{display:grid;grid-template-columns:1fr 1fr;align-items:end;justify-items:center;gap:8px}
+.duo .n small::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--in);margin-right:6px}
+.duo .n + .n small::before{background:var(--out)}
 .duo .n{display:flex;flex-direction:column;align-items:center;gap:10px}
 .duo .n b{font-size:36px;font-weight:500;line-height:1;letter-spacing:-.04em;font-variant-numeric:tabular-nums}
 .duo .n small{font-size:14px;color:var(--ink-2);margin-top:-6px}
@@ -212,8 +206,8 @@ details.more[open] summary{border-bottom:1px solid var(--line)}
 .compass h4{margin:0 0 8px;font-size:13px;font-weight:400;color:var(--ink-3)}
 .compass ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px}
 .compass li{font-size:16px;padding-left:18px;position:relative;letter-spacing:-.01em}
-.compass li::before{content:"";position:absolute;left:0;top:.42em;width:9px;height:9px;border-radius:50%;background:radial-gradient(circle at 30% 30%,#fff,var(--in-a) 55%,var(--in))}
-.compass .per li::before{background:radial-gradient(circle at 30% 30%,#fff,var(--out-a) 55%,var(--out))}
+.compass li::before{content:"";position:absolute;left:0;top:.42em;width:9px;height:9px;border-radius:50%;background:var(--in)}
+.compass .per li::before{background:var(--out)}
 
 .tabs{position:fixed;left:0;right:0;bottom:0;z-index:20;display:flex;justify-content:center;padding:8px 18px calc(14px + env(safe-area-inset-bottom,0px));pointer-events:none}
 .tabs-in{pointer-events:auto;display:flex;gap:2px;padding:6px;min-width:min(300px,84vw);justify-content:space-between;border-radius:999px;background:color-mix(in srgb,var(--card-solid) 88%,transparent);-webkit-backdrop-filter:saturate(1.6) blur(20px);backdrop-filter:saturate(1.6) blur(20px);box-shadow:0 0 0 1px var(--line),0 16px 40px -12px rgba(50,20,110,.35)}
@@ -347,7 +341,7 @@ function openActions(){return Object.keys(S.actions).map(function(k){return S.ac
 
 /* ---------- views ---------- */
 function render(){var keep=$("#newAction"),kv=keep?keep.value:"",kf=keep&&document.activeElement===keep;
-  var h=S.view==="today"?viewToday():S.view==="do"?viewDo():viewBalance();var ap=$("#app");ap.className="app v-"+S.view;ap.innerHTML=h;renderTabs();
+  var h=S.view==="today"?viewToday():S.view==="do"?viewDo():viewBalance();var ap=$("#app");ap.className="app v-"+S.view;ap.innerHTML=h;renderTabs();try{var wc=ap.querySelectorAll("canvas.wave");for(var wi=0;wi<wc.length;wi++)drawWave(wc[wi],still?0:performance.now()/1000)}catch(e){}
   var n=$("#newAction");if(n&&kv){n.value=kv}if(n&&kf){n.focus()}}
 function renderTabs(){var n=openActions().length;$("#tabs").innerHTML=[["today","Today","today"],["do","Do","do"],["balance","Balance","bal"]].map(function(t){
   return '<button class="tab" data-tab="'+t[0]+'"'+(S.view===t[0]?' aria-current="page"':'')+'>'+ic(t[2])+'<span>'+t[1]+'</span>'+(t[0]==="do"&&n?'<span class="badge">'+n+'</span>':'')+'</button>'}).join("")}
@@ -372,13 +366,13 @@ function viewToday(){
   if(S.mode==="demo")h+='<div class="banner">Example edition. Open this page on claude.ai to load your real picks and keep your progress.</div>';
   else if(day.date<TODAY&&S.date===editions().slice(-1)[0])h+='<div class="banner">Latest edition is from '+esc(fmtDate(day.date,true))+". Today's has not been written yet.</div>";
   var pr0=total?doneM/total:0,chk=function(d,t){return t&&d>=t?ic("check"):""},sg=function(l,d,t){return t?'<span class="seg'+(d>=t?" on":"")+'">'+chk(d,t)+l+" "+mins(t)+'</span>':""};
-  h+='<section class="hero">'+stepper(day)+'<h1 class="thesis">'+esc(day.thesis)+'</h1><div class="stage"><div class="orb" style="--p:'+pr0.toFixed(2)+'" role="img" aria-label="'+Math.round(pr0*100)+' percent of today done"></div><div class="floor"></div></div><p class="load"><b>'+mins(doneM)+'</b> of '+mins(total)+'</p><div class="segs">'+sg("Desk",b.deskD,b.desk)+sg("Ears",b.earsD,b.ears)+sg("Without AI",b.pracD,b.prac)+'</div></section>';
+  h+='<section class="hero">'+stepper(day)+'<h1 class="thesis">'+esc(day.thesis)+'</h1><div class="stage"><canvas class="wave" data-key="hero" data-p="'+pr0.toFixed(2)+'" role="img" aria-label="'+Math.round(pr0*100)+' percent of today done"></canvas></div><p class="load"><b>'+mins(doneM)+'</b> of '+mins(total)+'</p><div class="segs">'+sg("Desk",b.deskD,b.desk)+sg("Ears",b.earsD,b.ears)+sg("Without AI",b.pracD,b.prac)+'</div></section>';
   if(allDone)h+='<div class="donecard"><h3>That was today.</h3><p>Everything else in your inbox lost the comparison. Close the app and go do something with it.</p></div>';
   if(desk.length)h+='<section class="sec"><div class="sec-h"><h2>At the desk</h2><span>focused · '+mins(b.desk)+'</span></div><div class="group picks">'+desk.map(function(p){return pickRow(day,p)}).join("")+'</div></section>';
   if(ears.length)h+='<section class="sec"><div class="sec-h"><h2>In your ears</h2><span>commute, easy sessions · '+mins(b.ears)+'</span></div><div class="group picks">'+ears.map(function(p){return pickRow(day,p)}).join("")+'</div></section>';
   var rv=dueReview();
   if(day.practice||rv){h+='<section class="sec"><div class="sec-h"><h2>Without AI</h2><span>your brain only</span></div>';
-    if(day.practice){var pd=(s.practice||{}).done,pr=day.practice;h+='<button class="practice'+(pd?" done":"")+'" data-practice="1"><span class="orb out" style="--p:'+(pd?1:.2)+'"></span><span class="meta"><em>'+esc(pr.type||"Practice")+'</em><span>no AI, no search</span></span><h3>'+esc(pr.title)+'</h3><p>'+esc(pr.prompt)+'</p><span class="pill">'+(pd?ic("check")+"Done":"Start · "+mins(pr.minutes)+ic("play"))+'</span></button>'}
+    if(day.practice){var pd=(s.practice||{}).done,pr=day.practice;h+='<button class="practice'+(pd?" done":"")+'" data-practice="1"><canvas class="wave sm" data-key="prac" data-tone="out" data-p="'+(pd?1:.3)+'"></canvas><span class="meta"><em>'+esc(pr.type||"Practice")+'</em><span>no AI, no search</span></span><h3>'+esc(pr.title)+'</h3><p>'+esc(pr.prompt)+'</p><span class="pill">'+(pd?ic("check")+"Done":"Start · "+mins(pr.minutes)+ic("play"))+'</span></button>'}
     if(rv)h+='<button class="resurface" data-review="1"><span class="glyph">'+ic("loop")+'</span><span><strong>What do you still remember?</strong><small>'+rv.age+' days ago: '+esc(rv.pick.title)+'</small></span></button>';
     h+='</section>'}
   if((day.cuts||[]).length)h+='<details class="cuts"><summary><span>Left out today, and why</span>'+ic("r")+'</summary><ul>'+day.cuts.map(function(c){return '<li><b>'+esc(c.title)+'</b><span>'+esc(c.source)+' · '+esc(c.reason)+'</span></li>'}).join("")+'</ul></details>';
@@ -400,7 +394,7 @@ function viewBalance(){var last=[],I=0,O=0,M=0,PM=0;for(var k=6;k>=0;k--){var d=
   var month=TODAY.slice(0,7),tried=Object.keys(S.actions).filter(function(k){var a=S.actions[k];return a.status==="done"&&(a.doneAt||"").slice(0,7)===month}).length;
   var verdict=I+O===0?"<b>Nothing logged yet.</b> Finish one pick and write down what you remember.":O>=I?"<b>You produce at least as much as you take in.</b> This is the ratio to protect.":O*2>=I?"<b>Healthy.</b> At least one output for every two inputs.":"<b>Consumption is ahead.</b> Skip a pick tomorrow and do the practice rep first.";
   var h=top()+'<section class="hero"><span class="eyebrow">Last 7 days</span><h1 class="h1">Taking in versus putting out.</h1></section>';
-  h+='<section class="ratio"><div class="duo"><div class="n"><span class="orb" style="--size:'+Math.round(64+86*(I/Math.max(1,I+O)))+'px;--p:.5"></span><b>'+I+'</b><small>taken in</small></div><div class="n"><span class="orb out" style="--size:'+Math.round(64+86*(O/Math.max(1,I+O)))+'px;--p:.5"></span><b>'+O+'</b><small>put out</small></div></div><p class="verdict">'+verdict+'</p><div class="week">'+last.map(function(x){return '<div class="day'+(x.d===TODAY?" today":"")+'"><div class="cols"><u class="'+(x.t.i?"":"z")+'" style="height:'+Math.round(x.t.i/mx*100)+'%"></u><u class="'+(x.t.o?"":"z")+'" style="height:'+Math.round(x.t.o/mx*100)+'%"></u></div><small>'+esc(x.l)+'</small></div>'}).join("")+'</div><p class="note" style="text-align:left">Outputs: recall notes, practice reps, memory checks, actions you completed.</p></section>';
+  h+='<section class="ratio"><canvas class="wave bal" data-key="bal" data-tone="bal" data-p="'+(I+O===0?.5:Math.min(1,O/Math.max(.5,I*.5))).toFixed(2)+'" role="img" aria-label="Balance of inputs and outputs"></canvas><div class="duo"><div class="n"><b>'+I+'</b><small>taken in</small></div><div class="n"><b>'+O+'</b><small>put out</small></div></div><p class="verdict">'+verdict+'</p><div class="week">'+last.map(function(x){return '<div class="day'+(x.d===TODAY?" today":"")+'"><div class="cols"><u class="'+(x.t.i?"":"z")+'" style="height:'+Math.round(x.t.i/mx*100)+'%"></u><u class="'+(x.t.o?"":"z")+'" style="height:'+Math.round(x.t.o/mx*100)+'%"></u></div><small>'+esc(x.l)+'</small></div>'}).join("")+'</div><p class="note" style="text-align:left">Outputs: recall notes, practice reps, memory checks, actions you completed.</p></section>';
   h+='<section class="tiles"><div class="tile"><b>'+streak+'</b><small>day streak with an output</small></div><div class="tile"><b>'+mins(M).replace(" min","m")+'</b><small>taken in, '+(M?Math.round(PM/M*100):0)+'% personal</small></div><div class="tile"><b>'+tried+'</b><small>experiments this month</small></div></section>';
   var src=((S.meta.sources||{}).sources||[]).slice().sort(function(a,b){return (b.picked/(b.scanned||1))-(a.picked/(a.scanned||1))||b.scanned-a.scanned});
   var srow=function(x){var cut=x.scanned>=3&&!x.picked;return '<div class="src"><span class="src-n">'+esc(x.name)+'</span>'+(cut?'<span class="tag">cut candidate</span>':x.picked?'<span class="tag keep">earning it</span>':'')+'<span class="src-c">'+(+x.picked||0)+' / '+(+x.scanned||0)+'</span></div>'};
@@ -462,6 +456,20 @@ document.addEventListener("submit",function(ev){if(ev.target.id!=="addForm")retu
 document.addEventListener("keydown",function(ev){if(ev.key==="Escape"&&S.sheet)closeSheet()});
 function saveNote(date,v){saveState(date,function(x){x.practice=x.practice||{};x.practice.note=(v||"").trim()})}
 function addAction(text,from){var now=new Date(),due=new Date(now.getTime()+48*36e5);saveAction({id:uid(),text:text,from:from,createdAt:now.toISOString(),dueAt:due.toISOString(),status:"open"})}
+
+/* ---------- wave: restless lines that calm down as the day gets done ---------- */
+var waveP={},TONES={in:["111,155,255","255,92,208","255,255,255"],out:["255,200,90","255,110,130","255,255,255"],bal:["123,69,224","228,87,46",null]};
+var still=window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+function drawWave(c,t){var b=c.getBoundingClientRect();if(!b.width)return;var d=Math.min(window.devicePixelRatio||1,3);
+  if(c._w!==b.width||c._h!==b.height){c._w=b.width;c._h=b.height;c.width=Math.round(b.width*d);c.height=Math.round(b.height*d)}
+  var x=c.getContext("2d");x.setTransform(d,0,0,d,0,0);x.clearRect(0,0,c._w,c._h);
+  var key=c.dataset.key||"w",target=+c.dataset.p||0,cur=waveP[key];if(cur==null)cur=target;cur+=(target-cur)*.045;if(Math.abs(target-cur)<.002)cur=target;waveP[key]=cur;
+  var amp=1-cur,w=c._w,h=c._h,mid=h*.5,tone=TONES[c.dataset.tone||"in"],ink=getComputedStyle(c).color.replace(/[^0-9,]/g,"").split(",").slice(0,3).join(",");
+  [[1.1,0,.75],[1.7,2,.75],[.8,4,.95]].forEach(function(L,j){var col=tone[j]||ink;x.beginPath();
+    for(var i=0;i<=w;i+=3){var u=i/w,env=Math.sin(u*Math.PI),y=mid+env*amp*(Math.sin(u*9*L[0]+t*(.7+j*.2)+L[1])*h*.2+Math.sin(u*23+t*1.3+j)*h*.075*amp)+env*Math.sin(u*3+t*.5+j)*h*.022;i?x.lineTo(i,y):x.moveTo(i,y)}
+    x.lineCap="round";x.lineJoin="round";x.strokeStyle="rgba("+col+",.16)";x.lineWidth=j===2?9:7;x.stroke();x.strokeStyle="rgba("+col+","+L[2]+")";x.lineWidth=j===2?2.6:1.9;x.stroke()})}
+function waveLoop(ts){if(!document.hidden&&(!waveLoop.last||ts-waveLoop.last>30)){waveLoop.last=ts;var cs=document.querySelectorAll("canvas.wave");for(var i=0;i<cs.length;i++)drawWave(cs[i],still?0:ts/1000)}requestAnimationFrame(waveLoop)}
+requestAnimationFrame(waveLoop);
 
 /* ---------- boot ---------- */
 function useDemo(){var d=JSON.parse($("#demo").textContent);S.days={DEMO:d};S.date="DEMO";S.states=ls("states")||{};S.actions=ls("actions")||{};S.mode="demo";render()}
