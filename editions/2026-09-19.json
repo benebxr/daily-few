@@ -59,7 +59,8 @@
     "Can the gap between attributed and incremental serve as a standing correction factor?",
     "Which data quality problems break experiments most often in practice?"
    ],
-   "gist": "Gordon walks through his two ad measurement papers, the 'close enough' research and Predicted Incrementality by Experimentation. The thread is whether predictive models can stand in for experiments, how experiments validate them, and what attribution bias itself tells you."
+   "gist": "Gordon walks through his two ad measurement papers, the 'close enough' research and Predicted Incrementality by Experimentation. The thread is whether predictive models can stand in for experiments, how experiments validate them, and what attribution bias itself tells you.",
+   "spotifyUrl": "https://open.spotify.com/episode/5tWoFA5OEVHZES7AQkzvT0"
   }
  ],
  "practice": {
