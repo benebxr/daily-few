@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-19",
+ "updated": "2026-09-20",
  "budget": {
   "total": 120,
   "ears": 90,
@@ -14,7 +14,10 @@
  ],
  "personal": [
   "Science and how things work",
-  "Endurance and health science: durability, sleep, fuelling",
-  "Investing and economics"
+  "Investing and economics",
+  "Occasionally: brain and health science, at most one pick in two weeks"
+ ],
+ "outOfScope": [
+  "Training philosophy, endurance and sports science (handled in the Training project on request)"
  ]
 }
