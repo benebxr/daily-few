@@ -1,0 +1,106 @@
+{
+ "date": "2026-09-24",
+ "thesis": "Draw the org and the number from the same model.",
+ "scanned": 118,
+ "sourcesScanned": 31,
+ "picks": [
+  {
+   "id": "0924-tickle",
+   "title": "E72: I Collapsed My GTM Org Chart. This Is Why | Ian Tickle, CRO @ Freshworks",
+   "source": "The Revenue Leadership Podcast",
+   "author": "Kyle Norton, Ian Tickle",
+   "url": "https://961e7a3d-9281-4103-ad36-23e6f1e2fd91.libsyn.com/e72-i-collapsed-my-gtm-org-chart-this-is-why-ian-tickle-cro-freshworks",
+   "spotifyUrl": "https://open.spotify.com/episode/3dcPGpUCSAqW6ZVam5F55U",
+   "published": "2026-08-06",
+   "shelf": "slow",
+   "mode": "listen",
+   "minutes": 77,
+   "track": "pro",
+   "domain": "Org design",
+   "score": 86,
+   "why": "A new revenue leader who merged sales, customer success and support into one organisation explains how he did it: the symptoms that told him to, the 8 to 12 week design process, and whether the revenue leader should carry net retention. That's the org-design question of your first 90 days. His business is much larger and more sales-led, so take the tests and the process and leave the specific structure.",
+   "lookFor": [
+    "Which of his symptoms of 'shipping the org chart to your customers' can you see today?",
+    "What are his three questions before unifying sales and customer success, and how would you answer them?",
+    "Where does a team's overlap blur accountability, and who is the single named owner there?"
+   ],
+   "gist": "Tickle ended a split between small-account and large-account organisations because customers were feeling the internal boundaries as friction. He treats complexity as leftover process that nobody took out, uses a monthly leadership ritual to delete process, and names one accountable person wherever teams overlap. He warns that efficiency from tools or AI counts only if the time saved goes back into output, and that poorly connected systems turn AI into a liability."
+  },
+  {
+   "id": "0924-capacity",
+   "title": "Sales Capacity Model: Annual Planning (Part 2)",
+   "source": "OnlyCFO",
+   "author": "OnlyCFO",
+   "url": "https://www.onlycfo.io/p/sales-capacity-model-annual-planning",
+   "published": "2025-11-14",
+   "shelf": "slow",
+   "mode": "read",
+   "minutes": 12,
+   "track": "pro",
+   "domain": "Target setting",
+   "score": 76,
+   "why": "When the top-down number and the bottom-up capacity don't meet, the fight goes better if you arrive with the model and not a position. This is a finance leader's version of that model. Read it to find which assumptions a finance partner will push on, above all ramp, attrition and the gap between productive capacity and quota. It's written for a sales-led team, so treat marketing-driven signups as a capacity line of its own.",
+   "lookFor": [
+    "Which assumption in your plan is historical, and which is hope?",
+    "How much capacity does attrition quietly remove once you account for replacement ramp?",
+    "What is the self-serve equivalent of a rep's productive capacity in your funnel?"
+   ],
+   "gist": "A four-step capacity model: start from the top-down goal, state which assumptions change and why, calculate what the current team delivers with no new hires, then size the hiring gap. It separates productive capacity from quota, anchors ramp to history, keeps seasonality apart from the effects of hiring and ramp, and treats attrition as the input most often underestimated. The final number comes from iterating between the top-down goal and bottom-up capacity."
+  },
+  {
+   "id": "0924-xbow",
+   "title": "How XBOW's team built one of the most sophisticated internal GTM systems I've seen",
+   "source": "The Signal",
+   "author": "Brendan Short",
+   "url": "https://www.thesignal.club/p/xbow",
+   "published": "2026-09-22",
+   "shelf": "fast",
+   "mode": "read",
+   "minutes": 9,
+   "track": "pro",
+   "domain": "AI enablement",
+   "score": 68,
+   "why": "It's a worked example of 'buy the infrastructure, build the brain' in a revenue org: clean data first, one internal tool covering the whole customer lifecycle, and entry-level sellers redefined as agent managers. It's a small, technical, sales-led company and the newsletter is vendor-sponsored, so take the sequence and the role redesign, not the stack.",
+   "lookFor": [
+    "What would 'foundation before agents' mean in your stack: which data model has to be right first?",
+    "Which entry-level role in your team could become a quality-check and workflow role, and what career path would it lead to?"
+   ],
+   "gist": "A security start-up's revenue team spent months cutting its sales stack from twelve tools to five and fixing the data model before building any agents. It then built one internal app and Slack bot, with Claude Code, covering prospecting, deal intelligence, proof-of-value tracking, call coaching and expansion. The first version took three people. Entry-level sellers now report through revenue operations as humans in the loop who check the agents' work."
+  }
+ ],
+ "practice": {
+  "id": "0924-p",
+  "type": "Mental math",
+  "minutes": 12,
+  "title": "How much does attrition cost a plan?",
+  "prompt": "No calculator. A team starts the year with 10 fully ramped sellers, each producing 100 units a year. Ramp takes 6 months: nothing in the first 3 months, half output in the next 3. Expect 3 sellers to leave during the year, spread evenly, each replaced one month later. Estimate the team's output for the year. Then say how much of the shortfall comes from the vacancy and how much from the ramp.",
+  "reveal": "One route:\n\n- Without attrition: 10 × 100 = 1,000.\n- On average a leaver goes mid-year, so each loses about 6 months of full output: 3 × 50 = 150 lost.\n- Each replacement starts a month later and has about 5 months left in the year: 3 months at zero, then 2 months at half output = 1 month-equivalent ≈ 8 units each, so about 25 back.\n- Output ≈ 1,000 - 150 + 25 = 875, a shortfall of about 12%.\n\nSplit: the one-month vacancies cost about 3 × 8 = 25. The remaining ~100 comes from the ramp. Plans that just scale the headcount count the replacements as full sellers and miss that part. Now check your own plan: does it model attrition at all?"
+ },
+ "cuts": [
+  {
+   "title": "E71: The Most Efficient Marketing Org In The World? (35 People, $350M) | Tim Rutten, CMO @ Backbase",
+   "source": "The Revenue Leadership Podcast",
+   "reason": "Strong on marketing org design. Queued for a day that doesn't already carry an org-design listen."
+  },
+  {
+   "title": "E74: Your Agent Isn't Broken. Its Foundation Is.",
+   "source": "The Revenue Leadership Podcast",
+   "reason": "Covers the same ground as today's written case, and at 81 minutes it's twice the length."
+  },
+  {
+   "title": "What world-class GTM looks like in 2026 | Jeanne DeWitt Grosser",
+   "source": "Lenny's Podcast",
+   "reason": "Second pass from the queue. Still enterprise-leaning and 86 minutes, so dropped."
+  },
+  {
+   "title": "Tobi Lütke: The Skills AI Makes More Valuable",
+   "source": "The Knowledge Project",
+   "reason": "Broad, and thin on the problems you're working on."
+  },
+  {
+   "title": "The Hidden Cause of the Industrial Revolution (with Ben Southwood)",
+   "source": "EconTalk",
+   "reason": "Good personal-track candidate. Queued for a weekend slot."
+  }
+ ]
+}

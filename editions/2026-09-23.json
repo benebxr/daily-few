@@ -1,0 +1,86 @@
+{
+ "date": "2026-09-23",
+ "thesis": "Write the rules down once, so the team stops re-arguing them.",
+ "scanned": 118,
+ "sourcesScanned": 31,
+ "picks": [
+  {
+   "id": "0923-verna",
+   "title": "Your company needs a pricing constitution.",
+   "source": "Elena's Growth Scoop",
+   "author": "Elena Verna",
+   "url": "https://www.elenaverna.com/p/pricing-constitution",
+   "published": "2026-09-22",
+   "shelf": "slow",
+   "mode": "read",
+   "minutes": 10,
+   "track": "pro",
+   "domain": "Pricing and packaging",
+   "score": 84,
+   "why": "Packaging calls that nobody has decided keep coming back as one-off fights, and faster shipping means more of them. This gives you a short list of principles to argue out once, and a small council to handle the edge cases. The principles come from a product-led, freemium business, so check each one against a funnel where sales and self-serve share the customer.",
+   "lookFor": [
+    "Which of the five principles would your team fight hardest, and what would it cost you to keep it?",
+    "What are the three reasons a customer picks each of your plans? If you can't name them, the packaging isn't finished.",
+    "What is your own rule of engagement between self-serve and sales, written in one sentence?"
+   ],
+   "gist": "Verna argues that every company needs a written pricing and packaging philosophy so each new feature doesn't turn into its own negotiation. Her core principles: charge for added value and never for relief from friction you created yourself, price the outcome instead of the inputs, leave some value uncaptured on purpose where it drives distribution, keep to one primary pricing metric and at most four plans, and set clear rules of engagement between self-serve and sales. A small cross-functional council interprets the document. Her test is that a good constitution will sometimes cost you revenue."
+  },
+  {
+   "id": "0923-hughes",
+   "title": "E73: The AI Enabling 600 Customer-Facing Reps | Lauren Hughes, VP Revenue Effectiveness @ Justworks",
+   "source": "The Revenue Leadership Podcast",
+   "author": "Kyle Norton, Lauren Hughes",
+   "url": "https://www.therevenueleadershippodcast.com/p/the-ai-enabling-600-customer-facing",
+   "spotifyUrl": "https://open.spotify.com/episode/0GT4fyCJizmgrcROqlpvmu",
+   "published": "2026-09-01",
+   "shelf": "fast",
+   "mode": "listen",
+   "minutes": 76,
+   "track": "pro",
+   "domain": "AI enablement",
+   "score": 78,
+   "why": "It's a concrete account of AI enablement run as an operating system, with a smaller team, measured readiness and shorter ramp, and far less time spent on tool demos. That's the operating model you're building for a commercial team. The tools she names will date quickly, but the org and measurement choices should hold. The post is paywalled; the audio is free.",
+   "lookFor": [
+    "Which enablement roles did she stop staffing, and what took over their work?",
+    "How does she know a new hire is ready by week three, and which of those signals could you measure now?",
+    "Where did she remove friction from reps' workflow before adding AI, and what's the equivalent in your team?"
+   ],
+   "gist": "Hughes describes rebuilding revenue enablement for several hundred customer-facing reps. Ownership of content moved to product marketing, with AI suggesting refreshes. Onboarding became measurement-driven, using quizzes, checkpoints and AI roleplay. Manual admin was removed through document processing. The enablement team shrank sharply, and according to the show notes ramp time fell by more than half. She credits the growth to a tighter machine, not to more headcount."
+  }
+ ],
+ "practice": {
+  "id": "0923-p",
+  "type": "Argument",
+  "minutes": 12,
+  "title": "Draft three articles of your pricing constitution",
+  "prompt": "On paper, no notes: write three rules your team would use to decide where a new feature goes, whether free, a higher plan, an add-on or usage-based. Under each rule, write one real decision from the last year that it would have changed, and what it would have cost. If a rule would never have cost you anything, cross it out and write a harder one.",
+  "reveal": "One way to test your draft:\n\n1. A rule only helps if it decides a real case. 'Keep it simple' decides nothing. 'One primary pricing metric, never three' does.\n\n2. Every rule should give something up. Checking cost is the point: if you can't name a deal, feature or upgrade path it would have sacrificed, the rule is just decoration.\n\n3. At least one rule should decide who gets the customer when sales and self-serve both could, because that's where the repeat arguments come from.\n\nNow pick the rule you're least sure of. Who in the company would push back hardest, and what would they say?"
+ },
+ "cuts": [
+  {
+   "title": "Is this the last place to automate? (Sam McKenna's sales frameworks)",
+   "source": "Growth Unhinged",
+   "reason": "Solid outbound craft for a sales-led motion. It's a long way from a self-serve funnel."
+  },
+  {
+   "title": "The SaaStr AI Guide to Building a Top-Tier Inbound AI Agent",
+   "source": "The Official SaaStr Podcast",
+   "reason": "Judged from the preview: one company's numbers on its own event traffic, hard to transfer."
+  },
+  {
+   "title": "New model releases start a price war (and similar)",
+   "source": "The Neuron, Superhuman AI",
+   "reason": "News cycle. Nothing to act on this month."
+  },
+  {
+   "title": "Advanced evals: How to find (and fix) hidden AI failures in your product",
+   "source": "Lenny's Newsletter",
+   "reason": "Product-builder craft, not tied to a live problem right now."
+  },
+  {
+   "title": "Incentives Are for Losers (with Adam Mastroianni)",
+   "source": "EconTalk",
+   "reason": "A moral argument about personal values, not about incentive design. It sounds more relevant than it is."
+  }
+ ]
+}
