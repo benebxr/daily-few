@@ -1,15 +1,15 @@
 {
- "updated": "2026-09-23",
- "window": "cumulative since 16.09.2026; last sweep 22.-23.09.2026",
+ "updated": "2026-09-24",
+ "window": "cumulative since 16.09.2026; last sweep 23.-24.09.2026",
  "sources": [
   {
    "name": "Open web discovery",
-   "scanned": 14,
+   "scanned": 17,
    "picked": 6
   },
   {
    "name": "MKT1 Newsletter",
-   "scanned": 1,
+   "scanned": 2,
    "picked": 1
   },
   {
@@ -19,17 +19,17 @@
   },
   {
    "name": "Tomasz Tunguz",
-   "scanned": 1,
+   "scanned": 2,
    "picked": 1
   },
   {
    "name": "Superhuman AI",
-   "scanned": 5,
+   "scanned": 7,
    "picked": 0
   },
   {
    "name": "The Neuron",
-   "scanned": 4,
+   "scanned": 6,
    "picked": 0
   },
   {
@@ -39,12 +39,12 @@
   },
   {
    "name": "Think Fast Talk Smart",
-   "scanned": 2,
+   "scanned": 4,
    "picked": 0
   },
   {
    "name": "Big Think",
-   "scanned": 4,
+   "scanned": 5,
    "picked": 0
   },
   {
@@ -59,7 +59,7 @@
   },
   {
    "name": "Lenny's Newsletter",
-   "scanned": 2,
+   "scanned": 3,
    "picked": 0
   },
   {
@@ -109,8 +109,8 @@
   },
   {
    "name": "The Revenue Leadership Podcast",
-   "scanned": 6,
-   "picked": 2
+   "scanned": 10,
+   "picked": 3
   },
   {
    "name": "Growth Unhinged",
@@ -124,22 +124,22 @@
   },
   {
    "name": "Lenny's Podcast",
-   "scanned": 7,
+   "scanned": 8,
    "picked": 0
   },
   {
    "name": "EconTalk",
-   "scanned": 6,
+   "scanned": 7,
    "picked": 0
   },
   {
    "name": "The Knowledge Project",
-   "scanned": 6,
+   "scanned": 7,
    "picked": 0
   },
   {
    "name": "Masters of Scale",
-   "scanned": 6,
+   "scanned": 10,
    "picked": 0
   },
   {
@@ -154,7 +154,7 @@
   },
   {
    "name": "GTM Engineer Pulse",
-   "scanned": 1,
+   "scanned": 2,
    "picked": 0
   },
   {
@@ -170,6 +170,26 @@
   {
    "name": "Faster Smarter",
    "scanned": 1,
+   "picked": 0
+  },
+  {
+   "name": "Clay blog",
+   "scanned": 1,
+   "picked": 1
+  },
+  {
+   "name": "DailyRevOps",
+   "scanned": 1,
+   "picked": 1
+  },
+  {
+   "name": "Growthcurve",
+   "scanned": 1,
+   "picked": 0
+  },
+  {
+   "name": "Run the Numbers",
+   "scanned": 3,
    "picked": 0
   }
  ]

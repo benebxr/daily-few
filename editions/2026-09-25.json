@@ -1,0 +1,112 @@
+{
+ "date": "2026-09-25",
+ "thesis": "Make the machine fast and put the human gate where risk sits.",
+ "scanned": 78,
+ "sourcesScanned": 22,
+ "picks": [
+  {
+   "id": "0925-rutten",
+   "title": "E71: The Most Efficient Marketing Org In The World? (35 People, $350M) | Tim Rutten, CMO @ Backbase",
+   "source": "The Revenue Leadership Podcast",
+   "author": "Kyle Norton, Tim Rutten",
+   "url": "https://961e7a3d-9281-4103-ad36-23e6f1e2fd91.libsyn.com/the-most-efficient-marketing-org-in-the-world-35-people-350m-tim-rutten-cmo-backbase",
+   "spotifyUrl": "https://open.spotify.com/episode/27ruugONQZuT3Q6pNhzz5z",
+   "published": "2026-07-01",
+   "shelf": "fast",
+   "mode": "listen",
+   "minutes": 77,
+   "track": "pro",
+   "domain": "AI enablement",
+   "score": 76,
+   "why": "A marketing leader rebuilt his team around the work instead of the old org chart, and built an internal go-to-market system so that non-engineers can ship their own agents and workflows. That covers two of your problems at once: org design and AI enablement of a commercial team. It's close to the 90-day limit and the tool names will age fast, so take the operating model (a landing zone, central standards, distributed builders) and the reorg logic, and discount the ROI numbers, which are his own.",
+   "lookFor": [
+    "What does he put in place before letting non-engineers build, and what would your version of that 'landing zone' be?",
+    "Which roles does he say get hollowed out, and which roles grow?",
+    "Where does he draw the line between central and distributed AI work, and would that line hold in a self-serve funnel?"
+   ],
+   "gist": "Rutten treats being AI-native as an all-or-nothing architecture decision and rebuilt a 35-person marketing team around the work itself. The team runs on an in-house go-to-market operating system whose code is written by agents, built on a common stack with guardrails so that people close to the customer can build without waiting for an engineering queue. He replaced a bought intent-signal tool with a transparent in-house signal engine that scans thousands of target accounts each week for a few hundred dollars, and he credits a low-tech tactic, public notes that champion named executives at target accounts, with an unusually high response rate."
+  },
+  {
+   "id": "0925-clay",
+   "title": "We asked 6,346 companies for a demo. Most never wrote back.",
+   "source": "Clay blog",
+   "author": "Clay Team (Alex Lindahl)",
+   "url": "https://www.clay.com/blog/claygent-experiment-speed-to-lead",
+   "published": "2026-09-22",
+   "shelf": "fast",
+   "mode": "read",
+   "minutes": 7,
+   "track": "pro",
+   "domain": "Funnel response",
+   "score": 70,
+   "why": "Agents filled in demo forms at 6,346 companies and logged what came back. Two thirds never replied, the average reply took 15 to 24 hours, and only 5% of replies came within five minutes. Read it for two reasons: it's a benchmark for your own inbound handling, and it shows that the buyer filling in your form may already be an agent. It comes from a vendor, uses one buyer persona and let an AI decide which replies came from humans, so treat the numbers as rough.",
+   "lookFor": [
+    "What is your own median time to a human reply, and do you actually know it?",
+    "What would your funnel do today if the form were filled in by an agent acting for a real buyer?",
+    "Which of their recommendations costs almost nothing, and why hasn't it been done yet?"
+   ],
+   "gist": "Clay used its own agents to find forms, a browser agent to submit them under one consistent identity, and dedicated inboxes and phone numbers to record responses. 32% of forms got an email reply, about 7% led to a conversation with a salesperson, and 96% of companies never called. Automated replies were 64% of responses, while human replies were far more personalised. The authors recommend answering every request, researching the lead automatically before a rep sees it, and treating a phone call as a differentiator."
+  },
+  {
+   "id": "0925-gate",
+   "title": "Run a CRM agent write-approval gate before consequential record changes",
+   "source": "DailyRevOps",
+   "author": "DailyRevOps Editorial Team",
+   "url": "https://dailyrevops.com/playbooks/crm-agent-write-approval-gate",
+   "published": "2026-09-20",
+   "shelf": "fast",
+   "mode": "read",
+   "minutes": 15,
+   "track": "pro",
+   "domain": "AI enablement",
+   "score": 67,
+   "why": "When your team starts building agents that change records, this is the control layer to agree on first. Approval is required for fields that carry business consequence, the reviewer sees the current and proposed state, and the approval lapses if anything changes before the write. The principle is tool-independent, which is why it's here. It has no data behind it and an unnamed author, so use it as a checklist, not as evidence.",
+   "lookFor": [
+    "Which fields in your system are consequential enough to need a gate, and which can agents write freely?",
+    "What should invalidate an approval between preview and execution?",
+    "How would you widen an agent's scope one step at a time without losing control?"
+   ],
+   "gist": "The playbook separates proposing a change from executing it. It gates consequential fields such as owner, stage, amount, close date, consent and billing, shows the reviewer the target, current values, proposed values and evidence, and rechecks state right before the write. It asks for a stable action ID so retries don't duplicate work, verification after the write, exceptions routed by type, and scope widened one dimension at a time. Common mistakes include hiding the current state, treating one click as blanket permission and keeping the audit trail only in chat transcripts."
+  }
+ ],
+ "practice": {
+  "id": "0925-p",
+  "type": "Estimate",
+  "minutes": 12,
+  "title": "What is a day of inbound delay worth?",
+  "prompt": "Pen and paper. A funnel gets 400 demo requests a month. Today the first human reply takes about 20 hours, and 25% of requests become qualified opportunities. Assume (this is an assumption, not a law) that the qualification rate falls by 5% relative for every doubling of response time beyond 5 minutes. Estimate: (1) the qualification rate at a 5-minute response, (2) the extra opportunities per month if you answered in 1 hour, and (3) the extra if you answered in 5 minutes. Then name the one thing that would make a real before-and-after comparison of response time misleading.",
+  "reveal": "One route:\n\n- 20 hours = 1,200 minutes, 240 times 5 minutes. 2^8 = 256, so about 8 doublings. 0.95^2 ≈ 0.90, ^4 ≈ 0.81, ^8 ≈ 0.66.\n- Rate at 5 minutes ≈ 25% / 0.66 ≈ 38%.\n- 1 hour is 12 times 5 minutes, about 3.6 doublings: 0.95^3.6 ≈ 0.83, so ≈ 37.7% × 0.83 ≈ 31%.\n- Opportunities: today 400 × 25% = 100. At 1 hour ≈ 125 (+25). At 5 minutes ≈ 150 (+50).\n\nUnder a per-doubling decay, 20 hours to 1 hour (about 4.3 doublings) is worth about as much as 1 hour to 5 minutes (about 3.6). A same-day human reply is cheap, and instant needs automation, so compare the cost of each step against roughly equal gains.\n\nThe trap: leads that get fast replies may differ from slow ones (time of day, source, the rep who picks them up). A before-and-after or a correlation mixes response time with lead quality. Randomise the delay, or hold out a group, before you trust the effect size."
+ },
+ "cuts": [
+  {
+   "title": "The Most Important Market in AI is the Middle",
+   "source": "Tomasz Tunguz",
+   "reason": "A sharp read on model pricing, but it's this week's price war and you already had his unit-economics piece on Monday."
+  },
+  {
+   "title": "The SDR arbitrage is over",
+   "source": "Growthcurve",
+   "reason": "An interesting argument, but most of the numbers have no visible source."
+  },
+  {
+   "title": "How to determine your activation metric",
+   "source": "Lenny's Newsletter",
+   "reason": "The right method for your activation problem, but the free part stops before the case studies."
+  },
+  {
+   "title": "E67: Your Buyer's AI Is Pitching YOUR Product (Badly) | Adrian Rosenkranz, CRO @ Webflow",
+   "source": "The Revenue Leadership Podcast",
+   "reason": "Fits agents as a channel. Queued for a day without another Revenue Leadership listen."
+  },
+  {
+   "title": "The GTM Engineer Pulse #44",
+   "source": "GTM Engineer School",
+   "reason": "A useful weekly digest. Its two best items are today's picks, and the rest is launch news."
+  },
+  {
+   "title": "What 950 Claude agents found (and similar)",
+   "source": "The Neuron, Superhuman AI",
+   "reason": "News cycle. Nothing to act on this month."
+  }
+ ]
+}
