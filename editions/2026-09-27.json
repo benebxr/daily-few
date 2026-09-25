@@ -1,0 +1,88 @@
+{
+ "date": "2026-09-27",
+ "thesis": "Know how much a test can see before you trust what it says.",
+ "scanned": 87,
+ "sourcesScanned": 26,
+ "picks": [
+  {
+   "id": "0927-lewisrao",
+   "title": "The Unfavorable Economics of Measuring the Returns to Advertising",
+   "source": "The Quarterly Journal of Economics",
+   "author": "Randall A. Lewis, Justin M. Rao",
+   "url": "https://ideas.repec.org/a/oup/qjecon/v130y2015i4p1941-1973.html",
+   "published": "2015-11",
+   "shelf": "evergreen",
+   "holds": "The statistics hold: sales per person are still noisy relative to what an ad costs per person, and larger studies since then found the same gap between experiments and observational estimates. The ad formats and data access have aged, and a geo test pools noise at the level of regions, so work out how the numbers change for your design.",
+   "mode": "read",
+   "minutes": 30,
+   "track": "pro",
+   "domain": "Measurement science",
+   "score": 90,
+   "why": "This is the paper to read before you commit to a holdout design. Across 25 randomised display-ad experiments it shows that even tests with millions of people often can't tell a good campaign from a loss. It puts a number on why: sales vary too much from person to person compared with the effect you're looking for. 30 minutes is an estimate for the introduction, the power argument and the conclusion. Skip the appendix tables.",
+   "lookFor": [
+    "What coefficient of variation do your own sales per unit have, and what does that imply for sample size?",
+    "Why do they say targeting makes observational estimates badly biased?",
+    "What incentive problem do they describe between the person who buys the media and the manager reading the result?"
+   ],
+   "gist": "Lewis and Rao analyse 25 randomised display-ad experiments with US retailers and brokerages, covering $2.8 million in spend. The median 95% confidence interval on ROI is over 100 percentage points wide, because sales per person have a coefficient of variation of around 10 relative to an ad cost of cents per person. Informative tests can need more than 10 million person-weeks. They argue that the same noise hides large selection bias in observational methods, and that weak feedback lets similar firms spend very different amounts on advertising."
+  },
+  {
+   "id": "0927-tectonics",
+   "title": "Archive: Plate Tectonics",
+   "source": "In Our Time",
+   "author": "BBC Radio 4, with Richard Corfield, Joe Cann, Lynne Frostick",
+   "url": "https://www.bbc.co.uk/programmes/p0nxf46w",
+   "spotifyUrl": "https://open.spotify.com/episode/5jfOUSoSTljSdommhPuXKR",
+   "published": "2008-01",
+   "shelf": "evergreen",
+   "holds": "Plate tectonics remains the accepted framework of geology. What has moved on since 2008 is detail, such as when plate motion began on Earth and how the mantle drives it, so treat any open questions in the episode as open.",
+   "mode": "listen",
+   "minutes": 44,
+   "track": "personal",
+   "domain": "Earth science",
+   "score": 72,
+   "why": "The Sunday science listen: how geology went from dismissing continental drift to accepting a theory that explains mountains, earthquakes and fossil distribution at once. It's also a case study in how a field changes its mind when a mechanism and new measurements arrive. It was first broadcast in January 2008 and reissued this summer as an archive pick.",
+   "lookFor": [
+    "What evidence was missing when drift was first proposed, and what finally supplied it?",
+    "Which observations does the theory explain that no rival explained?",
+    "What would it take for your own team to drop a long-held belief this completely?"
+   ],
+   "gist": "Three earth scientists explain how plate tectonics became a genuine scientific revolution in 20th-century geology. The theory says the Earth's surface is made of moving plates, which explains why mountains rise, where earthquakes happen, why fossils are spread across distant continents and why coastlines like Africa's and South America's fit together. The episode follows how the idea was first resisted and then accepted, and what it changed about how geologists see the planet."
+  }
+ ],
+ "practice": {
+  "id": "0927-p",
+  "type": "Mental math",
+  "minutes": 12,
+  "title": "How big does a holdout have to be?",
+  "prompt": "Pen and paper. A campaign costs $0.10 per person reached. Your gross margin is 50%. Weekly sales per person average $7 with a standard deviation of $70 (a coefficient of variation of 10, like in the paper). Use the rule of thumb n per group ≈ 16 × (σ/δ)², for 80% power at 5% significance. (1) What sales lift per person does the campaign need to break even? (2) How many people per group do you need to detect that lift against zero? (3) How many to detect half that lift? Then name one way to cut the sample you need without buying more reach.",
+  "reveal": "1. Break-even: incremental gross profit has to cover $0.10, so incremental sales = $0.10 / 0.5 = $0.20 per person.\n2. σ/δ = 70 / 0.20 = 350. 350² = 122,500. × 16 ≈ 1.96 million per group, so about 3.9 million people in total.\n3. Half the lift, $0.10: σ/δ = 700, 700² = 490,000, × 16 ≈ 7.8 million per group. Halving the effect quadruples the sample.\n\nWays to cut the sample: reduce variance with pre-period sales as a covariate, trim or cap extreme spenders, measure on a less noisy outcome closer to the ad (with the risk that it doesn't carry through to revenue), or run the test longer so each unit's average gets steadier. In a geo test the unit is the region, so matching regions on history does the same job.\n\nThe lesson for reading any test: work out the smallest effect it could detect before you look at the result. A result that isn't significant from an underpowered test tells you almost nothing."
+ },
+ "cuts": [
+  {
+   "title": "E67: Your Buyer's AI Is Pitching YOUR Product (Badly) | Adrian Rosenkranz, CRO @ Webflow",
+   "source": "The Revenue Leadership Podcast",
+   "reason": "Queued earlier, but it's from April and covers a fast-moving topic, so it has passed the 90-day limit. Dropped."
+  },
+  {
+   "title": "A Comparison of Approaches to Advertising Measurement: Evidence from Big Field Experiments at Facebook",
+   "source": "Marketing Science",
+   "reason": "The natural sequel to today's paper. Kept for a later day so the two don't compete."
+  },
+  {
+   "title": "How Media Actually Makes Money | Blake Saunders",
+   "source": "Run the Numbers",
+   "reason": "Media business models, far from your problems."
+  },
+  {
+   "title": "Five Tools That Actually Solve Agent Infrastructure",
+   "source": "The Anthropic Stack",
+   "reason": "A tool listicle for developers."
+  },
+  {
+   "title": "The Pulse: a new trend of CPU shortages",
+   "source": "The Pragmatic Engineer",
+   "reason": "Infrastructure news with no line to a live problem."
+  }
+ ]
+}

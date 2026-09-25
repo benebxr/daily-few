@@ -1,0 +1,86 @@
+{
+ "date": "2026-09-26",
+ "thesis": "Change the structure, and the effort it allows changes with it.",
+ "scanned": 87,
+ "sourcesScanned": 26,
+ "picks": [
+  {
+   "id": "0926-southwood",
+   "title": "The Hidden Cause of the Industrial Revolution (with Ben Southwood)",
+   "source": "EconTalk",
+   "author": "Russ Roberts, Ben Southwood",
+   "url": "https://www.econtalk.org/the-hidden-cause-of-the-industrial-revolution-with-ben-southwood/",
+   "spotifyUrl": "https://open.spotify.com/episode/6fc2pgcEc5P4zPOkQKhKBn",
+   "published": "2026-08-17",
+   "shelf": "evergreen",
+   "mode": "listen",
+   "minutes": 74,
+   "track": "personal",
+   "domain": "Economic history",
+   "score": 78,
+   "why": "This is the weekend economics listen held over from Thursday. Southwood argues that growth took off in England once Parliament began untangling property rights one private act at a time, which made land, roads and canals investable. That's an institutional explanation for a story usually told through machines. The thesis is contested: critics argue the open fields worked better as communities than he allows, and other historians put more weight on coal, wages or science. Listen for the mechanism and judge the causal claim yourself.",
+   "lookFor": [
+    "What exactly was blocking investment before the reforms, and who held the veto?",
+    "Why did a Parliament of landowners vote to dissolve its own members' tangled rights?",
+    "What evidence would convince you that the institutions came first and the machines followed?"
+   ],
+   "gist": "Southwood, drawing on work with economic historian Kara Dimitruk, argues that the decisive change after 1688 was a Parliament that met regularly and passed thousands of private acts. These acts cleared up entangled property rights, allowed enclosure and consolidation of land, and set up bodies that built turnpike roads, canals and navigable rivers. Cheaper transport joined local markets into national ones, and that made specialisation and investment pay. Roberts presses him on how far a legal story can explain a technological one."
+  },
+  {
+   "id": "0926-verna",
+   "title": "What it's like to work at an AI-native company",
+   "source": "Elena Verna",
+   "author": "Elena Verna",
+   "url": "https://www.elenaverna.com/p/what-its-like-to-work-at-an-ai-native",
+   "published": "2026-09-24",
+   "shelf": "slow",
+   "mode": "read",
+   "minutes": 10,
+   "track": "pro",
+   "domain": "Org design",
+   "score": 74,
+   "why": "A senior growth leader writes up a year inside a fast-growing AI-native company: no granular titles, senior people staying individual contributors, few meetings, constant reorgs, and a named human owner for every internal agent. Read it as input for org design. It's one company and her own view, and she says so, so take the questions it raises more seriously than the answers.",
+   "lookFor": [
+    "Which management tasks does she say disappear, and which of them are you still doing by hand?",
+    "What is an 'agent parent', and who would that be for each agent your team runs?",
+    "Where does she say high agency turns into duplicated work, and how would you spot that early?"
+   ],
+   "gist": "Verna describes a flat structure with only three levels of title, public channels by default and managers whose job shifts from routing information and approving decisions to setting context, raising the quality bar and developing people. She lists what is hard: an exhausting pace, blurry ownership and reorgs treated as a normal operating condition. Agents are treated as coworkers, each with a human 'parent' responsible for the quality of its answers, usually the person who used to answer those questions. Her conclusion is that the practices only work as a system, and that judgment grows more valuable as execution gets cheaper."
+  }
+ ],
+ "practice": {
+  "id": "0926-p",
+  "type": "Teach-back",
+  "minutes": 12,
+  "title": "Explain the Industrial Revolution without the steam engine",
+  "prompt": "After the listen, take pen and paper and write a five-minute explanation for a smart friend who knows only the textbook version: 'the steam engine caused it'. Use Southwood's chain of cause and effect in five links or fewer. Then write one sentence each on (a) the strongest objection to it and (b) one piece of evidence that would settle the question for you.",
+  "reveal": "One version of the chain:\n\n1. After 1688 Parliament meets every year and becomes the place where property questions get settled.\n2. Private acts untangle land held under entails, shared open fields and overlapping claims, one estate or parish at a time.\n3. Untangled land can be consolidated, mortgaged and improved, and trusts and companies can raise money to build roads, canals and river navigation.\n4. Transport gets cheaper and faster, local markets merge into national ones, and specialising starts to pay.\n5. Larger markets and investable assets reward the machines that followed.\n\nStrongest objection: the open fields and parish arrangements worked better than the story allows, and other factors (cheap coal, high wages, scientific culture) may matter more.\n\nDecisive evidence might be: whether places or sectors that got their private acts earlier also grew or invested earlier, compared with similar ones that got them later.\n\nCheck your version: did you explain why the landowners wanted this change? If your chain has no incentive in it, it's a list of events."
+ },
+ "cuts": [
+  {
+   "title": "Archive: Rosalind Franklin",
+   "source": "In Our Time",
+   "reason": "Strong history of science, but tomorrow already carries the weekend science listen."
+  },
+  {
+   "title": "The Death of Reading (with James Marriott)",
+   "source": "EconTalk",
+   "reason": "A cultural argument with no line to your work or to the economics track."
+  },
+  {
+   "title": "Why companies are becoming a series of loops | Anish Acharya (a16z)",
+   "source": "Lenny's Podcast",
+   "reason": "79 minutes, consumer-leaning, and the transcript is paywalled."
+  },
+  {
+   "title": "A Coin Toss for the Future (Ep. 494)",
+   "source": "Making Sense",
+   "reason": "97 minutes of broad AI-risk debate. Nothing to act on."
+  },
+  {
+   "title": "Hey Google, prepare for launch (and similar)",
+   "source": "Superhuman AI, The Neuron, The Diff",
+   "reason": "News cycle. Nothing to act on this month."
+  }
+ ]
+}

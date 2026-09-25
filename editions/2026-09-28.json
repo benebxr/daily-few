@@ -1,0 +1,108 @@
+{
+ "date": "2026-09-28",
+ "thesis": "Referrals pay only where the product has already earned them.",
+ "scanned": 87,
+ "sourcesScanned": 26,
+ "picks": [
+  {
+   "id": "0928-referral",
+   "title": "How to Build a B2B User Referral Program (and How to Know You're Not Ready)",
+   "source": "GTM Strategist",
+   "author": "Maja Voje, with chapters by Elena Verna and Stefan Bader",
+   "url": "https://knowledge.gtmstrategist.com/p/how-to-build-b2b-referral-program",
+   "published": "2026-09-25",
+   "shelf": "slow",
+   "mode": "read",
+   "minutes": 8,
+   "track": "pro",
+   "domain": "Partner and referral",
+   "score": 76,
+   "why": "The clearest test of whether a referral program is worth building yet: long customer lifetime, fast time to value and high engagement, with two of the three as the minimum. It also has concrete build steps, from where the invite sits to how payouts are handled. It's a sponsored excerpt from a referral-software vendor's guide, and the conversion benchmarks come from that vendor's own platform, so use the fit test and the build steps and discount the numbers.",
+   "lookFor": [
+    "Which of the three fit conditions does your self-serve funnel meet today, and which is closest?",
+    "At what moments in your product is a user most likely to recommend it, and do you ask then?",
+    "Why does the author prefer cash rewards to discounts for a product the buyer's company pays for?"
+   ],
+   "gist": "The piece combines two chapters from a B2B referral guide. Verna argues that paid search, SEO and company social are all getting worse at once, and that trust-based channels, word of mouth above all, are what still work. Bader's chapter says a program only speeds up recommendations that already happen: without high lifetime value, fast time to value and high engagement, you land in a 'death valley' of too few active users, rewards that eat the margin and long cycles. The build advice: put the program inside the product, size rewards backwards from contract value, write the sharing copy for users, launch it several times, and don't run payouts from a spreadsheet."
+  },
+  {
+   "id": "0928-schmitt",
+   "title": "Referral Programs and Customer Value",
+   "source": "Journal of Marketing",
+   "author": "Philipp Schmitt, Bernd Skiera, Christophe Van den Bulte",
+   "url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2012/04/Schmitt-Skiera-vandenBulte-2011-Referral-Programs-Customer-Value.pdf",
+   "published": "2011-01",
+   "shelf": "evergreen",
+   "holds": "It's still the standard evidence that referred customers are worth more, and a 2018 follow-up by the same group extended it rather than overturning it. What has aged is the setting: one retail bank and a flat reward, which is a long way from a self-serve software funnel. Treat the size of the effect as a hypothesis to test.",
+   "mode": "read",
+   "minutes": 18,
+   "track": "pro",
+   "domain": "Partner and referral",
+   "score": 74,
+   "why": "This is the primary source behind the claim that referred customers churn less and are worth more, which today's other piece cites. Reading the original shows you which part lasts (retention) and which part fades (the early margin advantage), and that the gain differs by segment. 18 minutes is an estimate for the abstract, the results and the discussion.",
+   "lookFor": [
+    "Which advantage fades over time and which persists, and why would that be?",
+    "How do they work out the return on the referral reward, and what cost do they leave out?",
+    "In which customer segments was the program less worthwhile, and what is your equivalent?"
+   ],
+   "gist": "The authors tracked about 10,000 customers of a German bank for almost three years. Referred customers had a higher contribution margin at first, which faded to nothing after roughly 1,000 days, and about 18% lower churn, which lasted. Over six years a referred customer was worth about 40 euros, or 16%, more than a comparable non-referred one. Against a 25-euro reward that is roughly a 60% return, before counting the lower acquisition cost. The gain was smaller for older and low-margin customers, so they recommend targeting the program selectively."
+  },
+  {
+   "id": "0928-gridley",
+   "title": "Can AI make you a better manager? with Hilary Gridley",
+   "source": "Worklife with Molly Graham",
+   "author": "Molly Graham, Hilary Gridley",
+   "url": "https://shows.acast.com/worklife-with-adam-grant/episodes/hilary-gridley",
+   "spotifyUrl": "https://open.spotify.com/episode/4rLyg5UwEfnRZxuIC8pLI2",
+   "published": "2026-08-11",
+   "shelf": "fast",
+   "mode": "listen",
+   "minutes": 46,
+   "track": "pro",
+   "domain": "AI enablement",
+   "score": 70,
+   "why": "This episode asks how a manager turns unspoken standards into something an AI, and a team, can learn from. That's the durable part of enabling a commercial team. It's 48 days old. A search found her still teaching the same approach and nothing that replaces it, and the principle doesn't depend on any one tool.",
+   "lookFor": [
+    "Which piece of feedback do you give over and over, and could you write down the rule behind it?",
+    "How does she build a feedback tool from good and bad examples, and what does that force her to state?",
+    "What does she say organisations get wrong when they roll out AI?"
+   ],
+   "gist": "Gridley, who has led teams at companies like Whoop, argues that AI belongs in management because it can give people on-demand feedback and coaching in their manager's style. To build such a tool she collected strong and weak examples of executive emails, had the AI find the patterns, and ended up with a handful of explicit principles she had been applying without saying so. Her point is that AI refuses to read your mind, so it exposes vague standards, and that a manager's job is to create leverage, which filtering every piece of work personally works against. She and Graham also discuss where organisations go wrong with adoption and why clarity matters whatever the tools."
+  }
+ ],
+ "practice": {
+  "id": "0928-p",
+  "type": "First principles",
+  "minutes": 14,
+  "title": "What can a referral reward be worth?",
+  "prompt": "Pen and paper. A self-serve product costs 50 a month at an 80% gross margin. The average paid-acquired customer stays 24 months and costs 400 to acquire. Assume referred customers churn 18% less (as a constant multiplier on monthly churn), and that half of the referred signups would have come anyway through word of mouth. From these numbers alone: (1) the gross profit per paid customer and per referred customer, (2) the highest reward per referred signup at which the program is no worse than paid acquisition, and (3) which assumption you'd test first, and how.",
+  "reveal": "1. Gross profit is 50 × 0.8 = 40 a month. Paid customer: 40 × 24 = 960. With constant churn, lifetime is 1/churn, so 18% less churn gives 24 / 0.82 ≈ 29.3 months, and 40 × 29.3 ≈ 1,171 per referred customer.\n2. A paid customer is worth 960 − 400 = 560 after acquisition cost. Only half the referred signups are extra, so each extra customer costs two rewards: 2R. Break-even: 1,171 − 2R ≥ 560, so 2R ≤ 611 and R ≤ about 305.\n3. The share of signups that would have come anyway matters most. At 25% instead of 50%, R can go to about 458 (611 × 0.75). At 75%, only about 153 (611 × 0.25). Test it with a holdout: switch the invite prompt off for a random share of users and compare signups from their networks.\n\nThe 18% comes from one bank in 2011. Over two years the extra lifetime adds about 211 per customer, which is modest next to the effect of the 'would have come anyway' share."
+ },
+ "cuts": [
+  {
+   "title": "How to Get a 'Transformative' AI Fluency Rating as a PM, with Wade Foster",
+   "source": "Product Growth (Aakash Gupta)",
+   "reason": "A good rubric, but graded on product-manager work, and this week already carried a lot of AI enablement."
+  },
+  {
+   "title": "How to help your people feel heard with Kaya Henderson",
+   "source": "Worklife with Molly Graham",
+   "reason": "A public-sector turnaround story. Fine leadership lessons, but general."
+  },
+  {
+   "title": "Your AI Isn't the Moat. Your Data Is.",
+   "source": "SaaSiest",
+   "reason": "A teaser for an event, with no argument in the mail."
+  },
+  {
+   "title": "Masterwork’s CFO Runs 12 AI Agents at Once | Nigel Glenday",
+   "source": "Run the Numbers",
+   "reason": "Finance-team automation. Today's listen covers the transferable part better."
+  },
+  {
+   "title": "A Claude Tactic that Drives Insane Website Traffic",
+   "source": "AI Genius Lab",
+   "reason": "Hype framing and a listicle below your level."
+  }
+ ]
+}
