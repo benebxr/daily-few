@@ -241,7 +241,7 @@ details.more[open] summary{border-bottom:1px solid var(--line)}
 .sheet-top{display:flex;justify-content:space-between;align-items:center;gap:10px}
 .x{width:36px;height:36px;border-radius:50%;background:var(--card-solid);box-shadow:inset 0 0 0 1px var(--line);display:grid;place-items:center;color:var(--ink);flex:none}
 .x svg.i{width:14px;height:14px;stroke-width:2}
-.sheet h2{font-weight:500;font-size:30px;line-height:1.06;letter-spacing:-.04em;margin:0;text-wrap:balance}
+.sheet h2,.panel-in h2{font-weight:500;font-size:30px;line-height:1.06;letter-spacing:-.04em;margin:0;text-wrap:balance}
 .chips{display:flex;gap:5px;flex-wrap:wrap}
 .chip{font-size:13px;padding:6px 12px;border-radius:999px;background:var(--card-solid);box-shadow:inset 0 0 0 1px var(--line);color:var(--ink-2);white-space:nowrap;font-variant-numeric:tabular-nums}
 .chip.warn{box-shadow:inset 0 0 0 1px var(--out);color:var(--out);white-space:normal}
@@ -270,6 +270,52 @@ body.locked{overflow:hidden}
 .toast.on{opacity:1;transform:translate(-50%,0)}
 .skel{height:96px;border-radius:26px;background:linear-gradient(90deg,rgba(255,255,255,.35),rgba(255,255,255,.7),rgba(255,255,255,.35));background-size:200% 100%;animation:sh 1.4s infinite linear}
 @keyframes sh{to{background-position:-200% 0}}
+
+/* sync + export */
+.synccard{display:flex;flex-direction:column;gap:10px;padding:18px}
+.synccard p{margin:0;font-size:15px;color:var(--ink-2)}
+.synccard .st{display:flex;align-items:center;gap:8px;font-size:16px;font-weight:500;color:var(--ink)}
+.synccard .st i{width:9px;height:9px;border-radius:50%;background:var(--ink-3);flex:none}
+.synccard .st i.ok{background:#22A06B}.synccard .st i.err{background:var(--out)}
+.synccard .btns{display:flex;gap:8px;flex-wrap:wrap}
+.olist{margin:0;padding-left:20px;font-size:15px;line-height:1.5;color:var(--ink-2);display:flex;flex-direction:column;gap:6px}
+.olist b{color:var(--ink);font-weight:500}
+input.key{font-family:ui-monospace,Menlo,monospace;font-size:15px}
+/* pencil pad */
+.padwrap{display:flex;flex-direction:column;gap:8px}
+.padwrap .padbar{display:flex;justify-content:space-between;align-items:center;font-size:14px;color:var(--ink-2)}
+.padwrap .padbar div{display:flex;gap:6px}
+canvas.pad{width:100%;height:300px;border-radius:20px;background:var(--card-solid);box-shadow:inset 0 0 0 1px var(--line);touch-action:none;display:block}
+/* reader */
+.readerbar{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:14px;color:var(--ink-2);flex-wrap:wrap}
+.readerbar .btn{padding:10px 16px;font-size:14px;min-height:40px}
+iframe.reader{width:100%;flex:1;min-height:70vh;border:0;border-radius:20px;background:#fff;box-shadow:inset 0 0 0 1px var(--line)}
+.earlier{display:flex;flex-direction:column;gap:8px}
+.earlier .mine{font-size:14px}
+.earlier small{font-size:13px;color:var(--ink-3)}
+/* wide: iPad and desktop */
+.panel{display:none}
+@media (min-width:780px){
+  body.wide{display:flex;height:100%;overflow:hidden}
+  body.wide .app{width:400px;flex:none;height:100%;overflow-y:auto;overflow-x:hidden;padding-bottom:130px;overscroll-behavior:contain}
+  body.wide .app::before{width:100%;left:0;transform:none}
+  body.wide .tabs{right:auto;width:400px}
+  body.wide .panel{display:flex;flex:1;min-width:0;height:100%;background:linear-gradient(180deg,var(--sky-c) 0,var(--ground) 320px);border-left:1px solid var(--line)}
+  body.wide .panel-in.s-out{background:linear-gradient(180deg,#FFE3D6 0,transparent 240px)}
+  body.wide .panel-in{flex:1;overflow-y:auto;padding:22px 32px calc(24px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:20px;max-width:760px;margin:0 auto;width:100%;overscroll-behavior:contain}
+  body.wide .panel-in .grab{display:none}
+  body.wide .panel-in .dock{margin:0 -32px calc(-24px - env(safe-area-inset-bottom,0px));padding:22px 32px calc(20px + env(safe-area-inset-bottom,0px));background:linear-gradient(to bottom,transparent,var(--ground) 22px)}
+  body.wide .panel-in .stack.dock{flex-direction:row;flex-wrap:wrap}
+  body.wide .panel-in .stack.dock .btn.full{width:auto;flex:1 1 40%}
+  body.wide .backdrop{display:none!important}
+  body.wide.locked{overflow:hidden}
+  body.wide textarea{min-height:220px}
+  body.wide canvas.pad{height:460px}
+  .panel-empty{margin:auto;text-align:center;color:var(--ink-2);display:flex;flex-direction:column;align-items:center;gap:14px;max-width:34ch;font-size:16px}
+  .panel-empty canvas.wave{width:360px;height:120px;color:var(--ink)}
+  .panel-empty b{font-size:20px;font-weight:500;color:var(--ink);letter-spacing:-.02em}
+}
+@media (min-width:1100px){body.wide .app,body.wide .tabs{width:460px}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 
@@ -292,6 +338,7 @@ body.locked{overflow:hidden}
 </svg>
 
 <div class="app" id="app"></div>
+<aside id="panel" class="panel" hidden><div class="panel-in" id="panel-in"></div></aside>
 <nav class="tabs" aria-label="Sections"><div class="tabs-in" id="tabs"></div></nav>
 <div class="backdrop" id="backdrop" hidden><div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Details"></div></div>
 <div class="toast" id="toast" role="status"></div>
@@ -326,16 +373,55 @@ var mins=function(m){m=Math.round(m||0);return m>=60?Math.floor(m/60)+"h"+(m%60?
 var clone=function(o){return JSON.parse(JSON.stringify(o||{}))};
 var uid=function(){return Date.now().toString(36)+Math.random().toString(36).slice(2,7)};
 
-var S={db:null,mode:"loading",days:{},states:{},actions:{},meta:{},view:"today",date:null,sheet:null,err:""};
+var S={db:null,mode:"loading",days:{},states:{},actions:{},meta:{},view:"today",date:null,sheet:null,err:"",gh:null,sync:{status:"off",at:"",msg:""},dirty:false};
+function isWide(){return document.body.classList.contains("wide")}
+function fitLayout(){var w=window.innerWidth>=780;document.body.classList.toggle("wide",w);var pn=$("#panel");if(pn)pn.hidden=!w;if(w&&!S.sheet)panelEmpty()}
+window.addEventListener("resize",function(){var was=isWide();fitLayout();if(was!==isWide()&&S.sheet){var sh=S.sheet;S.sheet=null;var b=$("#backdrop");b.classList.remove("open");b.hidden=true;document.body.classList.remove("locked");openSheet(sh)}});
 var REVIEW_GAPS=[3,7,21];
 
 /* ---------- persistence ---------- */
 var chains={};
 function enqueue(path,fn){chains[path]=(chains[path]||Promise.resolve()).then(fn).catch(function(e){S.err=(e&&e.code)||"write";toast("Could not save. Check your connection.")});return chains[path]}
 function ls(k,v){try{if(v===undefined){var r=localStorage.getItem("few:"+k);return r?JSON.parse(r):null}localStorage.setItem("few:"+k,JSON.stringify(v))}catch(e){return null}}
-function saveState(date,mut){var st=clone(S.states[date]);st.date=date;mut(st);S.states[date]=st;
+function saveState(date,mut){var st=clone(S.states[date]);st.date=date;mut(st);st.updatedAt=new Date().toISOString();S.states[date]=st;markDirty();
   if(S.db)enqueue("state/"+date,function(){return S.db.doc("state/"+date).set(st)});else ls("states",S.states);render()}
-function saveAction(a){S.actions[a.id]=a;if(S.db)enqueue("actions/"+a.id,function(){return S.db.doc("actions/"+a.id).set(a)});else ls("actions",S.actions);render()}
+function saveAction(a){a.updatedAt=new Date().toISOString();S.actions[a.id]=a;markDirty();if(S.db)enqueue("actions/"+a.id,function(){return S.db.doc("actions/"+a.id).set(a)});else ls("actions",S.actions);render()}
+
+/* ---------- sync: private GitHub repo as the shared store (state/state.json + state/canvas/<id>.png) ---------- */
+var REPO="benebxr/daily-few-curation";
+function b64e(str){return btoa(unescape(encodeURIComponent(str)))}
+function b64d(b){return decodeURIComponent(escape(atob(String(b).replace(/\s/g,""))))}
+function ghReq(path,opt){var c=S.gh;opt=opt||{};var url="https://api.github.com/repos/"+REPO+"/contents/"+path+(opt.method?"":"?ref=main&t="+Date.now());
+  return fetch(url,{method:opt.method||"GET",body:opt.body,headers:{Authorization:"Bearer "+c.token,Accept:"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28","Content-Type":"application/json"}})}
+function ghGet(path){return ghReq(path).then(function(r){if(r.status===404)return null;if(r.status===401||r.status===403)throw {code:"auth"};if(!r.ok)throw {code:"http",status:r.status};return r.json()})}
+function ghPut(path,b64,sha,msg){return ghReq(path,{method:"PUT",body:JSON.stringify({message:msg,content:b64,sha:sha||undefined,branch:"main"})}).then(function(r){if(r.status===409||r.status===422)throw {code:"conflict"};if(r.status===401||r.status===403)throw {code:"auth"};if(!r.ok)throw {code:"http",status:r.status};return r.json()})}
+function mergeStates(base,inc){var out=clone(base||{});Object.keys(inc||{}).forEach(function(d){var x=out[d]||{date:d},y=inc[d]||{};
+  x.done=Object.assign({},y.done||{},x.done||{});
+  var ra=x.recallAt||{},rb=y.recallAt||{};x.recall=x.recall||{};Object.keys(y.recall||{}).forEach(function(id){if(!(id in x.recall)||(rb[id]||"")>(ra[id]||"")){x.recall[id]=y.recall[id];ra[id]=rb[id]||ra[id]||""}});x.recallAt=ra;
+  if(y.practice&&(!x.practice||(y.practice.at||"")>(x.practice.at||"")))x.practice=y.practice;
+  x.reviews=x.reviews||{};Object.keys(y.reviews||{}).forEach(function(id){var p=x.reviews[id],q=y.reviews[id];if(!p||(q.last||"")>(p.last||"")||(q.n||0)>(p.n||0))x.reviews[id]=q});
+  x.updatedAt=(x.updatedAt||"")>(y.updatedAt||"")?x.updatedAt:(y.updatedAt||x.updatedAt);out[d]=x});return out}
+function mergeActions(base,inc){var out=clone(base||{});Object.keys(inc||{}).forEach(function(id){var p=out[id],q=inc[id],ka=function(a){return a.updatedAt||a.doneAt||a.createdAt||""};if(!p||ka(q)>ka(p))out[id]=q});return out}
+function stateDoc(){return {v:1,updated:new Date().toISOString(),device:S.gh&&S.gh.device,states:S.states,actions:S.actions,canvases:ls("canvasIndex")||{}}}
+function applyRemote(doc){if(!doc)return;S.states=mergeStates(doc.states,S.states);S.actions=mergeActions(doc.actions,S.actions);var ci=ls("canvasIndex")||{};Object.keys(doc.canvases||{}).forEach(function(id){if(!ci[id]||(doc.canvases[id].at||"")>(ci[id].at||""))ci[id]=doc.canvases[id]});ls("canvasIndex",ci);ls("states",S.states);ls("actions",S.actions)}
+function setSync(status,msg){S.sync.status=status;S.sync.msg=msg||"";if(status==="ok"){S.sync.at=new Date().toISOString();ls("syncAt",S.sync.at)}var el=$("#syncstat");if(el)el.outerHTML=syncStat()}
+function markDirty(){if(!S.gh)return;S.dirty=true;ls("dirty",1);clearTimeout(markDirty.t);markDirty.t=setTimeout(function(){syncNow("push")},1500)}
+function syncNow(mode){if(!S.gh||!navigator.onLine)return Promise.resolve();return enqueue("gh",function(){setSync("busy");
+  return ghGet("state/state.json").then(function(f){var remote=null,sha=null;if(f){sha=f.sha;try{remote=JSON.parse(b64d(f.content))}catch(e){remote=null}}
+    var before=JSON.stringify({s:S.states,a:S.actions});applyRemote(remote);var after=JSON.stringify({s:S.states,a:S.actions});
+    var remoteStr=remote?JSON.stringify({s:remote.states||{},a:remote.actions||{}}):"";
+    var need=S.dirty||after!==remoteStr;
+    if(!need){setSync("ok");if(before!==after&&!S.sheet)render();return}
+    return ghPut("state/state.json",b64e(JSON.stringify(stateDoc(),null,1)),sha,"sync from "+(S.gh.device||"device")).then(function(){S.dirty=false;ls("dirty",0);setSync("ok");if(before!==after&&!S.sheet)render()})
+  }).then(function(){return pushCanvases()}).catch(function(e){if(e&&e.code==="conflict"){setSync("busy");return syncNow(mode)}setSync("err",e&&e.code==="auth"?"The key was refused. Reconnect with a new key.":"Could not reach GitHub. Will retry.");if(e&&e.code==="auth"){S.gh=null;ls("gh",null)}})})}
+function pushCanvases(){var ci=ls("canvasIndex")||{},ids=Object.keys(ci).filter(function(id){return ci[id].dirty});return ids.reduce(function(pr,id){return pr.then(function(){var data=ls("canvas:"+id);if(!data)return;return ghGet("state/canvas/"+id+".png").then(function(f){return ghPut("state/canvas/"+id+".png",data.split(",")[1],f&&f.sha,"canvas "+id)}).then(function(){var c=ls("canvasIndex")||{};if(c[id]){delete c[id].dirty;ls("canvasIndex",c)}})})},Promise.resolve())}
+function fetchCanvas(id){if(!S.gh)return Promise.resolve(null);return ghGet("state/canvas/"+id+".png").then(function(f){if(!f)return null;var d="data:image/png;base64,"+String(f.content).replace(/\s/g,"");ls("canvas:"+id,d);return d}).catch(function(){return null})}
+function fmtAgo(isoStr){if(!isoStr)return "";var m=Math.round((Date.now()-new Date(isoStr))/6e4);return m<1?"just now":m<60?m+" min ago":m<1440?Math.round(m/60)+" h ago":Math.round(m/1440)+" days ago"}
+function syncStat(){var st=S.sync.status,at=S.sync.at||ls("syncAt");return '<div class="st" id="syncstat"><i class="'+(st==="ok"?"ok":st==="err"?"err":"")+'"></i>'+(st==="busy"?"Syncing…":st==="err"?esc(S.sync.msg):at?"Synced "+fmtAgo(at):"Connected")+'</div>'}
+function exportAll(){var ci=ls("canvasIndex")||{},cv={};Object.keys(ci).forEach(function(id){var d=ls("canvas:"+id);if(d)cv[id]=d});
+  var doc=stateDoc();doc.canvasImages=cv;doc.editions=S.days;var name="daily-few-export-"+TODAY+".json",blob=new Blob([JSON.stringify(doc,null,1)],{type:"application/json"});
+  try{var file=new File([blob],name,{type:"application/json"});if(navigator.canShare&&navigator.canShare({files:[file]}))return navigator.share({files:[file],title:name}).catch(function(){})}catch(e){}
+  var u=URL.createObjectURL(blob),a=document.createElement("a");a.href=u;a.download=name;a.target="_blank";document.body.appendChild(a);a.click();setTimeout(function(){a.remove();URL.revokeObjectURL(u)},4000)}
 
 /* ---------- derived ---------- */
 function editions(){var all=Object.keys(S.days).sort(),past=all.filter(function(d){return d<=TODAY});return past.length?past:all}
@@ -418,36 +504,59 @@ function viewBalance(){var last=[],I=0,O=0,M=0,PM=0;for(var k=6;k>=0;k--){var d=
   var srow=function(x){var cut=x.scanned>=3&&!x.picked;return '<div class="src"><span class="src-n">'+esc(x.name)+'</span>'+(cut?'<span class="tag">cut candidate</span>':x.picked?'<span class="tag keep">earning it</span>':'')+'<span class="src-c">'+(+x.picked||0)+' / '+(+x.scanned||0)+'</span></div>'};
   var main=src.filter(function(x){return x.picked||x.scanned>=3}),rest=src.filter(function(x){return !x.picked&&x.scanned<3});
   if(src.length)h+='<section class="sec"><div class="sec-h"><h2>Your sources</h2><span>picked / scanned</span></div><div class="group">'+main.map(srow).join("")+(rest.length?'<details class="more"><summary>'+rest.length+' more without a pick yet</summary>'+rest.map(srow).join("")+'</details>':'')+'</div><p class="note" style="text-align:left">Three scans without a single pick marks a source as a cut candidate. Unsubscribing is the cheapest filter there is.</p></section>';
+  h+='<section class="sec"><div class="sec-h"><h2>Sync and backup</h2></div><div class="group"><div class="synccard">'+(S.gh?syncStat()+'<p>Progress, notes, drawings and actions are shared between your devices through your private GitHub repository. Each device pulls when you open the app and pushes after every change.</p><div class="btns"><button class="chipbtn ok" data-sync-now="1">Sync now</button><button class="chipbtn" data-export="1">Export everything</button><button class="chipbtn" data-disconnect="1">Disconnect</button></div>':'<div class="st"><i></i>Not connected</div><p>Everything you do lives only on this device. Connect it to keep the same state on iPhone and iPad and to survive a reinstall.</p><div class="btns"><button class="chipbtn ok" data-connect="1">Connect this device</button><button class="chipbtn" data-export="1">Export everything</button></div>')+'</div></div></section>';
   var pf=S.meta.profile;
   if(pf)h+='<section class="sec"><div class="sec-h"><h2>What the curation optimises for</h2></div><div class="group compass">'+(pf.focus?'<div><h4>Focus</h4><p style="margin:0;font-size:16px">'+esc(pf.focus)+'</p></div>':'')+'<div><h4>Live problems</h4><ul>'+(pf.pro||[]).map(function(x){return '<li>'+esc(x)+'</li>'}).join("")+'</ul></div><div class="per"><h4>Curiosity</h4><ul>'+(pf.personal||[]).map(function(x){return '<li>'+esc(x)+'</li>'}).join("")+'</ul></div></div><p class="note" style="text-align:left">Tell Claude when a problem is solved or a new one shows up. The picks follow.</p></section>';
   return h}
 
 /* ---------- sheets ---------- */
 var timer={id:null,left:0,run:false,started:false};
-function openSheet(s){S.sheet=s;var b=$("#backdrop");b.hidden=false;document.body.classList.add("locked");renderSheet();void b.offsetWidth;b.classList.add("open")}
-function closeSheet(){var b=$("#backdrop");b.classList.remove("open");document.body.classList.remove("locked");clearInterval(timer.id);timer.run=false;var sh=$("#sheet");sh.style.transition="";sh.style.transform="";setTimeout(function(){b.hidden=true;S.sheet=null;render()},380)}
+function openSheet(s){S.sheet=s;if(isWide()){renderSheet();$("#panel-in").scrollTop=0;return}var b=$("#backdrop");b.hidden=false;document.body.classList.add("locked");renderSheet();void b.offsetWidth;b.classList.add("open")}
+function panelEmpty(){var el=$("#panel-in");if(!el)return;var day=currentDay();el.innerHTML='<div class="panel-empty"><canvas class="wave" data-key="panel" data-p="0.35"></canvas><b>'+(day?esc(day.thesis):"The Daily Few")+'</b><span>Open a pick on the left to read it here, take notes with the keyboard, or draw the practice rep.</span></div>'}
+function closeSheet(){clearInterval(timer.id);timer.run=false;if(isWide()){S.sheet=null;panelEmpty();render();return}var b=$("#backdrop");b.classList.remove("open");document.body.classList.remove("locked");clearInterval(timer.id);timer.run=false;var sh=$("#sheet");sh.style.transition="";sh.style.transform="";setTimeout(function(){b.hidden=true;S.sheet=null;render()},380)}
 function sheetTop(label){return '<div class="grab"></div><div class="sheet-top"><span class="step">'+label+'</span><button class="x" data-close="1" aria-label="Close">'+ic("x")+'</button></div>'}
-function renderSheet(){var s=S.sheet;if(!s)return;var day=S.days[s.date],el=$("#sheet"),h="";
+function renderSheet(){var s=S.sheet;if(!s)return;var day=S.days[s.date],el=isWide()?$("#panel-in"):$("#sheet"),h="";
   if(s.type==="pick"){var p=(day.picks||[]).filter(function(x){return x.id===s.id})[0];if(!p)return closeSheet();var u=safeUrl(p.url),done=isDone(day.date,p.id),rec=((st(day.date).recall||{})[p.id])||"";
     if(s.step==="detail"){h=sheetTop('<span style="color:var(--ink-3)">'+esc(p.source)+(p.author?" · "+esc(p.author):"")+'</span>')+'<h2>'+esc(p.title)+'</h2><div class="chips"><span class="chip lev">Leverage '+(+p.score||0)+'</span><span class="chip">'+mins(p.minutes)+'</span><span class="chip">'+(p.mode==="listen"?"Listen":p.mode==="watch"?"Watch":"Read")+'</span><span class="chip">'+(p.track==="personal"?"Personal":"Professional")+'</span>'+(p.published?'<span class="chip">'+esc(fmtPub(p.published))+'</span>':'')+(SHELF[p.shelf]?'<span class="chip">'+SHELF[p.shelf]+'</span>':'')+(p.shelf==="fast"&&daysBetween(day.date,TODAY)>45?'<span class="chip warn">Picked '+daysBetween(day.date,TODAY)+' days ago, may be outdated</span>':'')+'</div><div class="block"><h4>Why this, why now</h4><p>'+esc(p.why)+'</p></div>';
       if(p.holds)h+='<div class="block"><h4>Why it still holds</h4><p style="font-size:16px;color:var(--ink-2)">'+esc(p.holds)+'</p></div>';
       if((p.lookFor||[]).length)h+='<div class="block"><h4>'+(p.mode==="listen"?"Listen":"Read")+' with these questions</h4><ul class="qs">'+p.lookFor.map(function(q){return '<li>'+esc(q)+'</li>'}).join("")+'</ul></div>';
       if(p.gist)h+='<details class="gist"><summary>Only two minutes? The gist</summary><p>'+esc(p.gist)+'</p></details>';
       if(done&&rec)h+='<div class="block"><h4>What you kept</h4><div class="mine">'+esc(rec)+'</div></div>';
+      if(s.reader&&u){h=sheetTop('<span style="color:var(--ink-3)">'+esc(p.source)+'</span>')+'<h2 style="font-size:22px">'+esc(p.title)+'</h2><div class="readerbar"><span>Some sites, Substack among them, refuse to be shown inside another app. If this stays blank, use Open in Safari.</span><div style="display:flex;gap:6px"><a class="btn ghost" href="'+esc(u)+'" target="_blank" rel="noopener noreferrer">Open in Safari '+ic("out")+'</a><button class="btn ghost" data-reader="0">Notes</button></div></div><iframe class="reader" src="'+esc(u)+'" referrerpolicy="no-referrer" loading="eager"></iframe><div class="stack dock">'+(done?'<button class="btn ghost full" data-undo="'+esc(p.id)+'">Mark as not finished</button>':'<button class="btn full" data-finish="'+esc(p.id)+'">Finished it</button>')+'</div>';el.innerHTML=h;el.className=isWide()?"panel-in":"sheet";return}
       var sp=/^https:\/\/open\.spotify\.com\//i.test(String(p.spotifyUrl||""))?String(p.spotifyUrl):(/^https:\/\/open\.spotify\.com\//i.test(u)?u:""),ear=p.mode==="listen";
       if(ear&&!sp)sp="https://open.spotify.com/search/"+encodeURIComponent(String(p.title).slice(0,90));
-      h+='<div class="stack dock">'+(ear?'<a class="btn full" href="'+esc(sp)+'" target="_blank" rel="noopener noreferrer">'+(p.spotifyUrl||sp===u?"Open in Spotify":"Find in Spotify")+ic("out")+'</a>'+(u&&u!==sp?'<a class="btn text full" href="'+esc(u)+'" target="_blank" rel="noopener noreferrer">Episode page and show notes</a>':''):(u?'<a class="btn in full" href="'+esc(u)+'" target="_blank" rel="noopener noreferrer">Open '+esc(p.source)+ic("out")+'</a>':''))+(done?'<button class="btn ghost full" data-undo="'+esc(p.id)+'">Mark as not finished</button>':'<button class="btn ghost full" data-finish="'+esc(p.id)+'">Finished it</button>')+'</div>'}
-    else if(s.step==="recall"){h=sheetTop("Step 1 of 2 · Recall")+'<h2>Close it. What is worth keeping?</h2><div class="rule">'+ic("noai")+'<span>From memory, in your own words. No AI, no peeking. Three sentences are enough, and the effort of pulling it back is what makes it stick.</span></div><textarea id="recallText" placeholder="The core idea was…" aria-label="Recall note">'+esc(rec)+'</textarea><div class="stack"><button class="btn out full" data-save-recall="'+esc(p.id)+'">Keep this</button><button class="btn text full" data-skip-recall="'+esc(p.id)+'">Nothing worth keeping</button></div>'}
+      h+='<div class="stack dock">'+(ear?'<a class="btn full" href="'+esc(sp)+'" target="_blank" rel="noopener noreferrer">'+(p.spotifyUrl||sp===u?"Open in Spotify":"Find in Spotify")+ic("out")+'</a>'+(u&&u!==sp?'<a class="btn text full" href="'+esc(u)+'" target="_blank" rel="noopener noreferrer">Episode page and show notes</a>':''):(u?(isWide()?'<button class="btn in full" data-reader="1">Read here</button><a class="btn ghost full" href="'+esc(u)+'" target="_blank" rel="noopener noreferrer">Open in Safari '+ic("out")+'</a>':'<a class="btn in full" href="'+esc(u)+'" target="_blank" rel="noopener noreferrer">Open '+esc(p.source)+ic("out")+'</a>'):''))+(done?'<button class="btn ghost full" data-undo="'+esc(p.id)+'">Mark as not finished</button>':'<button class="btn ghost full" data-finish="'+esc(p.id)+'">Finished it</button>')+'</div>'}
+    else if(s.step==="recall"){h=sheetTop("Step 1 of 2 · Recall")+'<h2>Close it. What is worth keeping?</h2><div class="rule">'+ic("noai")+'<span>From memory, in your own words. No AI, no peeking. Three sentences are enough, and the effort of pulling it back is what makes it stick.</span></div><textarea id="recallText" placeholder="The core idea was…" aria-label="Recall note">'+esc(rec)+'</textarea>'+(isWide()?earlierNotes(p.id):'')+'<div class="stack"><button class="btn out full" data-save-recall="'+esc(p.id)+'">Keep this</button><button class="btn text full" data-skip-recall="'+esc(p.id)+'">Nothing worth keeping</button></div>'}
     else if(s.step==="action"){h=sheetTop("Step 2 of 2 · Act")+'<h2>What is the smallest thing you can do with it in 48 hours?</h2><p class="lede">A message, a question in a meeting, a number you check, ten minutes of trying it. If nothing comes to mind, that is an answer too.</p><input type="text" id="actionText" placeholder="Within 48 hours I will…" maxlength="200" autocomplete="off" aria-label="Action"><div class="stack"><button class="btn out full" data-save-action="'+esc(p.id)+'">Commit to it</button><button class="btn text full" data-close="1">Nothing to do here</button></div>'}}
   else if(s.type==="practice"){var pr=day.practice,ps=st(day.date).practice||{};if(!timer.started){timer.left=(+pr.minutes||10)*60}
-    h=sheetTop(esc(pr.type||"Practice")+" · "+mins(pr.minutes))+'<h2>'+esc(pr.title)+'</h2><div class="rule">'+ic("noai")+'<span>Pen and paper, or just your head. No AI, no search. Being stuck for a few minutes is the training effect.</span></div><p class="prompt">'+esc(pr.prompt)+'</p><div class="timer"><b id="clock">'+clock()+'</b><button class="btn ghost" data-timer="1" id="timerBtn">'+(timer.run?"Pause":timer.started?"Resume":"Start timer")+'</button></div><textarea id="practiceText" placeholder="Your answer, or the short version of what is on your paper" aria-label="Your answer">'+esc(ps.note||"")+'</textarea>'+(s.revealed&&pr.reveal?'<div class="block"><h4>One way to think about it</h4><div class="reveal">'+esc(pr.reveal)+'</div></div>':"")+'<div class="stack dock">'+(pr.reveal&&!s.revealed?'<button class="btn ghost full" data-reveal="1">I tried. Show one way to think about it</button>':"")+'<button class="btn out full" data-practice-done="1">'+(ps.done?"Update":"Rep done")+'</button></div>'}
+    h=sheetTop(esc(pr.type||"Practice")+" · "+mins(pr.minutes))+'<h2>'+esc(pr.title)+'</h2><div class="rule">'+ic("noai")+'<span>Pen and paper, or just your head. No AI, no search. Being stuck for a few minutes is the training effect.</span></div><p class="prompt">'+esc(pr.prompt)+'</p><div class="timer"><b id="clock">'+clock()+'</b><button class="btn ghost" data-timer="1" id="timerBtn">'+(timer.run?"Pause":timer.started?"Resume":"Start timer")+'</button></div><textarea id="practiceText" placeholder="Your answer, or the short version of what is on your paper" aria-label="Your answer">'+esc(ps.note||"")+'</textarea><div class="padwrap"><div class="padbar"><span>Or draw it. Pencil or finger.</span><div><button class="chipbtn" data-pad-undo="1">Undo</button><button class="chipbtn" data-pad-clear="1">Clear</button></div></div><canvas class="pad" id="pad" data-id="'+esc(pr.id)+'"></canvas></div>'+(s.revealed&&pr.reveal?'<div class="block"><h4>One way to think about it</h4><div class="reveal">'+esc(pr.reveal)+'</div></div>':"")+'<div class="stack dock">'+(pr.reveal&&!s.revealed?'<button class="btn ghost full" data-reveal="1">I tried. Show one way to think about it</button>':"")+'<button class="btn out full" data-practice-done="1">'+(ps.done?"Update":"Rep done")+'</button></div>'}
   else if(s.type==="review"){var r=s.rv;h=sheetTop("Memory check · day "+r.age)+'<h2>'+esc(r.pick.title)+'</h2><p class="lede">Say the core idea out loud or in your head before you look. Then compare with what you wrote.</p>'+(s.revealed?'<div class="block"><h4>Your note from '+esc(fmtDate(r.date))+'</h4><div class="mine">'+esc(r.note)+'</div></div><div class="stack"><button class="btn out full" data-review-res="1">Still had it</button><button class="btn ghost full" data-review-res="0">It was gone</button></div>':'<button class="btn full" data-reveal="1">Show my note</button>')}
-  if(s.type==="add"){h=sheetTop("New action · 48 hours")+'<h2>What is the smallest thing you can do?</h2><p class="lede" style="max-width:none">Small enough to finish within 48 hours. Tap an example to start from it.</p><div class="chips egs">'+["Send the piece to one person with one question","Raise it in the next team meeting","Check one number it made me doubt","Try the idea for ten minutes"].map(function(e){return '<button class="chip" data-eg="'+esc(e)+'">'+esc(e)+'</button>'}).join("")+'</div><input type="text" id="addText" placeholder="Within 48 hours I will…" maxlength="200" autocomplete="off" aria-label="Action"><div class="stack"><button class="btn full" data-add-save="1">Commit for 48 hours</button><button class="btn text full" data-close="1">Cancel</button></div>'}
+  if(s.type==="connect"){h=sheetTop("Sync")+'<h2>Connect this device</h2><p class="lede" style="max-width:none">Your progress is stored in your private GitHub repository. The app needs a key that can write to that one repository and nothing else. Three minutes, once per device.</p><ol class="olist"><li>Open <b>github.com/settings/personal-access-tokens/new</b> (signed in as benebxr).</li><li>Name: <b>daily-few iPad</b> or <b>daily-few iPhone</b>. Expiration: <b>No expiration</b>.</li><li>Repository access: <b>Only select repositories</b>, choose <b>daily-few-curation</b>.</li><li>Permissions, Repository permissions: <b>Contents: Read and write</b>. Nothing else.</li><li>Generate, copy the key, paste it below.</li></ol><input type="password" class="key" id="ghKey" placeholder="github_pat_…" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="GitHub key"><p class="note" style="text-align:left">The key stays on this device. Everything already on this device is kept and merged.</p><div class="stack"><button class="btn full" data-connect-save="1">Connect</button><button class="btn text full" data-close="1">Not now</button></div>'}
+  else if(s.type==="add"){h=sheetTop("New action · 48 hours")+'<h2>What is the smallest thing you can do?</h2><p class="lede" style="max-width:none">Small enough to finish within 48 hours. Tap an example to start from it.</p><div class="chips egs">'+["Send the piece to one person with one question","Raise it in the next team meeting","Check one number it made me doubt","Try the idea for ten minutes"].map(function(e){return '<button class="chip" data-eg="'+esc(e)+'">'+esc(e)+'</button>'}).join("")+'</div><input type="text" id="addText" placeholder="Within 48 hours I will…" maxlength="200" autocomplete="off" aria-label="Action"><div class="stack"><button class="btn full" data-add-save="1">Commit for 48 hours</button><button class="btn text full" data-close="1">Cancel</button></div>'}
   else if(s.type==="done"){var ac=S.actions[s.id]||{};h=sheetTop("Done")+'<h2>What happened?</h2><div class="mine">'+esc(ac.text||"")+'</div><p class="lede" style="max-width:none">One line is enough. Writing down the result turns a task into an experiment you learn from.</p><textarea id="outcomeText" placeholder="It led to…" aria-label="Outcome" style="min-height:96px"></textarea><div class="stack"><button class="btn full" data-done-save="'+esc(s.id)+'">Save</button><button class="btn text full" data-done-save="'+esc(s.id)+'" data-skip="1">Skip the note</button></div>'}
-  el.className='sheet'+((s.type!=='pick'||s.step!=='detail')?' s-out':'');el.innerHTML=h;el.scrollTop=0}
+  el.className=(isWide()?'panel-in':'sheet')+((s.type!=='pick'||s.step!=='detail')?' s-out':'');el.innerHTML=h;el.scrollTop=0;var pad=$("#pad");if(pad)initPad(pad)}
+function earlierNotes(excludeId){var items=[];Object.keys(S.states).sort().reverse().forEach(function(d){var st=S.states[d],day=S.days[d];Object.keys(st.recall||{}).forEach(function(id){if(id===excludeId)return;var t=(st.recall[id]||"").trim();if(!t)return;var pk=day&&(day.picks||[]).filter(function(x){return x.id===id})[0];items.push({d:d,t:t,title:pk?pk.title:id})})});if(!items.length)return "";return '<div class="block earlier"><h4>Your earlier notes</h4>'+items.slice(0,4).map(function(x){return '<div><small>'+esc(fmtDate(x.d))+' · '+esc(x.title)+'</small><div class="mine">'+esc(x.t)+'</div></div>'}).join("")+'</div>'}
 function clock(){var l=Math.max(0,timer.left);return pad(Math.floor(l/60))+":"+pad(l%60)}
 function toggleTimer(){if(timer.run){clearInterval(timer.id);timer.run=false}else{timer.run=true;timer.started=true;timer.id=setInterval(function(){timer.left--;var c=$("#clock");if(c)c.textContent=clock();if(timer.left<=0){clearInterval(timer.id);timer.run=false;var b=$("#timerBtn");if(b)b.textContent="Time";toast("Time. Finish your thought.")}},1000)}var b=$("#timerBtn");if(b)b.textContent=timer.run?"Pause":"Resume"}
 function toast(t){var e=$("#toast");e.textContent=t;e.classList.add("on");clearTimeout(toast.t);toast.t=setTimeout(function(){e.classList.remove("on")},2400)}
+
+/* ---------- pencil pad ---------- */
+var PAD={strokes:[],cur:null,pen:false,bg:null,id:null,dirty:false};
+function initPad(c){PAD.strokes=[];PAD.cur=null;PAD.id=c.dataset.id;PAD.bg=null;PAD.dirty=false;var d=Math.min(window.devicePixelRatio||1,3),r=c.getBoundingClientRect();c.width=Math.round(r.width*d);c.height=Math.round(r.height*d);c._d=d;
+  var data=ls("canvas:"+PAD.id);var draw=function(src){var img=new Image();img.onload=function(){PAD.bg=img;padDraw(c)};img.src=src};
+  if(data)draw(data);else{var ci=ls("canvasIndex")||{};if(ci[PAD.id]&&S.gh)fetchCanvas(PAD.id).then(function(src){if(src)draw(src)})}
+  padDraw(c);
+  var pos=function(e){var b=c.getBoundingClientRect();return {x:(e.clientX-b.left)*c._d,y:(e.clientY-b.top)*c._d,p:e.pressure||.5}};
+  c.onpointerdown=function(e){if(e.pointerType==="touch"&&PAD.pen)return;if(e.pointerType==="pen")PAD.pen=true;try{c.setPointerCapture(e.pointerId)}catch(err){}PAD.cur={pen:e.pointerType==="pen",pts:[pos(e)]};e.preventDefault()};
+  c.onpointermove=function(e){if(!PAD.cur)return;if(e.pointerType==="touch"&&PAD.cur.pen)return;var evs=e.getCoalescedEvents?e.getCoalescedEvents():[e];evs.forEach(function(ev){PAD.cur.pts.push(pos(ev))});padDraw(c);e.preventDefault()};
+  c.onpointerup=c.onpointercancel=function(e){if(!PAD.cur)return;PAD.strokes.push(PAD.cur);PAD.cur=null;PAD.dirty=true;padDraw(c)}}
+function padDraw(c){var x=c.getContext("2d"),ink=getComputedStyle(document.body).color;x.clearRect(0,0,c.width,c.height);if(PAD.bg)x.drawImage(PAD.bg,0,0,c.width,c.height);
+  x.lineCap="round";x.lineJoin="round";x.strokeStyle=ink;PAD.strokes.concat(PAD.cur?[PAD.cur]:[]).forEach(function(s){var pts=s.pts;if(pts.length<2){x.beginPath();x.arc(pts[0].x,pts[0].y,1.4*c._d,0,7);x.fillStyle=ink;x.fill();return}
+    for(var i=1;i<pts.length;i++){x.beginPath();x.lineWidth=(s.pen?1+pts[i].p*3.2:2.2)*c._d;x.moveTo(pts[i-1].x,pts[i-1].y);x.lineTo(pts[i].x,pts[i].y);x.stroke()}})}
+function padSave(){var c=$("#pad");if(!c||!PAD.id||(!PAD.dirty&&!PAD.strokes.length))return;if(!PAD.strokes.length&&!PAD.bg)return;
+  var out=document.createElement("canvas"),scale=Math.min(1,1400/c.width),data="";for(var k=0;k<4;k++){out.width=Math.round(c.width*scale);out.height=Math.round(c.height*scale);var ox=out.getContext("2d");ox.fillStyle="#fff";ox.fillRect(0,0,out.width,out.height);ox.drawImage(c,0,0,out.width,out.height);data=out.toDataURL("image/png");if(data.length*0.75<300*1024)break;scale*=0.7}
+  ls("canvas:"+PAD.id,data);var ci=ls("canvasIndex")||{};ci[PAD.id]={at:new Date().toISOString(),dirty:true};ls("canvasIndex",ci);PAD.dirty=false;
+  var date=S.sheet&&S.sheet.date;if(date)saveState(date,function(x){x.practice=x.practice||{};x.practice.canvas=PAD.id;x.practice.at=new Date().toISOString()})}
 
 /* ---------- events ---------- */
 document.addEventListener("click",function(ev){var t=ev.target.closest("button,[data-close]");if(ev.target.id==="backdrop"){return closeSheet()}if(!t)return;var d=t.dataset,day=currentDay();
@@ -460,12 +569,20 @@ document.addEventListener("click",function(ev){var t=ev.target.closest("button,[
   var s=S.sheet;
   if(d.finish){saveState(s.date,function(x){x.done=x.done||{};x.done[d.finish]={at:new Date().toISOString()}});s.step="recall";renderSheet();var ta=$("#recallText");if(ta)ta.focus();return}
   if(d.undo){saveState(s.date,function(x){if(x.done)delete x.done[d.undo]});return closeSheet()}
-  if(d.saveRecall){var v=($("#recallText").value||"").trim();if(!v){toast("Write one sentence first");return}saveState(s.date,function(x){x.recall=x.recall||{};x.recall[d.saveRecall]=v});s.step="action";renderSheet();var at=$("#actionText");if(at)at.focus();return}
+  if(d.saveRecall){var v=($("#recallText").value||"").trim();if(!v){toast("Write one sentence first");return}saveState(s.date,function(x){x.recall=x.recall||{};x.recall[d.saveRecall]=v;x.recallAt=x.recallAt||{};x.recallAt[d.saveRecall]=new Date().toISOString()});s.step="action";renderSheet();var at=$("#actionText");if(at)at.focus();return}
   if(d.skipRecall){s.step="action";renderSheet();return}
   if(d.saveAction){var tx=($("#actionText").value||"").trim();if(!tx){toast("Name the action, or skip");return}var p=(S.days[s.date].picks||[]).filter(function(x){return x.id===d.saveAction})[0];addAction(tx,p?p.title:"");closeSheet();toast("Committed. 48 hours.");return}
   if(d.timer)return toggleTimer();
-  if(d.reveal){if(s.type==="practice"){var n=$("#practiceText");if(n)saveNote(s.date,n.value)}s.revealed=true;return renderSheet()}
-  if(d.practiceDone){var note=($("#practiceText").value||"").trim();saveState(s.date,function(x){x.practice={done:true,note:note,at:new Date().toISOString(),seconds:((+S.days[s.date].practice.minutes||0)*60)-timer.left}});closeSheet();toast("Rep logged");return}
+  if(d.reader!==undefined&&s){s.reader=d.reader==="1";return renderSheet()}
+  if(d.padUndo){PAD.strokes.pop();PAD.dirty=true;var pc=$("#pad");if(pc)padDraw(pc);return}
+  if(d.padClear){PAD.strokes=[];PAD.bg=null;PAD.dirty=true;var pc2=$("#pad");if(pc2)padDraw(pc2);return}
+  if(d.connect)return openSheet({type:"connect"});
+  if(d.connectSave){var key=(($("#ghKey")||{}).value||"").trim();if(!/^(github_pat_|ghp_)/.test(key)){toast("That does not look like a GitHub key");return}S.gh={token:key,device:(/iPad/.test(navigator.userAgent)||(navigator.maxTouchPoints>1&&/Macintosh/.test(navigator.userAgent)))?"iPad":/iPhone/.test(navigator.userAgent)?"iPhone":"device",since:new Date().toISOString()};ls("gh",S.gh);S.dirty=true;closeSheet();toast("Connecting…");syncNow("push").then(function(){toast(S.sync.status==="ok"?"Connected and synced":"Could not connect")});return}
+  if(d.syncNow){toast("Syncing…");syncNow("pull").then(function(){toast(S.sync.status==="ok"?"Up to date":"Sync failed");render()});return}
+  if(d.disconnect){S.gh=null;ls("gh",null);setSync("off");render();toast("Disconnected. Data stays on this device.");return}
+  if(d.export)return exportAll();
+  if(d.reveal){if(s.type==="practice"){var n=$("#practiceText");if(n)saveNote(s.date,n.value);padSave()}s.revealed=true;return renderSheet()}
+  if(d.practiceDone){padSave();var note=($("#practiceText").value||"").trim();saveState(s.date,function(x){x.practice={done:true,note:note,at:new Date().toISOString(),seconds:((+S.days[s.date].practice.minutes||0)*60)-timer.left}});closeSheet();toast("Rep logged");return}
   if(d.reviewRes!==undefined&&s&&s.type==="review"){var r=s.rv;saveState(r.date,function(x){x.reviews=x.reviews||{};var cur=x.reviews[r.pick.id]||{n:0};x.reviews[r.pick.id]={n:d.reviewRes==="1"?cur.n+1:cur.n,last:TODAY,misses:(cur.misses||0)+(d.reviewRes==="1"?0:1)}});closeSheet();toast(d.reviewRes==="1"?"It stuck. Next check is further out.":"Normal. It comes back once more.");return}
   if(d.actDone){return openSheet({type:"done",id:d.actDone})}
   if(d.doneSave){var a=clone(S.actions[d.doneSave]);a.status="done";a.doneAt=new Date().toISOString();var oc=d.skip?"":(($("#outcomeText")||{}).value||"").trim();if(oc)a.outcome=oc;saveAction(a);closeSheet();toast("Logged as tried");return}
@@ -482,8 +599,8 @@ document.addEventListener("submit",function(ev){if(ev.target.id!=="addForm")retu
   sh.addEventListener("touchmove",function(e){if(!g)return;var dy=e.touches[0].clientY-g.y;if(dy<=0||sh.scrollTop>0){if(g.dy){sh.style.transform=""}g.dy=0;return}g.dy=dy;sh.style.transition="none";sh.style.transform="translateY("+dy+"px)"},{passive:true});
   sh.addEventListener("touchend",function(){if(!g)return;var v=g.dy/Math.max(1,Date.now()-g.t);sh.style.transition="";if(g.dy>120||(g.dy>40&&v>.6)){sh.style.transform="";closeSheet()}else{sh.style.transform=""}g=null});
 })();
-document.addEventListener("keydown",function(ev){if(ev.key==="Escape"&&S.sheet)closeSheet()});
-function saveNote(date,v){saveState(date,function(x){x.practice=x.practice||{};x.practice.note=(v||"").trim()})}
+document.addEventListener("keydown",function(ev){if(ev.key==="Escape"&&S.sheet)return closeSheet();if(/^(INPUT|TEXTAREA)$/.test((ev.target||{}).tagName)||ev.metaKey||ev.ctrlKey)return;var m={"1":"today","2":"do","3":"balance"}[ev.key];if(m){S.view=m;render();window.scrollTo(0,0)}});
+function saveNote(date,v){saveState(date,function(x){x.practice=x.practice||{};x.practice.note=(v||"").trim();x.practice.at=new Date().toISOString()})}
 function addAction(text,from){var now=new Date(),due=new Date(now.getTime()+48*36e5);saveAction({id:uid(),text:text,from:from,createdAt:now.toISOString(),dueAt:due.toISOString(),status:"open"})}
 
 /* ---------- wave: restless lines that calm down as the day gets done ---------- */
@@ -507,9 +624,9 @@ function loadStatic(){return getJSON("editions/index.json").then(function(ix){va
   return Promise.all(dates.map(function(d){return getJSON("editions/"+d+".json").catch(function(){return null})})).then(function(arr){var days={};arr.forEach(function(x){if(x&&x.date)days[x.date]=x});
     if(!Object.keys(days).length)throw new Error("empty");S.days=days;
     return Promise.all([getJSON("editions/meta-sources.json").catch(function(){return null}),getJSON("editions/meta-profile.json").catch(function(){return null})])}).then(function(m){S.meta={};if(m[0])S.meta.sources=m[0];if(m[1])S.meta.profile=m[1];
-    if(S.mode!=="live"){S.states=ls("states")||{};S.actions=ls("actions")||{}}S.mode="live";TODAY=iso(new Date());if(!S.sheet)render()})})}
+    if(S.mode!=="live"){S.states=ls("states")||{};S.actions=ls("actions")||{}}S.mode="live";TODAY=iso(new Date());if(!S.sheet)render();if(S.gh&&!loadStatic.synced){loadStatic.synced=true;syncNow("pull")}})})}
 function collect(snap){var o={};snap.docs.forEach(function(d){o[d.id]=d.data()});return o}
-function start(){try{var v=localStorage.getItem("few:view");if(v==="do"||v==="balance")S.view=v}catch(e){}
+function start(){try{var v=localStorage.getItem("few:view");if(v==="do"||v==="balance")S.view=v}catch(e){}S.gh=ls("gh")||null;S.dirty=!!ls("dirty");S.sync.at=ls("syncAt")||"";fitLayout();
   render();
   var c=window.claude;if(!c||!c.use){S.static=true;return loadStatic().catch(useDemo)}
   c.use("db").then(function(db){if(!db){S.static=true;return loadStatic().catch(useDemo)}S.db=db;var fail=function(){if(S.mode==="loading")useDemo()};
@@ -519,7 +636,8 @@ function start(){try{var v=localStorage.getItem("few:view");if(v==="do"||v==="ba
     db.collection("meta").onSnapshot(function(s){S.meta=collect(s);if(S.mode==="live"&&!S.sheet)render()},fail);
   }).catch(useDemo)}
 start();
-document.addEventListener("visibilitychange",function(){if(!document.hidden&&S.static){var was=TODAY;loadStatic().then(function(){if(TODAY!==was){S.date=null;render()}}).catch(function(){})}});
+document.addEventListener("visibilitychange",function(){if(!document.hidden&&S.static){var was=TODAY;loadStatic().then(function(){if(TODAY!==was){S.date=null;render()}}).catch(function(){});if(S.gh)syncNow("pull")}});
+window.addEventListener("online",function(){if(S.gh)syncNow("push")});
 if("serviceWorker" in navigator&&!window.claude&&location.protocol==="https:"){navigator.serviceWorker.register("sw.js").catch(function(){})}
 })();
 </script>
