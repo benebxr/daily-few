@@ -1,10 +1,10 @@
 {
- "updated": "2026-09-25",
- "window": "cumulative since 16.09.2026; last sweep 24.-25.09.2026",
+ "updated": "2026-09-28",
+ "window": "cumulative since 16.09.2026; last sweep 28.09.2026",
  "sources": [
   {
    "name": "Open web discovery",
-   "scanned": 23,
+   "scanned": 25,
    "picked": 8
   },
   {
@@ -24,12 +24,12 @@
   },
   {
    "name": "Superhuman AI",
-   "scanned": 9,
+   "scanned": 12,
    "picked": 0
   },
   {
    "name": "The Neuron",
-   "scanned": 8,
+   "scanned": 10,
    "picked": 0
   },
   {
@@ -74,12 +74,12 @@
   },
   {
    "name": "AI Genius Lab",
-   "scanned": 2,
+   "scanned": 3,
    "picked": 0
   },
   {
    "name": "The Anthropic Stack",
-   "scanned": 3,
+   "scanned": 4,
    "picked": 0
   },
   {
@@ -104,17 +104,17 @@
   },
   {
    "name": "Elena's Growth Scoop",
-   "scanned": 2,
-   "picked": 2
+   "scanned": 3,
+   "picked": 3
   },
   {
    "name": "The Revenue Leadership Podcast",
-   "scanned": 16,
+   "scanned": 20,
    "picked": 3
   },
   {
    "name": "Growth Unhinged",
-   "scanned": 1,
+   "scanned": 2,
    "picked": 0
   },
   {
@@ -124,22 +124,22 @@
   },
   {
    "name": "Lenny's Podcast",
-   "scanned": 14,
+   "scanned": 18,
    "picked": 0
   },
   {
    "name": "EconTalk",
-   "scanned": 13,
+   "scanned": 17,
    "picked": 1
   },
   {
    "name": "The Knowledge Project",
-   "scanned": 13,
+   "scanned": 17,
    "picked": 0
   },
   {
    "name": "Masters of Scale",
-   "scanned": 16,
+   "scanned": 20,
    "picked": 0
   },
   {
@@ -149,7 +149,7 @@
   },
   {
    "name": "Mostly Metrics",
-   "scanned": 1,
+   "scanned": 2,
    "picked": 0
   },
   {
@@ -164,12 +164,12 @@
   },
   {
    "name": "Sifted",
-   "scanned": 1,
+   "scanned": 2,
    "picked": 0
   },
   {
    "name": "Faster Smarter",
-   "scanned": 2,
+   "scanned": 3,
    "picked": 0
   },
   {
@@ -189,8 +189,8 @@
   },
   {
    "name": "Run the Numbers",
-   "scanned": 9,
-   "picked": 0
+   "scanned": 13,
+   "picked": 1
   },
   {
    "name": "BenAI",
@@ -199,13 +199,28 @@
   },
   {
    "name": "In Our Time",
-   "scanned": 8,
+   "scanned": 12,
    "picked": 1
   },
   {
    "name": "Worklife with Molly Graham",
-   "scanned": 7,
+   "scanned": 11,
    "picked": 1
+  },
+  {
+   "name": "SaaStr AI",
+   "scanned": 1,
+   "picked": 0
+  },
+  {
+   "name": "How I AI",
+   "scanned": 1,
+   "picked": 0
+  },
+  {
+   "name": "20VC",
+   "scanned": 1,
+   "picked": 0
   }
  ]
 }

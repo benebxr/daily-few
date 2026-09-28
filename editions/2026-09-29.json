@@ -1,0 +1,91 @@
+{
+ "date": "2026-09-29",
+ "thesis": "Fewer pricing meters mean fewer fights, if the rules come first.",
+ "scanned": 77,
+ "sourcesScanned": 24,
+ "picks": [
+  {
+   "id": "0929-dillard",
+   "title": "LiveRamp’s CFO Rebuilt Pricing From Scratch | Lauren Dillard",
+   "source": "Run the Numbers",
+   "author": "CJ Gustafson, Lauren Dillard",
+   "url": "https://creators.spotify.com/pod/profile/cjgustafson222/episodes/LiveRamps-CFO-Rebuilt-Pricing-From-Scratch--Lauren-Dillard-e3pcra5",
+   "spotifyUrl": "https://open.spotify.com/episode/0IgWgzXfpR8UYuhXVlrtHu",
+   "published": "2026-09-28",
+   "shelf": "slow",
+   "mode": "listen",
+   "minutes": 50,
+   "track": "pro",
+   "domain": "Pricing and packaging",
+   "score": 74,
+   "why": "A public software company that replaced more than 25 usage metrics with 5 and one shared unit of consumption, told by the finance leader who ran it. That is the packaging problem most self-serve products grow into. The pricing part runs from about minute 15 to 30, so if time is short, start there. The summary below comes from the show notes and the company's investor materials, since the episode is one day old.",
+   "lookFor": [
+    "What made them treat pricing as a strategy question, and who owned the decision?",
+    "How did they sell a new unit of consumption to existing customers, and at what moment in the contract?",
+    "Which of your own meters would you merge first, and which customer would feel it most?"
+   ],
+   "gist": "Dillard came to the CFO role through investor relations, communications and a year as interim CMO, and argues that storytelling and influence matter as much as technical finance. The core of the episode is how the company tore down its commercial model, collapsed more than 25 usage metrics into 5, simplified quote-to-cash and created a 'token' as a common unit that customers can spend across products. The company's investor materials describe the tokens as fungible across its product lines, rolled out first as a pilot and then at renewal, with the aim of making it easier for customers to land small and expand. The episode also covers selling the new model, balancing new logos against expansion, and whether to move upmarket or down."
+  },
+  {
+   "id": "0929-verna",
+   "title": "Your company needs a pricing constitution.",
+   "source": "Elena's Growth Scoop",
+   "author": "Elena Verna",
+   "url": "https://www.elenaverna.com/p/pricing-constitution",
+   "published": "2026-09-22",
+   "shelf": "slow",
+   "mode": "read",
+   "minutes": 10,
+   "track": "pro",
+   "domain": "Pricing and packaging",
+   "score": 84,
+   "why": "Back once: it scored 84 last Wednesday and you haven't finished it yet. It pairs directly with today's listen, because her rule of one primary pricing metric is the rule the episode's company had to earn its way back to. The principles come from a product-led, freemium business, so check each one against a funnel where sales and self-serve share the customer.",
+   "lookFor": [
+    "Her rule is one primary metric. If you had to cut your meters to one, which would survive and why?",
+    "Which principle would the episode's move to a common token satisfy, and which might it break?",
+    "What is your own rule of engagement between self-serve and sales, written in one sentence?"
+   ],
+   "gist": "Verna argues that every company needs a written pricing and packaging philosophy so each new feature doesn't turn into its own negotiation. Her core principles: charge for added value and never for relief from friction you created yourself, price the outcome instead of the inputs, leave some value uncaptured on purpose where it drives distribution, keep to one primary pricing metric and at most four plans, and set clear rules of engagement between self-serve and sales. A small cross-functional council interprets the document. Her test is that a good constitution will sometimes cost you revenue."
+  }
+ ],
+ "practice": {
+  "id": "0929-p",
+  "type": "Argument",
+  "minutes": 12,
+  "title": "Defend the floor in a credit plan",
+  "prompt": "Pen and paper. Today a product bills three meters with no base fee: reports at 0.50 each, enrichments at 0.10 each and agent runs at 2.00 each. The proposal: one credit worth 0.10, so a report costs 5 credits, an enrichment 1 and an agent run 20, sold as a base plan of 100 a month that includes 1,000 credits, with extra credits at 0.10. (1) What does a typical customer pay today and under the new plan if they use 60 reports, 400 enrichments and 20 agent runs a month? What about a light customer with 20 reports and 100 enrichments? (2) Write the strongest three-sentence case for keeping the floor of 100, then the strongest case against it. (3) Decide, and name the one number you would watch to find out whether you were wrong.",
+  "reveal": "1. Typical today: 60 × 0.50 = 30, 400 × 0.10 = 40, 20 × 2.00 = 40, so 110. Credits: 300 + 400 + 400 = 1,100. New plan: 100 for the first 1,000 credits plus 100 × 0.10 = 10, so 110 again. Light today: 10 + 10 = 20. Credits: 100 + 100 = 200, well inside the plan, so they pay 100, five times as much.\n2. For the floor: it turns a bill that swings with usage into a commitment you can forecast, it pays for serving and supporting every account, and it gives the light user room to try the other products without thinking about cost. Against: the light user is often the one who hasn't activated yet, and a fivefold jump pushes them out before they get there. It also goes against leaving value uncaptured where it drives distribution.\n3. A common answer is a lower entry plan (for example 30 with 300 credits) for new or light accounts, with the 100 plan as the default for everyone else. The number to watch is how many light accounts churn or downgrade in the first two renewals after the change, compared with how many move up to the typical tier."
+ },
+ "cuts": [
+  {
+   "title": "Stripe’s AI CRO on the Fastest-Growing AI Companies: 175% Growth, 48% of Revenue From Outside the Home Market, and…",
+   "source": "SaaStr AI",
+   "reason": "Useful rules for hybrid pricing and for when an account graduates from self-serve to sales, but mostly one vendor's data on AI companies. Queued as a follow-up to today's pricing picks."
+  },
+  {
+   "title": "The 2026 State of B2B SaaS and AI Monetization Report",
+   "source": "Growth Unhinged",
+   "reason": "The free part is a summary of a paywalled report, and today's picks cover the shift to hybrid pricing in more depth."
+  },
+  {
+   "title": "The grief, loneliness, and burnout sweeping through the tech industry right now | Molly Graham",
+   "source": "Lenny's Podcast",
+   "reason": "94 minutes, over a short day's budget, and general leadership with no line to a live problem."
+  },
+  {
+   "title": "Public Choice and Politics Without Romance (with Mike Munger)",
+   "source": "EconTalk",
+   "reason": "A solid economics listen at 80 minutes. Queued for a weekend slot."
+  },
+  {
+   "title": "Cash might be king, but cash is dead.",
+   "source": "Mostly Metrics",
+   "reason": "A consumer fintech essay, far from your problems."
+  },
+  {
+   "title": "Did OpenAI lose control? (and similar)",
+   "source": "The Neuron, Superhuman AI, How I AI",
+   "reason": "News cycle and model comparisons. Nothing to act on this month."
+  }
+ ]
+}
