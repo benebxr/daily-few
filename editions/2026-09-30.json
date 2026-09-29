@@ -1,0 +1,91 @@
+{
+ "date": "2026-09-30",
+ "thesis": "Budget AI by what your best users spend, then ramp the rest.",
+ "scanned": 71,
+ "sourcesScanned": 26,
+ "picks": [
+  {
+   "id": "0930-tokens",
+   "title": "A Guide to Budgeting for Token Costs this Annual Planning Season",
+   "source": "Mostly Metrics",
+   "author": "CJ Gustafson",
+   "url": "https://www.mostlymetrics.com/p/a-guide-to-budgeting-for-token-costs-this-annual-planning-season",
+   "published": "2026-09-29",
+   "shelf": "fast",
+   "mode": "read",
+   "minutes": 12,
+   "track": "pro",
+   "domain": "AI enablement",
+   "score": 74,
+   "why": "If you want a whole team using AI, someone has to put a number on it, and the average user is the wrong basis for that number. This gives you three ways to budget and a clear pick among them. The adoption figures at the top come from the newsletter sponsor's card data, so read them as a floor and skip ahead to the method.",
+   "lookFor": [
+    "Why does budgeting by the average user hide the thing you actually want to plan for?",
+    "What would the top-decile user look like in each role on your team, and how do you check they are productive rather than wasteful?",
+    "How many quarters of ramp would you assume, and what would tell you it is going faster or slower?"
+   ],
+   "gist": "Gustafson joins a spend export to the headcount roster so every dollar of AI spend has a person, department and role attached, then looks at spend per head instead of in total. Three budgeting methods follow: spend per head times next year's headcount (a sanity check only, because a few heavy users skew it), AI as a percentage uplift on base comp (good for communicating upward, useless for allocation), and 'frontier convergence', where each role is budgeted at what its top-decile users spend today and everyone else ramps toward that over several quarters, plus a margin of error. He recommends the third, smoothing outliers with the top decile rather than the single highest spender, and warns against cancelling silent seats before asking whether anyone showed those people how to use them."
+  },
+  {
+   "id": "0930-finn",
+   "title": "The CFO-COO Is Coming: Meredith Finn of Front on the Future of Finance",
+   "source": "Run the Numbers",
+   "author": "CJ Gustafson, Meredith Finn",
+   "url": "https://creators.spotify.com/pod/profile/cjgustafson222/episodes/The-CFO-COO-Is-Coming-Meredith-Finn-of-Front-on-the-Future-of-Finance-e3ne1ij",
+   "spotifyUrl": "https://open.spotify.com/episode/5tzFxbuhLnghS5erydC73v",
+   "published": "2026-08-17",
+   "shelf": "fast",
+   "mode": "listen",
+   "minutes": 54,
+   "track": "pro",
+   "domain": "AI enablement",
+   "score": 69,
+   "why": "The frontier method in today's read is hers, and here she explains the reasoning behind it, then how a mature software company sizes and funds new bets. Both picks come from the same host, so treat this as one argument heard twice, and listen for where she is less certain than the written version. If time is short, play 25:42 to 40:04 (AI costs and sizing bets) and 43:18 to 50:11 (pricing and customer P&L).",
+   "lookFor": [
+    "Why does she treat internal usage as a benchmark, and what would make that benchmark misleading?",
+    "How does she split bets into core, adjacent and moonshot, and who gets to decide which bucket a bet is in?",
+    "What does she say rolling out AI takes beyond handing people the tools, and which part of that would you own?"
+   ],
+   "gist": "Finn runs both finance and operations at a mature software company and argues that the finance leader increasingly takes on the operator's job, and she explains where the two roles pull against each other. In the middle of the episode she covers how to budget for AI token costs, using the company's own internal usage as the benchmark, and why rolling out AI takes more coordination than buying tools for everyone. She then covers funding an early-stage bet inside a late-stage company, sizing bets as core, adjacent or moonshot, going deeper with existing customers to re-accelerate growth, what a pricing overhaul taught her, and why a customer-level P&L matters."
+  }
+ ],
+ "practice": {
+  "id": "0930-p",
+  "type": "Estimate",
+  "minutes": 12,
+  "title": "Price a team's AI budget three ways",
+  "prompt": "Pen and paper. A 40-person commercial team spends this much per person per month on AI today, on average and at the top decile: 24 sellers at 60 and 300, 10 marketers at 90 and 400, 6 operations analysts at 150 and 600. (1) Method one: today's total monthly spend times 12, with flat headcount. (2) Method three, frontier convergence: each role closes the gap between its average and its top decile by a quarter each quarter, so 25%, 50%, 75% and 100% of the gap in Q1 to Q4. What is the annual budget, and what is it with a 15% margin of error? (3) What monthly run rate do you exit the year at, and what does that mean for next year's budget? Estimate first, then work it out.",
+  "reveal": "1. Today: 24 × 60 = 1,440, 10 × 90 = 900, 6 × 150 = 900, so 3,240 a month and 38,880 a year.\n2. Over the year the average quarter closes 62.5% of the gap (25 + 50 + 75 + 100, divided by 4). Sellers: gap 240, × 0.625 = 150, so 210 a month × 24 × 12 = 60,480. Marketers: gap 310, × 0.625 = 193.75, so 283.75 × 10 × 12 = 34,050. Operations: gap 450, × 0.625 = 281.25, so 431.25 × 6 × 12 = 31,050. Total 125,580, about 3.2 times method one. With 15%: 125,580 + 18,837 = 144,417.\n3. At full convergence: 24 × 300 = 7,200, 10 × 400 = 4,000, 6 × 600 = 3,600, so 14,800 a month, or 177,600 a year. Next year starts above this year's whole budget before any new headcount, which is the number to show whoever signs off, together with the output you expect in return."
+ },
+ "cuts": [
+  {
+   "title": "E72: I Collapsed My GTM Org Chart. This Is Why | Ian Tickle, CRO @ Freshworks",
+   "source": "The Revenue Leadership Podcast",
+   "reason": "Scored 86 and still unfinished, so it could come back once, but at 77 minutes it doesn't fit a short day."
+  },
+  {
+   "title": "Everyone Should Publish the Deepest, Most Direct Competitive Evals They Can. Case Study: $100m ARR Gorgias for AI",
+   "source": "SaaStr",
+   "reason": "Judged from the mail: one vendor's case for publishing head-to-head tests of support agents, with little you could reuse."
+  },
+  {
+   "title": "All of the Lenny & Friends Summit talks are now online",
+   "source": "Lenny's Newsletter",
+   "reason": "A list of conference talks for product leaders. None ties to a live problem more closely than today's picks."
+  },
+  {
+   "title": "Bill Ackman: The Biggest Fight of His Life",
+   "source": "The Knowledge Project",
+   "reason": "A personal-track listen at 78 minutes on a weekday, and more biography than investing method."
+  },
+  {
+   "title": "Rapid Response: Stop creating businesses. Buy one instead, with Codie Sanchez",
+   "source": "Masters of Scale",
+   "reason": "Small-business acquisition, far from your problems."
+  },
+  {
+   "title": "Your AI agent needs an agent (and similar)",
+   "source": "The Neuron, Superhuman AI",
+   "reason": "News cycle. Nothing to act on this month."
+  }
+ ]
+}

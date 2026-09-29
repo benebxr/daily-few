@@ -1,10 +1,10 @@
 {
- "updated": "2026-09-28",
- "window": "cumulative since 16.09.2026; last sweep 28.09.2026",
+ "updated": "2026-09-29",
+ "window": "cumulative since 16.09.2026; last sweep 29.09.2026",
  "sources": [
   {
    "name": "Open web discovery",
-   "scanned": 25,
+   "scanned": 29,
    "picked": 8
   },
   {
@@ -19,37 +19,37 @@
   },
   {
    "name": "Tomasz Tunguz",
-   "scanned": 2,
+   "scanned": 3,
    "picked": 1
   },
   {
    "name": "Superhuman AI",
-   "scanned": 12,
+   "scanned": 15,
    "picked": 0
   },
   {
    "name": "The Neuron",
-   "scanned": 10,
+   "scanned": 13,
    "picked": 0
   },
   {
    "name": "Doomberg",
-   "scanned": 3,
-   "picked": 0
-  },
-  {
-   "name": "Think Fast Talk Smart",
    "scanned": 4,
    "picked": 0
   },
   {
-   "name": "Big Think",
+   "name": "Think Fast Talk Smart",
    "scanned": 5,
    "picked": 0
   },
   {
+   "name": "Big Think",
+   "scanned": 7,
+   "picked": 0
+  },
+  {
    "name": "The Diff",
-   "scanned": 2,
+   "scanned": 3,
    "picked": 0
   },
   {
@@ -59,7 +59,7 @@
   },
   {
    "name": "Lenny's Newsletter",
-   "scanned": 4,
+   "scanned": 5,
    "picked": 0
   },
   {
@@ -74,12 +74,12 @@
   },
   {
    "name": "AI Genius Lab",
-   "scanned": 3,
+   "scanned": 5,
    "picked": 0
   },
   {
    "name": "The Anthropic Stack",
-   "scanned": 4,
+   "scanned": 5,
    "picked": 0
   },
   {
@@ -89,7 +89,7 @@
   },
   {
    "name": "Executive Brand",
-   "scanned": 3,
+   "scanned": 4,
    "picked": 0
   },
   {
@@ -109,7 +109,7 @@
   },
   {
    "name": "The Revenue Leadership Podcast",
-   "scanned": 20,
+   "scanned": 23,
    "picked": 3
   },
   {
@@ -124,22 +124,22 @@
   },
   {
    "name": "Lenny's Podcast",
-   "scanned": 18,
+   "scanned": 19,
    "picked": 0
   },
   {
    "name": "EconTalk",
-   "scanned": 17,
+   "scanned": 18,
    "picked": 1
   },
   {
    "name": "The Knowledge Project",
-   "scanned": 17,
+   "scanned": 18,
    "picked": 0
   },
   {
    "name": "Masters of Scale",
-   "scanned": 20,
+   "scanned": 24,
    "picked": 0
   },
   {
@@ -149,8 +149,8 @@
   },
   {
    "name": "Mostly Metrics",
-   "scanned": 2,
-   "picked": 0
+   "scanned": 4,
+   "picked": 1
   },
   {
    "name": "GTM Engineer Pulse",
@@ -164,7 +164,7 @@
   },
   {
    "name": "Sifted",
-   "scanned": 2,
+   "scanned": 4,
    "picked": 0
   },
   {
@@ -189,8 +189,8 @@
   },
   {
    "name": "Run the Numbers",
-   "scanned": 13,
-   "picked": 1
+   "scanned": 16,
+   "picked": 2
   },
   {
    "name": "BenAI",
@@ -199,12 +199,12 @@
   },
   {
    "name": "In Our Time",
-   "scanned": 12,
+   "scanned": 13,
    "picked": 1
   },
   {
    "name": "Worklife with Molly Graham",
-   "scanned": 11,
+   "scanned": 13,
    "picked": 1
   },
   {
@@ -214,11 +214,16 @@
   },
   {
    "name": "How I AI",
-   "scanned": 1,
+   "scanned": 2,
    "picked": 0
   },
   {
    "name": "20VC",
+   "scanned": 1,
+   "picked": 0
+  },
+  {
+   "name": "SaaStr",
    "scanned": 1,
    "picked": 0
   }
