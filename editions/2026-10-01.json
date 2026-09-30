@@ -1,0 +1,91 @@
+{
+ "date": "2026-10-01",
+ "thesis": "A curve shows when people buy. Only a test shows what made them.",
+ "scanned": 70,
+ "sourcesScanned": 27,
+ "picks": [
+  {
+   "id": "1001-upsell",
+   "title": "The 30-day upsell window",
+   "source": "Growth Unhinged",
+   "author": "Kyle Poyar",
+   "url": "https://www.growthunhinged.com/p/the-30-day-upsell-window",
+   "published": "2026-09-30",
+   "shelf": "slow",
+   "mode": "read",
+   "minutes": 9,
+   "track": "pro",
+   "domain": "Pricing and activation",
+   "score": 77,
+   "why": "Fresh cohort data on when self-serve customers add seats, move up a plan or come back after cancelling, with a lifecycle checklist for each. The data comes from the metrics platform where the author is analyst-in-residence and covers mostly plans under 100 a month. The curves are observational, so read the claim that customers are more persuadable early as a hypothesis to test, which is what the second pick is about.",
+   "lookFor": [
+    "Which part of the month-one spike could come from customers who were always going to upgrade, prompt or no prompt?",
+    "Why does he think seat expansion is weaker for AI-native products, and what would you need to see to believe it?",
+    "Which one of the win-back steps could you switch on this month with no engineering work?"
+   ],
+   "gist": "Using 10.5 million purchases across about 4,000 private software companies, Poyar finds seat upgrades peak in the first month (0.83%) and fall to 0.09% by month 11, and plan upgrades fall from 0.75% in month one to 0.16% by month four, with about 40% of first-year plan upgrades landing at the month-12 renewal. SaaS products see roughly twice the seat expansion and nearly three times the plan upgrades of AI-native products, while AI-native products win back more churned customers, close to 10% versus a few points less for SaaS. He recommends early invite flows and share moments, trials of the next tier soon after purchase, pairing the renewal with a value review, and a win-back sequence at day 1, 30 and 60 after cancellation."
+  },
+  {
+   "id": "1001-fbrct",
+   "title": "A Comparison of Approaches to Advertising Measurement: Evidence from Big Field Experiments at Facebook (white paper, long version)",
+   "source": "Kellogg School of Management",
+   "author": "Brett Gordon, Florian Zettelmeyer, Neha Bhargava, Dan Chapsky",
+   "url": "https://www.kellogg.northwestern.edu/faculty/gordon_b/files/kellogg_fb_whitepaper.pdf",
+   "published": "2016-07",
+   "shelf": "evergreen",
+   "holds": "The later journal version (2019) and a follow-up on 663 experiments (2023) reach the same verdict: even rich user data and machine-learning adjustments do not reliably recover the lift a randomised test measures. The ad formats, cookie-level targeting and data access described have aged; the logic of selection bias and the spread of single matched-market tests have not.",
+   "mode": "read",
+   "minutes": 20,
+   "track": "pro",
+   "domain": "Measurement science",
+   "score": 86,
+   "why": "Written for marketing executives, and the most direct evidence you'll find on how far one matched-market test can land from the true lift. 20 minutes is an estimate for section 1, the matched-market part of section 3, section 6 and the first question of the FAQ in section 7. Skip the propensity-matching detail. It was queued after the Lewis and Rao paper and stands on its own.",
+   "lookFor": [
+    "In the opening example, which two differences between exposed and unexposed customers explain most of the gap?",
+    "With the same 40 markets, how wide is the range of lifts a single matched-market test can report, and what does that do to your own geo design?",
+    "Which three questions do they tell you to ask any platform that says it uses a control group?"
+   ],
+   "gist": "The authors take 12 large randomised ad studies at Facebook and rebuild the common observational estimates from the same data: exposed versus unexposed, exact matching, propensity matching, regression adjustment, matched-market tests and before-after comparisons. Even the best individual-level method was off by 173% on average against an average true lift of 57%, mostly overstating it, and there was no way to tell in advance when a method would come close. Matched-market tests were not biased on average, but a single test on 40 markets could report anything from about -2% to 80% when the true lift was 33%, and 80 markets did not fix it. Before-after comparisons failed because conversion rates drifted even over a few weeks."
+  }
+ ],
+ "practice": {
+  "id": "1001-p",
+  "type": "Teach-back",
+  "minutes": 12,
+  "title": "Explain why the month-one spike is not yet proof",
+  "prompt": "Pen and paper, one page. A colleague reads today's upsell data and wants to move every upgrade prompt into the first week, because plan upgrades run at 0.75% in month one and 0.16% in month four. Write what you would say to them in plain words: (1) two reasons the curve could look like this even if prompt timing made no difference; (2) how the jewelry example in the white paper is the same mistake; (3) a test that would settle it: who gets randomised, into which arms, and which number you compare after twelve months. (4) Check: roughly how many new customers per arm do you need to see a rise from 0.75% to 1.0%? Use n ≈ 16 × p × (1 - p) / d². Write your answer before you open the reveal.",
+  "reveal": "1. Selection: customers who will ever upgrade tend to be the ones with the clearest need, and they act fast, so the curve front-loads without any prompt doing work. Mechanics: month one includes people still finding the right plan size, which is fixing a first purchase more than being persuaded. Survivorship adds to it: by month four the most eager upgraders have already upgraded.\n2. In the white paper, the exposed group converted more because it was mostly the likely buyers, who were targeted in the first place. Here the early upgraders are the likely upgraders. In both cases you compare people who differ before anything happened to them.\n3. Randomise new paying customers at signup into three arms: prompt in week one, prompt in month four, no prompt. Compare the share who have upgraded, and net revenue per customer, at month twelve, after the renewal, so an early prompt that only pulls forward an upgrade that would have happened at renewal is not counted as a gain.\n4. p = 0.0075, d = 0.0025. p × (1 - p) = 0.0075 × 0.9925 ≈ 0.00744. 16 × 0.00744 ≈ 0.119. d² = 0.00000625. 0.119 / 0.00000625 ≈ 19,000 per arm, so about 57,000 new customers across three arms. If that is more than a quarter of signups, test the rarer seat-invite prompt later and start with the arm you can power."
+ },
+ "cuts": [
+  {
+   "title": "Close Enough? A Large-Scale Exploration of Non-Experimental Approaches to Advertising Measurement",
+   "source": "Marketing Science (arXiv preprint)",
+   "reason": "The 663-experiment sequel to today's paper. It confirms the verdict, but it's written for econometricians, and the abstract is enough for now."
+  },
+  {
+   "title": "E72: I Collapsed My GTM Org Chart. This Is Why | Ian Tickle, CRO @ Freshworks",
+   "source": "The Revenue Leadership Podcast",
+   "reason": "Still unfinished and scored 86, but 77 minutes doesn't fit a short day. Kept for a weekend."
+  },
+  {
+   "title": "Segmentation Drives Market Share Wins in AI",
+   "source": "Tomasz Tunguz",
+   "reason": "Market-share commentary on model vendors. News cycle, nothing to act on."
+  },
+  {
+   "title": "Halloween meets GLP-1s: Hershey's candy Super Bowl, with CEO Kirk Tanner",
+   "source": "Masters of Scale",
+   "reason": "Consumer brand marketing, far from your problems."
+  },
+  {
+   "title": "Can AI really teach your kids? with Leah Belsky",
+   "source": "WorkLife",
+   "reason": "Education, with no line to a live problem."
+  },
+  {
+   "title": "Dots is here. OpenAI's bigger bet (and similar)",
+   "source": "The Neuron, Superhuman AI",
+   "reason": "News cycle. Nothing to act on this month."
+  }
+ ]
+}

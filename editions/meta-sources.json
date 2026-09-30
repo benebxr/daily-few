@@ -1,11 +1,11 @@
 {
- "updated": "2026-09-29",
- "window": "cumulative since 16.09.2026; last sweep 29.09.2026",
+ "updated": "2026-09-30",
+ "window": "cumulative since 16.09.2026; last sweep 30.09.2026",
  "sources": [
   {
    "name": "Open web discovery",
-   "scanned": 29,
-   "picked": 8
+   "scanned": 32,
+   "picked": 9
   },
   {
    "name": "MKT1 Newsletter",
@@ -19,22 +19,22 @@
   },
   {
    "name": "Tomasz Tunguz",
-   "scanned": 3,
+   "scanned": 5,
    "picked": 1
   },
   {
    "name": "Superhuman AI",
-   "scanned": 15,
+   "scanned": 17,
    "picked": 0
   },
   {
    "name": "The Neuron",
-   "scanned": 13,
+   "scanned": 15,
    "picked": 0
   },
   {
    "name": "Doomberg",
-   "scanned": 4,
+   "scanned": 5,
    "picked": 0
   },
   {
@@ -44,12 +44,12 @@
   },
   {
    "name": "Big Think",
-   "scanned": 7,
+   "scanned": 9,
    "picked": 0
   },
   {
    "name": "The Diff",
-   "scanned": 3,
+   "scanned": 4,
    "picked": 0
   },
   {
@@ -59,7 +59,7 @@
   },
   {
    "name": "Lenny's Newsletter",
-   "scanned": 5,
+   "scanned": 7,
    "picked": 0
   },
   {
@@ -74,22 +74,22 @@
   },
   {
    "name": "AI Genius Lab",
-   "scanned": 5,
+   "scanned": 6,
    "picked": 0
   },
   {
    "name": "The Anthropic Stack",
-   "scanned": 5,
+   "scanned": 6,
    "picked": 0
   },
   {
    "name": "The Pragmatic Engineer",
-   "scanned": 4,
+   "scanned": 5,
    "picked": 0
   },
   {
    "name": "Executive Brand",
-   "scanned": 4,
+   "scanned": 5,
    "picked": 0
   },
   {
@@ -114,8 +114,8 @@
   },
   {
    "name": "Growth Unhinged",
-   "scanned": 2,
-   "picked": 0
+   "scanned": 3,
+   "picked": 1
   },
   {
    "name": "The Official SaaStr Podcast",
@@ -124,22 +124,22 @@
   },
   {
    "name": "Lenny's Podcast",
-   "scanned": 19,
+   "scanned": 20,
    "picked": 0
   },
   {
    "name": "EconTalk",
-   "scanned": 18,
+   "scanned": 19,
    "picked": 1
   },
   {
    "name": "The Knowledge Project",
-   "scanned": 18,
+   "scanned": 19,
    "picked": 0
   },
   {
    "name": "Masters of Scale",
-   "scanned": 24,
+   "scanned": 28,
    "picked": 0
   },
   {
@@ -149,7 +149,7 @@
   },
   {
    "name": "Mostly Metrics",
-   "scanned": 4,
+   "scanned": 5,
    "picked": 1
   },
   {
@@ -164,7 +164,7 @@
   },
   {
    "name": "Sifted",
-   "scanned": 4,
+   "scanned": 5,
    "picked": 0
   },
   {
@@ -189,7 +189,7 @@
   },
   {
    "name": "Run the Numbers",
-   "scanned": 16,
+   "scanned": 18,
    "picked": 2
   },
   {
@@ -199,7 +199,7 @@
   },
   {
    "name": "In Our Time",
-   "scanned": 13,
+   "scanned": 14,
    "picked": 1
   },
   {
@@ -224,7 +224,17 @@
   },
   {
    "name": "SaaStr",
+   "scanned": 2,
+   "picked": 0
+  },
+  {
+   "name": "Ruben Hassid",
    "scanned": 1,
+   "picked": 0
+  },
+  {
+   "name": "WorkLife",
+   "scanned": 2,
    "picked": 0
   }
  ]
