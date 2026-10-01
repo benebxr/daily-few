@@ -1,0 +1,91 @@
+{
+ "date": "2026-10-02",
+ "thesis": "Price only what you can bill, and gate what you want to sell.",
+ "scanned": 67,
+ "sourcesScanned": 31,
+ "picks": [
+  {
+   "id": "1002-q2c",
+   "title": "Your Complete Guide to Quote to Cash: Part 1",
+   "source": "Mostly Metrics",
+   "author": "CJ Gustafson",
+   "url": "https://www.mostlymetrics.com/p/your-complete-guide-to-quote-to-cash-part-1-7f55",
+   "published": "2026-10-01",
+   "shelf": "slow",
+   "mode": "read",
+   "minutes": 9,
+   "track": "pro",
+   "domain": "Pricing and packaging",
+   "score": 71,
+   "why": "A short map of the first four layers between a price page and cash: pricing and packaging, quoting, contracting, entitlements. Two ideas earn the slot: test whether a deal is billable before it is signed, and treat entitlements and usage caps as an upgrade mechanism, which ties back to yesterday's upsell timing. It is part 1 of 3 and written for finance leaders, so the billing layer, where usage pricing gets hard, comes next week.",
+   "lookFor": [
+    "Where in your own funnel does a sold or self-served plan first turn out to be hard to bill or enforce?",
+    "If credits pool at the account level instead of the user level, who in the customer feels the cap, and does that person buy the next tier?",
+    "Which of your current limits works as a wall people feel and pay to pass, and which one only annoys them?"
+   ],
+   "gist": "Gustafson defines quote-to-cash as turning the price list into money and argues it starts before the quote and runs through sales, product, finance, accounting and legal, with no single natural owner. He sees hybrid pricing (a monthly fee with included usage plus overage) and credits with automatic top-ups as the dominant models, and says pricing needs an owner and a process or discounting and SKU counts sprawl. For contracts he recommends generating the next month's invoice before the contract goes out for signature, because that is when teams find out what was sold cannot be billed. He frames entitlements, such as model access limits and usage caps, as both leakage control and an upsell lever, using a consumer app that caps a connector at five writes on its basic plan."
+  },
+  {
+   "id": "1002-stripe",
+   "title": "The Stripe Guide to Pricing, Billing, and Quote-to-Cash with Wisam Hirzalla",
+   "source": "Run the Numbers",
+   "author": "CJ Gustafson, Wisam Hirzalla",
+   "url": "https://creators.spotify.com/pod/profile/cjgustafson222/episodes/The-Stripe-Guide-to-Pricing--Billing--and-Quote-to-Cash-with-Wisam-Hirzalla-e3nkpc2",
+   "spotifyUrl": "https://open.spotify.com/episode/41pzrT3d8yj535EFu4BH8T",
+   "published": "2026-08-20",
+   "shelf": "slow",
+   "mode": "listen",
+   "minutes": 55,
+   "track": "pro",
+   "domain": "Pricing and packaging",
+   "score": 68,
+   "why": "The conversation the written guide is built on, with the head of product for a large billing platform. It goes deeper where the read stops: pricing and packaging mistakes, the pricing models AI is pushing forward, why usage billing is hard, and tokens as a pricing unit. If time is short, play 7:50 to 18:11 and 27:21 to 43:36 (about 27 minutes). The gist comes from the show notes and the written guide, so treat it as a map, and note the guest speaks from a vendor's seat.",
+   "lookFor": [
+    "Which packaging mistakes does she see most often, and which one would show up first in a self-serve funnel?",
+    "What makes usage-based billing hard in practice, and which of those problems would you meet before you reach any scale?",
+    "Does she treat tokens as a unit customers should see, or as a cost the vendor should translate into something else?"
+   ],
+   "gist": "Gustafson and Hirzalla trace a dollar through eight layers: pricing and packaging, quoting, contracting, billing, provisioning and entitlements, tax, collections and revenue recognition. The episode spends most time on packaging mistakes, the pricing models rising with AI, the complexity of usage-based billing, tokens as a pricing unit and billing moving out of the general ledger system. They close on when billing stopped being back office and whether AI will replace finance jobs."
+  }
+ ],
+ "practice": {
+  "id": "1002-p",
+  "type": "Mental math",
+  "minutes": 12,
+  "title": "Put a wall in front of your heaviest users",
+  "prompt": "Pen and paper, no calculator. A self-serve plan costs 50 a month and includes 1,000 credits. There is no cap today. You have 2,000 accounts: the heaviest 200 use 4,000 credits a month on average, the other 1,800 use 400. Each credit costs you 0.02 to serve. (1) What are monthly revenue, serving cost and gross margin? (2) How much do the heaviest 200 earn or lose you per account per month? (3) You add a hard cap at 1,000 credits with automatic top-ups at 0.04 per credit. If the heaviest 200 keep their usage and pay, what are revenue and gross margin now? (4) What does each heavy account contribute if it pays, if it cuts back to exactly 1,000 credits, and if it leaves? What does that tell you about where the real risk of the cap sits? Write your answers before you open the reveal.",
+  "reveal": "1. Credits: 200 × 4,000 = 800,000 plus 1,800 × 400 = 720,000, so 1,520,000. Cost: 1,520,000 × 0.02 = 30,400. Revenue: 2,000 × 50 = 100,000. Gross profit 69,600, margin 69.6%.\n2. Each heavy account costs 4,000 × 0.02 = 80 and pays 50, so it loses 30 a month. Together: -6,000. The other 1,800 pay 90,000 and cost 14,400.\n3. Overage: 3,000 credits × 200 accounts = 600,000 credits × 0.04 = 24,000. Revenue 124,000, cost still 30,400, gross profit 93,600, margin 93,600 / 124,000 ≈ 75.5%.\n4. Pays: 50 + 120 = 170 revenue, 80 cost, +90. Cuts back: 50 revenue, 20 cost, +30. Leaves: 0. All three beat today's -30, so on gross profit the cap wins at any mix. The risk sits elsewhere: heavy users are often your champions, referrers and the accounts most likely to expand to a team plan. Before you ship the cap, write the next month's invoice for one heavy account, as today's read suggests, and decide who talks to the top 200 before they hit the wall."
+ },
+ "cuts": [
+  {
+   "title": "Zuora's COFO On Going Private and Pricing AI | Todd McElhatton",
+   "source": "Run the Numbers",
+   "reason": "Fresh, but pricing is only the first third of a broad CFO interview, and this week already carried two episodes of the show."
+  },
+  {
+   "title": "Credits Aren't a Strategy: Rethinking AI Pricing Models",
+   "source": "GTM in Practice (Stage 2 Capital)",
+   "reason": "Sound rules for credit pricing, but short and thinner than today's pair."
+  },
+  {
+   "title": "7 Top CRO Tips on Annual Planning",
+   "source": "The GTM Newsletter",
+   "reason": "A listicle for planning season with unsourced numbers. Nothing you would change on Monday."
+  },
+  {
+   "title": "Harness Engineering: Your Complete Guide",
+   "source": "AI by Aakash",
+   "reason": "Product-builder craft, not tied to a live problem right now."
+  },
+  {
+   "title": "328. Ask Matt Anything: Don't Let Your Communication Fizzle at the Finish",
+   "source": "Think Fast Talk Smart",
+   "reason": "Short listener Q&A on presentation endings. Useful, but general."
+  },
+  {
+   "title": "Is Gemini back? (and similar)",
+   "source": "Superhuman AI, The Neuron",
+   "reason": "News cycle. Nothing to act on this month."
+  }
+ ]
+}

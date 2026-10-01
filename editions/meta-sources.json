@@ -1,10 +1,10 @@
 {
- "updated": "2026-09-30",
- "window": "cumulative since 16.09.2026; last sweep 30.09.2026",
+ "updated": "2026-10-01",
+ "window": "cumulative since 16.09.2026; last sweep 01.10.2026",
  "sources": [
   {
    "name": "Open web discovery",
-   "scanned": 32,
+   "scanned": 38,
    "picked": 9
   },
   {
@@ -24,12 +24,12 @@
   },
   {
    "name": "Superhuman AI",
-   "scanned": 17,
+   "scanned": 19,
    "picked": 0
   },
   {
    "name": "The Neuron",
-   "scanned": 15,
+   "scanned": 17,
    "picked": 0
   },
   {
@@ -39,12 +39,12 @@
   },
   {
    "name": "Think Fast Talk Smart",
-   "scanned": 5,
+   "scanned": 6,
    "picked": 0
   },
   {
    "name": "Big Think",
-   "scanned": 9,
+   "scanned": 10,
    "picked": 0
   },
   {
@@ -69,7 +69,7 @@
   },
   {
    "name": "AI by Aakash",
-   "scanned": 2,
+   "scanned": 3,
    "picked": 0
   },
   {
@@ -84,7 +84,7 @@
   },
   {
    "name": "The Pragmatic Engineer",
-   "scanned": 5,
+   "scanned": 6,
    "picked": 0
   },
   {
@@ -114,7 +114,7 @@
   },
   {
    "name": "Growth Unhinged",
-   "scanned": 3,
+   "scanned": 4,
    "picked": 1
   },
   {
@@ -124,22 +124,22 @@
   },
   {
    "name": "Lenny's Podcast",
-   "scanned": 20,
+   "scanned": 21,
    "picked": 0
   },
   {
    "name": "EconTalk",
-   "scanned": 19,
+   "scanned": 20,
    "picked": 1
   },
   {
    "name": "The Knowledge Project",
-   "scanned": 19,
+   "scanned": 20,
    "picked": 0
   },
   {
    "name": "Masters of Scale",
-   "scanned": 28,
+   "scanned": 31,
    "picked": 0
   },
   {
@@ -149,8 +149,8 @@
   },
   {
    "name": "Mostly Metrics",
-   "scanned": 5,
-   "picked": 1
+   "scanned": 6,
+   "picked": 2
   },
   {
    "name": "GTM Engineer Pulse",
@@ -189,8 +189,8 @@
   },
   {
    "name": "Run the Numbers",
-   "scanned": 18,
-   "picked": 2
+   "scanned": 21,
+   "picked": 3
   },
   {
    "name": "BenAI",
@@ -199,7 +199,7 @@
   },
   {
    "name": "In Our Time",
-   "scanned": 14,
+   "scanned": 16,
    "picked": 1
   },
   {
@@ -234,7 +234,7 @@
   },
   {
    "name": "WorkLife",
-   "scanned": 2,
+   "scanned": 3,
    "picked": 0
   }
  ]
