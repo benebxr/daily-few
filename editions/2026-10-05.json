@@ -1,0 +1,91 @@
+{
+ "date": "2026-10-05",
+ "thesis": "Find out what is true before you decide what to change.",
+ "scanned": 150,
+ "sourcesScanned": 44,
+ "picks": [
+  {
+   "id": "1005-trialrct",
+   "title": "Design and Evaluation of Optimal Free Trials",
+   "source": "Management Science",
+   "author": "Hema Yoganarasimhan, Ebrahim Barzegary, Abhishek Pani",
+   "url": "https://faculty.washington.edu/hemay/Free_Trial.pdf",
+   "published": "2023-06",
+   "shelf": "evergreen",
+   "holds": "The method has not aged: randomize trial length at signup and follow customers for two years. What may not transfer is the setting, one dominant software firm whose default was a 30-day trial, so products that take weeks to show value or carry high serving cost per user should rerun the test. A search found no correction or failed replication.",
+   "mode": "read",
+   "minutes": 25,
+   "track": "pro",
+   "domain": "Experiment design",
+   "score": 86,
+   "why": "The randomized counterpart to Saturday's benchmark data: a leading software firm randomly gave new users 7, 14 or 30 days, and the shortest trial won on subscriptions, retention and revenue. It is the best evidence you will find for the trial question in a self-serve funnel, and its second half shows why a clever personalized policy can lose to a simple uniform one. Read the introduction, the experiment and results sections and the conclusion; skip the machine-learning detail if time is short.",
+   "lookFor": [
+    "Why did 7 days beat 30, and which explanation do the authors rule out?",
+    "Which users gained from a longer trial, and what does that suggest about who should get one?",
+    "Why did the more sophisticated targeting methods do worse than giving everyone the short trial?"
+   ],
+   "gist": "New users of a leading software firm, which then offered 30-day trials to everyone, were randomly assigned to 7, 14 or 30 days and followed for two years. Giving everyone 7 days raised subscriptions by 5.59% over the 30-day baseline, while 14 days made no significant difference, and the short trial also did well on retention and revenue. The authors find no support for longer trials cannibalizing demand, find support for consumer learning, and show that long stretches of inactivity near the end of a trial go with lower conversion. A lasso-based personalized policy improved subscriptions by 6.8% over 30 days for all, but policies built with causal or random forests did worse than simply giving everyone the short trial."
+  },
+  {
+   "id": "1005-nohria",
+   "title": "What New CEOs Get Wrong About the Job",
+   "source": "HBR IdeaCast",
+   "author": "Alison Beard, Adi Ignatius, Nitin Nohria",
+   "url": "https://hbr.org/podcast/2026/09/what-new-ceos-get-wrong-about-the-job",
+   "published": "2026-09-22",
+   "shelf": "slow",
+   "mode": "listen",
+   "minutes": 30,
+   "track": "pro",
+   "domain": "Leadership transitions",
+   "score": 76,
+   "why": "Thirty minutes from a former business school dean who has studied CEOs for three decades, and almost all of it transfers to any new leadership seat: you cannot run everything yourself, the information that reaches you is filtered, a board or leadership group has many agendas, and your calendar has to match your agenda. It fits the first-90-days problem. No Spotify link could be verified, so search the title in Spotify.",
+   "lookFor": [
+    "What does he mean by creating the conditions for the team to run the business, and what would that change in your next leadership meeting?",
+    "How does he suggest you get unfiltered information, and which of those habits do you already have?",
+    "What share of your time does he think should go to your own stated agenda, and what is your share this month?"
+   ],
+   "gist": "Nohria says the biggest surprise for new chief executives is that they cannot and should not run the company themselves; their job is to set the conditions for their leadership team to run it. He warns that what reaches the top is filtered, and recommends time with frontline staff and customers plus a few trusted truth-tellers. He describes the board as a collective boss whose concerns often stay unspoken, argues for rethinking the leadership team from scratch early, and suggests reviewing the calendar each quarter so that about half your time goes to your stated agenda. On AI and other new issues, he advises choosing two or three to pursue and saying explicitly what you will not do."
+  }
+ ],
+ "practice": {
+  "id": "1005-p",
+  "type": "Argument",
+  "minutes": 12,
+  "title": "Answer the trial proposal without taking it over",
+  "prompt": "You are a few weeks into a revenue leadership role. A team lead proposes extending the self-serve trial from 14 to 30 days and cites Saturday's benchmark: longer trials convert better on annual plans. Write a reply of at most half a page that (1) says what in the proposal you agree with, (2) explains in one or two sentences why the benchmark cannot settle the question, (3) proposes how to decide: what gets tested, against what, measured how, read when, and (4) leaves the decision with the team lead, as today's listen suggests. Then read it once as the team lead: would you feel trusted or overruled?",
+  "reveal": "A strong reply has four short parts. Agreement: the trial length is worth questioning, and the benchmark is a good reason to look. The limit: the benchmark compares different apps and different users; people who stay in a long trial were likely to buy anyway, and the only large randomized test of trial length at a software firm found the shortest trial won. The decision rule: run 7, 14 and 30 days side by side on randomly assigned new signups, with revenue per assigned account and the second renewal as the main measures, and a read date fixed in advance. Ownership: ask the team lead to own the design and bring the result, and say what result would make you back the 30-day trial. Weak replies either approve the change on the benchmark alone or reject it with your authority alone. Both teach the team that the answer depends on who asks."
+ },
+ "cuts": [
+  {
+   "title": "You'll Know if That New VP is Going to Fail at the First Board Meeting. Here Are The Clear Tells.",
+   "source": "SaaStr",
+   "reason": "A seven-point checklist; today's listen covers boards and the early weeks in more depth."
+  },
+  {
+   "title": "The 10 Most Important Learnings From a16z's Latest State of Markets",
+   "source": "SaaStr",
+   "reason": "A summary of market multiples and runway numbers that will be stale in a quarter."
+  },
+  {
+   "title": "The grief, loneliness, and burnout sweeping through the tech industry right now | Molly Graham",
+   "source": "Lenny's Podcast",
+   "reason": "Second pass: still 94 minutes and general leadership."
+  },
+  {
+   "title": "Ask Muriel Anything: Listening to Your Team, Leading With Uncertainty, Balancing Empathy and Accountability",
+   "source": "Coaching Real Leaders",
+   "reason": "Listener Q&A, general, and today's listen covers the new-leader angle better."
+  },
+  {
+   "title": "How AI Is Changing Innovation: Why Speed Alone Isn't a Strategy",
+   "source": "HBR IdeaCast",
+   "reason": "Broad, with no line to a live problem."
+  },
+  {
+   "title": "The hidden value of physical AI",
+   "source": "The McKinsey Podcast",
+   "reason": "Industrial AI, far from your problems."
+  }
+ ]
+}

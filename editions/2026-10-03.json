@@ -1,0 +1,92 @@
+{
+ "date": "2026-10-03",
+ "thesis": "Good data still needs a careful reader before it proves anything.",
+ "scanned": 150,
+ "sourcesScanned": 44,
+ "picks": [
+  {
+   "id": "1003-franklin",
+   "title": "Archive: Rosalind Franklin",
+   "source": "In Our Time (BBC Radio 4)",
+   "author": "Patricia Fara, Jim Naismith, Judith Howard (re-introduced by Misha Glenny)",
+   "url": "https://www.bbc.co.uk/programmes/p0p2dn1j",
+   "spotifyUrl": "https://open.spotify.com/episode/1l3P26Wnbnmj43ahrkWGMR",
+   "published": "2018-02",
+   "shelf": "evergreen",
+   "holds": "The science and the timeline have not changed. The part that has aged is the familiar story of a stolen photograph: 1953 documents that Matthew Cobb and Nathaniel Comfort published in Nature in 2023 show Franklin as an equal contributor whose results reached Watson and Crick through more than one route, so listen to the credit debate with that in mind.",
+   "mode": "listen",
+   "minutes": 52,
+   "track": "personal",
+   "domain": "History of science",
+   "score": 74,
+   "why": "A weekend science listen on how one carefully measured image became the key to the structure of DNA, and why the person who made it was left out of the Nobel. It was queued last week for a weekend without another science pick. First broadcast in 2018 and re-released this September; the gist comes from the BBC episode page.",
+   "lookFor": [
+    "What did Franklin's X-ray work show that model-building alone could not, and why did she resist building a model before the data supported one?",
+    "How did her results reach Watson and Crick, and what does that say about who gets credit for data versus interpretation?",
+    "What did she go on to do after DNA, on coal and viruses, and why is that part of her work rarely told?"
+   ],
+   "gist": "The panel traces Franklin's career from research on coal to X-ray crystallography of DNA. In 1952 her work produced Photograph 51, which helped Crick and Watson work out the double-helix structure the following year. Watson, Crick and her colleague Maurice Wilkins received the Nobel Prize in 1962; Franklin, who died in 1958, did not, and the panel discusses why many think her role was undervalued."
+  },
+  {
+   "id": "1003-trials",
+   "title": "How long should your free trial be? Data from 17,000+ apps",
+   "source": "RevenueCat blog",
+   "author": "Margarita Loktionova",
+   "url": "https://www.revenuecat.com/blog/growth/free-trial-length",
+   "published": "2026-09-28",
+   "shelf": "fast",
+   "mode": "read",
+   "minutes": 10,
+   "track": "pro",
+   "domain": "Pricing and packaging",
+   "score": 70,
+   "why": "Fresh benchmarks on trial length from a subscription-billing platform: longer trials go with higher conversion and renewal on annual plans, monthly plans peak around 10 to 16 days, and AI apps stop gaining past about 16 days. The authors say themselves the data is correlational, which makes it a good warm-up for Monday's randomized experiment that points the other way. The base is mostly mobile consumer apps, so treat the numbers as directional for a software self-serve funnel.",
+   "lookFor": [
+    "Which of their findings could be explained entirely by who chooses or is offered a longer trial?",
+    "Why would the pattern differ between annual and monthly plans, and which one looks more like your self-serve plan?",
+    "What do they recommend for AI products with real serving cost, and is limiting usage a better lever than limiting days?"
+   ],
+   "gist": "RevenueCat compares median app-level outcomes across 17,000+ apps from August 2025 to July 2026. On annual plans, trial-to-paid conversion rises from 24% for trials of four days or less to 44.6% for 17 to 32 days, and first renewal from 18.3% to 47.5%. On monthly plans conversion peaks at 10 to 16 days (46.6%) while first renewal keeps rising with length. AI apps do best at 10 to 16 days, and the authors stress that a user still in a 30-day trial on day 25 was likely to pay anyway, so the patterns are correlations to test against your own product."
+  }
+ ],
+ "practice": {
+  "id": "1003-p",
+  "type": "First principles",
+  "minutes": 12,
+  "title": "Why the longer trial looks better",
+  "prompt": "Pen and paper. Your dashboard shows that accounts on a 30-day trial convert to paid at 44%, and accounts on a 7-day trial at 28%. The two groups signed up in different months and through different channels. Before anyone changes the trial: (1) Write three reasons the 16-point gap could appear even if trial length caused none of it. (2) Design the smallest test that would settle the question: who gets randomized and when, what you measure, and on what date you read it. (3) Write down your own prediction of the result, with a number.",
+  "reveal": "1. Possible reasons: (a) selection: the channel or plan that offers 30 days attracts buyers who were more ready to pay; (b) survivorship: people who are still in a trial at day 25 are the committed ones, so long trials look good partly because the weak users have already left without showing up as a failed conversion yet; (c) timing: different months bring different seasons, prices, product versions and campaigns; (d) the measurement window: a 30-day cohort read early has had less time to churn after paying.\n2. Test: randomize every new signup at trial start into 7, 14 or 30 days, with the same channel mix and price. Count every assigned account in its arm, including those who never come back (intent to treat). Measure paid conversion, the first and second renewal, and revenue per assigned account, not per converted account. Fix the read date in advance, after the second renewal of the 30-day arm, and work out beforehand how many signups you need to see a difference of a few points.\n3. Keep your number. Monday's pick is the largest published randomized test of exactly this question, and it is worth checking your prediction against it."
+ },
+ "cuts": [
+  {
+   "title": "What AI agents really think about your pricing",
+   "source": "Growth Unhinged",
+   "reason": "Useful audit of how answer engines read pricing pages, but the data comes from the sponsor, and tomorrow's agent-pricing read is closer to your problems."
+  },
+  {
+   "title": "Inside 12 months of AI search experiments",
+   "source": "Growth Unhinged",
+   "reason": "The experiment results sit behind the paywall."
+  },
+  {
+   "title": "Congrats, your sales problems in PLG are completely unoriginal",
+   "source": "Elena's Growth Scoop",
+   "reason": "A teaser: the list of recurring problems is paywalled."
+  },
+  {
+   "title": "The 5-Step Framework That Turns Call Recordings Into Deal-Closing Content",
+   "source": "GTM Strategist",
+   "reason": "A practical content workflow written by a vendor for a sales-led motion, with nothing you would change this month."
+  },
+  {
+   "title": "I analyzed 1,100+ job posts with Claude Code. Here's what B2B marketers get paid.",
+   "source": "MKT1 Newsletter",
+   "reason": "Pay benchmarks from one market's job posts, far from a live problem."
+  },
+  {
+   "title": "Can you tell this avatar is AI? (and similar)",
+   "source": "Superhuman AI, The Neuron, The Diff",
+   "reason": "News cycle. Nothing to act on this month."
+  }
+ ]
+}

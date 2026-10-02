@@ -1,0 +1,91 @@
+{
+ "date": "2026-10-04",
+ "thesis": "When a cost can jump, buyers hedge. Price so they don't have to.",
+ "scanned": 150,
+ "sourcesScanned": 44,
+ "picks": [
+  {
+   "id": "1004-hedging",
+   "title": "How Airlines Actually Hedge Higher Fuel Prices",
+   "source": "Odd Lots (Bloomberg)",
+   "author": "Joe Weisenthal, Tracy Alloway, David Kang",
+   "url": "https://omny.fm/shows/odd-lots/how-airlines-actually-hedge-higher-fuel-prices",
+   "spotifyUrl": "https://open.spotify.com/episode/7yAPYDRI92hBwRpEhR5SiC",
+   "published": "2026-10-02",
+   "shelf": "slow",
+   "mode": "listen",
+   "minutes": 54,
+   "track": "personal",
+   "domain": "Markets and economics",
+   "score": 72,
+   "why": "A former airline treasurer explains, in plain mechanics, how a business protects itself against its most volatile cost: swaps, call options, zero-cost collars, and why the hedge is usually written on a proxy market. The market colour is from this autumn and will date fast; the mechanics will not. Some of his examples are exotic structures from his banking years, so treat them as one practitioner's view.",
+   "lookFor": [
+    "When does he prefer swaps and when options, and what does each cost you if the price falls instead of rising?",
+    "Why do airlines hedge with crude or heating oil instead of jet fuel, and what risk does that leave open?",
+    "How do hedging and passing costs on to customers through surcharges work together, and why can a well-hedged airline earn twice in a price spike?"
+   ],
+   "gist": "David Kang, treasurer at Qatar Airways from 2011 to 2013, describes fuel as up to 44% of costs there and around 25 to 30% for most airlines. The plain tools are swaps, which lock a price both ways, and call options, whose premium many airlines fund by selling puts in a zero-cost collar. Because the jet fuel market is thin, carriers hedge with Brent, WTI or heating oil and keep the spread risk. Many smaller US carriers stopped hedging after losses in 2014-15 and pass costs on through fares and surcharges, while carriers with large balance sheets do both."
+  },
+  {
+   "id": "1004-agenttax",
+   "title": "Almost Every Pre-AI Vendor We Use Is Raising Prices for Agent Access. They May Be Building an Agentic Death Spiral",
+   "source": "SaaStr",
+   "author": "Jason Lemkin",
+   "url": "https://www.saastr.com/almost-every-pre-ai-vendor-we-use-is-raising-prices-for-agent-access-they-may-be-building-an-agentic-death-spiral/",
+   "published": "2026-09-28",
+   "shelf": "fast",
+   "mode": "read",
+   "minutes": 9,
+   "track": "pro",
+   "domain": "Agents as a channel",
+   "score": 73,
+   "why": "A buyer's view of what happens when software vendors start metering AI agents: the agent hits a price wall, the team looks for a workaround, and the vendor drops off the list for anything new. It speaks directly to agents as a distribution channel and to pricing gates, and his three asks (publish and cap the rate, let agents replace seats, price outcomes) are a usable checklist. One search since publication confirms the large vendors are moving to metered agent access; the spiral itself is his forecast and has not been observed yet.",
+   "lookFor": [
+    "Which of his three asks would you already meet if a customer's agent used your product tomorrow?",
+    "Where does his comparison of API call prices mislead, and where does it hold?",
+    "If an agent is your next buyer, what would make it choose your product over a competitor that charges per call?"
+   ],
+   "gist": "Lemkin reports that several vendors his company uses have announced extra charges for API calls made by AI agents, and that one internal agent alone makes tens of thousands of calls a day. He describes the published schemes of three large vendors, from credits drawn down per agent call to per-action rates with allowances and overage. He argues metering pushes customers to copy their data into their own databases, which lowers usage and switching costs and weakens the vendor at renewal. His advice: publish a capped rate customers can budget, let registered agents replace seats instead of adding to them, and price outcomes over calls."
+  }
+ ],
+ "practice": {
+  "id": "1004-p",
+  "type": "Mental math",
+  "minutes": 12,
+  "title": "What does the hedge buy you?",
+  "prompt": "No calculator. An airline will burn 10 million barrels next year, and fuel is bought at the market price. (1) What is the fuel bill if the price ends at 60, 80 or 120 per barrel with no hedge? (2) It hedges 60% of the volume with swaps at 80. What is the bill in each scenario? (3) Instead of swaps, it buys call options on 60% of the volume with a strike of 90 and a premium of 5 per barrel. What is the bill in each scenario, premium included? (4) Compare the gap between best and worst case for the three choices. Which would you pick if you could not raise prices, and which if you could add a surcharge when fuel rises? Write your answers before you open the reveal.",
+  "reveal": "1. No hedge: 600 million, 800 million, 1,200 million. Range 600 million.\n2. Swaps: 6 million barrels fixed at 80 = 480 million in every case, plus 4 million barrels at market. At 60: 480 + 240 = 720. At 80: 480 + 320 = 800. At 120: 480 + 480 = 960. Range 240 million, and you pay 120 million more than unhedged when the price falls to 60.\n3. Calls: premium 6 million × 5 = 30 million. At 60 the calls expire unused: 600 + 30 = 630. At 80 they expire unused: 800 + 30 = 830. At 120 you pay at most 90 on the hedged volume: 6 × 90 = 540 plus 4 × 120 = 480, so 1,020 + 30 = 1,050. Range 420 million.\n4. Swaps give the narrowest range and suit a business that cannot pass costs on. Calls cost a fixed premium and keep the benefit of falling prices, which suits a business that can add a surcharge when prices rise, as the guest describes. Now the link to today's read: a customer facing an uncapped price per agent call has the unhedged bill. Copying the data into their own database is their swap. A published, capped rate, as Lemkin asks for, is you selling them the call option, and that is what keeps them on your platform."
+ },
+ "cuts": [
+  {
+   "title": "SaaStr 880: Agent Pricing is Chaos. Here's What We're Seeing From the Buyer Side. (The Agents #015)",
+   "source": "The Official SaaStr Podcast",
+   "reason": "The same argument as today's read at 67 minutes, padded with the host's own event data."
+  },
+  {
+   "title": "What AI agents really think about your pricing",
+   "source": "Growth Unhinged",
+   "reason": "Second pass: sponsor data on how answer engines read pricing pages. Today's read covers agent pricing more directly."
+  },
+  {
+   "title": "Public Choice and Politics Without Romance (with Mike Munger)",
+   "source": "EconTalk",
+   "reason": "Queued since last week, but 79 minutes is too long while editions are kept short. Still queued for a weekend."
+  },
+  {
+   "title": "Nancy Zimmerman - People, Process, and Fixed Income Arbitrage at Bracebridge (EP.517)",
+   "source": "Capital Allocators",
+   "reason": "A solid investing listen, but today's economics slot teaches a mechanism you can reuse at work."
+  },
+  {
+   "title": "369 | Gregg Caruso on Living Well Without Free Will",
+   "source": "Sean Carroll's Mindscape",
+   "reason": "Philosophy at 83 minutes, outside both curiosity tracks."
+  },
+  {
+   "title": "Anthropic's Financials Revealed (and similar)",
+   "source": "Prof G Markets",
+   "reason": "News cycle. Nothing to act on this month."
+  }
+ ]
+}
