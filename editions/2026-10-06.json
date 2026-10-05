@@ -1,0 +1,91 @@
+{
+ "date": "2026-10-06",
+ "thesis": "Know which window a revenue number uses before you trust it.",
+ "scanned": 78,
+ "sourcesScanned": 36,
+ "picks": [
+  {
+   "id": "1006-runrate",
+   "title": "There are no new crimes, just new ways to calculate revenue",
+   "source": "Mostly Metrics",
+   "author": "CJ Gustafson",
+   "url": "https://www.mostlymetrics.com/p/there-are-no-new-crimes-just-new-ways-to-calculate-revenue",
+   "published": "2026-10-04",
+   "shelf": "slow",
+   "mode": "read",
+   "minutes": 8,
+   "track": "pro",
+   "domain": "Revenue metrics",
+   "score": 74,
+   "why": "A short, sharp case that the window you annualize decides the story a revenue number tells: last 28 days times 13 flatters a growing or promoted month and punishes a flat one. It matters for anyone setting targets on usage or self-serve revenue, where one good month can turn into a plan. Read the part on run-rate math and skip the weekly valuation tables at the end.",
+   "lookFor": [
+    "Why does a shorter annualization window make the number more sensitive, and in which direction does that cut when growth stops?",
+    "What would you use a 28-day run rate for, and which decisions should never rest on it?",
+    "Which revenue definition does your own plan use, and is it written down where everyone can see it?"
+   ],
+   "gist": "Gustafson argues that the headline loss in recently leaked financials of a leading AI lab mixes a large non-cash revaluation of financing with the operating loss, and that the bigger story is how fast-growing AI companies annualize revenue. Some take the last 28 days of revenue and multiply by 13, which in a fast-growth year produces a run rate far above the revenue actually booked. He prefers a quarter times four because it smooths one-off spikes, and warns that the same short window that flatters growth will annualize a weak month just as efficiently. His point is that ARR has been stretched across subscription, contracted, consumption and run-rate versions, so the definition and the window have to be stated before the number means anything."
+  },
+  {
+   "id": "1006-agents",
+   "title": "OpenAI’s Head of ChatGPT: We’re entering a new era of AI (again) | Tibo Sottiaux",
+   "source": "Lenny's Podcast",
+   "author": "Lenny Rachitsky, Tibo Sottiaux",
+   "url": "https://www.lennysnewsletter.com/p/openais-head-of-chatgpt-were-entering",
+   "spotifyUrl": "https://open.spotify.com/episode/2XKWEiU42SKIXmXFB7s1Rk",
+   "published": "2026-10-04",
+   "shelf": "fast",
+   "mode": "listen",
+   "minutes": 37,
+   "track": "pro",
+   "domain": "Agents as a channel",
+   "score": 66,
+   "why": "Recorded on launch day by the person running a major assistant platform, so treat it as the platform's own view, with launch enthusiasm included. It earns a slot for one question: if most actions online are taken by agents, how does a product get discovered and chosen by one? Listen closely from about 10:00 to 15:00 (plugins, revenue sharing, how plugins get recommended) and from about 30:45 to the end.",
+   "lookFor": [
+    "What does he say decides which plugin or app an agent recommends, and what part of that could you influence?",
+    "Which of his claims are about where the platform is going, and which describe how it already works today?",
+    "If an agent became a buyer of your product, what would it need from your pricing page and signup flow that a person does not?"
+   ],
+   "gist": "Sottiaux describes the new always-on personal agent platform his team launched at the company's developer event and how it brings chat, coding agents and the new agents together. He covers the open plugin ecosystem with revenue sharing and how plugins get discovered and recommended, argues that most actions on the internet will soon be taken by agents, and calls today's loops, graphs and fine-tuned agent workflows a passing phase. He also talks about which skills are rising and falling, agent fatigue and the pressure to do more with AI, and how his team ships."
+  }
+ ],
+ "practice": {
+  "id": "1006-p",
+  "type": "Estimate",
+  "minutes": 12,
+  "title": "What does times 13 make of one good month?",
+  "prompt": "Your usage revenue grows 10% every 28-day period, and the latest period brought in 100 (thousand). Estimate with pen and paper, using 1.1^13 ≈ 3.45: (1) the 28-day run rate (last period times 13); (2) the revenue you actually booked over the last 13 periods; (3) what the next 13 periods would bring if growth held. (4) Then growth stops and the next period comes in 10% lower: what does the run rate show now? Finish with one sentence on which of these numbers you would put into a hiring plan.",
+  "reveal": "(1) 100 x 13 = 1,300. (2) The last 13 periods form a series shrinking by 1.1 each step back: 100 x (1 - 1/3.45) / (1 - 1/1.1) ≈ 100 x 0.71 x 11 ≈ 781. The run rate sits about two thirds above what you actually booked. (3) If growth holds: 100 x 1.1 x (3.45 - 1) / 0.1 ≈ 2,700, about twice the run rate. (4) One weak period of 90 drops the run rate to 1,170, a fall of 130 in four weeks, with nothing in the business having changed but one month. So the run rate is neither the past nor the future; it is a snapshot that swings with the latest period. A hiring plan should rest on a smoothed figure, such as a quarter times four or booked revenue plus a stated growth assumption, and the run rate belongs in the growth story, labelled as such."
+ },
+ "cuts": [
+  {
+   "title": "Designing Defensible Geo Holdout Tests for Incrementality Measurement",
+   "source": "Amsive",
+   "reason": "Sound design rules for geo tests, but the last two weeks already carried three measurement pieces. Queued for a day without one."
+  },
+  {
+   "title": "Why Owning Your Data Is the New Moat | Primary Venture's Emily Man",
+   "source": "Run the Numbers",
+   "reason": "An investor's map of where value sits in the AI stack, 54 minutes and far from an operating decision."
+  },
+  {
+   "title": "Inference Is the Most Important Market in Software",
+   "source": "Tomasz Tunguz",
+   "reason": "Market-share commentary on model vendors. Nothing to act on this month."
+  },
+  {
+   "title": "What Retail Legend Ron Johnson Learned from Apple’s Success and JCPenney’s Failure",
+   "source": "HBR IdeaCast",
+   "reason": "Good leadership stories, but a retail turnaround with a thin line to your problems."
+  },
+  {
+   "title": "Why Treasuries Are 'Risky' Again",
+   "source": "Odd Lots",
+   "reason": "A solid economics listen, but personal-track picks belong on the weekend and this one is tied to this month's bond market."
+  },
+  {
+   "title": "Two popular tools are now available (and similar)",
+   "source": "Superhuman AI, The Neuron, The Anthropic Stack",
+   "reason": "News cycle. Nothing to act on this month."
+  }
+ ]
+}
