@@ -1,0 +1,90 @@
+{
+ "date": "2026-10-07",
+ "thesis": "Name what you will stop before you ask for anything new.",
+ "scanned": 122,
+ "sourcesScanned": 39,
+ "picks": [
+  {
+   "id": "1007-envelope",
+   "title": "Your Guide to Tops Down vs Bottoms Up Target Setting",
+   "source": "Mostly Metrics",
+   "author": "CJ Gustafson",
+   "url": "https://www.mostlymetrics.com/p/your-guide-to-tops-down-vs-bottoms-up-target-setting",
+   "published": "2026-10-06",
+   "shelf": "slow",
+   "mode": "read",
+   "minutes": 10,
+   "track": "pro",
+   "domain": "Target setting",
+   "score": 81,
+   "why": "A clear walk through who sets the first number in a plan and how a leader should build inside the envelope they get. It speaks to anyone setting targets in a new revenue role: the guardrails come first, and the build has to name what stops before it asks for more. The function split it quotes comes from a large sales-led company, and the author says himself that it does not transfer to a smaller or product-led one. Skip the sponsor block at the top.",
+   "lookFor": [
+    "Which guardrails would you set before anyone on your team builds a number, and which one would you refuse to trade away?",
+    "Why does the order matter: top line first, then margin, with spend as the difference?",
+    "What share of your own budget could you name as 'stop' tomorrow without a fight, and what does that tell you?"
+   ],
+   "gist": "Gustafson splits planning into a top-down step, where the CEO and CFO set guardrails for revenue, productivity and profitability, and a bottom-up build by each function inside that envelope. Drawing on a large company's CFO, he argues for setting the top line first and treating the gap between it and the margin target as the money to allocate, and notes that the split between sales, R&D and G&A depends heavily on company stage and on how you sell. For the build he rejects both grossing up last year's spend and full zero-based budgeting, and recommends a hybrid: each leader first names a share of current spend to stop (start around 5 to 10 percent) and funds part of the new asks from it, with priorities that ladder to the company's and a documented headcount map."
+  },
+  {
+   "id": "1007-sivaram",
+   "title": "How Confluent’s CFO Runs Planning, Pricing, and Prioritization",
+   "source": "Run the Numbers",
+   "author": "CJ Gustafson, Rohan Sivaram",
+   "url": "https://creators.spotify.com/pod/profile/cjgustafson222/episodes/How-Confluents-CFO-Runs-Planning--Pricing--and-Prioritization-e3kneqk",
+   "published": "2026-06-22",
+   "shelf": "slow",
+   "mode": "listen",
+   "minutes": 44,
+   "track": "pro",
+   "domain": "Planning and pricing",
+   "score": 72,
+   "why": "The source of the stop-first budgeting idea in today's read, told by the finance leader who runs it, plus how usage-based pricing changes the way a company plans. Listen for the parts on goal setting and on consumption pricing; the finance-career talk is optional. The Spotify link could not be verified, so search Spotify for the exact title.",
+   "lookFor": [
+    "How does he get leaders to give up spend without it feeling like a cut, and would that work on your team?",
+    "What changes in forecasting and target setting when revenue follows usage instead of signed contracts?",
+    "How does he test a new opportunity, and which of his three tests would your current plan fail?"
+   ],
+   "gist": "Sivaram talks with Gustafson about goal setting, prioritization, consumption-based pricing and hybrid zero-based budgeting. He explains why he carries his 12-month goals with him, how he judges opportunities by market size, technology and team, and why usage-based pricing changes the whole operating model, from forecasting to how sales is paid. The budgeting part covers asking each leader to name what they will stop doing before new spend is discussed."
+  }
+ ],
+ "practice": {
+  "id": "1007-p",
+  "type": "First principles",
+  "minutes": 12,
+  "title": "Fund the new asks from the old plan",
+  "prompt": "Your team spent 1,000 (thousand) last year: 600 on people, 400 on events, tools and contractors. The envelope for next year is 1,100, and your leads bring new asks worth 300. Work it out with pen and paper: (1) If everyone rolls last year forward, how much of the 300 can you fund? (2) Each lead now names 10% of their total budget to stop, and you will not cut people this year. How much is freed, how much of the 300 can you fund, and what share of the non-people spend has to go? (3) In two sentences: why must the stop list come before the new asks, and not after?",
+  "reveal": "(1) 1,100 - 1,000 = 100, so a third of the asks. (2) 10% of 1,000 = 100 freed, so 100 + 100 = 200 of the 300 get funded, and the last 100 needs a ranking or a later start. Because people are off the table, the whole 100 comes out of the 400 non-people spend: that is 25% of it, much more than the 10% sounds. So a flat percentage is a blunt tool: say up front which costs count. (3) Asked for new money first, every leader defends all of today's spend as critical, because nothing forces a trade. Naming the stops first makes the trade explicit, lets leaders move their own money to better bets, and gives you something concrete to check when one team's stop removes another team's input."
+ },
+ "cuts": [
+  {
+   "title": "Token Series Part 1 | How AI Created a New Budget",
+   "source": "Run the Numbers",
+   "reason": "A short opener to a sponsored series; last week's token budgeting read covered the same ground in more depth."
+  },
+  {
+   "title": "Designing Defensible Geo Holdout Tests for Incrementality Measurement",
+   "source": "Amsive",
+   "reason": "Still queued. Today stays at two picks and keeps to planning."
+  },
+  {
+   "title": "Charlie Munger's Interview with Todd Combs",
+   "source": "The Knowledge Project",
+   "reason": "A short personal-track listen on investing. Queued for a weekend slot."
+  },
+  {
+   "title": "Owner.com’s Youtube & Founder Brand Playbook",
+   "source": "Executive Brand",
+   "reason": "Video and founder-brand tactics, far from your problems."
+  },
+  {
+   "title": "n8n CEO: Why we aren’t dead, how to build great AI products, and what I look for in an AI PM",
+   "source": "Product Growth (Aakash Gupta)",
+   "reason": "69 minutes of product-builder craft with no line to a live problem."
+  },
+  {
+   "title": "Optimism Is Now an Essential Leadership Skill",
+   "source": "HBR IdeaCast",
+   "reason": "Broad leadership advice, thin on anything you would do differently this week."
+  }
+ ]
+}
