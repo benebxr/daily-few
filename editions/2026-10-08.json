@@ -1,0 +1,90 @@
+{
+ "date": "2026-10-08",
+ "thesis": "Under usage pricing, pay reps for what customers actually use.",
+ "scanned": 104,
+ "sourcesScanned": 44,
+ "picks": [
+  {
+   "id": "1008-usage",
+   "title": "Usage-Based Pricing for AI: What Changes for SaaS Teams",
+   "source": "Growth Unhinged",
+   "author": "Kyle Poyar",
+   "url": "https://www.growthunhinged.com/p/usage-based-pricing-for-ai",
+   "published": "2026-10-07",
+   "shelf": "slow",
+   "mode": "read",
+   "minutes": 10,
+   "track": "pro",
+   "domain": "Pricing and packaging",
+   "score": 77,
+   "why": "Picks up where yesterday's listen on consumption pricing stopped: what has to change around the price when you move to usage, from how buyers budget to how reps are paid. The free part carries the whole argument; the report data and templates behind the paywall are optional. The adoption percentages come from the author's own survey, so treat them as direction, and skip the sponsor block at the top.",
+   "lookFor": [
+    "Which of the four ways to make a variable bill feel predictable would your buyers accept first, and which one leaves you holding the cost risk?",
+    "How would you measure time-to-ramp in your own funnel, and who would own it?",
+    "Where does he draw the line between organic and inorganic expansion, and who should be paid for each?"
+   ],
+   "gist": "Poyar argues that AI pricing keeps moving from charging for access toward charging for usage and outcomes, and that switching models reaches far past the price page into billing, comp, forecasting and post-sale work. He groups the changes into three themes: buyers still want a predictable bill, so credit pools, budget caps, annual drawdowns or a platform fee with included usage matter more than pure pay-as-you-go; customers ramp slowly, so time-to-ramp and share of wallet need owners; and bookings-only comp invites overselling, so plans add a new-logo component, pay on estimated revenue with true-ups, or split organic from inorganic expansion. He closes with three checks before you change anything: can customers predict their bill, do you know how fast they ramp, and does comp reward the behaviour you want."
+  },
+  {
+   "id": "1008-comp",
+   "title": "Comp Plans for Consumption-based Businesses",
+   "source": "Revenue Builders",
+   "author": "John McMahon, John Kaplan, Jose Fernandez",
+   "url": "https://revenue-builders.simplecast.com/episodes/comp-plans-for-consumption-based-businesses",
+   "published": "2025-12-14",
+   "shelf": "slow",
+   "mode": "listen",
+   "minutes": 11,
+   "track": "pro",
+   "domain": "Sales compensation",
+   "score": 70,
+   "why": "An 11-minute cut from a longer interview that gives you the role split behind a consumption comp plan: who is paid to land, who to onboard, who to grow. It is short and leans on one large self-serve ad business as its example, so test it against your own deal sizes. The Spotify link could not be verified; search Spotify for the exact title under Revenue Builders.",
+   "lookFor": [
+    "Why does copying a licence-era comp plan waste the advantages a usage model gives you?",
+    "What is the account manager paid on in his three-role split, and why not on the absolute number?",
+    "What does forecasting become when reps can no longer call the number from deal intuition?"
+   ],
+   "gist": "Fernandez says companies moving to consumption pricing often copy their old licence comp plans and lose what the model offers: a lower barrier to entry, spend that rises with value, and expansion the product drives itself. Drawing on his time running a large self-serve ad sales organisation, he describes splitting the work into new business, onboarding and account management, each paid on what it can move. The hosts add that forecasting turns into an analytical job built on usage models, and that reps take on more of adoption and retention after the sale."
+  }
+ ],
+ "practice": {
+  "id": "1008-p",
+  "type": "Teach-back",
+  "minutes": 10,
+  "title": "Explain why the plan paid the wrong rep",
+  "prompt": "Two reps sell the same usage product, and both are paid 10% of what they book. Rep A signs a 100 (thousand) annual commitment; the customer uses only 60 of it in year one. Rep B signs a 40 commitment; the customer grows into 120, paying 80 on top. (1) Work out each rep's pay under the bookings plan, then under a plan that pays 10% of what the customer actually used. (2) In five plain sentences, explain to a new rep why the first plan rewards the wrong deal, what A's account will likely do at renewal, and what a split into bookings, consumption and a fixed new-logo payment would change.",
+  "reveal": "(1) Bookings: A earns 10% of 100 = 10, B earns 10% of 40 = 4. Usage: A earns 10% of 60 = 6, B earns 10% of 120 = 12. The ranking flips. (2) A model answer: Under usage pricing the customer sees unused commitment right away, so A's 40 of unused spend is a renewal fight waiting to happen and will likely come back as a smaller commit. B landed a deal the customer could grow into, which is exactly what the model is built for, yet the bookings plan paid B less than half of A. Paying on consumption moves reward toward deals that fit, but on its own it can tempt reps to farm existing accounts and stop hunting. A fixed payment per new logo keeps the hunting alive, and a smaller bookings share still rewards a commitment the customer can actually use. The test for any plan is simple: does the rep who sold the right-sized deal earn more than the one who oversold?"
+ },
+ "cuts": [
+  {
+   "title": "Driving Sales Behavior with Effective Compensation Plans with Jose Fernandez",
+   "source": "Revenue Builders",
+   "reason": "The full interview behind today's listen. At 67 minutes it does not fit while editions are kept short."
+  },
+  {
+   "title": "The Real Sale Starts After Signature | Proving Value in AI and Consumption Models with Seong Park",
+   "source": "Revenue Builders",
+   "reason": "On topic, but 62 minutes on top of today's pair. Queued for a day with listening room."
+  },
+  {
+   "title": "Designing Defensible Geo Holdout Tests for Incrementality Measurement",
+   "source": "Amsive",
+   "reason": "Still queued. Today keeps to pricing and comp."
+  },
+  {
+   "title": "Stop Paying Frontier Prices for Every Yes or No",
+   "source": "The Anthropic Stack",
+   "reason": "Model-routing advice for builders, a tool-state piece with no line to a live problem."
+  },
+  {
+   "title": "The state of the tech industry in 2026",
+   "source": "The Pragmatic Engineer",
+   "reason": "An engineering-industry keynote, mostly behind the paywall and far from your problems."
+  },
+  {
+   "title": "Claude moves into your Google Workspace (and similar)",
+   "source": "Superhuman AI, The Neuron",
+   "reason": "News cycle. Nothing to act on this month."
+  }
+ ]
+}
