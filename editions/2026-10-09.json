@@ -1,0 +1,66 @@
+{
+ "date": "2026-10-09",
+ "thesis": "Size a test for the decision, then let AI change the work itself.",
+ "scanned": 55,
+ "sourcesScanned": 37,
+ "picks": [
+  {
+   "id": "1009-geo",
+   "title": "Designing Defensible Geo Holdout Tests for Incrementality Measurement",
+   "source": "Amsive",
+   "author": "Tyler Kochanski",
+   "url": "https://www.amsive.com/insights/data-analytics/designing-defensible-geo-holdout-tests-for-incrementality-measurement/",
+   "published": "2026-05-27",
+   "shelf": "slow",
+   "mode": "read",
+   "minutes": 12,
+   "track": "pro",
+   "domain": "Marketing measurement",
+   "score": 76,
+   "why": "Queued twice and promoted today because no measurement piece ran this week: a practical design checklist for a geo holdout, built backwards from the budget decision. It comes from an agency and ends in a sales pitch, and its worked example is the agency's own case, so take the method and skip the close.",
+   "lookFor": [
+    "What lift would actually change your budget decision, and is the test sized to detect it?",
+    "How does the minimum detectable effect move as you add control markets, and where does adding more stop paying?",
+    "Which spillovers between test and control markets would hit your channels hardest?"
+   ],
+   "gist": "Kochanski argues most incrementality tests fail in the design, before any analysis. He sets out three steps: frame the decision and hypothesis, run a power analysis, and fix decision thresholds and a readout cadence before data arrives. The rules: match markets on KPI level, trend and seasonality instead of relying on random assignment, use a pre-period at least as long as the test, plan for four to eight weeks or more, and size the test for the smallest lift that would change a decision. In his worked case the detectable effect fell from 21.5% with 4 control cities to 15% with 10 and 13% with 12, and a test sized for 15% will miss a true 10% lift; a null result means the test could not prove the channel works at that spend, which is different from proving it does not."
+  },
+  {
+   "id": "1009-mollick",
+   "title": "How AI Is Changing Strategy: Rethinking What Your Business Is Designed to Do",
+   "source": "HBR IdeaCast",
+   "author": "Ethan Mollick, with Alison Beard and Adi Ignatius",
+   "url": "https://hbr.org/podcast/2026/10/how-ai-is-changing-strategy-rethinking-what-your-business-is-designed-to-do",
+   "published": "2026-10-08",
+   "shelf": "fast",
+   "mode": "listen",
+   "minutes": 33,
+   "track": "pro",
+   "domain": "AI enablement",
+   "score": 72,
+   "why": "The closing episode of a four-part series, with a usable structure for rolling AI out across a team: leadership sets incentives, the crowd gets tools and surfaces use cases, a small lab tests and builds. The claims about what agents can do now will age within months; the operating model will last longer. Not on Spotify yet when this edition was built; search for the exact title under HBR IdeaCast.",
+   "lookFor": [
+    "Where does a productivity gain get absorbed in your team because the KPIs and incentives stayed the same?",
+    "Who would sit in your lab, and what would they be measured on?",
+    "What have you stopped doing because AI made it trivial, and what are you building that only works once the models improve?"
+   ],
+   "gist": "Mollick argues that AI reshapes strategy beyond cost cutting: if processes, KPIs and incentives stay the same, gains get absorbed as more of the same output. Agents can now finish tasks that take a person weeks, so leaders should delegate whole pieces of work to them and decide where AI decides, where people decide and who sets the limits. He recommends a leadership, lab and crowd structure and early experimentation with frontier models instead of waiting for proven playbooks. Since everyone has the same models, he says advantage comes from how you blend human and AI work, and incumbents hold real advantages in data, resources and domain experts."
+  }
+ ],
+ "practice": {
+  "id": "1009-p",
+  "type": "Mental math",
+  "minutes": 12,
+  "title": "Can your test see the lift that matters?",
+  "prompt": "You run a geo holdout on one paid channel. The rule agreed up front: keep the channel if it lifts sales in its markets by at least 8%. The power calculation for 10 control markets gives a minimum detectable effect of 15%, at 95% confidence and 80% power. Use one fact: at those settings the minimum detectable effect is about 2.8 standard errors. (1) What is the standard error of the lift estimate? If the true lift is 10%, how many standard errors is that, and roughly what chance does the test have of calling it significant? (2) Rough rule: the detectable effect shrinks with the square root of the number of markets. How many control markets would bring it down to 8%? (3) The test runs 6 weeks. How long should the pre-period be? Pen and paper only.",
+  "reveal": "(1) SE = 15 / 2.8 = about 5.4 points. A true 10% lift is 10 / 5.4 = about 1.9 standard errors, and significance needs about 1.96, so the test calls it roughly half the time: a coin flip on an effect above your keep threshold. A careless reader sees 'not significant' and cuts a channel that works. (2) Ratio 15 / 8 = 1.875; squared = about 3.5; 3.5 x 10 = about 35 markets, more than three times as many. The rule is rough (the worked case in today's read shrinks a little slower), and few regions have 35 clean, matched markets per arm. So the options are a longer test, better matching to cut noise, or agreeing beforehand that this test can only rule out large effects. (3) At least 6 weeks, as long as the test itself, so you can check the markets moved together before you start."
+ },
+ "cuts": [
+  {"title": "Your Complete Guide to Quote to Cash: Billing", "source": "Mostly Metrics", "reason": "A clear walk through metering, rating and billing under usage pricing, but yesterday already covered usage pricing and today is short. Queued for next week."},
+  {"title": "The Real Sale Starts After Signature | Proving Value in AI and Consumption Models with Seong Park", "source": "Revenue Builders", "reason": "Still queued; 62 minutes does not fit while editions are kept short."},
+  {"title": "Robinhood's CFO on Refounding & the Art of Capital Allocation | Shiv Verma", "source": "Run the Numbers", "reason": "67 minutes of a consumer fintech CFO interview, over a short day's budget."},
+  {"title": "What Everyone Gets Wrong About the Economic Problems in Europe", "source": "Odd Lots", "reason": "A personal-track economics listen; personal picks go to the weekend, and it is queued for that slot."},
+  {"title": "The playbook for seeing around geopolitical corners", "source": "The McKinsey Podcast", "reason": "Geopolitical scenario planning for large firms, far from your problems."},
+  {"title": "ChatGPT's intelligent upgrade (and similar)", "source": "Superhuman AI, The Neuron", "reason": "News cycle. Nothing to act on this month."}
+ ]
+}
