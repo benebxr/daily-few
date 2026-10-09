@@ -1,0 +1,90 @@
+{
+ "date": "2026-10-12",
+ "thesis": "Pay for the right lead, and test whether the ad made it.",
+ "scanned": 52,
+ "sourcesScanned": 34,
+ "picks": [
+  {
+   "id": "1012-paid",
+   "title": "AI-Native Companies are Outspending You on Meta",
+   "source": "GTM Strategist",
+   "author": "Maja Voje, drawing on Keith Putnam-Delaney",
+   "url": "https://knowledge.gtmstrategist.com/p/b2b-paid-advertising-2026",
+   "published": "2026-10-09",
+   "shelf": "fast",
+   "mode": "read",
+   "minutes": 10,
+   "track": "pro",
+   "domain": "Paid channels and measurement",
+   "score": 66,
+   "why": "Read it for the five-question audit and the channel-test budget rule; the channel shares will move within a quarter. The data comes from one vendor's customer ad accounts, and that vendor sponsors the newsletter, so treat the trend numbers as a sample. A search found no independent copy of the study.",
+   "lookFor": [
+    "Which of your channels look cheap per lead and expensive per qualified lead?",
+    "Are you reading attribution, influence or incrementality when you say a channel works?",
+    "How big would a fair test of a new channel be, using results times target cost per acquisition?"
+   ],
+   "gist": "Drawing on an analysis of 379 B2B advertisers' accounts by an ad-tech vendor, the piece reports that sales motion predicts channel mix better than industry, that AI-native firms put more into LinkedIn and less into Google and use ads to educate a new category, and that Meta's share of B2B budgets rose from about 21% to 25% as search costs climbed. It offers five audit questions: compare with peers in the same motion, know whether your mix is unusual, check you use each platform for the same job, track cost per qualified lead, and separate attribution, influence and incrementality, with holdouts for the last. For a channel test it says budget results times target CPA, avoid tiny one-week tests, and once something works keep about 10% of spend in a separate experiment campaign."
+  },
+  {
+   "id": "1012-atlassian",
+   "title": "SaaStr 881: How Atlassian's Head of AI Ships AI Across 20 Products and 5 Million Users",
+   "source": "The Official SaaStr Podcast",
+   "author": "Sherif Mansour",
+   "url": "https://saastr.libsyn.com/saastr-881-how-atlassians-head-of-ai-ships-ai-across-20-products-and-5-million-users",
+   "published": "2026-10-09",
+   "shelf": "fast",
+   "mode": "listen",
+   "minutes": 44,
+   "track": "pro",
+   "domain": "AI enablement",
+   "score": 67,
+   "why": "Three tensions in rolling AI out across a large product line, with one rule worth taking: anything a human can do in your product, an agent should be able to do too, which bears directly on agents as a distribution channel. It is a stage talk from SaaStr Annual, given months before this release, so the user numbers and tool details are already dated; keep the principles. Not found on Spotify when this edition was built; search for the exact title under The Official SaaStr Podcast.",
+   "lookFor": [
+    "What would your users type into a chat box that tells you the next feature to build?",
+    "Which actions in your product could an agent not perform today, and what does that cost you as agents start buying?",
+    "Where in your team is everyone rowing and no one steering on AI?"
+   ],
+   "gist": "Mansour, who runs AI across Atlassian's 20-plus apps and its Rovo platform, describes three tensions and says the answer to each is rarely either-or. Chat was built into every app as a discovery tool: what customers typed showed what to build next. Bolting AI onto existing workflows worked despite the conventional advice, and the company adopted the rule that anything a human can do in the product, an agent should be able to do. Experiments to make everyone an AI builder left 'everyone rowing, no one steering', so they changed their hiring mix toward more juniors and seniors and fewer in the middle, citing data that juniors are nearly twice as likely to experiment with AI tools."
+  }
+ ],
+ "practice": {
+  "id": "1012-p",
+  "type": "Argument",
+  "minutes": 12,
+  "title": "Answer the cheap-lead budget shift",
+  "prompt": "A colleague proposes moving a third of the paid budget from one professional network to a social platform, because the platform's dashboard shows leads at half the cost: 40 per lead versus 80. From the CRM you know 25% of the social leads match your ideal customer profile, versus 60% from the professional network. Write a five-sentence reply that keeps the door open. Include: (1) the cost per qualified lead on each channel, (2) the question the dashboard number cannot answer, (3) a concrete test with a budget, sized to get 100 qualified leads from the new channel at its current qualified cost.",
+  "reveal": "(1) Social: 40 / 0.25 = 160 per qualified lead. Network: 80 / 0.60 = about 133. The cheap channel is about 20% dearer where it counts. (2) Neither number says whether the ads caused the leads; platform-reported conversions credit the ad for buyers who would have come anyway, so you need a holdout to see incrementality. (3) 100 qualified leads x 160 = 16,000 as a test budget, run long enough to see pipeline, with a matched holdout group that sees no ads, and a decision rule set before it starts. A good reply agrees the channel might work, names the qualified cost, and turns the shift into a test with a fixed size and an exit."
+ },
+ "cuts": [
+  {
+   "title": "Design and Evaluation of Optimal Free Trials",
+   "source": "Management Science",
+   "reason": "Scored 86 and still unfinished, but one 'Back once' per weekend is enough; it may return on a quieter day."
+  },
+  {
+   "title": "Robinhood's CFO on Refounding & the Art of Capital Allocation | Shiv Verma",
+   "source": "Run the Numbers",
+   "reason": "Second pass: 67 minutes of a consumer fintech CFO interview, over a short day's budget."
+  },
+  {
+   "title": "The Roadmap to Becoming a Product Builder, with Ankit Shukla",
+   "source": "Product Growth (Aakash Gupta)",
+   "reason": "68 minutes on product-manager careers, no line to a live problem."
+  },
+  {
+   "title": "Building a marketplace from scratch, with Hipcamp founder Alyssa Ravasio",
+   "source": "Masters of Scale",
+   "reason": "A consumer marketplace founder story, far from your problems."
+  },
+  {
+   "title": "The 4 C's for Better Communication",
+   "source": "Think Fast Talk Smart",
+   "reason": "A short tips mail, general and below your level."
+  },
+  {
+   "title": "Claude gets two new tools (and similar)",
+   "source": "Superhuman AI, The Neuron, The Anthropic Stack",
+   "reason": "News cycle. Nothing to act on this month."
+  }
+ ]
+}

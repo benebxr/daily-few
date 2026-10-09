@@ -1,0 +1,91 @@
+{
+ "date": "2026-10-11",
+ "thesis": "A checked answer can still answer the wrong question.",
+ "scanned": 52,
+ "sourcesScanned": 34,
+ "picks": [
+  {
+   "id": "1011-envelope",
+   "title": "Your Guide to Tops Down vs Bottoms Up Target Setting",
+   "source": "Mostly Metrics",
+   "author": "CJ Gustafson",
+   "url": "https://www.mostlymetrics.com/p/your-guide-to-tops-down-vs-bottoms-up-target-setting",
+   "published": "2026-10-06",
+   "shelf": "slow",
+   "mode": "read",
+   "minutes": 10,
+   "track": "pro",
+   "domain": "Target setting",
+   "score": 81,
+   "why": "Back once: scored 81 on Wednesday and was not finished. A clear walk through who sets the first number in a plan and how a leader should build inside the envelope they get. It speaks to anyone setting targets in a new revenue role: the guardrails come first, and the build has to name what stops before it asks for more. The function split it quotes comes from a large sales-led company, and the author says himself that it does not transfer to a smaller or product-led one. Skip the sponsor block at the top.",
+   "lookFor": [
+    "Which guardrails would you set before anyone on your team builds a number, and which one would you refuse to trade away?",
+    "Why does the order matter: top line first, then margin, with spend as the difference?",
+    "What share of your own budget could you name as 'stop' tomorrow without a fight, and what does that tell you?"
+   ],
+   "gist": "Gustafson splits planning into a top-down step, where the CEO and CFO set guardrails for revenue, productivity and profitability, and a bottom-up build by each function inside that envelope. Drawing on a large company's CFO, he argues for setting the top line first and treating the gap between it and the margin target as the money to allocate, and notes that the split between sales, R&D and G&A depends heavily on company stage and on how you sell. For the build he rejects both grossing up last year's spend and full zero-based budgeting, and recommends a hybrid: each leader first names a share of current spend to stop (start around 5 to 10 percent) and funds part of the new asks from it, with priorities that ladder to the company's and a documented headcount map."
+  },
+  {
+   "id": "1011-aimath",
+   "title": "How AI Is Upending the World of Mathematics",
+   "source": "Odd Lots (Bloomberg)",
+   "author": "Joe Weisenthal, Tracy Alloway, with Justin Solomon",
+   "url": "https://omny.fm/shows/odd-lots/how-ai-is-upending-the-world-of-mathematics",
+   "spotifyUrl": "https://open.spotify.com/episode/4gT3omIpmkizcjcg0NZZWb",
+   "published": "2026-10-09",
+   "shelf": "fast",
+   "mode": "listen",
+   "minutes": 60,
+   "track": "personal",
+   "domain": "Science and how things work",
+   "score": 66,
+   "why": "The weekend science listen: an MIT applied mathematician explains what the new AI proof results mean and how practice and teaching are changing. The headline Navier-Stokes claim is disputed: reports say it covers a forced version of the equations, the wider community has not reviewed it, and there is an open credit dispute. Treat the claims about model ability as a snapshot that will age within weeks.",
+   "lookFor": [
+    "What exactly was proved, and how far is it from the question people care about?",
+    "What does a machine-checked proof guarantee, and what does it leave to human judgement?",
+    "How does the guest change what he teaches when a model can do the homework?"
+   ],
+   "gist": "The episode starts from OpenAI's announcement of an AI-generated proof on the Navier-Stokes problem and asks how mathematicians are responding. Justin Solomon, associate dean for engineering education at MIT, explains what the Navier-Stokes problem is, why the proof is hard even for experts to parse, and how pure and applied mathematicians are using the new tools. He also covers what films get wrong about how mathematicians work and how he is changing his teaching now that models can do students' homework."
+  }
+ ],
+ "practice": {
+  "id": "1011-p",
+  "type": "Teach-back",
+  "minutes": 10,
+  "title": "Explain what a checked proof does not check",
+  "prompt": "Explain to a smart friend who is not a mathematician, in under three minutes and out loud, why a proof that software has verified step by step can still fail to answer the famous question. Use three parts: what the checker guarantees, where a gap can remain, and one example from your own work where a number was computed correctly for the wrong question. Then write the three parts in one line each.",
+  "reveal": "(1) A proof checker such as Lean guarantees that every step follows from the stated definitions and assumptions. (2) It cannot tell you whether the formal statement matches the question humans meant. The reported dispute is exactly there: press reports say the result covers a version of the equations with an external forcing term, and experts disagree whether that counts. (3) Work example: a dashboard that computes conversion correctly while the definition of 'conversion' or the date window differs from the one the decision needs. A good teach-back names the gap between the statement and the intent, and says who has to check it: a person who knows what the question was for."
+ },
+ "cuts": [
+  {
+   "title": "370 | Daniel Akerib on a Faint Hint of Dark Matter",
+   "source": "Sean Carroll's Mindscape",
+   "reason": "Good physics, but 76 minutes over a short weekend edition. Queued for a longer slot."
+  },
+  {
+   "title": "Charlie Munger's Interview with Todd Combs",
+   "source": "The Knowledge Project",
+   "reason": "A short investing listen, queued twice; this weekend's personal slots went to economics and to science instead."
+  },
+  {
+   "title": "Real Estate Credit Over Yield at Invesco - Charlie Rose (EP.519)",
+   "source": "Capital Allocators",
+   "reason": "Institutional real estate credit, narrow for the investing track."
+  },
+  {
+   "title": "Cal Newport: The AI Industry Is Betting On The Wrong Kind Of AI",
+   "source": "Prof G Markets",
+   "reason": "80 minutes of opinion on AI strategy, with nothing you would act on."
+  },
+  {
+   "title": "Anthropic's Quest to Give A.I. Morals",
+   "source": "Hard Fork",
+   "reason": "AI news and ethics talk with no line to a live problem."
+  },
+  {
+   "title": "Claude gets two new tools (and similar)",
+   "source": "Superhuman AI, The Neuron, The Anthropic Stack",
+   "reason": "News cycle. Nothing to act on this month."
+  }
+ ]
+}

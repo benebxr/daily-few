@@ -1,0 +1,90 @@
+{
+ "date": "2026-10-10",
+ "thesis": "What you meter decides what you can bill, and when you get paid.",
+ "scanned": 52,
+ "sourcesScanned": 34,
+ "picks": [
+  {
+   "id": "1010-billing",
+   "title": "Your Complete Guide to Quote to Cash: Billing",
+   "source": "Mostly Metrics",
+   "author": "CJ Gustafson",
+   "url": "https://www.mostlymetrics.com/p/your-complete-guide-to-quote-to-cash-billing",
+   "published": "2026-10-08",
+   "shelf": "slow",
+   "mode": "read",
+   "minutes": 10,
+   "track": "pro",
+   "domain": "Pricing and billing",
+   "score": 72,
+   "why": "Queued yesterday and promoted: a plain walk through the chain from product event to invoice under usage pricing, which decides whether a credit or usage plan can be billed at all. The newsletter is sponsored by a billing vendor; skip the ad block at the top and the podcast plug at the end.",
+   "lookFor": [
+    "Which product events would your pricing need, and does your product emit them today with a clean customer ID?",
+    "Where in your chain could usage leak between metering, rating and invoicing without anyone noticing?",
+    "What happens to usage that arrives after the invoice run, and who decides?"
+   ],
+   "gist": "Gustafson argues billing got hard because the proxy for value moved from the seat to usage, tokens and credits, so two customers paying the same price can cost very different amounts to serve. Usage billing needs a chain: the product emits events, metering turns events into usage records, rating turns records into money, billing turns charges into invoices, and the result has to reconcile with finance so you can prove no usage leaked. He says the monetization model has to be in mind from day zero because the product must emit taggable events, that late-arriving usage creates real reconciliation work, and that billing is moving out of the batch ERP into a real-time layer next to the product while the ledger and close stay in the ERP."
+  },
+  {
+   "id": "1010-europe",
+   "title": "What Everyone Gets Wrong About the Economic Problems in Europe",
+   "source": "Odd Lots (Bloomberg)",
+   "author": "Joe Weisenthal, Tracy Alloway, with Dominik Leusder",
+   "url": "https://omny.fm/shows/odd-lots/what-everyone-gets-wrong-about-the-economic-problems-in-europe",
+   "published": "2026-10-08",
+   "shelf": "slow",
+   "mode": "listen",
+   "minutes": 53,
+   "track": "personal",
+   "domain": "Economics",
+   "score": 68,
+   "why": "The weekend economics listen, queued from Friday: a challenge to the standard story of European decline, two years after the Draghi report. One guest with a stated view, so listen for which numbers he says were mismeasured and check whether the argument rests on them. Not found on Spotify when this edition was built; search for the exact title under Odd Lots.",
+   "lookFor": [
+    "Which measure of European performance does the guest say the decline story gets wrong, and what would change your mind?",
+    "How much of the productivity gap is about what gets measured, and how much is real output?",
+    "Does Europe need its own frontier AI model, and what is the argument on each side?"
+   ],
+   "gist": "The episode questions the widespread view that Europe is falling behind. Two years after the Draghi report, the problems it named (demographics, energy costs, a lagging tech sector) are far from solved, but economist Dominik Leusder argues the report may have mismeasured the scale of Europe's issues and asks whether the decline narrative is accurate. The conversation also covers whether Europe needs a frontier AI model, why long lunches are a poor way to judge productivity, and Europe's relationship with China as both trade partner and competitor."
+  }
+ ],
+ "practice": {
+  "id": "1010-p",
+  "type": "Estimate",
+  "minutes": 12,
+  "title": "What does a slow invoice cost in cash?",
+  "prompt": "You bill a usage product monthly in arrears. Usage revenue is 400k a month, spread evenly over the month. Invoices go out on day 12 of the following month, and customers pay on 30-day terms, on time. Use a 30-day month. (1) On average, how many days pass between the usage and the cash? (2) How much cash is tied up at any moment? (3) If invoices went out on day 2, how much cash would that free once? (4) 3% of usage events arrive after the invoice run and are currently dropped. What does that cost per year? Pen and paper only.",
+  "reveal": "(1) Average usage happens mid-month, 15 days before month end. 15 + 12 + 30 = 57 days. (2) 400k / 30 = about 13.3k a day; 13.3k x 57 = about 760k. (3) Ten days earlier: 13.3k x 10 = about 133k freed, once, plus the same faster cycle every month after. (4) 400k x 3% = 12k a month, x 12 = 144k a year, invisible because nobody invoices what never reached the invoice. The point of today's read: the late-arriving usage is a design decision, usually a bigger leak than the invoice date, and it sits in the metering chain, outside finance."
+ },
+ "cuts": [
+  {
+   "title": "The Real Sale Starts After Signature | Proving Value in AI and Consumption Models with Seong Park",
+   "source": "Revenue Builders",
+   "reason": "Still queued; 62 minutes does not fit while editions are kept short."
+  },
+  {
+   "title": "Charlie Munger's Interview with Todd Combs",
+   "source": "The Knowledge Project",
+   "reason": "A short investing listen, queued twice; this weekend's personal slots went to economics and to science instead."
+  },
+  {
+   "title": "Archive: Trinity",
+   "source": "In Our Time",
+   "reason": "An archive episode on Christian theology, outside both curiosity tracks."
+  },
+  {
+   "title": "Is Anthropic a Good Business?",
+   "source": "Polymath Investor",
+   "reason": "A single-company valuation essay on a fast-moving story, with nothing you would reuse as method."
+  },
+  {
+   "title": "Everything for sale (on credit)",
+   "source": "Payments Culture",
+   "reason": "A consumer credit essay, far from your problems and thinner than today's economics listen."
+  },
+  {
+   "title": "Claude gets two new tools (and similar)",
+   "source": "Superhuman AI, The Neuron, The Anthropic Stack",
+   "reason": "News cycle. Nothing to act on this month."
+  }
+ ]
+}
