@@ -1,0 +1,93 @@
+{
+ "date": "2026-10-13",
+ "thesis": "A simple rule, applied to everyone, often beats a clever one.",
+ "scanned": 56,
+ "sourcesScanned": 38,
+ "picks": [
+  {
+   "id": "1013-trialrct",
+   "title": "Design and Evaluation of Optimal Free Trials",
+   "source": "Management Science",
+   "author": "Hema Yoganarasimhan, Ebrahim Barzegary, Abhishek Pani",
+   "url": "https://faculty.washington.edu/hemay/Free_Trial.pdf",
+   "published": "2023-06",
+   "shelf": "evergreen",
+   "holds": "The method has not aged: randomize trial length at signup and follow customers for two years. What may not transfer is the setting, one dominant software firm whose default was a 30-day trial, so products that take weeks to show value or carry high serving cost per user should rerun the test. A search in this run again found no correction or failed replication.",
+   "mode": "read",
+   "minutes": 25,
+   "track": "pro",
+   "domain": "Experiment design",
+   "score": 86,
+   "why": "Back once: scored 86 last Monday and was not finished. It is still the best randomized evidence on trial length in a self-serve funnel: 7, 14 and 30 days assigned at random, and the shortest trial won on subscriptions, retention and revenue. Read the introduction, the experiment and results sections and the conclusion; skip the machine-learning detail if time is short.",
+   "lookFor": [
+    "Why did 7 days beat 30, and which explanation do the authors rule out?",
+    "Which users gained from a longer trial, and what does that suggest about who should get one?",
+    "Why did the more sophisticated targeting methods do worse than giving everyone the short trial?"
+   ],
+   "gist": "New users of a leading software firm, which then offered 30-day trials to everyone, were randomly assigned to 7, 14 or 30 days and followed for two years. Giving everyone 7 days raised subscriptions by 5.59% over the 30-day baseline, while 14 days made no significant difference, and the short trial also did well on retention and revenue. The authors find no support for longer trials cannibalizing demand, find support for consumer learning, and show that long stretches of inactivity near the end of a trial go with lower conversion. A lasso-based personalized policy improved subscriptions by 6.8% over 30 days for all, but policies built with causal or random forests did worse than simply giving everyone the short trial."
+  },
+  {
+   "id": "1013-munger",
+   "title": "Charlie Munger's Interview with Todd Combs",
+   "source": "The Knowledge Project",
+   "author": "Charlie Munger, interviewed by Todd Combs",
+   "url": "https://fs.blog/knowledge-project-podcast/outliers-munger-combs/",
+   "spotifyUrl": "https://open.spotify.com/episode/3Y8vE8gvHHnP9uKuHprt0m",
+   "published": "2026-10-06",
+   "shelf": "evergreen",
+   "holds": "Released in this feed now, but recorded in 2022, and a recording of the same conversation circulated before. The case for concentration and temperament over raw intelligence holds; the asides on proxy advisers and the politics of that year are of their moment, and concentration only pays for someone with a real edge, which most investors lack.",
+   "mode": "listen",
+   "minutes": 21,
+   "track": "personal",
+   "domain": "Investing and economics",
+   "score": 68,
+   "why": "Queued twice as a short investing listen, and it fits a short day: 21 minutes of Munger on concentration, temperament and why a few great holdings beat many average ones. It is today's personal-track pick because no other professional candidate cleared 70. Expect some poor audio in places.",
+   "lookFor": [
+    "What does Munger mean by giving most of the playing time to a few people, and where would that rule hurt you?",
+    "Why does he rate temperament above intelligence, and what would that look like in a hiring or budget decision?",
+    "Which of his warnings about rewarding activity over results applies to how your own team is measured?"
+   ],
+   "gist": "In a 2022 conversation with Todd Combs, Munger holds up Henry Singleton of Teledyne as a rare, remorselessly rational capital allocator. He argues for concentration, owning a few great businesses for a long time, since no one can know enough about a thousand stocks, and says temperament matters more than intelligence. He describes how most smart investors move from cheap mediocre companies toward great ones while warning that great companies are often priced too high, and criticizes an investment industry whose incentives reward activity over results."
+  }
+ ],
+ "practice": {
+  "id": "1013-p",
+  "type": "Mental math",
+  "minutes": 10,
+  "title": "Price a shorter trial in your head",
+  "prompt": "Your self-serve funnel gets 12,000 trial signups a month on a 30-day trial, and 6% become paying customers at 50 per month. Suppose your own randomized test shows a 7-day trial lifts conversion by 5.6% in relative terms, as in today's read. Without a calculator: (1) paying customers per monthly cohort under each trial, (2) extra monthly recurring revenue per cohort, and after twelve cohorts, ignoring churn, as an annual run rate, (3) how much cash each cohort's first payment brings and how many days earlier it arrives, (4) the one result in your test that would make you keep the 30-day trial anyway.",
+  "reveal": "(1) 30 days: 12,000 x 0.06 = 720. 7 days: 720 x 1.056 = 720 + 40.3, about 760. (2) 40 extra customers x 50 = 2,000 more recurring revenue per month for each cohort. Twelve cohorts: 12 x 2,000 = 24,000 per month, an annual run rate of 288,000, before churn. (3) About 760 x 50 = 38,000 per cohort, arriving 23 days sooner. (4) If revenue per assigned signup at the second renewal is lower under the short trial, because the extra buyers churn or a valuable segment needs time to see value. Judge the test on revenue per assigned account, not on first conversion."
+ },
+ "cuts": [
+  {
+   "title": "Why every company now needs to think and operate like a lab team | Josh Woodward (Google Labs, Gemini, AI Studio)",
+   "source": "Lenny's Podcast",
+   "reason": "On topic for AI enablement, but 62 minutes does not fit while editions are kept short. Queued for a day with listening room."
+  },
+  {
+   "title": "Token Series Part 1 | How AI Created a New Budget",
+   "source": "Run the Numbers",
+   "reason": "A short talk with a billing vendor's founder that repeats the token-budget lesson from two weeks ago."
+  },
+  {
+   "title": "Inside the Food52 Bankruptcy | Heidi Robinson",
+   "source": "Run the Numbers",
+   "reason": "A gripping turnaround story, but a consumer media company in distress has little to teach your problems."
+  },
+  {
+   "title": "Figma, Wealthfront & Virta Health CFOs answer your questions",
+   "source": "Mostly Metrics",
+   "reason": "Career questions for finance leaders, not for revenue leaders."
+  },
+  {
+   "title": "Nate Soares on How AI Really Could Kill Us All",
+   "source": "Odd Lots",
+   "reason": "76 minutes on AI risk, outside both the professional problems and the curiosity tracks."
+  },
+  {
+   "title": "Swag got cool again",
+   "source": "Growth Unhinged",
+   "reason": "Brand merchandise at large AI firms, nothing to act on."
+  }
+ ]
+}

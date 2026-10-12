@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-09",
- "window": "cumulative since 16.09.2026; last sweep 09.10.2026",
+ "updated": "2026-10-12",
+ "window": "cumulative since 16.09.2026; last sweep 12.10.2026",
  "sources": [
   {
    "name": "Open web discovery",
-   "scanned": 108,
-   "picked": 13
+   "scanned": 114,
+   "picked": 14
   },
   {
    "name": "MKT1 Newsletter",
@@ -24,22 +24,22 @@
   },
   {
    "name": "Superhuman AI",
-   "scanned": 32,
+   "scanned": 34,
    "picked": 0
   },
   {
    "name": "The Neuron",
-   "scanned": 30,
+   "scanned": 32,
    "picked": 0
   },
   {
    "name": "Doomberg",
-   "scanned": 8,
+   "scanned": 9,
    "picked": 0
   },
   {
    "name": "Think Fast Talk Smart",
-   "scanned": 10,
+   "scanned": 11,
    "picked": 0
   },
   {
@@ -69,7 +69,7 @@
   },
   {
    "name": "AI by Aakash",
-   "scanned": 4,
+   "scanned": 5,
    "picked": 0
   },
   {
@@ -79,7 +79,7 @@
   },
   {
    "name": "The Anthropic Stack",
-   "scanned": 11,
+   "scanned": 12,
    "picked": 0
   },
   {
@@ -114,32 +114,32 @@
   },
   {
    "name": "Growth Unhinged",
-   "scanned": 9,
+   "scanned": 10,
    "picked": 2
   },
   {
    "name": "The Official SaaStr Podcast",
-   "scanned": 8,
+   "scanned": 9,
    "picked": 1
   },
   {
    "name": "Lenny's Podcast",
-   "scanned": 26,
+   "scanned": 27,
    "picked": 1
   },
   {
    "name": "EconTalk",
-   "scanned": 32,
+   "scanned": 34,
    "picked": 1
   },
   {
    "name": "The Knowledge Project",
-   "scanned": 29,
-   "picked": 0
+   "scanned": 30,
+   "picked": 1
   },
   {
    "name": "Masters of Scale",
-   "scanned": 51,
+   "scanned": 54,
    "picked": 0
   },
   {
@@ -149,7 +149,7 @@
   },
   {
    "name": "Mostly Metrics",
-   "scanned": 12,
+   "scanned": 13,
    "picked": 6
   },
   {
@@ -164,7 +164,7 @@
   },
   {
    "name": "Sifted",
-   "scanned": 9,
+   "scanned": 10,
    "picked": 0
   },
   {
@@ -189,7 +189,7 @@
   },
   {
    "name": "Run the Numbers",
-   "scanned": 41,
+   "scanned": 45,
    "picked": 4
   },
   {
@@ -199,12 +199,12 @@
   },
   {
    "name": "In Our Time",
-   "scanned": 29,
+   "scanned": 31,
    "picked": 2
   },
   {
    "name": "Worklife with Molly Graham",
-   "scanned": 24,
+   "scanned": 25,
    "picked": 1
   },
   {
@@ -214,12 +214,12 @@
   },
   {
    "name": "How I AI",
-   "scanned": 4,
+   "scanned": 5,
    "picked": 0
   },
   {
    "name": "20VC",
-   "scanned": 2,
+   "scanned": 3,
    "picked": 0
   },
   {
@@ -239,12 +239,12 @@
   },
   {
    "name": "Odd Lots",
-   "scanned": 26,
+   "scanned": 30,
    "picked": 3
   },
   {
    "name": "HBR IdeaCast",
-   "scanned": 16,
+   "scanned": 18,
    "picked": 2
   },
   {
@@ -259,27 +259,27 @@
   },
   {
    "name": "Capital Allocators",
-   "scanned": 12,
+   "scanned": 15,
    "picked": 0
   },
   {
    "name": "Sean Carroll's Mindscape",
-   "scanned": 8,
+   "scanned": 9,
    "picked": 0
   },
   {
    "name": "Prof G Markets",
-   "scanned": 46,
+   "scanned": 52,
    "picked": 0
   },
   {
    "name": "Coaching Real Leaders",
-   "scanned": 2,
+   "scanned": 3,
    "picked": 0
   },
   {
    "name": "The McKinsey Podcast",
-   "scanned": 8,
+   "scanned": 9,
    "picked": 0
   },
   {
@@ -294,7 +294,7 @@
   },
   {
    "name": "Hard Fork",
-   "scanned": 10,
+   "scanned": 11,
    "picked": 0
   },
   {
@@ -304,7 +304,7 @@
   },
   {
    "name": "Product Growth (Aakash Gupta)",
-   "scanned": 3,
+   "scanned": 4,
    "picked": 0
   },
   {
