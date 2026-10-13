@@ -1,0 +1,90 @@
+{
+ "date": "2026-10-14",
+ "thesis": "Teams and partners need a shared goal more than goodwill.",
+ "scanned": 75,
+ "sourcesScanned": 34,
+ "picks": [
+  {
+   "id": "1014-partners",
+   "title": "How to Build a SaaS+ Partner Ecosystem",
+   "source": "Rally Ventures",
+   "author": "Justin Kaufenberg and Rick Ehrman",
+   "url": "https://www.rallyventures.com/building-a-saas-partner-ecosystem/",
+   "published": "2025-12-01",
+   "shelf": "slow",
+   "mode": "read",
+   "minutes": 8,
+   "track": "pro",
+   "domain": "Partner channels",
+   "score": 65,
+   "why": "Partner channels have had no pick in four weeks, and this is the most concrete operator piece the search turned up: when to test a partner before committing, why smaller partners can beat large ones, and what a partner must bring to be worth managing. The numbers come from the authors' own experience and the firm uses the piece as thought leadership, so read them as one operator's yardstick.",
+   "lookFor": [
+    "What minimum commitment do the authors ask of a partner, and what does that rule out?",
+    "Why do they prefer smaller, focused partners, and when would that preference be wrong for you?",
+    "Which of their metrics would show you a partner is costing more to manage than it brings?"
+   ],
+   "gist": "The authors describe two partner modes for a software company: selling third-party products to your own customers, and embedding your product in another company's platform. They advise testing partnerships through a marketplace before building or buying, favouring smaller focused partners who move faster and accept clearer terms, and setting standards that include a minimum annual revenue commitment. They stress that your own sales team has to be enabled to sell partner products, since add-ons are optional for customers, and suggest tracking partner-attributed revenue, pipeline effect, retention and management cost against a share of total revenue."
+  },
+  {
+   "id": "1014-grant",
+   "title": "Why Great Teams Don’t Need to Like Each Other",
+   "source": "HBR IdeaCast",
+   "author": "Adam Grant, with Adi Ignatius and Alison Beard",
+   "url": "https://hbr.org/podcast/2026/10/why-great-teams-dont-need-to-like-each-other",
+   "published": "2026-10-13",
+   "shelf": "slow",
+   "mode": "listen",
+   "minutes": 33,
+   "track": "pro",
+   "domain": "Leadership and org design",
+   "score": 70,
+   "why": "A dense half hour for anyone shaping a team they inherited: alignment on purpose over affection, how to set up onboarding before day one, and how to tell useful task conflict from harmful relationship conflict. It promotes a new book, and some examples are anecdotes rather than studies. No Spotify link could be verified; search the episode title in Spotify.",
+   "lookFor": [
+    "What is the difference between task cohesion and social cohesion, and which one does your team actually measure?",
+    "Which of the three kinds of conflict does he call harmful, and how do you keep a strategy debate from turning into it?",
+    "What would change in your hiring if you screened for culture add instead of culture fit?"
+   ],
+   "gist": "Grant argues that teams need allies who share goals more than friends who share interests, because task cohesion predicts performance better than social cohesion. He recommends making the purpose concrete by bringing the people who benefit from the work into the room, structuring informal contact through random pairings, starting onboarding before a new hire's first day, and keeping a short ranked list of distinctive values. He separates harmful relationship conflict from useful task and process conflict, says candid feedback lands when people trust the messenger's motives, and urges leaders to promote disagreeable givers who challenge them."
+  }
+ ],
+ "practice": {
+  "id": "1014-p",
+  "type": "First principles",
+  "minutes": 12,
+  "title": "What must a partner bring to pay its way?",
+  "prompt": "A reseller partner wants to work with you. Build the break-even from scratch. A partner manager costs 120,000 a year fully loaded and can run four serious partners. Enablement and joint marketing cost another 10,000 per partner per year. You pay the partner 20% of first-year revenue on every deal it brings, and your gross margin is 80%. (1) What first-year partner-sourced revenue does this partner need to cover its cost, if every deal is new business you would never have won alone? (2) Redo it assuming half of those customers would have bought from you directly anyway, while you still pay the share on all of them. (3) Compare both figures with the minimum commitment in today's read. (4) Name one way to find out how much of a partner's revenue is truly incremental.",
+  "reveal": "(1) Cost per partner: 120,000 / 4 = 30,000, plus 10,000 = 40,000. Each unit of partner revenue R keeps 0.8 - 0.2 = 0.6 after margin and share, so 0.6R = 40,000 and R = about 67,000. (2) Only half is incremental: margin 0.8 x 0.5R = 0.4R, minus the share 0.2R on all of it, leaves 0.2R. 0.2R = 40,000, so R = 200,000, three times the first answer. (3) The read asks for 250,000 to 300,000 a year, which clears even the half-incremental case with some room. (4) Treat it like any channel test: hold the partner out of some regions or segments for a period and compare new-customer revenue with the regions where it is active, or check how many partner deals were already open in your own pipeline before the partner registered them."
+ },
+ "cuts": [
+  {
+   "title": "Why every company now needs to think and operate like a lab team | Josh Woodward (Google Labs, Gemini, AI Studio)",
+   "source": "Lenny's Podcast",
+   "reason": "Still queued for AI enablement; 62 minutes does not fit while editions are kept short."
+  },
+  {
+   "title": "How to Get People to Say Yes | Ryan Serhant",
+   "source": "The Knowledge Project",
+   "reason": "56 minutes of general persuasion advice from residential property sales, thin for an advanced operator."
+  },
+  {
+   "title": "How to tell if a startup has a moat",
+   "source": "Lenny's Newsletter",
+   "reason": "A framework for judging a company before you join it, no line to a live problem."
+  },
+  {
+   "title": "Dave Kellogg: Building a Senior Audience, Blogging, Executive Branding, LinkedIn & X",
+   "source": "Executive Brand",
+   "reason": "Personal branding for executives, not one of your live problems."
+  },
+  {
+   "title": "The Numbers Behind the Bond Bear Market (with a Look at Equities)",
+   "source": "Ray Dalio",
+   "reason": "A macro forecast built on current market numbers; personal-track picks go to the weekend and this one will date fast."
+  },
+  {
+   "title": "Meta’s Muse Wonder is here, priced like Opus (and similar)",
+   "source": "The Neuron",
+   "reason": "News cycle. Nothing to act on this month."
+  }
+ ]
+}
