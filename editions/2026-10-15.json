@@ -1,0 +1,92 @@
+{
+ "date": "2026-10-15",
+ "thesis": "AI pays off for a team when someone owns the learning.",
+ "scanned": 67,
+ "sourcesScanned": 33,
+ "picks": [
+  {
+   "id": "1015-lab",
+   "title": "Making AI Work: Leadership, Lab, and Crowd",
+   "source": "One Useful Thing",
+   "author": "Ethan Mollick",
+   "url": "https://www.oneusefulthing.org/p/making-ai-work-leadership-lab-and",
+   "published": "2025-05-22",
+   "shelf": "slow",
+   "holds": "The three-part structure is still the reference model for team-level AI adoption and is used in 2026 talks and playbooks; no newer treatment replaces it. The usage percentages are from 2024 and early 2025 and are now low, so read them as the shape of the gap; today's figures are higher.",
+   "mode": "read",
+   "minutes": 11,
+   "track": "pro",
+   "domain": "AI enablement",
+   "score": 78,
+   "why": "The clearest model for why individual AI gains do not add up to team gains, and what a leader has to set up so they do: a vision people can picture, rewards for disclosing what works, and a small lab that turns those finds into shared tools. The reading time is an estimate from the length of about 2,300 words.",
+   "lookFor": [
+    "Why do people hide their AI use, and which of those reasons would you remove first on your own team?",
+    "What would an organisation-specific benchmark look like for one of your team's recurring tasks?",
+    "Who on your team already belongs in the lab, and what would they stop doing to make room for it?"
+   ],
+   "gist": "Mollick argues that AI raises individual output in many controlled studies while companies see little of it, because individual gains only become organisational gains through changed incentives, processes and work design. Leadership has to paint a concrete picture of AI-enabled work, commit that gains will not automatically mean cuts, reward people for disclosing useful uses and model the tools in public. A small lab of enthusiasts from the business turns those discoveries into quick shared tools, builds benchmarks from the company's own tasks, keeps prototypes of workflows that do not work yet and retests them on each new model. The crowd of experienced frontline staff is where most useful uses are found, so the three parts need a constant feedback loop."
+  },
+  {
+   "id": "1015-woodward",
+   "title": "Why every company now needs to think and operate like a lab team | Josh Woodward (Google Labs, Gemini, AI Studio)",
+   "source": "Lenny's Podcast",
+   "author": "Josh Woodward, with Lenny Rachitsky",
+   "url": "https://www.lennysnewsletter.com/p/why-every-company-now-needs-to-think",
+   "spotifyUrl": "https://open.spotify.com/episode/4nREPHunYQprNJQiZeuJcy",
+   "published": "2026-10-11",
+   "shelf": "fast",
+   "mode": "listen",
+   "minutes": 62,
+   "track": "pro",
+   "domain": "AI enablement",
+   "score": 66,
+   "why": "Queued three times and paired today with the read: the person running one of the largest internal labs explains how to set one up so it does not fade out. It is told from a product team's side, so translate the parts on ideas and launches into your own team's workflows. If time is short, the lab setup and pitfalls segments carry most of the value.",
+   "lookFor": [
+    "What does he keep on his list of things that are almost possible, and what would that list hold for your team?",
+    "Which signs tell a team to kill an idea before leadership notices?",
+    "Why does he think internal labs fade after a few years, and what protects them?"
+   ],
+   "gist": "Woodward argues that every company now has to work like a lab because what is technically possible changes every few weeks. He advises keeping a running list of capabilities that are almost possible and moving fast when one crosses the line, judging early fit by how users react to a prototype, and making it safe for a team to say an idea should die. He names the rate of unlearning and sustained intense output as rising skills, describes alternating named periods of intense work with exploration, and warns that internal labs lose their edge within a few years unless they keep real autonomy and also challenge the company's own processes."
+  }
+ ],
+ "practice": {
+  "id": "1015-p",
+  "type": "Estimate",
+  "minutes": 10,
+  "title": "Is a small AI lab worth its hours?",
+  "prompt": "A commercial team has 40 people. 20% use the official AI tool, while 40% say they use AI at work. (1) How many people use AI without telling anyone? (2) Each of them saves 3 hours a week and shares nothing. How many hours a week is the team losing to secrecy, in full-time equivalents of 40 hours? (3) You form a lab of two people who each give it 20% of a 40-hour week. They turn the best hidden workflow into a shared tool, and every person who did not use AI at all now saves 1.5 hours a week. What is the net weekly gain in hours and in FTE? (4) How many minutes a week must the shared tool save per non-user just to pay for the lab? (5) Name one reason the saved hours might not turn into results.",
+  "reveal": "(1) 40% of 40 = 16 users, 20% of 40 = 8 official users, so 8 hidden users. (2) 8 x 3 = 24 hours a week, 0.6 FTE. (3) Non-users: 40 - 16 = 24 people. 24 x 1.5 = 36 hours saved. The lab costs 2 x 0.2 x 40 = 16 hours. Net gain 36 - 16 = 20 hours a week, 0.5 FTE, before counting what the lab's hidden users share. (4) 16 hours / 24 people = 0.67 hours, about 40 minutes a week each. (5) Mollick's point: cheap output is not performance. Saved hours only count if they go into customer time or better decisions, so decide in advance where they go and measure that outcome."
+ },
+ "cuts": [
+  {
+   "title": "E72: I Collapsed My GTM Org Chart. This Is Why | Ian Tickle, CRO @ Freshworks",
+   "source": "The Revenue Leadership Podcast",
+   "reason": "Still queued for org design; 77 minutes does not fit while editions are kept short."
+  },
+  {
+   "title": "The Theory 2026 AI Survey Results",
+   "source": "Tomasz Tunguz",
+   "reason": "A survey of technical builders on their AI stack, far from running a commercial team."
+  },
+  {
+   "title": "Make Your AI Grade Its Own Work",
+   "source": "AI Skill of the Week",
+   "reason": "A single self-review prompt wrapped in product promotion; today's read covers sharing such tools across a team."
+  },
+  {
+   "title": "How Do I Ensure I Get Promoted?",
+   "source": "Coaching Real Leaders",
+   "reason": "Career coaching for an individual contributor, below your level."
+  },
+  {
+   "title": "The Great Fertility Collapse (with Jesus Fernandez-Villaverde)",
+   "source": "EconTalk",
+   "reason": "A solid economics listen at 71 minutes; personal-track picks go to the weekend, and it is queued for that slot."
+  },
+  {
+   "title": "Google launched Gemini 4 Argon, tying GPT-6 (and similar)",
+   "source": "The Neuron, Superhuman AI",
+   "reason": "News cycle. Nothing to act on this month."
+  }
+ ]
+}
