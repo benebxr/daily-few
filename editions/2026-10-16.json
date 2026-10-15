@@ -1,0 +1,90 @@
+{
+ "date": "2026-10-16",
+ "thesis": "Write the rule before the edge case, and ask buyers how they found you.",
+ "scanned": 105,
+ "sourcesScanned": 40,
+ "picks": [
+  {
+   "id": "1016-q2c",
+   "title": "Your Complete Guide to Quote to Cash: Part 3",
+   "source": "Mostly Metrics",
+   "author": "CJ Gustafson",
+   "url": "https://www.mostlymetrics.com/p/your-complete-guide-to-quote-to-cash-part-3",
+   "published": "2026-10-15",
+   "shelf": "slow",
+   "mode": "read",
+   "minutes": 8,
+   "track": "pro",
+   "domain": "Pricing and billing",
+   "score": 66,
+   "why": "The last part of the quote-to-cash series covers tax, collections and revenue recognition, and shows how each one gets harder because of pricing choices made upstream. The part that matters most for a revenue leader is the shelfware point: under a usage contract with a minimum, a customer who never adopts pays only the floor, so someone on your side has to drive usage after signature. It is written from the finance seat, and the reading time is an estimate from about 1,500 words.",
+   "lookFor": [
+    "Which pricing option on your list would add a manual step to tax or invoicing, and who would notice it first?",
+    "When a usage customer stalls at the minimum, whose number takes the hit, and who is paid to fix it?",
+    "What would a written policy for late-arriving or fraudulent usage say, decided before the first case?"
+   ],
+   "gist": "Gustafson argues that tax, collections and revenue recognition only look like finance problems: each got harder because billing got harder, and billing got harder because pricing became a product decision. Tax belongs inside the transaction itself, with the right tax code on every SKU. Most late payments come from small mistakes between systems, which makes collections a support function ripe for agents, and usage contracts add a new kind of shelfware where unused products bill only the minimum. Usage also makes revenue bursty and forecasting harder, so he advises writing cutoff and fraud policies in advance."
+  },
+  {
+   "id": "1016-geo",
+   "title": "GEO ist tot – mit Andre Alpar (K#670)",
+   "source": "Kassenzone (CEO Interviews)",
+   "author": "Andre Alpar, with Alexander Graf",
+   "url": "https://kassenzone.podigee.io/690-audio-alpar",
+   "published": "2026-10-11",
+   "shelf": "fast",
+   "mode": "listen",
+   "minutes": 55,
+   "track": "pro",
+   "domain": "Agents as a channel",
+   "score": 68,
+   "why": "In German. A search practitioner explains how AI assistants decide which companies to recommend, and why that rests mostly on what others say about you, which makes agents a channel you can work on. The most useful part is measurement: AI-referred visits hide as direct traffic, and simply asking buyers how they found you shows far more than the tracked numbers do. The host's world is online retail, so the commerce segments transfer less, and the claims rest on one practitioner's experience without a controlled study.",
+   "lookFor": [
+    "Which of the five disciplines he names would your team own today, and which has no owner?",
+    "Where do third parties already mention you (podcasts, forums, trade press), and which mentions would an assistant find?",
+    "What would you change in your lead form so that the answer to 'How did you hear about us?' becomes usable data?"
+   ],
+   "gist": "Alpar argues that generative engine optimization shares only part of its work with search optimization: of the five disciplines (strategy, monitoring, technical work, content, off-page), the two overlap only in technical work and content, which is all Google talks about. He puts about two thirds of the weight on off-page signals, since AI systems in effect ask your neighbours who you are, so mentions in podcasts, forums and trade media count for more than links. AI-referred visits often land on deep pages and are booked as direct traffic, and in B2B the tracked share can sit below 1% while asking buyers sometimes shows about a third. He expects intermediaries such as comparison sites to lose, sees listicles as a shortcut that works now but is no strategy, and expects conversational advice to matter more than fully autonomous buying agents for the foreseeable future."
+  }
+ ],
+ "practice": {
+  "id": "1016-p",
+  "type": "Teach-back",
+  "minutes": 10,
+  "title": "Explain where AI-sourced demand hides",
+  "prompt": "Your finance partner trusts only last-touch attribution and says AI assistants bring you almost nothing, because the dashboard shows under 1% of leads from them. In five or six sentences on paper, explain: (1) why a buyer who first heard of you through an assistant usually shows up as direct traffic or branded search, (2) why the tracked share and the self-reported share can differ by a factor of 30 or more, (3) what a 'How did you hear about us?' answer can show and what it cannot prove, and (4) one test that would turn that answer into evidence of lift. Then check: would a colleague who missed the episode be able to repeat your point (3)?",
+  "reveal": "A model answer: (1) Assistants often pass no referrer, and many buyers read the answer, then type your name or URL later, so the visit is booked as direct or branded search, often on a deep page. (2) The tracked number only counts sessions with a clean referrer, while the self-reported number counts every buyer who remembers the assistant, so 1% against about a third is a gap of over 30 times. (3) Self-reported answers show where buyers believe they found you and how that mix moves over time; they cannot prove the assistant caused the purchase, because people name the most memorable touch, the options you list steer the answers, and some would have bought anyway. (4) To test lift, change something you control, such as a push for third-party mentions in one set of markets or periods and not in another, and compare branded search, direct sign-ups and the self-reported share against the control, as in a geo or time-based holdout. If your point (3) did not separate 'where they say they came from' from 'what caused the purchase', rewrite it."
+ },
+ "cuts": [
+  {
+   "title": "Operationalizing AI for revenue teams",
+   "source": "The Signal",
+   "reason": "A clear map of why AI stays with one person on a team, but written by a vendor of the fix around its own benchmark, and this week already carried three AI-enablement picks."
+  },
+  {
+   "title": "Former Netflix CFO Breaks Down Return on Compute | Jim Cook",
+   "source": "Run the Numbers",
+   "reason": "Token budgeting by role again, a lesson earlier editions already covered, told from the finance seat."
+  },
+  {
+   "title": "Estimating causal effects using geo experiments",
+   "source": "The Unofficial Google Data Science Blog",
+   "reason": "Durable and clear, but it retells the geo-experiment paper an earlier edition already carried and you finished."
+  },
+  {
+   "title": "E72: I Collapsed My GTM Org Chart. This Is Why | Ian Tickle, CRO @ Freshworks",
+   "source": "The Revenue Leadership Podcast",
+   "reason": "Still queued for org design; 77 minutes does not fit while editions are kept short."
+  },
+  {
+   "title": "332. Rethinks: Learn Faster and Fail Smarter",
+   "source": "Think Fast Talk Smart",
+   "reason": "Sound advice on rewarding learning over outcomes, but general and close to yesterday's lab theme."
+  },
+  {
+   "title": "The 2026 State of B2B GTM: What the Companies Are Betting On (and similar)",
+   "source": "GTM Strategist, Growth Unhinged",
+   "reason": "Survey numbers from 300 companies that will date within a quarter, with nothing you would change this month."
+  }
+ ]
+}
