@@ -1,0 +1,66 @@
+{
+ "date": "2026-10-17",
+ "thesis": "A shared standard only matters once things move fast enough.",
+ "scanned": 112,
+ "sourcesScanned": 44,
+ "picks": [
+  {
+   "id": "1017-time",
+   "title": "Archive: The Measurement of Time",
+   "source": "In Our Time (BBC Radio 4)",
+   "author": "Melvyn Bragg, with Kristen Lippincott, Jim Bennett and Jonathan Betts",
+   "url": "https://www.bbc.co.uk/programmes/p0p94prv",
+   "spotifyUrl": "https://open.spotify.com/episode/5Ej96Rw6EcG8SVMUG3VPvB",
+   "published": "2012-03",
+   "shelf": "evergreen",
+   "holds": "The history of water clocks, monastic alarms, railway time and the Greenwich meridian is settled and has not been corrected. The part that has aged is the end of the story: optical clocks now beat the caesium clocks described here, and a redefinition of the second around them is being prepared, with ratification no earlier than 2030.",
+   "mode": "listen",
+   "minutes": 43,
+   "track": "personal",
+   "domain": "Science and how things work",
+   "score": 70,
+   "why": "A weekend science listen: three historians of timekeeping walk from the sky as a clock to atomic time. The thread worth following is that accuracy alone never produced a standard; railways did, because they connected places fast enough for local differences to cause errors. This is a re-release of a 2012 episode, chosen as an archive pick by the current host.",
+   "lookFor": [
+    "What problem were the medieval monastic alarms solving, if they did not show the time?",
+    "Why did a standard time arrive with the railways and not with better clocks?",
+    "Which part of the story is about precision, and which part is about agreement between people?"
+   ],
+   "gist": "Early civilisations told time from the movement of heavenly bodies, and the ancient world also built sophisticated devices such as water clocks. Mechanical clocks emerged in medieval Europe, where monks used them to sound an alarm for prayer rather than to show the hour. For centuries clocks stayed inaccurate and places kept their own time, until the railways forced standard time on Britain in the mid-19th century and Greenwich became the prime meridian in 1884. Atomic clocks now keep time to about a second in 15 million years."
+  }
+ ],
+ "practice": {
+  "id": "1017-p",
+  "type": "First principles",
+  "minutes": 10,
+  "title": "When does a team need one definition?",
+  "prompt": "Before the railways, every town kept its own solar time, and Bristol ran about 10 minutes behind London without anyone minding. On paper: (1) In two or three sentences, explain from first principles why nobody needed a standard time until trains, and what condition made the 10 minutes suddenly matter. (2) Turn that into a general rule: when does a shared definition become worth the cost of enforcing it? (3) Apply the rule to three numbers in a revenue team, for example 'qualified opportunity', 'active customer' and 'pipeline created this month'. For each, decide: one company-wide definition, or fine to stay local? Give the reason in one line each.",
+  "reveal": "A model answer: (1) A difference in local time only causes harm when something has to be coordinated across places faster than the difference itself. A coach that takes a day to arrive does not care about 10 minutes; a timetable with trains meeting on one track does, because two local clocks can now put two trains in the same place. (2) A shared definition pays off when work or numbers cross a boundary: one team hands off to another, or figures from several teams are added up and compared. Where a number stays inside one team and drives only that team's decisions, local definitions are cheaper. (3) 'Qualified opportunity' crosses a handoff between the people who create pipeline and the people who close it, so it needs one definition, or each side will measure the other against a different clock. 'Pipeline created this month' gets added up across teams and compared with targets, so it needs one definition and one cut-off. 'Active customer' depends: if it feeds a company metric or a pricing rule, standardise it; if one team uses it only to plan its own outreach, it can stay local. If your rule in (2) did not mention handoffs or adding up, rewrite it."
+ },
+ "cuts": [
+  {
+   "title": "Thomas More's Utopia",
+   "source": "In Our Time",
+   "reason": "Political philosophy rather than science, and today's science slot went to the timekeeping archive."
+  },
+  {
+   "title": "Ask Me Anything | October 2026",
+   "source": "Sean Carroll's Mindscape",
+   "reason": "Three and a half hours of mixed questions, far over a weekend edition."
+  },
+  {
+   "title": "The Great Fertility Collapse (with Jesus Fernandez-Villaverde)",
+   "source": "EconTalk",
+   "reason": "Still a solid economics listen, but 71 minutes, and tomorrow's personal slot goes to economic history."
+  },
+  {
+   "title": "Senior Decision Makers: Erlina Yeo Terwelp, Columbia Investment Management Company (EP.520)",
+   "source": "Capital Allocators",
+   "reason": "Endowment portfolio management, far from any decision you make as an investor or operator."
+  },
+  {
+   "title": "Inside the Food52 Bankruptcy | Heidi Robinson",
+   "source": "Run the Numbers",
+   "reason": "A consumer media restructuring told from the finance seat, with little that carries to a software revenue team."
+  }
+ ]
+}

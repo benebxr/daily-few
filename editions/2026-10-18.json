@@ -1,0 +1,64 @@
+{
+ "date": "2026-10-18",
+ "thesis": "Booms built on borrowed money break where the debt sits.",
+ "scanned": 112,
+ "sourcesScanned": 44,
+ "picks": [
+  {
+   "id": "1018-1873",
+   "title": "Will The AI Boom End Like The Railroad Crash Of 1873? — ft. Liaquat Ahamed",
+   "source": "Prof G Markets",
+   "author": "Liaquat Ahamed, with Ed Elson",
+   "url": "https://podcasts.apple.com/us/podcast/will-the-ai-boom-end-like-the-railroad-crash-of/id1744631325?i=1000796623894",
+   "published": "2026-10-16",
+   "shelf": "fast",
+   "mode": "listen",
+   "minutes": 54,
+   "track": "personal",
+   "domain": "Investing and economics",
+   "score": 69,
+   "why": "A financial historian compares the railroad bubble that ended in the panic of 1873 with today's data centre buildout, and says where he sees the warning signs. The history is the durable part; his reading of where we are in the cycle is a forecast and will date fast. No Spotify link could be verified in this run, so search the episode title in the app; the gist below rests on the show notes and his own essay on the same argument.",
+   "lookFor": [
+    "How was the railroad buildout financed, and why did that make it fragile when revenue fell short?",
+    "Which warning signs does he name for the current buildout, and which of them could you check yourself in a year?",
+    "What does he say differs today, and does that difference make a bust less likely or only smaller?"
+   ],
+   "gist": "Ahamed's argument, as set out in the episode notes and his essay, is that the US rail network roughly doubled between 1865 and 1872, financed mostly with bonds, so when a leading banker could not raise the money he had promised for a new line and his bank failed in September 1873, a third of railroad bonds stopped paying interest within two years. He sees parallels in today's AI spending: a similar share of output going into one kind of infrastructure, each firm afraid to fall behind, and a shift from paying out of profits towards private credit and special-purpose vehicles. He grants that the large firms still fund much of this from their own profits and that markets are deeper now, and notes that railways kept driving growth for decades after the crash. His point is that the line between visionary investment and ruinous excess is only visible after you have crossed it."
+  }
+ ],
+ "practice": {
+  "id": "1018-p",
+  "type": "Argument",
+  "minutes": 12,
+  "title": "Is the AI buildout the new railroad bubble?",
+  "prompt": "Take the claim 'The AI data centre buildout will end like the railroads in 1873.' On paper, write the strongest case for it in three sentences, then the strongest case against it in three sentences. Use only mechanisms you can name: who pays, with what kind of money, and what happens when revenue comes in later than planned. Then write one sentence on which single fact, if you could see it in a year, would settle the argument for you.",
+  "reveal": "A strong case for: the spending is on a similar scale relative to the economy, every firm builds because it fears being left behind, and the money is shifting from retained profits to debt in private credit and special-purpose vehicles, so a revenue shortfall turns into missed interest payments and forced sales, as it did for railroad bonds. A strong case against: the largest builders still fund most of it from very profitable existing businesses, which can absorb years of low returns without defaulting, and today's capital markets are far deeper than in 1873, so losses spread more widely instead of breaking one bank. A useful settling fact: the share of new data centre capacity funded by debt that depends on the tenants' revenue, and whether that debt is being repaid on time. Both sides agree on one thing worth keeping: even if a bust comes, the infrastructure usually stays and gets used, as the railways did. If your 'against' case only said 'this time is different' without a mechanism, rewrite it."
+ },
+ "cuts": [
+  {
+   "title": "The French Political Crisis That's Turning Into a Debt Crisis",
+   "source": "Odd Lots",
+   "reason": "Timely sovereign debt story, but tied to this month's politics; today's economics slot went to the more durable history of a debt-financed boom."
+  },
+  {
+   "title": "CoreWeave Is Imploding — And Taking AI Stocks Down With It",
+   "source": "Prof G Markets",
+   "reason": "Market commentary on one stock's week; the 1873 episode covers the same financing question with history behind it."
+  },
+  {
+   "title": "CoreWeave (CRWV): Can It Pay Its Own Bills?",
+   "source": "Polymath Investor",
+   "reason": "A single-company credit analysis that will date with the next quarterly report, and only one personal pick fits today."
+  },
+  {
+   "title": "Nate Soares on How AI Really Could Kill Us All",
+   "source": "Odd Lots",
+   "reason": "76 minutes on AI risk arguments, with nothing you would act on."
+  },
+  {
+   "title": "How to Get People to Say Yes | Ryan Serhant",
+   "source": "The Knowledge Project",
+   "reason": "Persuasion and follow-up habits from luxury real estate; useful in places but general, and scored below the bar for your problems."
+  }
+ ]
+}

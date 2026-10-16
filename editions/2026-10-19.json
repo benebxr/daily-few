@@ -1,0 +1,90 @@
+{
+ "date": "2026-10-19",
+ "thesis": "Price AI so buyers can tell what a unit gets them done.",
+ "scanned": 112,
+ "sourcesScanned": 44,
+ "picks": [
+  {
+   "id": "1019-aipricing",
+   "title": "What on earth is going on with AI pricing and packaging?",
+   "source": "Elena's Growth Scoop",
+   "author": "Elena Verna",
+   "url": "https://www.elenaverna.com/p/what-on-earth-is-going-on-with-ai",
+   "published": "2026-10-16",
+   "shelf": "fast",
+   "mode": "read",
+   "minutes": 8,
+   "track": "pro",
+   "domain": "Pricing and packaging",
+   "score": 75,
+   "why": "A growth leader at an AI company walks through a row of AI pricing pages and names four reasons they confuse buyers, including her own company's. The examples describe pricing pages that change monthly; the principle that outlives them is that a credit or token is only a good unit if a buyer can translate it into work done before paying. Fresh-check: the large AI vendors kept moving towards metered, credit-based limits this autumn, which supports her argument. The reading time is an estimate from about 1,700 words.",
+   "lookFor": [
+    "Which of her four problems (invented currency, big numbers, unclear unit, unknown cost) applies to your own pricing page today?",
+    "Could a new buyer estimate what one unit of your product gets them done, without a sales call?",
+    "Where would outcome-based pricing break for you: defining the outcome, or the cost of delivering it?"
+   ],
+   "gist": "Verna argues that AI products are selling work neither the buyer nor the seller can predict, and four things make it worse. Credits and tokens are a form of mental accounting that hides real money, though they do solve a real problem of bundling many models and actions with different costs. Vendors confuse bigger numbers with more value, have lost the clear consumption unit that seats or transactions gave traditional software, and cannot predict their own inference cost, especially for agents that plan, retry and call tools, while fraud and free-tier abuse now hit margin directly. She doubts the mass market will tolerate this the way early adopters do, and expects the winner to be whoever makes cost understandable, predictable and tied to value without going broke."
+  },
+  {
+   "id": "1019-spoons",
+   "title": "5 Interesting Learnings from Bending Spoons at $2.8 Billion in Revenue: 126% Growth, 3% Organic Growth, and $1.08 Billion of ARR Bought in 37 Days",
+   "source": "SaaStr",
+   "author": "Jason Lemkin",
+   "url": "https://cloud.substack.com/p/5-interesting-learnings-from-bending",
+   "published": "2026-10-15",
+   "shelf": "fast",
+   "mode": "read",
+   "minutes": 9,
+   "track": "pro",
+   "domain": "Pricing and business models",
+   "score": 63,
+   "why": "Read it as the buyer's view of what a slow-growing software company is worth, and of how much AI really adds to price. The point to keep is the CEO's own: customers paying 100 will pay about 110 for AI features, so the acquirer books AI as capacity (fewer people per business) and underwrites no price uplift. The valuation and debt figures are one quarter's numbers and will date; the reading time is an estimate.",
+   "lookFor": [
+    "If AI lifts what a customer will pay by about 10%, where else must the return come from in your plan?",
+    "What does a 25% hurdle rate at a 54% margin imply as a price per unit of revenue, and why does growth barely move it?",
+    "Which costs does this buyer cut first, and what does that say about which work it thinks AI replaces?"
+   ],
+   "gist": "Lemkin breaks down a public acquirer that bought two well-known collaboration companies for 2.3x and 2.7x ARR within five weeks, while its own stock trades at several times revenue. Revenue grew 126%, but organic growth was 3%, and the CEO says he compounds earnings per share, not growth, underwriting deals to a 25% unlevered return, which at the portfolio's margin supports a price of about 2.2x ARR. Research and development is about 8% of revenue and around 60 people run a business the size of a well-known video platform, with margin coming from reorganisations and growing use of debt. AI writes at least 90% of the company's code, but the CEO sees customers paying only about 10% more for AI features and builds no AI price uplift into his deals."
+  }
+ ],
+ "practice": {
+  "id": "1019-p",
+  "type": "Mental math",
+  "minutes": 12,
+  "title": "What AI is worth in price and in margin",
+  "prompt": "No calculator. (1) A buyer wants a 25% yearly return and expects a 54% operating margin on what it buys. What multiple of annual recurring revenue can it pay? What if the margin is only 40%? (2) You have 1,000 customers at 100 a month. An AI add-on lifts the price to 110 for 40% of them, and it costs 6 a month per adopting customer to run. How much extra gross profit per month, and what share of current revenue is that? (3) A plan costs 25 a month for 100 credits. A typical task uses 4 credits, a heavy user's task 10. What does one task cost each kind of user? Then write one line on what (2) and (3) together tell you about where AI pays off.",
+  "reveal": "(1) The multiple is margin divided by the return: 0.54 / 0.25 = 2.16, about 2.2x ARR. At 40% margin: 0.40 / 0.25 = 1.6x. Growth does not enter this simple formula, which is why two companies growing at very different rates sold at similar multiples. (2) 400 adopting customers x (10 - 6) = 1,600 a month, on revenue of 100,000 a month, so 1.6% of revenue. (3) Typical: 100 / 4 = 25 tasks, so 25 / 25 = 1.00 per task. Heavy: 100 / 10 = 10 tasks, so 2.50 per task. Together: a 10% price uplift shrinks to under 2% of revenue once inference cost is paid, and a credit plan charges heavy users more than twice as much per task without telling them, so AI pays off mainly through capacity (doing more with the same team) and through a unit buyers can understand, less through a higher sticker price. If any of your numbers differ, redo the division before reading on."
+ },
+ "cuts": [
+  {
+   "title": "The Pulse: new trend of building “internal vibe-coding apps” at tech companies",
+   "source": "The Pragmatic Engineer",
+   "reason": "A short report on two companies' internal app builders, written for engineering leaders and about the state of tools this month."
+  },
+  {
+   "title": "SaaStr 882: Claudeforce vs. Replit vs. Lovable. Who wins? (The Agents #016)",
+   "source": "The Official SaaStr Podcast",
+   "reason": "65 minutes comparing tools that will change by next month, with no principle to keep."
+  },
+  {
+   "title": "The Real Sale Starts After Signature | Proving Value in AI and Consumption Models with Seong Park",
+   "source": "Revenue Builders",
+   "reason": "Still queued, but its episode page could not be re-verified in this run, so it stays out."
+  },
+  {
+   "title": "E72: I Collapsed My GTM Org Chart. This Is Why | Ian Tickle, CRO @ Freshworks",
+   "source": "The Revenue Leadership Podcast",
+   "reason": "Still queued for org design; 77 minutes does not fit while editions are kept short."
+  },
+  {
+   "title": "331. Matchmaker Mindset: How to Make Yourself Memorable in Any Conversation",
+   "source": "Think Fast Talk Smart",
+   "reason": "Sound small-talk technique from a matchmaker, but general, and below the bar for your problems."
+  },
+  {
+   "title": "Hands On: DIY Guide to Animated LinkedIn Infographics",
+   "source": "GTM Strategist",
+   "reason": "A tool tutorial built around one founder's impression count."
+  }
+ ]
+}
