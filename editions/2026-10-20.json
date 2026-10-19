@@ -1,0 +1,67 @@
+{
+ "date": "2026-10-20",
+ "thesis": "A thin day: diagnose the system you inherit before you change it.",
+ "scanned": 86,
+ "sourcesScanned": 41,
+ "picks": [
+  {
+   "id": "1020-first90",
+   "title": "Your First 90 Days as a CRO: How to Build Revenue Systems, Not Just Hit Numbers",
+   "source": "Pavilion",
+   "author": "Cullen Denny",
+   "url": "https://www.joinpavilion.com/blog/your-first-90-days-as-a-cro-how-to-build-revenue-systems-not-just-hit-numbers",
+   "published": "2025-07-10",
+   "shelf": "slow",
+   "holds": "The sequence of diagnosing handoffs, auditing the forecast and only then changing cadence does not depend on any tool or market cycle, so it holds. What has aged is the absence of AI in the operating cadence, and the closing sections are promotion for a paid membership.",
+   "mode": "read",
+   "minutes": 5,
+   "track": "pro",
+   "domain": "Revenue leadership",
+   "score": 62,
+   "why": "A plain 30-60-90 sequence for a new revenue leader, useful as a checklist to hold your own plan against. It argues that pipeline gaps and bad forecasts usually start in handoffs between teams, so the first month is for reading the system, not fixing reps. The advice is generic and the page sells a membership; a search for a newer, stronger treatment found only vendor guides. Reading time is an estimate from about 950 words.",
+   "lookFor": [
+    "Which handoff in your funnel would your peers name first if you asked where deals break?",
+    "Could you explain your forecast method, not only the number, to the CEO in two minutes?",
+    "Which one or two visible wins would prove the model by day 90 without locking in a reorg too early?"
+   ],
+   "gist": "The piece says a new revenue leader inherits a system spanning sales, marketing, customer success and product, and that weak pipeline, win rates and forecasts usually come from misaligned handoffs. Days 1 to 30 are for diagnosis: ask peers where handoffs fail and audit the forecast's math, stage definitions and how managers inspect deals. Days 31 to 60 set a cadence of diagnostic forecast calls, deal reviews, shared pipeline dashboards and win-loss debriefs. Days 61 to 90 deliver one or two visible wins, such as scrubbing pipeline or tightening stage exit criteria, and judge which managers can scale."
+  },
+  {
+   "id": "1020-sculpt",
+   "title": "Lessons from interviewing 20 GTM operators at Clay's conference",
+   "source": "The Signal",
+   "author": "Brendan Short",
+   "url": "https://www.thesignal.club/p/lessons-from-interviewing-20-gtm-operators-at-sculpt",
+   "published": "2026-10-17",
+   "shelf": "fast",
+   "mode": "read",
+   "minutes": 4,
+   "track": "pro",
+   "domain": "AI enablement",
+   "score": 60,
+   "why": "Read only the lessons section at the top: twenty operators on where AI in a commercial team works and where it does not. Keep the principles, not the tool names: bad data fails faster with AI, buy the foundation and build on top, and keep a workflow deterministic when an LLM only adds cost and error. The newsletter is sponsored by the conference host and several vendors in the space. Fresh-check: other recent practitioner writing lands on the same hybrid view of rules plus AI steps. Reading time is an estimate for about 600 words.",
+   "lookFor": [
+    "Which of your team's AI workflows would be cheaper and more accurate as a fixed rule?",
+    "Where does bad data in your systems already break the AI tools your team uses?",
+    "On which tasks would you do the work by hand first, so you understand it before you automate it?"
+   ],
+   "gist": "From interviews at a large go-to-market conference, the author finds agreement on five points: data quality still decides results, go-to-market engineering is stuck in outbound and must reach marketing and customer success, teams now buy a foundation and build on it, a shared context layer is the next thing being built, and in-person contact gains value. The disagreements are whether buyers will trust agents to buy, whether building in-house is worth the maintenance, whether AI personalisation will be spotted like merge tags, and whether uncertain work should be done by hand first. One interviewee argues many workflows should stay deterministic because an LLM makes them costlier and less accurate, and another that classical machine learning is being ignored."
+  }
+ ],
+ "practice": {
+  "id": "1020-p",
+  "type": "Estimate",
+  "minutes": 10,
+  "title": "Can the team you inherit carry the number?",
+  "prompt": "No calculator. A made-up team: 10 fully ramped reps, each worth 50 a month in new revenue (600 a year). Two of them leave after month 6 and are not replaced. You hire 4 new reps. Ramp: 25% of full output in their first two months, 50% in months 3-4, 75% in months 5-6, 100% after that. The yearly target is 7,200. (1) What do the existing reps deliver over 12 months? (2) What does one new hire deliver if all four start in month 1? Total for the team? (3) Same, but hiring slips and they start in month 4. (4) In one line: what should a new leader check before touching quotas?",
+  "reveal": "(1) 10 x 600 = 6,000, minus two leavers who miss 6 months each: 2 x 6 x 50 = 600, so 5,400. (2) Ramp months add up to 0.5 + 1.0 + 1.5 + 6 x 1 = 9 full months, so 9 x 50 = 450 per hire, 4 x 450 = 1,800. Team: 5,400 + 1,800 = 7,200, exactly on target with no buffer. (3) Starting in month 4 leaves 9 months: 0.5 + 1.0 + 1.5 + 3 x 1 = 6 full months, so 300 per hire, 1,200 for four. Team: 5,400 + 1,200 = 6,600, a gap of 600. (4) A three-month hiring slip costs as much as the two leavers do; check ramp-adjusted capacity, attrition and hiring dates first, because a higher quota on a team without the capacity changes nothing."
+ },
+ "cuts": [
+  {"title": "Brex's CFO on the Weekend SVB Collapsed | Erica Dorfman", "source": "Run the Numbers", "reason": "A good crisis story from the finance seat, but 50 minutes with a thin line to your problems; scored below the bar."},
+  {"title": "\"Cold Call\": How Strong Teams Leverage Different Personality Types", "source": "Coaching Real Leaders", "reason": "Student project teams sorted by personality type, a method with weak evidence behind it."},
+  {"title": "Inside the black box of AI: How AI models actually think | Emmanuel Ameisen", "source": "Lenny's Podcast", "reason": "72 minutes on model interpretability, interesting but far from running a commercial team."},
+  {"title": "Liquidationspräferenz beim Exit: Wann gehen Gründer leer aus?", "source": "Startup Insider", "reason": "A clear explainer on liquidation preferences, but an investing-track listen that belongs on a weekend."},
+  {"title": "E72: I Collapsed My GTM Org Chart. This Is Why", "source": "The Revenue Leadership Podcast", "reason": "Still queued for org design; 77 minutes does not fit while editions are kept short."},
+  {"title": "The World is a Big, Thirsty Place: CFO Dispatches from London", "source": "Mostly Metrics", "reason": "Travel anecdotes and a weekly valuation table, nothing to act on."}
+ ]
+}
