@@ -1,0 +1,66 @@
+{
+ "date": "2026-10-21",
+ "thesis": "Where you draw a line decides the story your numbers tell.",
+ "scanned": 113,
+ "sourcesScanned": 29,
+ "picks": [
+  {
+   "id": "1021-margin",
+   "title": "Mostly Controllers: Why Gross Margin Is a Decision (Not Just a Calculation)",
+   "source": "Mostly Metrics",
+   "author": "CJ Gustafson",
+   "url": "https://www.mostlymetrics.com/p/mostly-controllers-why-gross-margin-is-a-decision-not-just-a-calculation",
+   "published": "2026-10-20",
+   "shelf": "slow",
+   "mode": "read",
+   "minutes": 7,
+   "track": "pro",
+   "domain": "Pricing and business models",
+   "score": 72,
+   "why": "A CFO shows how the same spend gives a gross margin of 88%, 80% or 74% depending on where support, onboarding engineers and AI token costs are booked, while operating profit stays the same. You need this as a revenue leader because gross margin feeds the payback and lifetime-value numbers your go-to-market plan is judged by, and AI costs are now the largest grey zone. The margin bands by company type are his rule of thumb and will move; the reading time is an estimate from about 1,500 words.",
+   "lookFor": [
+    "Which of your team's costs (customer success, solutions engineers, free-tier usage) sit in cost of goods sold today, and who decided that?",
+    "Does the payback figure you report use a margin-adjusted number, and which margin definition?",
+    "What share of your company's AI token spend serves customers, and what share runs internal workflows?"
+   ],
+   "gist": "Gross margin is revenue minus cost of goods sold, but the border between the cost to serve customers and the cost to run the company is a judgement call that sorts a company into a valuation bucket. Hosting, data, support and services clearly belong in cost of goods sold; tokens, customer success, free-trial usage and model work are grey. In his worked example of a 50M business, moving about 3M of costs with defensible reasons (internal token use to G&A, free-trial tokens to sales and marketing, half of quota-carrying solutions engineers to sales) lifts gross margin from 74% to 80% with the same EBITDA. He advises writing a one-page definition, tagging token spend now and splitting software from services margin, and warns that acquirers rebuild the number from the transaction level."
+  },
+  {
+   "id": "1021-waterline",
+   "title": "Diagnose your team’s problems with the Waterline Model",
+   "source": "Worklife with Molly Graham",
+   "author": "Molly Graham",
+   "url": "https://shows.acast.com/worklife-with-adam-grant/episodes/waterline",
+   "published": "2026-10-20",
+   "shelf": "evergreen",
+   "mode": "listen",
+   "minutes": 28,
+   "track": "pro",
+   "domain": "Org design",
+   "score": 68,
+   "why": "A short operator's walk through Roger Harrison's Waterline Model: when a team struggles, check goals, roles and structure before you blame relationships or individuals. It fits the first months in a leadership role, when you inherit problems that look personal. The model is a practitioner heuristic from organisation development with no empirical test behind it to retract; a search found no correction. Not yet on Spotify when checked, so search the exact title in the app.",
+   "lookFor": [
+    "Which conflict on your team looks personal but could be a role or goal that two people read differently?",
+    "In what order does she say to work the four layers, and why does the order matter?",
+    "Which one goal or role would you write down this week so the team stops arguing about it?"
+   ],
+   "gist": "Graham explains Harrison's model, which says the visible symptoms of a struggling team usually have causes below the waterline. She names four layers of dysfunction and argues that you start at the top, with clear goals, roles and structure, before moving down to group dynamics, relationships and individual issues. She stresses clear communication and definition of goals and roles, and describes how the model helped her across her career, starting as a wilderness instructor."
+  }
+ ],
+ "practice": {
+  "id": "1021-p",
+  "type": "Argument",
+  "minutes": 12,
+  "title": "Defend your gross margin line",
+  "prompt": "No calculator. A made-up company with 40 of revenue has these costs to serve: hosting 5, support 2, AI tokens inside the product 4, onboarding engineers 1. (1) Gross margin if only hosting is in cost of goods sold? If all four are? (2) Now reclassify: 20% of token spend is internal workflow use (to G&A), 25% of tokens go to free trials (to sales and marketing), and half of the onboarding engineers carry a quota (to sales). New gross margin? (3) Payback in months = sales and marketing spend x 12 / (new annual revenue x gross margin). With sales and marketing at 12 and new annual revenue of 10, work out payback for each of the three margins. (4) Write three sentences defending the middle number to a sceptical buyer, then the strongest objection they would raise.",
+  "reveal": "(1) Hosting only: 35 / 40 = 87.5%. All four: cost 12, so 28 / 40 = 70%. (2) Moved: 0.8 + 1.0 + 0.5 = 2.3, so cost 9.7 and 30.3 / 40 = 75.75%, about 76%. Operating profit does not change in any version. (3) Payback months = 144 / (10 x margin) = 14.4 / margin: 87.5% gives about 16.5 months, 76% about 19, 70% about 20.6. (4) A strong defence ties each move to how the work happens (who is paid to close, which tokens a customer triggers) and keeps the definition the same every period. The buyer's strongest objection: free-trial tokens and quota-carrying engineers still exist to serve customers you bill, so they will add them back and price the business on 70%. Check your divisions once more before you compare."
+ },
+ "cuts": [
+  {"title": "Token Series Part 2 | How Much AI is Too Much?", "source": "Run the Numbers", "reason": "A sponsored talk on AI in finance teams; the token-budget lesson has run three times already."},
+  {"title": "When You Feel Envy, Turn It Into Something Productive", "source": "HBR IdeaCast", "reason": "Personal coaching on one emotion, sound but general and below the bar for your problems."},
+  {"title": "Doctor Strikes it Rich with AI Tool, $10m ARR in 6 Months | TJMLabs CEO Jonathan Adly", "source": "Top Founders", "reason": "A revenue-number interview with one founder, no method to take away."},
+  {"title": "Don Wilson on the GPU Market's Trillion Dollar Question", "source": "Odd Lots", "reason": "A timely investing listen on compute financing, but personal-track picks go to the weekend and it rests on this month's prices."},
+  {"title": "371 | Kyle Harper on How Humans Have Shaped Life on Earth", "source": "Sean Carroll's Mindscape", "reason": "Good science history, but 85 minutes; queued for a longer weekend slot."},
+  {"title": "E72: I Collapsed My GTM Org Chart. This Is Why", "source": "The Revenue Leadership Podcast", "reason": "Still queued for org design; 77 minutes does not fit while editions are kept short."}
+ ]
+}
