@@ -1,0 +1,67 @@
+{
+ "date": "2026-10-22",
+ "thesis": "What you say first decides what people hear after.",
+ "scanned": 99,
+ "sourcesScanned": 59,
+ "picks": [
+  {
+   "id": "1022-firstweek",
+   "title": "What to Say (and Never Say) in Your First Week as a Leader",
+   "source": "SPEAK LIKE A CEO",
+   "author": "Oliver Aust with Navid Nazemian",
+   "url": "https://podcasts.apple.com/us/podcast/what-to-say-and-never-say-in-your-first-week-as-a-leader/id1441419535?i=1000797446895",
+   "spotifyUrl": "https://open.spotify.com/episode/5F7sJ2McKJsKhJ1SozulAC",
+   "published": "2026-10-21",
+   "shelf": "slow",
+   "mode": "listen",
+   "minutes": 36,
+   "track": "pro",
+   "domain": "Leadership transitions",
+   "score": 70,
+   "why": "An executive-transition coach on the language of the first week in a bigger job: the phrases that cost trust, the passive-language trap, when to start acting and three moves to build trust fast. It is the communication layer on top of the 90-day plan from two days ago. The opening claim that four in ten executives fail in a new role comes from his own book and a summary of it; no independent source for that number turned up, so treat it as a rough order of magnitude. The last ten minutes on AI and executives are the thinnest part.",
+   "lookFor": [
+    "Which of the phrases he warns against have you used when taking over a team, and what did people hear?",
+    "When does he say a new leader should start taking visible action, and what signal tells you it is time?",
+    "Which of his three trust moves could you run with your own manager, as opposed to your team?"
+   ],
+   "gist": "Navid Nazemian, author of Mastering Executive Transitions, argues that what separates leaders who thrive in a new role from those who fail is mostly how they communicate early. The episode walks through a first-week agenda, the regret CEOs voice most often, the timing of first actions, the worst things to say on arrival and the passive language that makes a new leader sound unsure. It closes with three moves to build trust quickly, what successful transitioners do differently, and how to align with your own new manager."
+  },
+  {
+   "id": "1022-brain",
+   "title": "How to build an AI brain for your positioning",
+   "source": "Growth Unhinged",
+   "author": "Melissa Kwan (guest post, Kyle Poyar)",
+   "url": "https://www.growthunhinged.com/p/ai-brain-for-your-positioning",
+   "published": "2026-10-21",
+   "shelf": "fast",
+   "mode": "read",
+   "minutes": 12,
+   "track": "pro",
+   "domain": "AI enablement",
+   "score": 69,
+   "why": "A founder shows how she built one shared AI project holding customer quotes, call notes, competitor cheat sheets, old copy and her chosen frameworks, then used it to rewrite every customer-facing asset and hand the rules to her team. The durable lesson is the order of work: choose the method yourself, have the model derive value drivers and a language guide from evidence, test the new wording on live prospects before scaling, then get an outside reader. Results are one small company's self-report, the newsletter carries a sponsor, and the tool details will age fast; a search found nothing that supersedes the method.",
+   "lookFor": [
+    "Which evidence does she load first, and which source wins when two of them disagree?",
+    "Where does she stop and test with real prospects before writing more, and what changed after the test?",
+    "What would the equivalent shared context file look like for your own sales team's talk tracks?"
+   ],
+   "gist": "Kwan, running a profitable bootstrapped software company, found through sales calls that prospects could not say what the product did, so she repositioned the company over five months. She built a single AI project with six years of customer quotes and stories, old copy marked as what to move away from, competitor cheat sheets framed as substitute behaviours, a target positioning and her notes on positioning frameworks, and had the model write a value-driver summary, a language guide and its own project instructions. She wrote the homepage first, sent a colleague to test the new one-line description at a conference, then rolled the same process out to every page and handed the project to her team. She reports 50% more time on site, fewer objections and a first enterprise deal well above her average customer value."
+  }
+ ],
+ "practice": {
+  "id": "1022-p",
+  "type": "Teach-back",
+  "minutes": 10,
+  "title": "Your first message to a new team",
+  "prompt": "Pen and paper. Imagine you take over a commercial team of 20 next Monday. (1) In five sentences, teach back the core method from today's read as if you were explaining it to a sales manager who will build the shared context file for the team's talk tracks: what goes in, what the model produces, where you test. (2) Write the first three sentences you would say to the new team on day one. (3) Underline every phrase in those three sentences that is passive, hedged or promises change before you have looked. Rewrite them.",
+  "reveal": "A strong teach-back names the inputs (customer evidence, old wording marked as what to leave, comparisons framed as alternatives, the target position, the chosen method), the outputs (value drivers, a language guide, instructions the model keeps updated) and the rule that new wording is tested on real buyers before it is rolled out. A strong day-one opening says why you are there, what you will do first (listen, with a date when you will report back what you heard) and one thing the team can count on from you. Common red flags to underline: 'we will be changing a lot', 'mistakes were made', 'I think maybe', and any comparison with your previous company."
+ },
+ "cuts": [
+  {"title": "Why did Tesla show us a flying car we can't buy?", "source": "The Diff", "reason": "A fun note on halo products as price anchors, but built on consumer examples and invented software cases with no evidence behind them."},
+  {"title": "James Robinson on What It Looks Like When a State is Failing", "source": "Odd Lots", "reason": "A strong economics listen from a Nobel laureate; personal-track picks go to the weekend, queued for Saturday."},
+  {"title": "Is Nvidia Selling More Chips Than Anyone Can Use?", "source": "Prof G Markets", "reason": "Market commentary on one company's week that will date fast, and close to Sunday's railroad episode."},
+  {"title": "Pizza-Lieferzeit als Kreditscore? 17 Mio. € für Embedded Lending", "source": "Startup Insider", "reason": "A funding-round interview on embedded lending, far from your problems."},
+  {"title": "371 | Kyle Harper on How Humans Have Shaped Life on Earth", "source": "Sean Carroll's Mindscape", "reason": "Still queued for a longer weekend slot; 85 minutes."},
+  {"title": "E72: I Collapsed My GTM Org Chart. This Is Why", "source": "The Revenue Leadership Podcast", "reason": "Still queued for org design; 77 minutes does not fit while editions are kept short."}
+ ]
+}
