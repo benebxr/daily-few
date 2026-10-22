@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-21",
- "window": "cumulative since 16.09.2026; last sweep 21.10.2026",
+ "updated": "2026-10-22",
+ "window": "cumulative since 16.09.2026; last sweep 22.10.2026",
  "sources": [
   {
    "name": "Open web discovery",
-   "scanned": 243,
+   "scanned": 252,
    "picked": 17
   },
   {
@@ -14,7 +14,7 @@
   },
   {
    "name": "The Signal",
-   "scanned": 4,
+   "scanned": 9,
    "picked": 3
   },
   {
@@ -24,12 +24,12 @@
   },
   {
    "name": "Superhuman AI",
-   "scanned": 49,
+   "scanned": 51,
    "picked": 0
   },
   {
    "name": "The Neuron",
-   "scanned": 52,
+   "scanned": 54,
    "picked": 0
   },
   {
@@ -39,7 +39,7 @@
   },
   {
    "name": "Think Fast Talk Smart",
-   "scanned": 24,
+   "scanned": 27,
    "picked": 0
   },
   {
@@ -49,22 +49,22 @@
   },
   {
    "name": "The Diff",
-   "scanned": 11,
+   "scanned": 12,
    "picked": 0
   },
   {
    "name": "GTM Strategist",
-   "scanned": 7,
+   "scanned": 12,
    "picked": 2
   },
   {
    "name": "Lenny's Newsletter",
-   "scanned": 9,
+   "scanned": 14,
    "picked": 0
   },
   {
    "name": "SaaSiest",
-   "scanned": 5,
+   "scanned": 6,
    "picked": 0
   },
   {
@@ -104,7 +104,7 @@
   },
   {
    "name": "Elena's Growth Scoop",
-   "scanned": 7,
+   "scanned": 12,
    "picked": 4
   },
   {
@@ -114,22 +114,22 @@
   },
   {
    "name": "Growth Unhinged",
-   "scanned": 12,
+   "scanned": 13,
    "picked": 3
   },
   {
    "name": "The Official SaaStr Podcast",
-   "scanned": 15,
+   "scanned": 16,
    "picked": 1
   },
   {
    "name": "Lenny's Podcast",
-   "scanned": 34,
+   "scanned": 35,
    "picked": 2
   },
   {
    "name": "EconTalk",
-   "scanned": 41,
+   "scanned": 42,
    "picked": 1
   },
   {
@@ -139,7 +139,7 @@
   },
   {
    "name": "Masters of Scale",
-   "scanned": 76,
+   "scanned": 79,
    "picked": 0
   },
   {
@@ -149,8 +149,8 @@
   },
   {
    "name": "Mostly Metrics",
-   "scanned": 21,
-   "picked": 8
+   "scanned": 23,
+   "picked": 9
   },
   {
    "name": "GTM Engineer Pulse",
@@ -189,7 +189,7 @@
   },
   {
    "name": "Run the Numbers",
-   "scanned": 63,
+   "scanned": 67,
    "picked": 4
   },
   {
@@ -199,12 +199,12 @@
   },
   {
    "name": "In Our Time",
-   "scanned": 46,
+   "scanned": 49,
    "picked": 3
   },
   {
    "name": "Worklife with Molly Graham",
-   "scanned": 32,
+   "scanned": 33,
    "picked": 2
   },
   {
@@ -239,12 +239,12 @@
   },
   {
    "name": "Odd Lots",
-   "scanned": 57,
+   "scanned": 63,
    "picked": 3
   },
   {
    "name": "HBR IdeaCast",
-   "scanned": 30,
+   "scanned": 31,
    "picked": 3
   },
   {
@@ -259,27 +259,27 @@
   },
   {
    "name": "Capital Allocators",
-   "scanned": 26,
+   "scanned": 29,
    "picked": 0
   },
   {
    "name": "Sean Carroll's Mindscape",
-   "scanned": 16,
+   "scanned": 17,
    "picked": 0
   },
   {
    "name": "Prof G Markets",
-   "scanned": 91,
+   "scanned": 97,
    "picked": 1
   },
   {
    "name": "Coaching Real Leaders",
-   "scanned": 11,
+   "scanned": 12,
    "picked": 0
   },
   {
    "name": "The McKinsey Podcast",
-   "scanned": 17,
+   "scanned": 19,
    "picked": 0
   },
   {
@@ -294,7 +294,7 @@
   },
   {
    "name": "Hard Fork",
-   "scanned": 18,
+   "scanned": 19,
    "picked": 0
   },
   {
@@ -344,17 +344,17 @@
   },
   {
    "name": "Kassenzone",
-   "scanned": 5,
+   "scanned": 7,
    "picked": 1
   },
   {
    "name": "Top Founders",
-   "scanned": 6,
+   "scanned": 7,
    "picked": 0
   },
   {
    "name": "Startup Insider",
-   "scanned": 26,
+   "scanned": 32,
    "picked": 0
   },
   {
@@ -364,17 +364,17 @@
   },
   {
    "name": "The Jefferson Fisher Podcast",
-   "scanned": 10,
+   "scanned": 12,
    "picked": 0
   },
   {
    "name": "SPEAK LIKE A CEO",
-   "scanned": 5,
+   "scanned": 6,
    "picked": 1
   },
   {
    "name": "Robotics Insider",
-   "scanned": 1,
+   "scanned": 2,
    "picked": 0
   },
   {
@@ -389,6 +389,16 @@
   },
   {
    "name": "Kassenzone (CEO Interviews)",
+   "scanned": 1,
+   "picked": 0
+  },
+  {
+   "name": "One Useful Thing",
+   "scanned": 4,
+   "picked": 1
+  },
+  {
+   "name": "Business Breakdowns",
    "scanned": 1,
    "picked": 0
   }

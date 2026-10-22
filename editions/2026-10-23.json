@@ -1,0 +1,66 @@
+{
+ "date": "2026-10-23",
+ "thesis": "Keep what was promised apart from what was delivered.",
+ "scanned": 124,
+ "sourcesScanned": 37,
+ "picks": [
+  {
+   "id": "1023-deferred",
+   "title": "Deferred, But Not Denied: Your Complete Guide to Deferred Revenue",
+   "source": "Mostly Metrics",
+   "author": "CJ Gustafson",
+   "url": "https://www.mostlymetrics.com/p/deferred-but-not-denied-your-complete-guide-to-deferred-revenue",
+   "published": "2026-10-22",
+   "shelf": "slow",
+   "mode": "read",
+   "minutes": 9,
+   "track": "pro",
+   "domain": "Pricing and billing",
+   "score": 68,
+   "why": "A CFO separates the four events your team tends to blur into one word: signed, due, paid and earned. A revenue leader who reports bookings needs to know which of those four the finance team counts, because deferred revenue can sit on the balance sheet with no cash behind it. The worked example is a simple newsletter sponsorship, so usage and credit contracts take more thought; the issue carries a billing-software sponsor, and the reading time is an estimate from about 1,900 words.",
+   "lookFor": [
+    "Under your standard contract, what makes payment unconditionally due: the start date, the invoice or something else?",
+    "When someone quotes a deferred revenue balance, how would you find out how much of it is collected?",
+    "Which of the four events does your own team's bookings number actually track?"
+   ],
+   "gist": "Deferred revenue arises when cash is received, or an unconditional payment obligation becomes due, before the service is delivered. Signing a contract does not create it, and neither does sending an invoice early; the contract's payment terms decide. In his example a 120,000 sponsorship signed on 1 September and due on 15 September creates a receivable and deferred revenue on the due date, cash arrives later, and revenue is recognised placement by placement as the ads run. The practical rule: deferred revenue does not mean cash in the bank, so always ask how much has been collected."
+  },
+  {
+   "id": "1023-swarm",
+   "title": "The Dot and the Swarm",
+   "source": "One Useful Thing",
+   "author": "Ethan Mollick",
+   "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+   "published": "2026-10-01",
+   "shelf": "fast",
+   "mode": "read",
+   "minutes": 7,
+   "track": "pro",
+   "domain": "AI enablement",
+   "score": 66,
+   "why": "A Wharton professor who argued for a year that people would have to design org charts for AI agents says he was wrong: agents given a goal and a light frame now organise themselves. The part that outlives the tools is where the human job moves: choosing what to aim at, redirecting as results come in, and checking what agents report against what they did. The headline example rests on one lab's own account, the essay also promotes his new book, and a search found no rebuttal; his newer post from 20 October still has a person judging the output.",
+   "lookFor": [
+    "Which of his warnings about agents misreporting their actions applies to the AI work your team already does?",
+    "If coordination became cheap for your team, which project would you start that you cannot staff today?",
+    "What is the lightest frame he gives the agents, and what would the same frame look like for a commercial workflow?"
+   ],
+   "gist": "Mollick expected managing AI agents to need carefully designed human structures; as with earlier AI tasks, learning at scale beat hand-built rules. Personal agents now pick up context from ordinary messages and plan their own work, and in his strongest example thousands of agents exchanged millions of messages over 88 hours under thin direction to attack a hard maths problem. A single prompt of his own grew three sketched teams into thirteen agents. He notes that agents skip human problems such as turf and meeting overhead but keep the problem of reporting honestly to the people overseeing them, and that self-organising systems can drift, so humans keep choosing the direction and checking the work."
+  }
+ ],
+ "practice": {
+  "id": "1023-p",
+  "type": "Mental math",
+  "minutes": 12,
+  "title": "Four clocks on two contracts",
+  "prompt": "Pen and paper, no calculator. Contract A: signed 1 March, 96,000 for 12 months starting 1 April, billed quarterly in advance, each invoice unconditionally due on the first day of its quarter (1 April, 1 July, ...). The customer pays the first invoice on 20 April and the second on 10 July. Contract B: 60,000 for 12 months starting 1 June, all of it unconditionally due on 1 June, still unpaid on 31 July. Revenue is earned evenly per month. (1) On 31 March, what is A's deferred revenue? (2) On 31 May, give A's revenue to date, deferred revenue, receivable and cash. (3) On 31 July, give the same four numbers for A and B combined. (4) Someone says 'we have 66,000 of deferred revenue'. How much of it is collected? (5) How much contract value is signed but neither earned nor in deferred revenue?",
+  "reveal": "A earns 8,000 a month and bills 24,000 a quarter; B earns 5,000 a month. (1) Zero: the deal is signed but nothing is due or paid. (2) Revenue 16,000 (April and May), deferred 24,000 - 16,000 = 8,000, receivable 0, cash 24,000. (3) A: revenue 32,000, deferred 48,000 - 32,000 = 16,000, receivable 0, cash 48,000. B: revenue 10,000, deferred 60,000 - 10,000 = 50,000, receivable 60,000, cash 0. Combined: revenue 42,000, deferred 66,000, receivable 60,000, cash 48,000. (4) Only A's 16,000 is backed by cash; B's 50,000 is a promise still sitting in receivables. (5) A's unbilled 96,000 - 48,000 = 48,000. Check: 156,000 signed - 42,000 earned = 114,000 = 66,000 deferred + 48,000 unbilled."
+ },
+ "cuts": [
+  {"title": "Reid Hoffman and OpenAI CFO Sarah Friar on where AI goes from here", "source": "Masters of Scale", "reason": "A live summit talk about one AI company's direction, opinion with nothing you would act on."},
+  {"title": "Oklo CFO on Leading Through Deepwater Horizon | Craig Bealmear", "source": "Run the Numbers", "reason": "A finance leader's crisis and fundraising story from energy, with a thin line to your problems."},
+  {"title": "334. Quick Thinks: How to Make the Most Out of Meetings", "source": "Think Fast Talk Smart", "reason": "A twelve-minute tips episode, general and below the bar for your problems."},
+  {"title": "Affirm: The Internet's American Express", "source": "Business Breakdowns", "reason": "79 minutes on a consumer lender's model, over a short edition's budget and far from your problems."},
+  {"title": "James Robinson on What It Looks Like When a State is Failing", "source": "Odd Lots", "reason": "Still queued for a weekend personal slot."},
+  {"title": "Claude Duet just launched (and similar)", "source": "The Neuron, Superhuman AI, Lenny's Newsletter", "reason": "News cycle. Nothing to act on this month."}
+ ]
+}
