@@ -1,0 +1,70 @@
+{
+ "date": "2026-10-26",
+ "thesis": "If agents shop for your buyers, publish facts they can check.",
+ "scanned": 146,
+ "sourcesScanned": 38,
+ "picks": [
+  {
+   "id": "1026-aeo",
+   "title": "SaaStr 883: The AEO Playbook: How to Get Picked by Agents (The Agents #017)",
+   "source": "The Official SaaStr Podcast",
+   "author": "SaaStr's Jason and Amelia",
+   "url": "https://saastr.libsyn.com/saastr-883-the-aeo-playbook-how-to-get-picked-by-agents-the-agents-017",
+   "spotifyUrl": "https://open.spotify.com/episode/5wZallv6hHb4vbWxWvoqN3",
+   "published": "2026-10-23",
+   "shelf": "fast",
+   "mode": "listen",
+   "minutes": 47,
+   "track": "pro",
+   "domain": "Agents as a channel",
+   "score": 72,
+   "why": "Two people who run a software media company's go-to-market on a stack of more than 21 agents walk through both halves of what they call agent-led growth: using agents to sell, and being recommended when a buyer asks an agent about your category. The second half is the part that will last: agents weigh publicly checkable facts over testimonials, and your pricing page matters more than your homepage. A Forrester note from August, citing a benchmark where agents often failed to read pricing pages and fell back on third-party sources, points the same way. Their audit result is self-reported, and the episode promotes their own playbook download and a vendor's tool.",
+   "lookFor": [
+    "Which facts about your product could an agent verify today without filling in a form?",
+    "How did they prompt more than ten models without leading them, and could you repeat that audit in an afternoon?",
+    "What does their competitor-tracking workflow feed the outbound agents, and which first-party data would you feed yours?"
+   ],
+   "gist": "Agent-led growth has two sides: using agents to run your go-to-market, and being the answer when someone asks another agent for a recommendation. Generic AI outbound emails rated about five out of ten for them; feeding agents first-party data such as customer history, ROI and renewal rates made them much better, and their top outbound tactic finds the competitors of every past customer and feeds them to outbound agents daily. To get picked, facts beat opinions: testimonials do not move agents, publicly verifiable data does, the pricing page outweighs the homepage, and you should publish content written for agents. Their own audit prompted more than ten models without bias and found SaaStr named in 46 of 50 answers."
+  }
+ ],
+ "practice": {
+  "id": "1026-p",
+  "type": "Argument",
+  "minutes": 12,
+  "title": "Should the price be public?",
+  "prompt": "Pen and paper. Your self-serve plans show public prices, but your largest plan says 'contact sales'. A colleague argues that buying agents will skip any vendor whose price they cannot read, so every plan should show a price. (1) Write the strongest case for publishing all prices, in three points. (2) Write the strongest case for keeping the top plan behind a conversation, in three points. (3) Name the one fact about your buyers that would decide between them. (4) Design a test that settles it within one quarter without risking the whole funnel: what changes, for whom, and what you measure.",
+  "reveal": "For publishing: agents and buyers who cannot find a price fill the gap with third-party guesses or a competitor, so you lose control of the number; a visible price pre-qualifies buyers and shortens cycles; a clear package hierarchy tells an agent who each plan is for. For gating: the top plan's price depends on volume, terms and services, so one public number either scares off large buyers or anchors them low; a conversation surfaces needs that raise deal size; competitors can undercut a published figure. The deciding fact: how often large deals close near list price. If most do, publish; if discounts and scope vary widely, publish a 'from' price and the pricing metric. A fair test: show a starting price and the pricing metric for the top plan to half of the traffic, keep the rest unchanged, and compare qualified pipeline, win rate, deal size and cycle length; also ask several AI assistants the same buyer questions before and after to see whether they now quote you correctly. If you split by region instead of by visitor, check that the regions were comparable before the change, or you measure the region instead of the page."
+ },
+ "cuts": [
+  {
+   "title": "AI Agents Can't Read Your Pricing, And It's Becoming A Revenue Problem",
+   "source": "Forrester",
+   "reason": "Rests on an agent benchmark from early August, past the 45-day limit for claims about what AI tools can do; cited in the pick instead."
+  },
+  {
+   "title": "SaaStr 882: Claudeforce vs. Replit vs. Lovable. Who wins? (The Agents #016)",
+   "source": "The Official SaaStr Podcast",
+   "reason": "A product shoot-out that will date within weeks."
+  },
+  {
+   "title": "E72: I Collapsed My GTM Org Chart. This Is Why | Ian Tickle, CRO @ Freshworks",
+   "source": "The Revenue Leadership Podcast",
+   "reason": "Still queued for org design; 77 minutes does not fit while editions are kept short."
+  },
+  {
+   "title": "Brex's CFO on the Weekend SVB Collapsed | Erica Dorfman",
+   "source": "Run the Numbers",
+   "reason": "A crisis story from the finance seat, with a thin line to your problems."
+  },
+  {
+   "title": "Focus, scale, fund: The AI playbook CPG leaders are missing",
+   "source": "The McKinsey Podcast",
+   "reason": "Written for consumer-goods companies, far from software go-to-market."
+  },
+  {
+   "title": "How to Stop Avoiding Hard Conversations ft. Sahil Bloom",
+   "source": "The Jefferson Fisher Podcast",
+   "reason": "61 minutes of general advice, below the bar for your problems."
+  }
+ ]
+}

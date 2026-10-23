@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-22",
- "window": "cumulative since 16.09.2026; last sweep 22.10.2026",
+ "updated": "2026-10-23",
+ "window": "cumulative since 16.09.2026; last sweep 23.10.2026",
  "sources": [
   {
    "name": "Open web discovery",
-   "scanned": 252,
-   "picked": 17
+   "scanned": 277,
+   "picked": 18
   },
   {
    "name": "MKT1 Newsletter",
@@ -19,17 +19,17 @@
   },
   {
    "name": "Tomasz Tunguz",
-   "scanned": 7,
-   "picked": 1
+   "scanned": 9,
+   "picked": 2
   },
   {
    "name": "Superhuman AI",
-   "scanned": 51,
+   "scanned": 52,
    "picked": 0
   },
   {
    "name": "The Neuron",
-   "scanned": 54,
+   "scanned": 55,
    "picked": 0
   },
   {
@@ -49,7 +49,7 @@
   },
   {
    "name": "The Diff",
-   "scanned": 12,
+   "scanned": 13,
    "picked": 0
   },
   {
@@ -119,12 +119,12 @@
   },
   {
    "name": "The Official SaaStr Podcast",
-   "scanned": 16,
-   "picked": 1
+   "scanned": 17,
+   "picked": 2
   },
   {
    "name": "Lenny's Podcast",
-   "scanned": 35,
+   "scanned": 36,
    "picked": 2
   },
   {
@@ -189,7 +189,7 @@
   },
   {
    "name": "Run the Numbers",
-   "scanned": 67,
+   "scanned": 68,
    "picked": 4
   },
   {
@@ -199,8 +199,8 @@
   },
   {
    "name": "In Our Time",
-   "scanned": 49,
-   "picked": 3
+   "scanned": 50,
+   "picked": 4
   },
   {
    "name": "Worklife with Molly Graham",
@@ -239,8 +239,8 @@
   },
   {
    "name": "Odd Lots",
-   "scanned": 63,
-   "picked": 3
+   "scanned": 65,
+   "picked": 4
   },
   {
    "name": "HBR IdeaCast",
@@ -259,7 +259,7 @@
   },
   {
    "name": "Capital Allocators",
-   "scanned": 29,
+   "scanned": 31,
    "picked": 0
   },
   {
@@ -269,7 +269,7 @@
   },
   {
    "name": "Prof G Markets",
-   "scanned": 97,
+   "scanned": 99,
    "picked": 1
   },
   {
@@ -279,7 +279,7 @@
   },
   {
    "name": "The McKinsey Podcast",
-   "scanned": 19,
+   "scanned": 20,
    "picked": 0
   },
   {
@@ -294,7 +294,7 @@
   },
   {
    "name": "Hard Fork",
-   "scanned": 19,
+   "scanned": 20,
    "picked": 0
   },
   {
@@ -354,7 +354,7 @@
   },
   {
    "name": "Startup Insider",
-   "scanned": 32,
+   "scanned": 36,
    "picked": 0
   },
   {
@@ -364,7 +364,7 @@
   },
   {
    "name": "The Jefferson Fisher Podcast",
-   "scanned": 12,
+   "scanned": 13,
    "picked": 0
   },
   {

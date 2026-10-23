@@ -1,0 +1,86 @@
+{
+ "date": "2026-10-24",
+ "thesis": "Rules built for a slow world break when the pace changes.",
+ "scanned": 146,
+ "sourcesScanned": 38,
+ "picks": [
+  {
+   "id": "1024-robinson",
+   "title": "James Robinson on What It Looks Like When a State is Failing",
+   "source": "Odd Lots",
+   "author": "Joe Weisenthal and Tracy Alloway with James Robinson",
+   "url": "https://omny.fm/shows/odd-lots/james-robinson-on-what-it-looks-like-when-a-state-is-failing",
+   "spotifyUrl": "https://open.spotify.com/episode/0j49mp5ajEjYgv5DiDU3qk",
+   "published": "2026-10-21",
+   "shelf": "slow",
+   "mode": "listen",
+   "minutes": 38,
+   "track": "personal",
+   "domain": "Investing and economics",
+   "score": 68,
+   "why": "A Nobel economist who co-wrote Why Nations Fail is asked what it would take for a rich country to count as failing; it was queued on Thursday for this weekend slot. The show notes promise the big question more than a method, and the gist rests on those notes and his published work, so listen for the moments where he commits to signs you could actually observe.",
+   "lookFor": [
+    "Which observable signs does he name first: elections, courts, markets or something else?",
+    "How does he tell a weak state apart from one that is turning extractive?",
+    "Which of his signs would show up in economic data before they show up in the news?"
+   ],
+   "gist": "Robinson and Daron Acemoglu argue that nations prosper when their institutions are inclusive: power is constrained, elections run reliably and markets stay open to newcomers, which rewards innovation. Extractive institutions concentrate power and income in a narrow group and choke that innovation off. Recorded live in Chicago as the last of three episodes, the conversation turns the framework on the United States and asks what would have to happen for it to be considered a failed state."
+  },
+  {
+   "id": "1024-leaner",
+   "title": "Closing Eight Figure Deals in Two Weeks",
+   "source": "Tomasz Tunguz",
+   "author": "Tomasz Tunguz",
+   "url": "https://tomtunguz.com/closing-eight-figure-deals-in-two-weeks/",
+   "published": "2026-10-22",
+   "shelf": "fast",
+   "mode": "read",
+   "minutes": 3,
+   "track": "pro",
+   "domain": "Target setting and org design",
+   "score": 61,
+   "why": "A two-minute recap by a venture investor of his talk with a sales leader who scaled an AI infrastructure company and now runs sales at an AI app company. The useful claim for target setting: when product and market move every quarter, they reset comp plans every quarter. It is one practitioner in a hyper-growth niche; a search found surveys showing many companies already raise quotas on AI productivity they have not yet seen, and the 15-minute video linked in the post carries the detail. Reading time is an estimate.",
+   "lookFor": [
+    "What would have to be true in your market for a quarterly comp reset to do more good than harm?",
+    "Where does he say small teams lose out, and does your team have the same gap?",
+    "How does the pairing of roles differ between a complex infrastructure sale and an application sale?"
+   ],
+   "gist": "Tunguz summarises his Office Hours conversation with Bardia Shahali, who built sales at Fireworks AI from roughly 3 million to roughly 400 million in revenue and now leads sales at Granola. At the infrastructure layer single deals can reach tens of millions and close in about two weeks, every provider chases the same accounts, and each rep carries a quota multiples higher than before; because products and models change so fast, they moved from annual to quarterly comp plans. Small teams tend to neglect outbound and expansion. Infrastructure sales pair account executives with sales and forward-deployed engineers, while application sales look like classic software sales with higher productivity and faster expansion."
+  }
+ ],
+ "practice": {
+  "id": "1024-p",
+  "type": "First principles",
+  "minutes": 12,
+  "title": "How long should a comp plan live?",
+  "prompt": "Pen and paper. A comp plan prices a rep's effort against assumptions about the market. (1) List the three or four assumptions any quota rests on (for example product, price, territory size, ramp time of a new hire). For each, write how many months it usually holds in your market. (2) Write down your typical sales cycle in months, from first call to cash. (3) From these two lists, derive a rule for the shortest and the longest sensible plan period. (4) Name one case where you would change the plan design instead of shortening the period. (5) What does a quarterly reset cost that an annual plan does not?",
+  "reveal": "A sound rule: the period should be at least one typical sales cycle plus collection, so a rep can carry a deal from first call to payout under one set of rules, and no longer than your shortest-lived assumption, or the quota stops measuring effort and starts measuring luck. If assumptions change faster than the sales cycle, the two limits cross and no period works; then change the design so the plan adjusts itself, for example rates per unit of margin, team pools or targets set relative to peers. Costs of quarterly resets: more admin, reps who push deals into whichever quarter has the friendlier plan, and lost trust if each reset feels like a pay cut. Check: if your shortest assumption holds 12 months and your cycle is 2 months, an annual plan fits and a quarterly reset buys little."
+ },
+ "cuts": [
+  {
+   "title": "The Forgotten Godmother of Economic Literature",
+   "source": "Odd Lots",
+   "reason": "A good economics listen, but today's one personal slot went to Robinson."
+  },
+  {
+   "title": "Bhaskar Sunkara Thinks the Market Has a Place Under Socialism",
+   "source": "Odd Lots",
+   "reason": "53 minutes of political debate, less durable than the Robinson episode."
+  },
+  {
+   "title": "Building a Berkshire for the Middle Market – Tracy Britt Cool (EP.521)",
+   "source": "Capital Allocators",
+   "reason": "A solid investing listen at 52 minutes; queued for next weekend's personal slot."
+  },
+  {
+   "title": "Token Series Part 2 | Finance's ChatGPT moment: MCP, Harness, and Headless Explained (simply)",
+   "source": "Run the Numbers",
+   "reason": "The guest's company sponsors the series, and the AI-in-finance points stay generic."
+  },
+  {
+   "title": "The GPU Revenue Ladder",
+   "source": "Tomasz Tunguz",
+   "reason": "Infrastructure market numbers, far from your problems and stale within weeks."
+  }
+ ]
+}

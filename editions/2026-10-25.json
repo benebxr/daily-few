@@ -1,0 +1,86 @@
+{
+ "date": "2026-10-25",
+ "thesis": "The bigger the claim, the more data you need to believe it.",
+ "scanned": 146,
+ "sourcesScanned": 38,
+ "picks": [
+  {
+   "id": "1025-winnerscurse",
+   "title": "The Winner's Curse: Why Underpowered Experiments Are Likely to Be Extra Wrong",
+   "source": "Recast blog",
+   "author": "Michael Kaminsky and Robson Tigre",
+   "url": "https://getrecast.com/the-winners-curse-why-underpowered-experiments-are-likely-to-be-extra-wrong/",
+   "published": "2026-02-24",
+   "shelf": "evergreen",
+   "mode": "read",
+   "minutes": 4,
+   "track": "pro",
+   "domain": "Experiment design",
+   "score": 74,
+   "why": "If you run geo-holdout tests, this is the trap that makes a small test's winning result look better than the channel is: in a noisy test only extreme estimates clear the significance bar, so the ones that do are inflated. The idea is established statistics (Gelman and Carlin, 2014, call it a Type M error) and a search found no correction; the authors sell a geo-testing product, and the reading time is an estimate from about 450 words.",
+   "lookFor": [
+    "In their example, why does the 11x result fail to rule out the 2.3x from the user-level study?",
+    "Which bound of the interval do they tell you to plan on, and why that one?",
+    "Which of your past test wins came from the smallest or noisiest designs?"
+   ],
+   "gist": "Small, noisy experiments only reach significance when the observed effect is large, so the significance test filters for the estimates most inflated by chance; that is the winner's curse. In their example a geo test reports an incremental ROI of 11x, significant at 90%, while a much larger user-level lift study found about 2.3x, and the test's interval might run from 0.5x to 22x: it rules out zero and little else. Read the full interval, treat the bound nearest zero as your conservative estimate, and combine the result with better-powered tests."
+  },
+  {
+   "id": "1025-accelerators",
+   "title": "Particle Accelerators",
+   "source": "In Our Time (BBC Radio 4)",
+   "author": "Misha Glenny with Harry Cliff, Victoria Martin and Joseph Martin",
+   "url": "https://www.bbc.co.uk/programmes/m0031vjw",
+   "spotifyUrl": "https://open.spotify.com/episode/0XN5IR7NGdAmjCHGEDhil1",
+   "published": "2026-10-22",
+   "shelf": "evergreen",
+   "mode": "listen",
+   "minutes": 53,
+   "track": "personal",
+   "domain": "Science and how things work",
+   "score": 67,
+   "why": "Two particle physicists and a historian of science on the machines that smash particles together at almost the speed of light, from the race to split the atom to the Large Hadron Collider and the thousands of smaller accelerators in medicine and industry. It pairs with today's read, since particle physics is the field that sets the highest bar of evidence before it claims a discovery. A search confirms the collider shut down in June 2026 for an upgrade expected to restart around 2030, which the programme may not cover; the gist rests on the BBC's episode notes.",
+   "lookFor": [
+    "Why does finding smaller things take bigger machines, in the guests' own explanation?",
+    "How do physicists decide that a bump in the data is a discovery and not noise?",
+    "Which everyday uses of accelerators surprised you, and what do they have in common?"
+   ],
+   "gist": "Accelerators push particles to almost the speed of light before colliding them, and the debris reveals the building blocks of matter, as with the Higgs boson found at the Large Hadron Collider, a ring of nearly 30 km under the French-Swiss border. Colliders of that size are international projects costing billions, but thousands of smaller accelerators exist worldwide, with uses in medicine, archaeology and technology. The guests are Harry Cliff (Cambridge), Victoria Martin (Edinburgh) and Joseph Martin, a historian of science at Durham."
+  }
+ ],
+ "practice": {
+  "id": "1025-p",
+  "type": "Estimate",
+  "minutes": 12,
+  "title": "How much does a noisy win overstate?",
+  "prompt": "Pen and paper. A channel's true incremental return is 2.0 (2 of revenue per 1 spent). Test design A is noisy: picture its estimate as equally likely to land on any of these ten values: -2, -1, 0, 1, 2, 2, 3, 4, 5, 6. Under A you call a result significant when the estimate is 4 or more. Design B is larger and less noisy: 1.0, 1.5, 1.5, 2.0, 2.0, 2.0, 2.0, 2.5, 2.5, 3.0, significant at 1.5 or more. First guess, before any arithmetic: by how much does a significant result from A overstate the truth? Then: (1) Check that both lists average 2.0. (2) What share of tests comes out significant under A and under B? (3) What is the average significant estimate under each design? (4) Divide each by the true 2.0 to get the exaggeration ratio. (5) A colleague brings a significant 5.0 from design A for one channel and a significant 2.2 from design B for another. Which number would you plan on, and what would you do next?",
+  "reveal": "(1) A: -2 - 1 + 0 + 1 + 2 + 2 + 3 + 4 + 5 + 6 = 20, so 2.0. B: 1 + 1.5 + 1.5 + 2 + 2 + 2 + 2 + 2.5 + 2.5 + 3 = 20, so 2.0. (2) A: 3 of 10 (4, 5, 6), so 30% power. B: 9 of 10 (all but the 1.0), so 90%. (3) A: (4 + 5 + 6) / 3 = 5.0. B: (20 - 1) / 9 = 19/9, about 2.1. (4) A: 5.0 / 2.0 = 2.5, so a significant result overstates the truth by 150% on average. B: about 1.06, a 6% overstatement. (5) Plan on the 2.2. A significant 5.0 from design A is exactly what a channel with a true return of 2.0 produces on average when it clears A's bar, so it says little beyond 'probably above zero'. Under B a true 2.0 gives about 2.1 on average, so 2.2 is believable. Next step: retest the first channel with a larger design before moving budget."
+ },
+ "cuts": [
+  {
+   "title": "371 | Kyle Harper on How Humans Have Shaped Life on Earth",
+   "source": "Sean Carroll's Mindscape",
+   "reason": "Still queued; 85 minutes is too long while editions are kept short."
+  },
+  {
+   "title": "Inside the black box of AI: How AI models actually think | Emmanuel Ameisen (Anthropic)",
+   "source": "Lenny's Podcast",
+   "reason": "A strong conversation on how models work inside, but 72 minutes does not fit while editions are kept short."
+  },
+  {
+   "title": "Archive: Erasmus",
+   "source": "In Our Time",
+   "reason": "A repeat on a humanist scholar; today's science slot went to the new accelerators episode."
+  },
+  {
+   "title": "Lives Wasted and Well-Lived: David Wolpe on The Death of Ivan Ilyich",
+   "source": "EconTalk",
+   "reason": "A literature and meaning episode, outside the economics track."
+  },
+  {
+   "title": "Is Nvidia Selling More Chips Than Anyone Can Use?",
+   "source": "Prof G Markets",
+   "reason": "Market commentary that will be stale within weeks."
+  }
+ ]
+}
