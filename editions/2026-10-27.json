@@ -1,0 +1,70 @@
+{
+ "date": "2026-10-27",
+ "thesis": "Headcount does not hit a target; ramped months do.",
+ "scanned": 109,
+ "sourcesScanned": 33,
+ "picks": [
+  {
+   "id": "1027-planning",
+   "title": "Why Databricks’ Sid Kumar is Always Planning",
+   "source": "Run the Numbers",
+   "author": "CJ Gustafson with Sid Kumar",
+   "url": "https://creators.spotify.com/pod/profile/cjgustafson222/episodes/Why-Databricks-Sid-Kumar-is-Always-Planning-e3qtt1u",
+   "spotifyUrl": "https://open.spotify.com/episode/4vqh4bFBPC61uJaUxbAmZK",
+   "published": "2026-10-26",
+   "shelf": "slow",
+   "mode": "listen",
+   "minutes": 51,
+   "track": "pro",
+   "domain": "Target setting and capacity planning",
+   "score": 74,
+   "why": "A go-to-market planning lead who has run perpetual, cloud, SaaS and consumption models talks through how consumption changes the sales org, how to build a commission stack, what ARR actually means, and why annual planning is giving way to continuous planning. It sits right on target setting and capacity planning. The summary below rests on the show notes only; the episode carries several sponsor reads, and the claims about AI in capacity planning are one operator's view.",
+   "lookFor": [
+    "Which assumption in an annual plan does he re-forecast first, and how often?",
+    "How does the commission stack change when revenue arrives as usage rather than signed contracts?",
+    "What does he count as ARR in a consumption model, and would your board count it the same way?"
+   ],
+   "gist": "Sid Kumar has led go-to-market through perpetual, cloud, SaaS and consumption models at several large software companies. With CJ Gustafson he covers how consumption pricing changes the sales org, why customer success has an identity crisis, how to build a commission stack, and what ARR actually means. He also explains how AI is reshaping capacity planning and why he thinks annual planning is giving way to continuous planning."
+  }
+ ],
+ "practice": {
+  "id": "1027-p",
+  "type": "Mental math",
+  "minutes": 12,
+  "title": "Ramp decides the plan",
+  "prompt": "Head and paper, no calculator. Next year's new-business target is 6.0M ARR. A ramped rep closes 50k new ARR per month on average. You start the year with 7 ramped reps, and you expect one of them to leave at the end of month 6. A new hire produces nothing in months 1-3 of tenure, half in months 4-6, and full output after that. (1) What does the existing team deliver in the year? (2) How big is the gap to target? (3) How many hires close the gap if they all start on day one of month 1? (4) How many if hiring slips and they all start on day one of month 4? (5) What does one quarter of hiring delay cost per hire?",
+  "reveal": "(1) 7 reps x 600k = 4.2M, minus the leaver's lost second half (6 x 50k = 300k) = 3.9M. (2) 6.0M - 3.9M = 2.1M. (3) A month-1 hire delivers 0 + 3 x 25k + 6 x 50k = 75k + 300k = 375k; 2.1M / 375k = 5.6, so 6 hires (6 x 375k = 2.25M, total 6.15M). (4) A month-4 hire delivers 0 in months 4-6, 3 x 25k = 75k in months 7-9, 3 x 50k = 150k in months 10-12 = 225k; 2.1M / 225k = 9.3, so 10 hires (10 x 225k = 2.25M, total 6.15M). (5) 375k - 225k = 150k per hire per quarter of delay, which is why a slipped hiring plan needs a re-forecast in the quarter it slips, not at year end. Also note: the leaver costs more than 300k if you backfill them, because the backfill ramps too."
+ },
+ "cuts": [
+  {
+   "title": "An 86-minute guide to finding PMF | Rob Snyder (Author, The Power of Pull)",
+   "source": "Lenny's Podcast",
+   "reason": "86 minutes on early product-market fit, far too long while editions are kept short and closer to founders than to a revenue leader."
+  },
+  {
+   "title": "AI Agents Are Already Changing the Price of Goods",
+   "source": "Odd Lots",
+   "reason": "A consumer-pricing angle on agents; queued for a weekend personal slot, and yesterday already covered agents."
+  },
+  {
+   "title": "E72: I Collapsed My GTM Org Chart. This Is Why | Ian Tickle, CRO @ Freshworks",
+   "source": "The Revenue Leadership Podcast",
+   "reason": "Still queued for org design; 77 minutes does not fit while editions are kept short."
+  },
+  {
+   "title": "Reid Hoffman and OpenAI CFO Sarah Friar on where AI goes from here",
+   "source": "Masters of Scale",
+   "reason": "A forecast conversation that will date within weeks."
+  },
+  {
+   "title": "335. Power Play: Successfully Navigate Power, Status, and Influence at Work",
+   "source": "Think Fast Talk Smart",
+   "reason": "General workplace advice, below the bar for your problems."
+  },
+  {
+   "title": "How Your Situation Shapes You (with Angela Duckworth)",
+   "source": "EconTalk",
+   "reason": "Over an hour of behavioural psychology with a thin line to your problems."
+  }
+ ]
+}
