@@ -1,0 +1,90 @@
+{
+ "date": "2026-10-28",
+ "thesis": "Reward the early kill, and hire for proof of the work.",
+ "scanned": 115,
+ "sourcesScanned": 36,
+ "picks": [
+  {
+   "id": "1028-teller",
+   "title": "Why you need to fail at work with Astro Teller",
+   "source": "Worklife with Molly Graham",
+   "author": "Molly Graham with Astro Teller",
+   "url": "https://shows.acast.com/worklife-with-adam-grant/episodes/astro-teller",
+   "published": "2026-10-27",
+   "shelf": "slow",
+   "mode": "listen",
+   "minutes": 47,
+   "track": "pro",
+   "domain": "Org design and experimentation culture",
+   "score": 66,
+   "why": "The head of Alphabet's moonshot unit explains how his team kills weak ideas early and rewards the people who do it, and offers five principles any organisation can copy. It speaks to running tests and AI pilots on a commercial team, where the pull is to protect a bet instead of ending it. The summary rests on the show notes; a Spotify link could not be verified yet because the episode is one day old, so search the exact title in the app.",
+   "lookFor": [
+    "What exactly does he reward when a project is stopped, and who decides it gets stopped?",
+    "Which of the five principles would survive on a team that carries a revenue number every quarter?",
+    "How does a 'bad ideas brainstorm' differ from a normal one, and what would you use it for this month?"
+   ],
+   "gist": "Molly Graham sits in on one of Astro Teller's 'bad ideas brainstorm' sessions at X, Alphabet's moonshot factory, and then interviews him about how the unit produces radical ideas. Teller argues that the instinct to nail a project on the first try works against real innovation, and that teams need to take real risks and celebrate failure. He shares five principles he thinks any organisation can use, and points out details in the office designed to encourage creativity."
+  },
+  {
+   "id": "1028-jobposts",
+   "title": "I analyzed 1,100+ marketing job posts. They’re stuck in 2023.",
+   "source": "MKT1 Newsletter",
+   "author": "Emily Kramer",
+   "url": "https://newsletter.mkt1.co/p/marketing-job-posts",
+   "published": "2026-10-19",
+   "shelf": "fast",
+   "mode": "read",
+   "minutes": 18,
+   "track": "pro",
+   "domain": "AI enablement and hiring",
+   "score": 68,
+   "why": "A tagged sample of about 800 startup marketing job posts shows how rarely companies ask candidates to build with AI or prove it, and turns that into a hiring scorecard and interview tests. It is useful for writing roles and setting expectations on a commercial team. Caveats: posts are a snapshot, not hiring outcomes; the tagging was done by an AI tool with spot checks; some numbers in the text and tables do not match; and the piece promotes the author's own framework and paid templates. Read the findings and recommendations; 18 minutes is an estimate for that part.",
+   "lookFor": [
+    "Which of the ten skills would you rank top three for your next commercial hire, and does your current job post say so?",
+    "What would count as proof of AI work in an interview, and how would you score it consistently across candidates?",
+    "Where does she rely on a small subgroup or an untested hypothesis to make a point?"
+   ],
+   "gist": "Kramer used an AI coding tool to pull more than 1,100 open marketing roles from September and October 2026 and tag them against ten skills and three levels of AI use, with most statistics based on 791 posts from 345 private B2B startups. About half of startup posts ask for AI skills, but only 15% ask marketers to build with AI, 7% mention working with agents, and 8% ask candidates to show their AI work. She recommends naming concrete AI expectations and tools, using the ten skills as a ranked scorecard for the hiring panel, and testing candidates on real end-to-end work and an AI workflow they built."
+  }
+ ],
+ "practice": {
+  "id": "1028-p",
+  "type": "Teach-back",
+  "minutes": 12,
+  "title": "Pro-learning, written as a hiring test",
+  "prompt": "Pen and paper, no notes. Part 1 (5 min): explain to a new manager on your team, in five sentences or fewer, the difference between rewarding failure and rewarding learning. Use one example from a pricing or channel test that did not work, and say what the person who ran it should be praised for and what they should not be praised for. Part 2 (7 min): turn that idea into one interview task for a commercial hire. Write the task in two sentences, then write a three-level scoring rule (weak, solid, strong) that two interviewers would apply the same way.",
+  "reveal": "A strong Part 1 separates the outcome from the decision: you praise a clear hypothesis, a kill criterion set before launch, a fast stop once the criterion was hit, and a written lesson others can reuse; you do not praise the failed result itself, nor a test that ran on with no stop rule. A strong Part 2 asks the candidate to walk through a real initiative they stopped, what signal made them stop, and what they changed afterwards. Weak: describes only the outcome or blames circumstances. Solid: names the signal and the decision. Strong: shows the stop rule was set in advance, quantifies what stopping saved, and shows how the lesson changed later work, ideally with a workflow or artefact they built. Check your scoring rule: if two people could read 'strong' differently, the rule names an attitude instead of an observable behaviour."
+ },
+ "cuts": [
+  {
+   "title": "I'm not doing 996.",
+   "source": "Elena Verna",
+   "reason": "A sound essay against permanent crunch, but an opinion piece with little you would change in how you run a team tomorrow."
+  },
+  {
+   "title": "Anthropic S-1 Analysis: How 7 Key Metrics Stack Up (and similar)",
+   "source": "Tomasz Tunguz, Mostly Metrics, Run the Numbers",
+   "reason": "One company's filing numbers, news that will date within weeks."
+  },
+  {
+   "title": "What's my terminal value?",
+   "source": "Mostly Metrics",
+   "reason": "A personal essay on valuing a career with a discounted cash flow model, entertaining but far from your problems."
+  },
+  {
+   "title": "The GTM guide to building SaaS channel partnerships",
+   "source": "Bessemer Venture Partners Atlas",
+   "reason": "A clear partner-program playbook, but from September 2023, past the three-year limit, and its margin figures are benchmarks."
+  },
+  {
+   "title": "The Science of Doing Your Best Work",
+   "source": "The Knowledge Project",
+   "reason": "66 minutes on flow states, a brain-science topic that is better as an occasional personal pick than on a weekday."
+  },
+  {
+   "title": "Trial & Error Folge 53 – „Das entscheidet über Sieg und Niederlage“: KI im eigenen Unternehmen",
+   "source": "Startup Insider",
+   "reason": "65 minutes of founder conversation on bringing AI into a company, long and anecdotal next to today's read."
+  }
+ ]
+}

@@ -1,35 +1,35 @@
 {
- "updated": "2026-10-26",
- "window": "cumulative since 16.09.2026; last sweep 26.10.2026",
+ "updated": "2026-10-27",
+ "window": "cumulative since 16.09.2026; last sweep 27.10.2026",
  "sources": [
   {
    "name": "Open web discovery",
-   "scanned": 287,
+   "scanned": 301,
    "picked": 18
   },
   {
    "name": "MKT1 Newsletter",
-   "scanned": 3,
-   "picked": 1
+   "scanned": 8,
+   "picked": 2
   },
   {
    "name": "The Signal",
-   "scanned": 9,
+   "scanned": 12,
    "picked": 3
   },
   {
    "name": "Tomasz Tunguz",
-   "scanned": 9,
+   "scanned": 11,
    "picked": 2
   },
   {
    "name": "Superhuman AI",
-   "scanned": 55,
+   "scanned": 58,
    "picked": 0
   },
   {
    "name": "The Neuron",
-   "scanned": 57,
+   "scanned": 61,
    "picked": 0
   },
   {
@@ -39,7 +39,7 @@
   },
   {
    "name": "Think Fast Talk Smart",
-   "scanned": 31,
+   "scanned": 35,
    "picked": 0
   },
   {
@@ -54,12 +54,12 @@
   },
   {
    "name": "GTM Strategist",
-   "scanned": 12,
+   "scanned": 15,
    "picked": 2
   },
   {
    "name": "Lenny's Newsletter",
-   "scanned": 14,
+   "scanned": 16,
    "picked": 0
   },
   {
@@ -104,7 +104,7 @@
   },
   {
    "name": "Elena's Growth Scoop",
-   "scanned": 12,
+   "scanned": 15,
    "picked": 4
   },
   {
@@ -119,27 +119,27 @@
   },
   {
    "name": "The Official SaaStr Podcast",
-   "scanned": 17,
+   "scanned": 18,
    "picked": 2
   },
   {
    "name": "Lenny's Podcast",
-   "scanned": 37,
+   "scanned": 38,
    "picked": 2
   },
   {
    "name": "EconTalk",
-   "scanned": 44,
+   "scanned": 45,
    "picked": 1
   },
   {
    "name": "The Knowledge Project",
-   "scanned": 36,
+   "scanned": 37,
    "picked": 1
   },
   {
    "name": "Masters of Scale",
-   "scanned": 81,
+   "scanned": 84,
    "picked": 0
   },
   {
@@ -149,7 +149,7 @@
   },
   {
    "name": "Mostly Metrics",
-   "scanned": 24,
+   "scanned": 26,
    "picked": 9
   },
   {
@@ -164,7 +164,7 @@
   },
   {
    "name": "Sifted",
-   "scanned": 18,
+   "scanned": 20,
    "picked": 0
   },
   {
@@ -189,7 +189,7 @@
   },
   {
    "name": "Run the Numbers",
-   "scanned": 72,
+   "scanned": 76,
    "picked": 5
   },
   {
@@ -199,13 +199,13 @@
   },
   {
    "name": "In Our Time",
-   "scanned": 53,
+   "scanned": 55,
    "picked": 4
   },
   {
    "name": "Worklife with Molly Graham",
-   "scanned": 33,
-   "picked": 2
+   "scanned": 35,
+   "picked": 3
   },
   {
    "name": "SaaStr AI",
@@ -239,12 +239,12 @@
   },
   {
    "name": "Odd Lots",
-   "scanned": 71,
+   "scanned": 77,
    "picked": 4
   },
   {
    "name": "HBR IdeaCast",
-   "scanned": 32,
+   "scanned": 34,
    "picked": 3
   },
   {
@@ -259,27 +259,27 @@
   },
   {
    "name": "Capital Allocators",
-   "scanned": 35,
+   "scanned": 38,
    "picked": 0
   },
   {
    "name": "Sean Carroll's Mindscape",
-   "scanned": 17,
+   "scanned": 18,
    "picked": 0
   },
   {
    "name": "Prof G Markets",
-   "scanned": 105,
+   "scanned": 112,
    "picked": 1
   },
   {
    "name": "Coaching Real Leaders",
-   "scanned": 14,
+   "scanned": 15,
    "picked": 0
   },
   {
    "name": "The McKinsey Podcast",
-   "scanned": 20,
+   "scanned": 21,
    "picked": 0
   },
   {
@@ -294,7 +294,7 @@
   },
   {
    "name": "Hard Fork",
-   "scanned": 20,
+   "scanned": 21,
    "picked": 0
   },
   {
@@ -329,7 +329,7 @@
   },
   {
    "name": "LinkedIn newsletters",
-   "scanned": 2,
+   "scanned": 3,
    "picked": 0
   },
   {
@@ -349,27 +349,27 @@
   },
   {
    "name": "Top Founders",
-   "scanned": 8,
+   "scanned": 10,
    "picked": 0
   },
   {
    "name": "Startup Insider",
-   "scanned": 42,
+   "scanned": 50,
    "picked": 0
   },
   {
    "name": "At The Table with Patrick Lencioni",
-   "scanned": 3,
+   "scanned": 4,
    "picked": 0
   },
   {
    "name": "The Jefferson Fisher Podcast",
-   "scanned": 15,
+   "scanned": 18,
    "picked": 0
   },
   {
    "name": "SPEAK LIKE A CEO",
-   "scanned": 6,
+   "scanned": 7,
    "picked": 1
   },
   {
@@ -394,12 +394,12 @@
   },
   {
    "name": "One Useful Thing",
-   "scanned": 4,
+   "scanned": 6,
    "picked": 1
   },
   {
    "name": "Business Breakdowns",
-   "scanned": 2,
+   "scanned": 3,
    "picked": 0
   },
   {
@@ -409,6 +409,11 @@
   },
   {
    "name": "Kassenzone CEO Interviews",
+   "scanned": 2,
+   "picked": 0
+  },
+  {
+   "name": "Bessemer Venture Partners Atlas",
    "scanned": 1,
    "picked": 0
   }
