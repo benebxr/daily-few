@@ -1,0 +1,92 @@
+{
+ "date": "2026-10-29",
+ "thesis": "Hire sellers who can build, and price on the unit that grows.",
+ "scanned": 83,
+ "sourcesScanned": 54,
+ "picks": [
+  {
+   "id": "1029-aiseller",
+   "title": "SaaStr 884: The AI-First Seller: How Databricks Rebuilt Its Sales DNA at $190B with CRO Ron Gabrisko",
+   "source": "The Official SaaStr Podcast",
+   "author": "Sam Blond with Ron Gabrisko",
+   "url": "https://saastr.libsyn.com/saastr-884-the-ai-first-seller-how-databricks-rebuilt-its-sales-dna-at-190b-with-cro-ron-gabrisko",
+   "spotifyUrl": "https://open.spotify.com/episode/5amJ2bKeVw4krVQQ3ynWnS",
+   "published": "2026-10-28",
+   "shelf": "fast",
+   "mode": "listen",
+   "minutes": 37,
+   "track": "pro",
+   "domain": "AI enablement of a commercial team",
+   "score": 72,
+   "why": "A long-tenured enterprise sales chief says what changed in the seller profile once AI arrived: every rep builds account-specific demos, candidates are tested by building one live, and freed time goes to customer meetings. It carries straight into how you set expectations and interviews for a commercial team, and it closes with a firm view on usage pricing. Caveats: one company at very large scale, told by its own leader, and the host's productivity numbers are anecdotes; it follows Tuesday's planning episode from the same company, so listen for the selling side only.",
+   "lookFor": [
+    "What exactly is a rep expected to build before a deal closes, and who supports them when they cannot?",
+    "How would you run his live-demo interview test for a seller who sells to non-technical buyers?",
+    "He says never mix seat and usage pricing in one model; what would have to be true for that to hold for you?"
+   ],
+   "gist": "Gabrisko, CRO since the company was under $1M ARR, says top sellers still win on grit, empathy and relationships, but now must also be AI-first: each rep builds industry-specific demos with the company's own AI tool, and interview candidates must build a live demo for a named account. He describes a go-to-market engineer profile that goes deep into the product, a flat SDR headcount while the closing team grew, and a rule of prep on Monday and Friday and customer time Tuesday to Thursday. On pricing, after 13 years of usage-based pricing, he advises finding the base unit, pricing to value, starting pay-as-you-go so customers can land without a commitment, and never mixing seat and usage pricing in one model."
+  },
+  {
+   "id": "1029-metric",
+   "title": "Pricing AI: Pricing Metrics",
+   "source": "Impact Pricing",
+   "author": "Mark Stiving",
+   "url": "https://impactpricing.substack.com/p/pricing-ai-pricing-metrics",
+   "published": "2025-09-22",
+   "shelf": "slow",
+   "holds": "The split between the buyer's value measure, the usage you can track and the unit on the invoice does not depend on any tool, and AI only sharpens why the choice matters. What has moved on is the market picture: 2026 survey data puts a seat fee plus usage or credits as the most common primary structure, so read his push toward usage and outcome metrics next to that.",
+   "mode": "read",
+   "minutes": 6,
+   "track": "pro",
+   "domain": "Pricing and packaging",
+   "score": 66,
+   "why": "A short, clear framework for choosing the unit you charge on, which is the decision behind today's listen and behind expansion in any self-serve funnel. It gives you the vocabulary to test the 'never mix seat and usage' claim. Caveats: it is opinion without data, and it ends with a pitch for the author's firm.",
+   "lookFor": [
+    "Where in your product does the buyer's measure of value meet a usage number you can actually track?",
+    "Which of his tests (fairness, predictability, expansion, margin) does your current unit fail?",
+    "When outcomes are hard to attribute, which correlated usage metric would you fall back on, and how would a buyer read it?"
+   ],
+   "gist": "Stiving argues that a pricing metric sits where the buyer's measure of value meets usage the seller can track, and works best when it mirrors the buyer's own KPIs. He separates value metrics, usage metrics and the pricing metric on the invoice, and suggests a correlated usage metric when outcomes are hard to measure or attribute. Metrics are segment-specific, so one that fits one market can fail in another. AI weakens seat pricing because it can shrink the headcount a product is priced on, which makes usage, token and outcome metrics more relevant, though the fundamentals stay the same."
+  }
+ ],
+ "practice": {
+  "id": "1029-p",
+  "type": "Estimate",
+  "minutes": 12,
+  "title": "Seats, usage or both, one year out",
+  "prompt": "Pen and paper. A customer has 50 users and processes 100,000 documents a month through your product. Three ways to price it: (A) seats at 40 per user per month; (B) usage at 0.02 per document; (C) a platform fee of 1,000 per month plus 0.01 per document. Next year the customer adds AI agents: the team shrinks to 35 users while volume grows to 140,000 documents a month. Step 1 (4 min): annual revenue this year under A, B and C. Step 2 (4 min): annual revenue next year under each, and the change in percent. Step 3 (4 min): write two sentences on which model you would pick for a buyer whose finance team wants a fixed budget, and what you would add to protect them from surprise bills.",
+  "reveal": "This year all three give the same: A = 50 x 40 x 12 = 24,000; B = 100,000 x 0.02 = 2,000 a month = 24,000; C = (1,000 + 1,000) x 12 = 24,000. Next year: A = 35 x 40 x 12 = 16,800, down 30%; B = 140,000 x 0.02 = 2,800 a month = 33,600, up 40%; C = (1,000 + 1,400) x 12 = 28,800, up 20%. The seat model shrinks exactly when the customer gets more value, because the unit tracks people while value tracks documents. The hybrid keeps half the upside and gives the buyer a predictable floor. A strong Step 3 picks C or B with a committed volume tier, adds usage alerts or a monthly cap, and notes that what chokes expansion is a per-seat charge that makes the customer limit who uses the product."
+ },
+ "cuts": [
+  {
+   "title": "Riding the B2B creator wave",
+   "source": "Growth Unhinged",
+   "reason": "A useful guide to buying newsletter ads, but written in partnership with the platform it recommends, and its prices are benchmarks that will move."
+  },
+  {
+   "title": "Anthropic IPO: S1 Breakdown (and similar)",
+   "source": "Mostly Metrics, Run the Numbers, Prof G Markets",
+   "reason": "Still one company's filing numbers, news that will date within weeks."
+  },
+  {
+   "title": "The Trillion-Dollar Cost of Leaders Who Talk Too Much",
+   "source": "SPEAK LIKE A CEO",
+   "reason": "General communication advice, close to last week's first-week episode from the same show."
+  },
+  {
+   "title": "372 | Erik Winfree on DNA Computers and Robots",
+   "source": "Sean Carroll's Mindscape",
+   "reason": "Good science at 77 minutes; queued for a longer weekend slot."
+  },
+  {
+   "title": "AI Tools for the Investment Firm - Ben Harrison (EP.522)",
+   "source": "Capital Allocators",
+   "reason": "AI tooling inside investment firms, far from running a commercial team."
+  },
+  {
+   "title": "E72: I Collapsed My GTM Org Chart. This Is Why",
+   "source": "The Revenue Leadership Podcast",
+   "reason": "Still queued for org design; 77 minutes does not fit while editions are kept short."
+  }
+ ]
+}
