@@ -1,0 +1,90 @@
+{
+ "date": "2026-10-30",
+ "thesis": "Write your metric definitions before the numbers write your story.",
+ "scanned": 96,
+ "sourcesScanned": 50,
+ "picks": [
+  {
+   "id": "1030-definitions",
+   "title": "How Anthropic Measures Net Dollar Retention, Run Rate Revenue, and Gross Margin.",
+   "source": "Mostly Metrics",
+   "author": "CJ Gustafson",
+   "url": "https://www.mostlymetrics.com/p/how-anthropic-measures-net-dollar-retention-run-rate-revenue-and-gross-margin",
+   "published": "2026-10-29",
+   "shelf": "slow",
+   "mode": "read",
+   "minutes": 11,
+   "track": "pro",
+   "domain": "Target setting and revenue metrics",
+   "score": 70,
+   "why": "Earlier editions cut the filing coverage because its numbers date fast; this piece uses one filing to teach how a metric's definition moves the result: who counts, where the floor sits, how long the look-back is. That is the decision behind any retention or growth target you set for a team, and it builds on yesterday's usage-pricing pieces. Caveats: written in a joking style, the margin figures are the author's own rebuild, and it opens with a sponsor block.",
+   "lookFor": [
+    "Why does a usage business want its retention cohort to start at the smallest customer, while a subscription business sets a floor?",
+    "How much does a three-month look-back flatter growth compared with twelve months, and which would you put in a board-style target?",
+    "Which of your own metrics would change by more than a few points if someone moved one cost or one customer group across the line?"
+   ],
+   "gist": "The filing reports costs by expense bucket, and the author argues that channel partner fees and free-tier compute sit in sales and marketing, so a reported gross margin near 85% falls toward the mid-60s if you move them into cost of revenue. Net revenue retention counts every usage customer from $1 of base-period revenue and excludes fixed-price subscribers, comparing a three-month window a year ago with the latest three months, which favours fast expansion from small starts. Run-rate revenue is defined as trailing 28 days of usage times 13 plus monthly subscriptions times 12, but no figure is given. His conclusion: you are defined by your definitions, so write and footnote your own before anyone else reads them."
+  },
+  {
+   "id": "1030-configurator",
+   "title": "Wie B2B Vordenker igus aus Köln mit Kunststoff-Lagern die Milliarde knackt – mit CEO Artur Peplinski (K#672)",
+   "source": "Kassenzone (CEO Interviews)",
+   "author": "Alexander Graf with Artur Peplinski",
+   "url": "https://kassenzone.podigee.io/692-igus",
+   "published": "2026-10-22",
+   "shelf": "slow",
+   "mode": "listen",
+   "minutes": 55,
+   "track": "pro",
+   "domain": "Pricing, packaging and activation in a self-serve funnel",
+   "score": 67,
+   "why": "A billion-euro industrial supplier that made self-serve a rule: a product counts only if it can be configured online and ships from stock, with no minimum order, yet it is hiring 120 more field sellers. It is a rare long view of how self-serve and a sales team feed each other, from outside software, so you have to do the translation yourself. Caveats: in German, and a good share covers tariffs, energy costs and manufacturing in China, which you can skip; no Spotify link could be verified, so search the title in the app.",
+   "lookFor": [
+    "What does the online configurator do that a sales call used to do, and what is left for the field team?",
+    "Why hire more field sellers when anyone can order two units online, and how is the work split between them?",
+    "Which of his three product rules would you apply to your own self-serve entry point?"
+   ],
+   "gist": "Peplinski runs a Cologne maker of lubrication-free plastic bearings and cable chains with about 1.1 billion euros in revenue and 5,800 staff in 38 countries. A product only counts if it improves the technology or lowers cost, can be configured online and ships from stock; the first configurators came on floppy disk in the 1990s, and today more than 40 run online, including service-life calculations backed by about 6,000 lab tests a year. There is no minimum order, yet the company is adding 120 field sellers worldwide plus content creators. The rest of the conversation covers investment in Germany, energy costs, US tariffs and China as the largest market."
+  }
+ ],
+ "practice": {
+  "id": "1030-p",
+  "type": "First principles",
+  "minutes": 12,
+  "title": "One customer base, three retention numbers",
+  "prompt": "Pen and paper. A usage-priced product has three customer groups. Base period (a quarter one year ago): 200 small experimenters at 50 each, 20 large customers at 5,000 each, 10 mid-size customers at 1,000 each. Current quarter: each experimenter now spends 400, each large customer 5,500, and the 10 mid-size customers have churned to 0. Step 1 (5 min): compute net revenue retention (current revenue of the base cohort divided by its base revenue) under three definitions: (1) every customer with at least 1 of base revenue; (2) only customers with at least 2,000 of base revenue; (3) only customers with at least 500 of base revenue. Step 2 (4 min): from first principles, which definition best answers the question 'will the customers we have today grow revenue next year?', and what does each definition hide? Step 3 (3 min): write your own definition in one sentence that names the floor, the segments included and the look-back window.",
+  "reveal": "Base revenue: experimenters 200 x 50 = 10,000; large 20 x 5,000 = 100,000; mid-size 10 x 1,000 = 10,000. Current: experimenters 200 x 400 = 80,000; large 20 x 5,500 = 110,000; mid-size 0. (1) All from 1: 190,000 / 120,000 = 158%. (2) Floor 2,000, large only: 110,000 / 100,000 = 110%. (3) Floor 500, large plus mid-size: 110,000 / 110,000 = 100%. Same customers, same money, three stories from 100% to 158%. Definition 1 shows the expansion engine but lets small starts dominate the rate; definition 2 hides both the churn and the expansion from small accounts; definition 3 shows churn but hides the experimenters. A strong Step 2 says no single number answers the question, so report the cohorts apart: expansion from small starts, retention of large accounts, and churn of the middle. A strong Step 3 states the floor and why, says which plans are excluded, and fixes the look-back (a three-month base a year ago flatters a fast-growing product more than a twelve-month one)."
+ },
+ "cuts": [
+  {
+   "title": "Your Biggest Buyer Might Never Show Up in Your CRM",
+   "source": "SaaSiest",
+   "reason": "A sound map of buying triggers and committee roles, but a talk recap whose one number is a self-reported close rate with no sample."
+  },
+  {
+   "title": "Anthropic legt die Zahlen offen: Ist das 1,5 Billionen wert? #monthlyHeinemann (K#673)",
+   "source": "Kassenzone (CEO Interviews)",
+   "reason": "74 minutes of valuation debate on one company's filing, which will date within weeks; today's read takes the durable lesson from it."
+  },
+  {
+   "title": "What To Do After A Bad Incrementality Test Result",
+   "source": "Open Haus",
+   "reason": "On point for geo tests, but a measurement vendor's episode whose page shows no publication date, so it cannot be checked for freshness."
+  },
+  {
+   "title": "Staying Principled in a Time of Uncertainty",
+   "source": "HBR IdeaCast",
+   "reason": "Sound crisis-leadership principles from a former large-company CEO, but general and below the bar for your problems."
+  },
+  {
+   "title": "The algorithm isn't the advantage–the team is",
+   "source": "The McKinsey Podcast",
+   "reason": "A CEO conversation on AI in credit scoring, far from running a commercial team."
+  },
+  {
+   "title": "E72: I Collapsed My GTM Org Chart. This Is Why",
+   "source": "The Revenue Leadership Podcast",
+   "reason": "Still queued for org design; 77 minutes does not fit while editions are kept short."
+  }
+ ]
+}
