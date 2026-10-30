@@ -1,0 +1,91 @@
+{
+ "date": "2026-11-02",
+ "thesis": "A geo test is only as good as its control and its clock.",
+ "scanned": 124,
+ "sourcesScanned": 56,
+ "picks": [
+  {
+   "id": "1102-geo",
+   "title": "How Wayfair Uses Geo Experiments to Measure Incrementality",
+   "source": "Wayfair Tech Blog",
+   "author": "Wiley Jennings",
+   "url": "https://www.aboutwayfair.com/careers/tech-blog/how-wayfair-uses-geo-experiments-to-measure-incrementality",
+   "published": "2023-04-26",
+   "shelf": "evergreen",
+   "holds": "The three-step design and the simulation checks still hold. What has moved is the measurement step: Google's open-source Meridian GeoX, reported generally available in September 2026, bundles time-based regression with synthetic-control methods and placebo tests, so you now have more options than the post describes.",
+   "mode": "read",
+   "minutes": 6,
+   "track": "pro",
+   "domain": "Marketing incrementality: running and reading geo-holdout tests",
+   "score": 74,
+   "why": "The clearest short account of running geo-holdout tests end to end at scale: how to draw the regions, how to pick a small holdout that tracks the test group, how to read the lift, and how the team tested its own method with simulated tests. It answers the questions you should ask before trusting any geo result. Caveats: written for data scientists, from a retailer, and the reading time is an estimate from about 1,200 words.",
+   "lookFor": [
+    "Why does a random 50/50 split fail with 210 regions of very uneven size, and what do they do instead?",
+    "Which setting did their simulations show matters most, and what goes wrong when a test runs too long?",
+    "Which kinds of channels do they say geo tests are too blunt to measure?"
+   ],
+   "gist": "Geo tests split regions instead of users when user-level tests are impossible or one customer's treatment affects others; the company uses them mainly for direct mail, billboards and channels run on third-party platforms. In the US it uses 210 regions built from clusters of ZIP codes, and because market sizes are very uneven, it uses integer optimisation to choose a holdout of about 15% of the market that matches the test regions on visits, orders and revenue over a history window, followed by a validation buffer and the test window. Lift comes from time-based regression, which learns the test-control relationship before the test and predicts the counterfactual with credible intervals. Simulated tests showed test length matters most, with longer tests quickly raising false positives; geo tests are the least sensitive experiments the team runs, and regional shocks such as hurricanes have ended tests early."
+  },
+  {
+   "id": "1102-synthetic",
+   "title": "Matched Market Tests Don't Cut It: Why Haus Uses Synthetic Control in Incrementality Experiments",
+   "source": "Haus blog",
+   "author": "Chuan Goh and Mark Steinbach",
+   "url": "https://haus.io/blog/matched-market-tests-dont-cut-it-why-haus-uses-synthetic-control-in-incrementality-experiments",
+   "published": "2025-01-28",
+   "shelf": "evergreen",
+   "holds": "Building controls as weighted blends and checking them on a placebo period remain the direction of the field, and newer open-source tooling includes both. The 4x precision figure has not been replicated independently.",
+   "mode": "read",
+   "minutes": 5,
+   "track": "pro",
+   "domain": "Marketing incrementality: running and reading geo-holdout tests",
+   "score": 61,
+   "why": "A short contrast to the first read: build each test region's control as a weighted blend of several regions instead of one matched twin, and check it on a period before the test, where the true effect is zero. Caveats: a vendor piece with two demo calls to action, its 4x precision claim rests on one simulation with one customer's data that you cannot check, and the reading time is an estimate.",
+   "lookFor": [
+    "What does a placebo period tell you that a good-looking pre-test fit does not?",
+    "When does a blended control beat a single matched market, and which assumption does it still make?"
+   ],
+   "gist": "Matched market tests pair each treated region with one similar control region; the authors argue that a synthetic control, a weighted blend of several untreated regions, tracks the treated region more closely. They admit two limits: a blend may still not reproduce the treated region, and the method assumes the relationship between regions stays fixed. Their answer is to build several models, test each on an out-of-sample placebo period before the change, and weight the better predictors more. In one simulation on six months of a customer's data, they report the synthetic control as four times more precise than one-to-one matching, for example narrowing a +5% lift's range from -3% to +13% down to +3% to +7%."
+  }
+ ],
+ "practice": {
+  "id": "1102-p",
+  "type": "Teach-back",
+  "minutes": 12,
+  "title": "Explain a geo test to a finance partner",
+  "prompt": "Pen and paper. A finance partner asks why your geo test uses a small holdout picked by a model instead of a random half of the country, and why they should trust the lift you report. Step 1 (3 min): draw the test's timeline with its three windows and label what each one is for. Step 2 (5 min): write five plain sentences that answer both questions, using no jargon beyond the word 'control'. Step 3 (4 min): list the three numbers you would show before anyone acts on the result, and for each, the value that would make you distrust it.",
+  "reveal": "Step 1: a matching window (history used to choose a holdout that moves like the test regions), a validation buffer (a stretch before the test that checks the match holds and measures normal noise), and the test window (treatment runs, lift is measured against the predicted path of the holdout). Step 2, a strong version: a random half would cost too much revenue and, with a few regions much larger than the rest, would give two groups that do not move alike; a small holdout chosen to track the test regions on visits, orders and revenue gives a fair comparison at lower cost; the model learns how the groups moved together before the test and predicts where the test group would have been without the spend; the gap is the lift, with a range around it; and we checked the method on simulated tests where we knew the answer. Step 3: the pre-test fit or placebo result (distrust it if the method finds 'lift' where none existed), the full interval around the lift (distrust a result whose range runs from near zero to very large), and the false-positive rate for this test length from simulation (distrust a long test whose false-positive rate is well above the level you set)."
+ },
+ "cuts": [
+  {
+   "title": "Trade Republic und die Brad-Pitt-Kampagne: Growth-Playbook für 18 Märkte und 10 Mio. Kunden – Julian Collin (Trade Republic)",
+   "source": "Startup Insider",
+   "reason": "Queued: a growth leader on brand, pricing and entering 18 markets, on point, but the episode has no page of its own that could be verified in this run."
+  },
+  {
+   "title": "E72: I Collapsed My GTM Org Chart. This Is Why",
+   "source": "The Revenue Leadership Podcast",
+   "reason": "Still queued for org design; 77 minutes does not fit while editions are kept short."
+  },
+  {
+   "title": "5 Honest Lessons on How AI is Actually Rewiring B2B Sales (From Salesforce, Momentum, and Mangomint)",
+   "source": "SaaStr",
+   "reason": "Useful on cleaning data before building agents, but from April 2026, past the 90-day limit for AI-in-sales pieces."
+  },
+  {
+   "title": "Geo Holdouts, Halo Effects, and the Real Results of Your Ad Spend",
+   "source": "eCommerce Evolution",
+   "reason": "On point for geo tests, but a vendor episode about video ads for consumer brands, and its page could not be fetched."
+  },
+  {
+   "title": "Ask Muriel Anything: Getting Recognized at Work, Managing Team Conflict, and Responding to Tough Feedback",
+   "source": "Coaching Real Leaders",
+   "reason": "General workplace questions, below the bar for your problems."
+  },
+  {
+   "title": "280. Closer But Further",
+   "source": "At The Table with Patrick Lencioni",
+   "reason": "A short reflection on humility as you grow, general and below the bar."
+  }
+ ]
+}

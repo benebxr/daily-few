@@ -1,0 +1,87 @@
+{
+ "date": "2026-11-01",
+ "thesis": "Judge a flat plan by its pool, and let caps sort the heavy users.",
+ "scanned": 124,
+ "sourcesScanned": 56,
+ "picks": [
+  {
+   "id": "1101-insurance",
+   "title": "Price AI Like an Insurance Company",
+   "source": "Impact Pricing",
+   "author": "Mark Stiving",
+   "url": "https://impactpricing.substack.com/p/price-ai-like-an-insurance-company",
+   "published": "2026-10-26",
+   "shelf": "slow",
+   "mode": "read",
+   "minutes": 3,
+   "track": "pro",
+   "domain": "Pricing, packaging and activation in a self-serve funnel",
+   "score": 64,
+   "why": "A three-minute frame for a problem every plan with real compute costs has: a few heavy users cost more than they pay. He argues you judge a flat plan by the whole pool, as an insurer does, and use tier caps to sort heavy users into the right plan, since unlike insurance claims, usage is predictable. Caveats: an opinion piece with one illustrative number and no data, and the reading time is an estimate; his post from a week earlier, 'Your Best Customers Are Costing You Money', sets up the problem.",
+   "lookFor": [
+    "Where does the insurance analogy break, given that a heavy user chooses their usage and a homeowner does not choose a fire?",
+    "Which signal in your own usage data would tell you a customer belongs in a higher tier?",
+    "When is raising the price for everyone the right answer, and what does it cost you with light users?"
+   ],
+   "gist": "When a customer's compute costs exceed what they pay, the usual reaction is to raise prices, cap usage or drop the customer, an instinct the author traces to hardware, where every unit carries a margin. Insurers lose money on the homeowner who files a large claim and still profit, because premiums are set so the whole pool covers the total cost: the profit lives in the distribution. A flat AI plan works the same way, and because heavy usage repeats month to month, the heavy users can be seen in advance; a customer who keeps hitting a tier cap is telling you they belong in the next tier. Raising the price for everyone to fix a few losses punishes the majority."
+  },
+  {
+   "id": "1101-darkmatter",
+   "title": "Archive: Dark Matter, the mysterious substance in space",
+   "source": "In Our Time (BBC Radio 4)",
+   "author": "Melvyn Bragg with Carolin Crawford, Carlos Frenk and Anne Green",
+   "url": "https://www.bbc.co.uk/programmes/p0pchdrv",
+   "spotifyUrl": "https://open.spotify.com/episode/1k9b9hhWK68mkCPaPhKDbb",
+   "published": "2015-03-12",
+   "shelf": "evergreen",
+   "holds": "The evidence for dark matter from galaxy motion, gravitational lensing and the early universe still stands, and its estimated share of the universe has barely moved. What has aged is the hope pinned on WIMPs: the most sensitive detector, LZ, reported its tightest limits yet in 2024 and saw no signal, so much of the range where the leading 2015 candidate could hide has been ruled out.",
+   "mode": "listen",
+   "minutes": 47,
+   "track": "personal",
+   "domain": "Science and how things work",
+   "score": 67,
+   "why": "Your weekend science listen: how astronomers inferred a kind of matter nobody can see, and how theories about it are tested with computer models of how the universe formed. It is a 2015 recording reissued this week, so treat the guests' hopes for an early detection as dated.",
+   "lookFor": [
+    "What did astronomers measure that did not add up, and why was invisible matter the preferred explanation?",
+    "How can a computer simulation of the universe test a theory about a particle nobody has detected?",
+    "What result would make you give up dark matter and change the law of gravity instead?"
+   ],
+   "gist": "Dark matter is a proposed form of matter that does not absorb, reflect or emit light; the programme puts it at 27% of the universe, against 5% for the matter that makes up stars and galaxies. In 1932 the astronomer Jan Oort noticed that observed motions were at odds with the amount of visible material and proposed that much of the missing matter was invisible to telescopes. A leading theory at the time of recording was that it consists of weakly interacting massive particles, and the guests explain how theories are tested by simulating how the universe's structure formed."
+  }
+ ],
+ "practice": {
+  "id": "1101-p",
+  "type": "Mental math",
+  "minutes": 12,
+  "title": "Raise the price or sort the pool?",
+  "prompt": "Pen and paper, no calculator. A flat plan costs 50 a month and has 1,000 subscribers: 700 light users who cost you 5 a month each to serve, 250 medium users at 30, and 50 heavy users at 250. Step 1 (3 min): compute monthly revenue, cost to serve, gross margin in percent, and the total loss on the heavy users. Step 2 (4 min): option A raises the price to 60 for everyone; 70 light users cancel and nobody else does. Compute the new gross margin. Step 3 (4 min): option B keeps 50 but adds a cap at medium usage, with a new 300 plan above it; 40 heavy users move to the 300 plan and the other 10 cancel. Compute the new gross margin. Step 4 (1 min): which option would you pick, and what one number would you check first?",
+  "reveal": "Step 1: revenue 1,000 x 50 = 50,000. Cost 700 x 5 = 3,500, plus 250 x 30 = 7,500, plus 50 x 250 = 12,500, total 23,500. Gross margin 26,500 / 50,000 = 53%. Each heavy user loses 200, so 50 x 200 = 10,000 a month. Step 2: 930 subscribers x 60 = 55,800. Cost 630 x 5 = 3,150 plus 7,500 plus 12,500 = 23,150. Margin 32,650 / 55,800 = about 58.5%. Step 3: revenue 950 x 50 = 47,500 plus 40 x 300 = 12,000, total 59,500. Cost 3,500 plus 7,500 plus 40 x 250 = 10,000, total 21,000. Margin 38,500 / 59,500 = about 64.7%. Option B earns more revenue at a better margin and keeps every light user, who carries the pool. The number to check first: how many heavy users would really pay 300 rather than leave. If all 50 left, revenue would fall to 47,500 while margin would rise to 36,500 / 47,500, about 76.8%, so the heavy users add to the business only once they move up a tier."
+ },
+ "cuts": [
+  {
+   "title": "372 | Erik Winfree on DNA Computers and Robots",
+   "source": "Sean Carroll's Mindscape",
+   "reason": "Still queued for a longer slot; 77 minutes does not fit while editions are kept short."
+  },
+  {
+   "title": "Your Best Customers Are Costing You Money",
+   "source": "Impact Pricing",
+   "reason": "Sets up today's pricing read and adds little on its own."
+  },
+  {
+   "title": "Research Update: Long-Term Brand Effects",
+   "source": "Recast blog",
+   "reason": "A method note on crediting brand spend inside a media mix model, with no results shown and an upsell at the end."
+  },
+  {
+   "title": "Casablanca",
+   "source": "In Our Time",
+   "reason": "Film history, outside the science track."
+  },
+  {
+   "title": "Eric Schmidt scores US vs. China: who's winning the AI race?",
+   "source": "Masters of Scale",
+   "reason": "Geopolitical opinion with nothing you would act on."
+  }
+ ]
+}

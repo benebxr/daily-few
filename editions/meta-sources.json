@@ -1,35 +1,35 @@
 {
- "updated": "2026-10-29",
- "window": "cumulative since 16.09.2026; last sweep 29.10.2026",
+ "updated": "2026-10-30",
+ "window": "cumulative since 16.09.2026; last sweep 30.10.2026",
  "sources": [
   {
    "name": "Open web discovery",
-   "scanned": 326,
-   "picked": 18
+   "scanned": 342,
+   "picked": 21
   },
   {
    "name": "MKT1 Newsletter",
-   "scanned": 8,
+   "scanned": 9,
    "picked": 2
   },
   {
    "name": "The Signal",
-   "scanned": 12,
-   "picked": 3
+   "scanned": 15,
+   "picked": 4
   },
   {
    "name": "Tomasz Tunguz",
-   "scanned": 11,
+   "scanned": 13,
    "picked": 2
   },
   {
    "name": "Superhuman AI",
-   "scanned": 62,
+   "scanned": 64,
    "picked": 0
   },
   {
    "name": "The Neuron",
-   "scanned": 66,
+   "scanned": 68,
    "picked": 0
   },
   {
@@ -39,7 +39,7 @@
   },
   {
    "name": "Think Fast Talk Smart",
-   "scanned": 40,
+   "scanned": 42,
    "picked": 0
   },
   {
@@ -49,7 +49,7 @@
   },
   {
    "name": "The Diff",
-   "scanned": 13,
+   "scanned": 14,
    "picked": 0
   },
   {
@@ -59,12 +59,12 @@
   },
   {
    "name": "Lenny's Newsletter",
-   "scanned": 16,
+   "scanned": 22,
    "picked": 0
   },
   {
    "name": "SaaSiest",
-   "scanned": 7,
+   "scanned": 8,
    "picked": 0
   },
   {
@@ -119,7 +119,7 @@
   },
   {
    "name": "The Official SaaStr Podcast",
-   "scanned": 22,
+   "scanned": 24,
    "picked": 3
   },
   {
@@ -129,17 +129,17 @@
   },
   {
    "name": "EconTalk",
-   "scanned": 47,
+   "scanned": 48,
    "picked": 1
   },
   {
    "name": "The Knowledge Project",
-   "scanned": 39,
+   "scanned": 40,
    "picked": 1
   },
   {
    "name": "Masters of Scale",
-   "scanned": 89,
+   "scanned": 91,
    "picked": 0
   },
   {
@@ -149,7 +149,7 @@
   },
   {
    "name": "Mostly Metrics",
-   "scanned": 28,
+   "scanned": 29,
    "picked": 10
   },
   {
@@ -189,7 +189,7 @@
   },
   {
    "name": "Run the Numbers",
-   "scanned": 82,
+   "scanned": 84,
    "picked": 5
   },
   {
@@ -199,8 +199,8 @@
   },
   {
    "name": "In Our Time",
-   "scanned": 60,
-   "picked": 4
+   "scanned": 62,
+   "picked": 5
   },
   {
    "name": "Worklife with Molly Graham",
@@ -239,12 +239,12 @@
   },
   {
    "name": "Odd Lots",
-   "scanned": 82,
-   "picked": 4
+   "scanned": 87,
+   "picked": 5
   },
   {
    "name": "HBR IdeaCast",
-   "scanned": 36,
+   "scanned": 37,
    "picked": 3
   },
   {
@@ -259,27 +259,27 @@
   },
   {
    "name": "Capital Allocators",
-   "scanned": 44,
+   "scanned": 46,
    "picked": 0
   },
   {
    "name": "Sean Carroll's Mindscape",
-   "scanned": 20,
+   "scanned": 21,
    "picked": 0
   },
   {
    "name": "Prof G Markets",
-   "scanned": 124,
+   "scanned": 130,
    "picked": 1
   },
   {
    "name": "Coaching Real Leaders",
-   "scanned": 17,
+   "scanned": 18,
    "picked": 0
   },
   {
    "name": "The McKinsey Podcast",
-   "scanned": 24,
+   "scanned": 25,
    "picked": 0
   },
   {
@@ -294,7 +294,7 @@
   },
   {
    "name": "Hard Fork",
-   "scanned": 23,
+   "scanned": 25,
    "picked": 0
   },
   {
@@ -349,27 +349,27 @@
   },
   {
    "name": "Top Founders",
-   "scanned": 12,
+   "scanned": 13,
    "picked": 0
   },
   {
    "name": "Startup Insider",
-   "scanned": 62,
+   "scanned": 68,
    "picked": 0
   },
   {
    "name": "At The Table with Patrick Lencioni",
-   "scanned": 6,
+   "scanned": 7,
    "picked": 0
   },
   {
    "name": "The Jefferson Fisher Podcast",
-   "scanned": 22,
+   "scanned": 25,
    "picked": 0
   },
   {
    "name": "SPEAK LIKE A CEO",
-   "scanned": 10,
+   "scanned": 11,
    "picked": 1
   },
   {
@@ -389,7 +389,7 @@
   },
   {
    "name": "Kassenzone (CEO Interviews)",
-   "scanned": 3,
+   "scanned": 4,
    "picked": 1
   },
   {
@@ -419,12 +419,27 @@
   },
   {
    "name": "Impact Pricing",
-   "scanned": 1,
-   "picked": 1
+   "scanned": 4,
+   "picked": 2
   },
   {
    "name": "Open Haus",
    "scanned": 1,
+   "picked": 0
+  },
+  {
+   "name": "Recast blog",
+   "scanned": 1,
+   "picked": 0
+  },
+  {
+   "name": "Clouded Judgement",
+   "scanned": 3,
+   "picked": 0
+  },
+  {
+   "name": "Elena Verna",
+   "scanned": 2,
    "picked": 0
   }
  ]

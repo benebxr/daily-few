@@ -1,0 +1,91 @@
+{
+ "date": "2026-10-31",
+ "thesis": "When agents shop, the fair price depends on who they work for.",
+ "scanned": 124,
+ "sourcesScanned": 56,
+ "picks": [
+  {
+   "id": "1031-agentprice",
+   "title": "AI Agents Are Already Changing the Price of Goods",
+   "source": "Odd Lots",
+   "author": "Joe Weisenthal and Tracy Alloway with Lindsay Owens",
+   "url": "https://omny.fm/shows/odd-lots/ai-agents-are-already-changing-the-price-of-goods",
+   "spotifyUrl": "https://open.spotify.com/episode/55hh2G4WGi9VJEkTjnEplc",
+   "published": "2026-10-26",
+   "shelf": "fast",
+   "mode": "listen",
+   "minutes": 50,
+   "track": "personal",
+   "domain": "Investing and economics",
+   "score": 68,
+   "why": "Your weekend economics listen, and it meets your agents-as-a-channel problem from the buyer's side: once an agent knows what a buyer can afford, the fair price can move. Caveats: the guest runs an advocacy think tank and has a new book out; her claim that some agents served pricier items after learning a user's finances comes from her group's own research, which a search could not find published. An independent Princeton and University of Washington study found shopping agents steering buyers to pricier sponsored options, and Google disputed an earlier warning of hers about its shopping protocol.",
+   "lookFor": [
+    "What does an agent need to know about a buyer before the price that buyer sees can rise, and who ends up holding that data?",
+    "Which pre-AI pricing practices does she say agents make easier, and does any of them touch how you price your own product?",
+    "If buyers send agents to compare you, what would you want an agent to find on your pricing page?"
+   ],
+   "gist": "Owens argues that the history of price gouging gives little reason to believe new technology will make things cheaper, despite promises that agents will find buyers the best deals. Research from her think tank found that a number of consumer-facing agents served more expensive items after learning more about the user's financial situation. The conversation covers how agents are already changing the idea of a fair price, the ways companies charged more before AI through data collection and surveillance, and her book Gouged."
+  },
+  {
+   "id": "1031-waves",
+   "title": "AI Adoption is coming in waves: coding was first, support was second, and GTM is next",
+   "source": "The Signal",
+   "author": "Brendan J Short",
+   "url": "https://www.thesignal.club/p/ai-adoption-is-coming-in-waves",
+   "published": "2026-10-30",
+   "shelf": "fast",
+   "mode": "read",
+   "minutes": 5,
+   "track": "pro",
+   "domain": "AI enablement of a commercial team",
+   "score": 62,
+   "why": "A short frame for AI enablement of a commercial team: adoption has moved fastest where output can be checked in seconds, so your lever is shortening the time it takes to judge an AI-drafted email, account plan or forecast. A search found survey data that fits the order (support teams deploy agents most, sales among the least). Caveats: a sponsored roundup whose main sponsor is also its one scaled example, the podcast-mention counts are the author's own tally, and the reading time is an estimate.",
+   "lookFor": [
+    "Which of your team's tasks give feedback within a day, and which only within a quarter?",
+    "What would it take to judge an AI-written account plan in minutes instead of waiting for the deal outcome?",
+    "He reports mentions of quota falling as mentions of agents rose: is that evidence of anything, or only of what podcasts talk about?"
+   ],
+   "gist": "The lead essay argues that AI adoption arrives in waves set by how quickly output can be verified: coding first, because results can be tested in seconds, support second, because tickets resolve in minutes, and go-to-market third, because deals take months and have no clear right answer. In his tally of 719 go-to-market podcast episodes over 24 months, mentions of agents rose from 15% to 39% and mentions of quota fell from 29% to 7%. He concludes that whoever shortens the feedback loop for judging AI output in go-to-market will win the next wave; the rest of the issue is links and a build-versus-buy note."
+  }
+ ],
+ "practice": {
+  "id": "1031-p",
+  "type": "Argument",
+  "minutes": 10,
+  "title": "Will shopping agents make prices fairer?",
+  "prompt": "Pen and paper. Claim: 'Shopping agents will make prices fairer, because they compare every offer for the buyer.' Step 1 (4 min): write the strongest three-sentence case for the claim. Step 2 (4 min): write the strongest three-sentence case against it, using two questions: who pays the agent, and what does the agent let the seller learn about the buyer? Step 3 (2 min): write one rule that would make you trust an agent with your own purchases, and name what that rule would cost someone.",
+  "reveal": "A strong case for: when comparing offers costs almost nothing, sellers who charge more than the market lose the sale, so prices for the same good should converge; this is the old search-cost argument from economics, and price comparison sites already showed a version of it. A strong case against: an agent paid by sellers or by sponsored placement has a reason to steer toward pricier options, and an agent that shares what it knows about the buyer's budget lets the seller charge each buyer close to the most they would pay, which is the opposite of one fair price. A strong Step 3 names a rule such as: the buyer pays the agent, the agent never passes on income or budget data, and it always shows the cheapest equivalent option next to its pick. The cost: the buyer pays a fee, and sellers lose a channel for paid placement, so fewer free agents exist."
+ },
+ "cuts": [
+  {
+   "title": "Building a Berkshire for the Middle Market – Tracy Britt Cool (EP.521)",
+   "source": "Capital Allocators",
+   "reason": "Still queued for a weekend personal slot; today's one personal pick goes to agent pricing."
+  },
+  {
+   "title": "What Wall Street Really Thinks About the AI Trade Now",
+   "source": "Odd Lots",
+   "reason": "Market sentiment that will date within weeks."
+  },
+  {
+   "title": "Josh Brown: If This Is A Bubble, It's Pathetic",
+   "source": "Prof G Markets",
+   "reason": "78 minutes of market opinion that will date within weeks."
+  },
+  {
+   "title": "Clouded Judgement 10.30.26 - Dispelling the Myths of the Anthropic S-1",
+   "source": "Clouded Judgement",
+   "reason": "Still one company's filing numbers, news that will date within weeks."
+  },
+  {
+   "title": "Grok vs. Dot vs. Muse vs. Claude Duet: which one crushes the competition?",
+   "source": "Lenny's Newsletter",
+   "reason": "A tool shoot-out that will date within weeks."
+  },
+  {
+   "title": "Are We in an A.I. Bubble? We're About to Find Out.",
+   "source": "Hard Fork",
+   "reason": "Tech news commentary with nothing you would act on."
+  }
+ ]
+}
