@@ -1,0 +1,91 @@
+{
+ "date": "2026-11-03",
+ "thesis": "Growth buys a multiple that thin profit can take away.",
+ "scanned": 125,
+ "sourcesScanned": 62,
+ "picks": [
+  {
+   "id": "1103-metricsbs",
+   "title": "The Hierarchy of Metrics BS: How Investors Spot Fake Numbers | Brian Neider",
+   "source": "Run the Numbers",
+   "author": "CJ Gustafson with Brian Neider",
+   "url": "https://creators.spotify.com/pod/profile/cjgustafson222/episodes/The-Hierarchy-of-Metrics-BS-How-Investors-Spot-Fake-Numbers--Brian-Neider-e3r7a34",
+   "spotifyUrl": "https://open.spotify.com/episode/0j0xaDnaAzA3Z8Q2qKZtfV",
+   "published": "2026-11-02",
+   "shelf": "slow",
+   "mode": "listen",
+   "minutes": 56,
+   "track": "pro",
+   "domain": "First 90 days in a revenue leadership role: org design and target setting",
+   "score": 67,
+   "why": "A growth investor on how he tells a dressed-up metric from a real one, and which questions make management teams go vague. Useful when you set targets and report numbers to people who will probe them. Caveats: the summary below comes from the show notes and chapter list, the guest's framework is his own opinion, and the late part on AI and moats will date faster than the rest.",
+   "lookFor": [
+    "Which metrics does he rank as the easiest to dress up, and which ones does he trust?",
+    "What does he do when an answer sounds polished, and how would your own numbers hold up to that?",
+    "Where does he draw the line between a good company and a good investment?"
+   ],
+   "gist": "The guest, a partner at a growth equity firm, wrote a widely shared ranking of misleading startup metrics, and the episode walks through where it came from and what management teams tend to be cagey about. He separates selling well from intellectual dishonesty and describes asking a founder to explain a number again as a test. The conversation then covers the gap between a good company and a good investment, what counts as expensive, the worst EBITDA add-backs, revenue versus EBITDA multiples and whether services revenue counts as good revenue. It closes on how AI affects horizontal, vertical and infrastructure software and what still makes a moat."
+  },
+  {
+   "id": "1103-multiple",
+   "title": "Should You Trade off a Revenue or EBITDA Multiple?",
+   "source": "Mostly Metrics",
+   "author": "CJ Gustafson",
+   "url": "https://www.mostlymetrics.com/p/should-you-trade-off-a-revenue-or-ebitda-multiple",
+   "published": "2026-11-01",
+   "shelf": "slow",
+   "mode": "read",
+   "minutes": 8,
+   "track": "pro",
+   "domain": "First 90 days in a revenue leadership role: org design and target setting",
+   "score": 64,
+   "why": "A short essay on why software companies growing above roughly 30% get valued on revenue and slower ones on cash flow, and why a thin first profit can hurt a sale. It tells you what a growth target is worth to the owners before you commit to one. Caveats: the 30% line is a rule of thumb from two investors, the view is the venture-backed one, and only the essay before the weekly valuation tables is worth your time (reading time estimated from about 2,000 words).",
+   "lookFor": [
+    "Why does the valuation method get replaced, instead of shrinking, once growth falls below about 30%?",
+    "Why is a 3% profit margin before a sale worse, in the author's view, than a loss with a credible margin story?",
+    "Which condition does he attach to preferring faster growth over profit?"
+   ],
+   "gist": "Revenue multiples rest on the bet that fast growth will swamp today's cost base; at 30% growth revenue doubles in under three years, so investors value the trajectory, while at 15% it takes about five years and they look at today's cash. Growing 20-30% without profit is the worst place to be, too slow for growth buyers and too unprofitable for cash-flow buyers. A small positive margin can hurt before a sale because it gives a buyer a weak number to anchor on, especially a strategic buyer who plans to cut your overhead anyway. Given similar quality, he would rather sell at 33% growth and -5% margin than at 23% and +6%, provided the growth is durable and gross margins stay healthy."
+  }
+ ],
+ "practice": {
+  "id": "1103-p",
+  "type": "Argument",
+  "minutes": 12,
+  "title": "Growth or margin before a fundraise",
+  "prompt": "Pen and paper, no calculator. Your company has 100 in annual revenue, grows 23% a year and runs a +6% profit margin. One board member wants to cut spend to reach a +10% margin at the same growth. Another wants to reinvest to grow 33% at a -5% margin. Step 1 (4 min): compound by hand to find revenue after three years under 23% and under 33% growth, and say roughly how long each takes to double. Step 2 (3 min): compute the Rule of 40 score for the current plan and both proposals, and write down which assumption makes the cut-spend score misleading. Step 3 (5 min): write a three-sentence case for one option to the board, and name the two numbers that would make you change your mind.",
+  "reveal": "Step 1: 1.23 x 1.23 = 1.51, x 1.23 = 1.86, so about 186 after three years; doubling takes roughly 3.3 years (1.23 to the fourth is about 2.29). 1.33 x 1.33 = 1.77, x 1.33 = 2.35, so about 235; doubling takes roughly 2.4 years. The rule of 72 gives 3.1 and 2.2 years, slightly short at these rates. Step 2: current plan 23 + 6 = 29; cut spend 23 + 10 = 33; reinvest 33 - 5 = 28. The cut-spend score assumes growth holds at 23% after you remove spend, which is rarely true, and the reinvest option scores lowest while building a business about a quarter larger in three years (235 versus 186). Step 3, a strong case for reinvesting: below about 30% growth investors value you on cash flow, and a thin margin gives them a weak number to anchor on; at 33% you double in under two and a half years and get valued on trajectory; you would do it only if the extra growth is durable. Numbers that would change your mind: net revenue retention falling or new-customer payback lengthening (growth that is bought, and will not last), and gross margin dropping (growth that costs nearly as much as it brings in)."
+ },
+ "cuts": [
+  {
+   "title": "Paid ads are back",
+   "source": "Growth Unhinged",
+   "reason": "A clear map of three paid playbooks, but built on a sponsor's benchmark report, and its ad-platform claims will date within months."
+  },
+  {
+   "title": "How a 19-year-old intern built the growth engine behind this $2B AI company | Hector Serrano",
+   "source": "Lenny's Podcast",
+   "reason": "88 minutes on one company's ad growth story, far too long while editions are kept short."
+  },
+  {
+   "title": "373 | Colin Camerer on the Neuroscience of Economic Thinking",
+   "source": "Sean Carroll's Mindscape",
+   "reason": "Queued for a weekend personal slot; 88 minutes, and it leans on brain science."
+  },
+  {
+   "title": "Trial & Error Folge 54 – „Cost-Cutting ist kein Geschäftsmodell“: Restrukturierung im Startup richtig angehen",
+   "source": "Startup Insider",
+   "reason": "71 minutes of founder conversation on restructuring, long and anecdotal next to today's picks."
+  },
+  {
+   "title": "E72: I Collapsed My GTM Org Chart. This Is Why",
+   "source": "The Revenue Leadership Podcast",
+   "reason": "Still queued for org design; 77 minutes does not fit while editions are kept short."
+  },
+  {
+   "title": "337. Success Is Situational: How Feedback & Practice Transform Your Communication",
+   "source": "Think Fast Talk Smart",
+   "reason": "General communication advice, below the bar for your problems."
+  }
+ ]
+}

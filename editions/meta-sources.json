@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-30",
- "window": "cumulative since 16.09.2026; last sweep 30.10.2026",
+ "updated": "2026-11-02",
+ "window": "cumulative since 16.09.2026; last sweep 02.11.2026",
  "sources": [
   {
    "name": "Open web discovery",
-   "scanned": 342,
+   "scanned": 352,
    "picked": 21
   },
   {
@@ -24,12 +24,12 @@
   },
   {
    "name": "Superhuman AI",
-   "scanned": 64,
+   "scanned": 66,
    "picked": 0
   },
   {
    "name": "The Neuron",
-   "scanned": 68,
+   "scanned": 70,
    "picked": 0
   },
   {
@@ -39,7 +39,7 @@
   },
   {
    "name": "Think Fast Talk Smart",
-   "scanned": 42,
+   "scanned": 45,
    "picked": 0
   },
   {
@@ -114,22 +114,22 @@
   },
   {
    "name": "Growth Unhinged",
-   "scanned": 15,
+   "scanned": 16,
    "picked": 3
   },
   {
    "name": "The Official SaaStr Podcast",
-   "scanned": 24,
+   "scanned": 25,
    "picked": 3
   },
   {
    "name": "Lenny's Podcast",
-   "scanned": 40,
+   "scanned": 41,
    "picked": 2
   },
   {
    "name": "EconTalk",
-   "scanned": 48,
+   "scanned": 50,
    "picked": 1
   },
   {
@@ -139,7 +139,7 @@
   },
   {
    "name": "Masters of Scale",
-   "scanned": 91,
+   "scanned": 94,
    "picked": 0
   },
   {
@@ -149,8 +149,8 @@
   },
   {
    "name": "Mostly Metrics",
-   "scanned": 29,
-   "picked": 10
+   "scanned": 30,
+   "picked": 11
   },
   {
    "name": "GTM Engineer Pulse",
@@ -164,7 +164,7 @@
   },
   {
    "name": "Sifted",
-   "scanned": 21,
+   "scanned": 22,
    "picked": 0
   },
   {
@@ -189,8 +189,8 @@
   },
   {
    "name": "Run the Numbers",
-   "scanned": 84,
-   "picked": 5
+   "scanned": 87,
+   "picked": 6
   },
   {
    "name": "BenAI",
@@ -199,7 +199,7 @@
   },
   {
    "name": "In Our Time",
-   "scanned": 62,
+   "scanned": 65,
    "picked": 5
   },
   {
@@ -239,7 +239,7 @@
   },
   {
    "name": "Odd Lots",
-   "scanned": 87,
+   "scanned": 91,
    "picked": 5
   },
   {
@@ -259,17 +259,17 @@
   },
   {
    "name": "Capital Allocators",
-   "scanned": 46,
+   "scanned": 48,
    "picked": 0
   },
   {
    "name": "Sean Carroll's Mindscape",
-   "scanned": 21,
+   "scanned": 23,
    "picked": 0
   },
   {
    "name": "Prof G Markets",
-   "scanned": 130,
+   "scanned": 138,
    "picked": 1
   },
   {
@@ -354,7 +354,7 @@
   },
   {
    "name": "Startup Insider",
-   "scanned": 68,
+   "scanned": 86,
    "picked": 0
   },
   {
@@ -364,7 +364,7 @@
   },
   {
    "name": "The Jefferson Fisher Podcast",
-   "scanned": 25,
+   "scanned": 27,
    "picked": 0
   },
   {
@@ -389,7 +389,7 @@
   },
   {
    "name": "Kassenzone (CEO Interviews)",
-   "scanned": 4,
+   "scanned": 5,
    "picked": 1
   },
   {
