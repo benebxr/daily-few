@@ -285,6 +285,10 @@ body.locked{overflow:hidden}
 @keyframes sh{to{background-position:-200% 0}}
 
 /* sync + export */
+.foldcal{position:fixed;inset:0;z-index:60;background:rgba(10,6,25,.55);cursor:crosshair;touch-action:none}
+.fc-line{position:absolute;top:0;bottom:0;width:2px;margin-left:-1px;background:#fff;box-shadow:0 0 0 1px rgba(0,0,0,.25),0 0 18px rgba(255,255,255,.6)}
+.fc-box{position:absolute;left:24px;bottom:calc(24px + env(safe-area-inset-bottom,0px));max-width:300px;display:flex;flex-direction:column;gap:6px;background:var(--card-solid);color:var(--ink);border-radius:20px;padding:16px;font-size:14px;cursor:default}
+.fc-box b{font-size:17px;font-weight:600}.fc-box span{color:var(--ink-2)}.fc-box .chipbtn{align-self:flex-start;margin-top:4px}
 .syncbar{display:flex;align-items:center;gap:12px;background:var(--card-solid);border-radius:20px;padding:12px 12px 12px 16px;box-shadow:inset 0 0 0 1.5px var(--out),var(--shadow)}
 .syncbar div{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px;font-size:14px;color:var(--ink-2)}
 .syncbar b{font-size:15px;font-weight:600;color:var(--ink)}
@@ -426,7 +430,15 @@ var uid=function(){return Date.now().toString(36)+Math.random().toString(36).sli
 
 var S={db:null,mode:"loading",days:{},states:{},actions:{},meta:{},view:"today",date:null,sheet:null,err:"",gh:null,sync:{status:"off",at:"",msg:""},dirty:false};
 function isWide(){return document.body.classList.contains("wide")}
-function fitLayout(){var W=window.innerWidth,H=window.innerHeight,w=W>=780,b=document.body;b.classList.toggle("wide",w);b.classList.toggle("regular",!w&&W>=600);b.classList.toggle("short",!w&&H<720);var pn=$("#panel");if(pn)pn.hidden=!w;if(w&&!S.sheet&&S.mode!=="loading")wideDefault()}
+function foldKey(){return "fold:"+window.innerWidth+"x"+window.innerHeight}
+function foldGuess(){var W=window.innerWidth,H=window.innerHeight;if(!/iPhone/.test(navigator.userAgent)||W<=H)return 0;var D=Math.max(screen.width,screen.height);return D>W&&D<=W*1.25?Math.round(D/2):0}
+function applyFold(){var r=document.documentElement;if(!isWide()){r.style.removeProperty("--page");return}var segs=false;try{segs=window.matchMedia("(horizontal-viewport-segments: 2)").matches}catch(e){}
+  var v=ls(foldKey())||(segs?0:foldGuess());if(v&&v>300&&v<window.innerWidth-280)r.style.setProperty("--page",v+"px");else r.style.removeProperty("--page")}
+function foldCal(){var o=document.createElement("div");o.className="foldcal";o.innerHTML='<div class="fc-line" style="left:'+Math.round(window.innerWidth/2)+'px"></div><div class="fc-box"><b>Tap right on the crease</b><span>The two pages will meet there. Window '+window.innerWidth+' × '+window.innerHeight+', screen '+screen.width+' × '+screen.height+'</span><button class="chipbtn" data-fold-cancel="1">Cancel</button></div>';document.body.appendChild(o);var ln=o.querySelector(".fc-line");
+  o.addEventListener("pointermove",function(e){ln.style.left=e.clientX+"px"});
+  o.addEventListener("pointerdown",function(e){if(e.target.closest(".fc-box"))return;ln.style.left=e.clientX+"px"});
+  o.addEventListener("click",function(e){if(e.target.closest("[data-fold-cancel]")){o.remove();return}if(e.target.closest(".fc-box"))return;var x=Math.round(e.clientX);ls(foldKey(),x);o.remove();applyFold();render();if(S.sheet)renderSheet();toast("Pages now meet at the fold")})}
+function fitLayout(){var W=window.innerWidth,H=window.innerHeight,w=W>=780,b=document.body;b.classList.toggle("wide",w);b.classList.toggle("regular",!w&&W>=600);b.classList.toggle("short",!w&&H<720);applyFold();var pn=$("#panel");if(pn)pn.hidden=!w;if(w&&!S.sheet&&S.mode!=="loading")wideDefault()}
 window.addEventListener("resize",function(){clearTimeout(fitLayout.t);fitLayout.t=setTimeout(function(){var was=isWide(),sh=S.sheet,y=isWide()?($("#app")||{}).scrollTop:window.scrollY;
   if(sh&&sh.auto&&was){S.sheet=null;sh=null}
   fitLayout();if(was!==isWide()){var b=$("#backdrop");b.classList.remove("open");b.hidden=true;document.body.classList.remove("locked");render();if(sh){S.sheet=null;openSheet(sh)}else if(isWide())wideDefault();
@@ -580,6 +592,7 @@ function viewBalance(){var last=[],I=0,O=0,M=0,PM=0;for(var k=6;k>=0;k--){var d=
   var srow=function(x){var cut=x.scanned>=3&&!x.picked;return '<div class="src"><span class="src-n">'+esc(x.name)+'</span>'+(cut?'<span class="tag">cut candidate</span>':x.picked?'<span class="tag keep">earning it</span>':'')+'<span class="src-c">'+(+x.picked||0)+' / '+(+x.scanned||0)+'</span></div>'};
   var main=src.filter(function(x){return x.picked||x.scanned>=3}),rest=src.filter(function(x){return !x.picked&&x.scanned<3});
   if(src.length)h+='<section class="sec"><div class="sec-h"><h2>Your sources</h2><span>picked / scanned</span></div><div class="group">'+main.map(srow).join("")+(rest.length?'<details class="more"><summary>'+rest.length+' more without a pick yet</summary>'+rest.map(srow).join("")+'</details>':'')+'</div><p class="note" style="text-align:left">Three scans without a single pick marks a source as a cut candidate. Unsubscribing is the cheapest filter there is.</p></section>';
+  if(isWide())h+='<section class="sec"><div class="sec-h"><h2>Pages and fold</h2></div><div class="group"><div class="synccard"><p>On a foldable the two pages should meet exactly at the crease. If the crease runs through text, align it once for this position.</p><div class="btns"><button class="chipbtn ok" data-fold-align="1">Align with the fold</button>'+(ls(foldKey())?'<button class="chipbtn" data-fold-reset="1">Reset</button>':'')+'</div></div></div></section>';
   h+='<section class="sec"><div class="sec-h"><h2>Sync and backup</h2></div><div class="group"><div class="synccard">'+(S.gh?syncStat()+'<p>Progress, notes, drawings and actions are shared between your devices through your private GitHub repository. Each device pulls when you open the app and pushes after every change.</p><div class="btns"><button class="chipbtn ok" data-sync-now="1">Sync now</button><button class="chipbtn" data-export="1">Export everything</button><button class="chipbtn" data-disconnect="1">Disconnect</button></div>':'<div class="st"><i></i>Not connected</div><p>Everything you do lives only on this device. Connect it to keep the same state on iPhone and iPad and to survive a reinstall.</p><div class="btns"><button class="chipbtn ok" data-connect="1">Connect this device</button><button class="chipbtn" data-export="1">Export everything</button></div>')+'</div></div></section>';
   var pf=S.meta.profile;
   if(pf)h+='<section class="sec"><div class="sec-h"><h2>What the curation optimises for</h2></div><div class="group compass">'+(pf.focus?'<div><h4>Focus</h4><p style="margin:0;font-size:16px">'+esc(pf.focus)+'</p></div>':'')+'<div><h4>Live problems</h4><ul>'+(pf.pro||[]).map(function(x){return '<li>'+esc(x)+'</li>'}).join("")+'</ul></div><div class="per"><h4>Curiosity</h4><ul>'+(pf.personal||[]).map(function(x){return '<li>'+esc(x)+'</li>'}).join("")+'</ul></div></div><p class="note" style="text-align:left">Tell Claude when a problem is solved or a new one shows up. The picks follow.</p></section>';
@@ -662,6 +675,8 @@ document.addEventListener("click",function(ev){var t=ev.target.closest("button,[
   if(d.syncNow){toast("Syncing…");syncNow("pull").then(function(){toast(S.sync.status==="ok"?"Up to date":"Sync failed");render()});return}
   if(d.disconnect){S.gh=null;ls("gh",null);setSync("off");render();toast("Disconnected. Data stays on this device.");return}
   if(d.export)return exportAll();
+  if(d.foldAlign)return foldCal();
+  if(d.foldReset){ls(foldKey(),null);applyFold();render();toast("Back to equal pages");return}
   if(d.reveal){if(s.type==="practice"){var n=$("#practiceText");if(n)saveNote(s.date,n.value);padSave()}s.revealed=true;return renderSheet()}
   if(d.practiceDone){padSave();var note=($("#practiceText").value||"").trim();saveState(s.date,function(x){x.practice={done:true,note:note,at:new Date().toISOString(),seconds:((+S.days[s.date].practice.minutes||0)*60)-timer.left}});closeSheet();toast("Rep logged");return}
   if(d.reviewRes!==undefined&&s&&s.type==="review"){var r=s.rv;saveState(r.date,function(x){x.reviews=x.reviews||{};var cur=x.reviews[r.pick.id]||{n:0};x.reviews[r.pick.id]={n:d.reviewRes==="1"?cur.n+1:cur.n,last:TODAY,misses:(cur.misses||0)+(d.reviewRes==="1"?0:1)}});closeSheet();toast(d.reviewRes==="1"?"It stuck. Next check is further out.":"Normal. It comes back once more.");return}
