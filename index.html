@@ -285,6 +285,10 @@ body.locked{overflow:hidden}
 @keyframes sh{to{background-position:-200% 0}}
 
 /* sync + export */
+.syncbar{display:flex;align-items:center;gap:12px;background:var(--card-solid);border-radius:20px;padding:12px 12px 12px 16px;box-shadow:inset 0 0 0 1.5px var(--out),var(--shadow)}
+.syncbar div{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px;font-size:14px;color:var(--ink-2)}
+.syncbar b{font-size:15px;font-weight:600;color:var(--ink)}
+.syncbar .chipbtn{flex:none}
 .synccard{display:flex;flex-direction:column;gap:10px;padding:18px}
 .synccard p{margin:0;font-size:15px;color:var(--ink-2)}
 .synccard .st{display:flex;align-items:center;gap:8px;font-size:16px;font-weight:500;color:var(--ink)}
@@ -449,8 +453,9 @@ function b64e(str){return btoa(unescape(encodeURIComponent(str)))}
 function b64d(b){return decodeURIComponent(escape(atob(String(b).replace(/\s/g,""))))}
 function ghReq(path,opt){var c=S.gh;opt=opt||{};var url="https://api.github.com/repos/"+REPO+"/contents/"+path+(opt.method?"":"?ref=main&t="+Date.now());
   return fetch(url,{method:opt.method||"GET",body:opt.body,headers:{Authorization:"Bearer "+c.token,Accept:"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28","Content-Type":"application/json"}})}
-function ghGet(path){return ghReq(path).then(function(r){if(r.status===404)return null;if(r.status===401||r.status===403)throw {code:"auth"};if(!r.ok)throw {code:"http",status:r.status};return r.json()})}
-function ghPut(path,b64,sha,msg){return ghReq(path,{method:"PUT",body:JSON.stringify({message:msg,content:b64,sha:sha||undefined,branch:"main"})}).then(function(r){if(r.status===409||r.status===422)throw {code:"conflict"};if(r.status===401||r.status===403)throw {code:"auth"};if(!r.ok)throw {code:"http",status:r.status};return r.json()})}
+function ghErr(r){if(r.status===401)return {code:"auth",status:401};if(r.status===403||r.status===429)return {code:(r.headers.get("x-ratelimit-remaining")==="0"||r.status===429)?"rate":"forbidden",status:r.status};return {code:"http",status:r.status}}
+function ghGet(path){return ghReq(path).then(function(r){if(r.status===404)return null;if(!r.ok)throw ghErr(r);return r.json()})}
+function ghPut(path,b64,sha,msg){return ghReq(path,{method:"PUT",body:JSON.stringify({message:msg,content:b64,sha:sha||undefined,branch:"main"})}).then(function(r){if(r.status===409||r.status===422)throw {code:"conflict"};if(!r.ok)throw ghErr(r);return r.json()})}
 function mergeStates(base,inc){var out=clone(base||{});Object.keys(inc||{}).forEach(function(d){var x=out[d]||{date:d},y=inc[d]||{};
   x.done=Object.assign({},y.done||{},x.done||{});
   var ra=x.recallAt||{},rb=y.recallAt||{};x.recall=x.recall||{};Object.keys(y.recall||{}).forEach(function(id){if(!(id in x.recall)||(rb[id]||"")>(ra[id]||"")){x.recall[id]=y.recall[id];ra[id]=rb[id]||ra[id]||""}});x.recallAt=ra;
@@ -460,16 +465,26 @@ function mergeStates(base,inc){var out=clone(base||{});Object.keys(inc||{}).forE
 function mergeActions(base,inc){var out=clone(base||{});Object.keys(inc||{}).forEach(function(id){var p=out[id],q=inc[id],ka=function(a){return a.updatedAt||a.doneAt||a.createdAt||""};if(!p||ka(q)>ka(p))out[id]=q});return out}
 function stateDoc(){return {v:1,updated:new Date().toISOString(),device:S.gh&&S.gh.device,states:S.states,actions:S.actions,canvases:ls("canvasIndex")||{}}}
 function applyRemote(doc){if(!doc)return;S.states=mergeStates(doc.states,S.states);S.actions=mergeActions(doc.actions,S.actions);var ci=ls("canvasIndex")||{};Object.keys(doc.canvases||{}).forEach(function(id){if(!ci[id]||(doc.canvases[id].at||"")>(ci[id].at||""))ci[id]=doc.canvases[id]});ls("canvasIndex",ci);ls("states",S.states);ls("actions",S.actions)}
-function setSync(status,msg){S.sync.status=status;S.sync.msg=msg||"";if(status==="ok"){S.sync.at=new Date().toISOString();ls("syncAt",S.sync.at)}var el=$("#syncstat");if(el)el.outerHTML=syncStat()}
+function setSync(status,msg){S.sync.status=status;S.sync.msg=msg||"";if(status==="ok"){S.sync.at=new Date().toISOString();ls("syncAt",S.sync.at)}var el=$("#syncstat");if(el)el.outerHTML=syncStat();if(status!=="busy")renderBanner()}
+function syncProblem(){var hasData=Object.keys(S.states||{}).length||Object.keys(S.actions||{}).length;if(!S.gh)return hasData?{t:"This device is not synced",d:"Your progress lives only here. Connect it to share it with your other devices.",b:'<button class="chipbtn ok" data-connect="1">Connect</button>'}:null;
+  var f=ls("syncFail");if(S.sync.status==="err"||f){var m=S.sync.msg||(f&&f.msg)||"Sync failed.";return {t:"Not synced",d:m,b:(f&&f.code==="auth"?'<button class="chipbtn ok" data-connect="1">Reconnect</button>':'<button class="chipbtn ok" data-sync-now="1">Try again</button>')}}
+  var at=S.sync.at||ls("syncAt");if(S.dirty&&at&&Date.now()-new Date(at)>36e5*6)return {t:"Waiting to sync",d:"Last synced "+fmtAgo(at)+".",b:'<button class="chipbtn ok" data-sync-now="1">Sync now</button>'};return null}
+function bannerHTML(){var p=syncProblem();return p?'<div class="syncbar" id="syncbar"><div><b>'+esc(p.t)+'</b><span>'+esc(p.d)+'</span></div>'+p.b+'</div>':'<div id="syncbar" hidden></div>'}
+function renderBanner(){var el=$("#syncbar");if(el)el.outerHTML=bannerHTML()}
 function markDirty(){if(!S.gh)return;S.dirty=true;ls("dirty",1);clearTimeout(markDirty.t);markDirty.t=setTimeout(function(){syncNow("push")},1500)}
-function syncNow(mode){if(!S.gh||!navigator.onLine)return Promise.resolve();return enqueue("gh",function(){setSync("busy");
-  return ghGet("state/state.json").then(function(f){var remote=null,sha=null;if(f){sha=f.sha;try{remote=JSON.parse(b64d(f.content))}catch(e){remote=null}}
-    var before=JSON.stringify({s:S.states,a:S.actions});applyRemote(remote);var after=JSON.stringify({s:S.states,a:S.actions});
-    var remoteStr=remote?JSON.stringify({s:remote.states||{},a:remote.actions||{}}):"";
-    var need=S.dirty||after!==remoteStr;
-    if(!need){setSync("ok");if(before!==after&&!S.sheet)render();return}
-    return ghPut("state/state.json",b64e(JSON.stringify(stateDoc(),null,1)),sha,"sync from "+(S.gh.device||"device")).then(function(){S.dirty=false;ls("dirty",0);setSync("ok");if(before!==after&&!S.sheet)render()})
-  }).then(function(){return pushCanvases()}).catch(function(e){if(e&&e.code==="conflict"){setSync("busy");return syncNow(mode)}setSync("err",e&&e.code==="auth"?"The key was refused. Reconnect with a new key.":"Could not reach GitHub. Will retry.");if(e&&e.code==="auth"){S.gh=null;ls("gh",null)}})})}
+function syncNow(mode){if(!S.gh||!navigator.onLine)return Promise.resolve();
+  if(syncNow.busy&&Date.now()-syncNow.busy<25000){syncNow.again=true;return syncNow.p}
+  syncNow.busy=Date.now();setSync("busy");var attempt=0,before=JSON.stringify({s:S.states,a:S.actions});
+  function once(){attempt++;return ghGet("state/state.json").then(function(f){var remote=null,sha=null;if(f){sha=f.sha;try{remote=JSON.parse(b64d(f.content))}catch(e){remote=null}}
+      applyRemote(remote);var after=JSON.stringify({s:S.states,a:S.actions}),remoteStr=remote?JSON.stringify({s:remote.states||{},a:remote.actions||{}}):"";
+      if(!S.dirty&&after===remoteStr)return;
+      return ghPut("state/state.json",b64e(JSON.stringify(stateDoc(),null,1)),sha,"sync from "+(S.gh.device||"device")).then(function(){S.dirty=false;ls("dirty",0)})})
+    .catch(function(e){if(e&&e.code==="conflict"&&attempt<5)return new Promise(function(r){setTimeout(r,700*attempt)}).then(once);throw e})}
+  syncNow.p=once().then(function(){return pushCanvases()}).then(function(){setSync("ok");ls("syncFail",null)},function(e){var c=e&&e.code;
+      setSync("err",c==="auth"?"GitHub refused the key. Create a new one and reconnect.":c==="forbidden"?"GitHub refused access (403). The key needs Contents read and write on daily-few-curation.":c==="rate"?"GitHub rate limit reached. Will retry shortly.":c==="conflict"?"Another device was saving at the same moment. Will retry.":"Could not reach GitHub. Will retry.");
+      ls("syncFail",{code:c||"net",at:new Date().toISOString(),msg:S.sync.msg})})
+    .then(function(){var changed=JSON.stringify({s:S.states,a:S.actions})!==before;syncNow.busy=0;if(changed&&!S.sheet)render();else renderBanner();if(syncNow.again){syncNow.again=false;if(S.dirty)markDirty()}});
+  return syncNow.p}
 function pushCanvases(){var ci=ls("canvasIndex")||{},ids=Object.keys(ci).filter(function(id){return ci[id].dirty});return ids.reduce(function(pr,id){return pr.then(function(){var data=ls("canvas:"+id);if(!data)return;return ghGet("state/canvas/"+id+".png").then(function(f){return ghPut("state/canvas/"+id+".png",data.split(",")[1],f&&f.sha,"canvas "+id)}).then(function(){var c=ls("canvasIndex")||{};if(c[id]){delete c[id].dirty;ls("canvasIndex",c)}})})},Promise.resolve())}
 function fetchCanvas(id){if(!S.gh)return Promise.resolve(null);return ghGet("state/canvas/"+id+".png").then(function(f){if(!f)return null;var d="data:image/png;base64,"+String(f.content).replace(/\s/g,"");ls("canvas:"+id,d);return d}).catch(function(){return null})}
 function fmtAgo(isoStr){if(!isoStr)return "";var m=Math.round((Date.now()-new Date(isoStr))/6e4);return m<1?"just now":m<60?m+" min ago":m<1440?Math.round(m/60)+" h ago":Math.round(m/1440)+" days ago"}
@@ -520,7 +535,7 @@ function viewToday(){
   var b=budget(day),s=st(day.date),total=b.ears+b.desk+b.prac,doneM=b.earsD+b.deskD+b.pracD;
   var desk=(day.picks||[]).filter(function(p){return p.mode!=="listen"}),ears=(day.picks||[]).filter(function(p){return p.mode==="listen"});
   var allDone=(day.picks||[]).every(function(p){return isDone(day.date,p.id)})&&(!day.practice||(s.practice||{}).done);
-  var h=top(day);
+  var h=top(day)+bannerHTML();
   if(S.mode==="demo")h+='<div class="banner">Example edition. Open this page on claude.ai to load your real picks and keep your progress.</div>';
   else if(day.date<TODAY&&S.date===editions().slice(-1)[0])h+='<div class="banner">Latest edition is from '+esc(fmtDate(day.date,true))+". Today's has not been written yet.</div>";
   var pr0=total?doneM/total:0,lg=function(l,d,t){return t?'<span class="'+(d>=t?"on":"")+'"><i>'+(d>=t?ic("check"):"")+'</i>'+l+'</span>':""};
@@ -704,6 +719,7 @@ function start(){try{var v=localStorage.getItem("few:view");if(v==="do"||v==="ba
 start();
 document.addEventListener("visibilitychange",function(){if(!document.hidden&&S.static){var was=TODAY;loadStatic().then(function(){if(TODAY!==was){S.date=null;render()}}).catch(function(){});if(S.gh)syncNow("pull")}});
 window.addEventListener("online",function(){if(S.gh)syncNow("push")});
+setInterval(function(){if(S.gh&&!document.hidden&&(S.dirty||ls("syncFail")))syncNow("push")},5*60*1000);
 if("serviceWorker" in navigator&&!window.claude&&location.protocol==="https:"){navigator.serviceWorker.register("sw.js").catch(function(){})}
 })();
 </script>
