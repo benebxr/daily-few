@@ -1,0 +1,140 @@
+{
+ "active": "hom",
+ "series": [
+  {
+   "id": "hom",
+   "title": "High Output Management",
+   "author": "Andrew S. Grove",
+   "horizon": "career",
+   "why": "The operating manual for managing through managers: leverage, meetings, planning, task-relevant maturity. It is the book behind building an organisation whose output does not depend on your own expertise.",
+   "formats": {
+    "read": {
+     "label": "Apple Books",
+     "url": "https://books.apple.com/de/book/high-output-management/id1046431786"
+    },
+    "listen": {
+     "label": "Audiobook",
+     "url": "https://books.apple.com/de/audiobook/high-output-management-unabridged/id1560761735"
+    }
+   },
+   "verified": "2026-11-03: both Apple Books pages fetched (ebook 272 pages, audiobook 8 h 02, narrated by Marc Cashman). Chapter list matches two independent summaries.",
+   "start": "2026-11-09",
+   "end": "2026-11-30",
+   "chapters": [
+    {
+     "n": 1,
+     "title": "The Basics of Production: Delivering a Breakfast",
+     "part": "Part I: The Breakfast Factory",
+     "date": "2026-11-09",
+     "minutes": 25,
+     "note": "Includes the Introduction."
+    },
+    {
+     "n": 2,
+     "title": "Managing the Breakfast Factory",
+     "part": "Part I: The Breakfast Factory",
+     "date": "2026-11-10",
+     "minutes": 25
+    },
+    {
+     "n": 3,
+     "title": "Managerial Leverage",
+     "part": "Part II: Management Is a Team Game",
+     "date": "2026-11-11",
+     "minutes": 25
+    },
+    {
+     "n": 4,
+     "title": "Meetings: The Medium of Managerial Work",
+     "part": "Part II: Management Is a Team Game",
+     "date": "2026-11-12",
+     "minutes": 25
+    },
+    {
+     "n": 5,
+     "title": "Decisions, Decisions",
+     "part": "Part II: Management Is a Team Game",
+     "date": "2026-11-13",
+     "minutes": 25
+    },
+    {
+     "n": 6,
+     "title": "Planning: Today's Actions for Tomorrow's Output",
+     "part": "Part II: Management Is a Team Game",
+     "date": "2026-11-16",
+     "minutes": 25
+    },
+    {
+     "n": 7,
+     "title": "The Breakfast Factory Goes National",
+     "part": "Part III: Team of Teams",
+     "date": "2026-11-17",
+     "minutes": 25
+    },
+    {
+     "n": 8,
+     "title": "Hybrid Organizations",
+     "part": "Part III: Team of Teams",
+     "date": "2026-11-18",
+     "minutes": 25
+    },
+    {
+     "n": 9,
+     "title": "Dual Reporting",
+     "part": "Part III: Team of Teams",
+     "date": "2026-11-19",
+     "minutes": 25
+    },
+    {
+     "n": 10,
+     "title": "Modes of Control",
+     "part": "Part III: Team of Teams",
+     "date": "2026-11-20",
+     "minutes": 25
+    },
+    {
+     "n": 11,
+     "title": "The Sports Analogy",
+     "part": "Part IV: The Players",
+     "date": "2026-11-23",
+     "minutes": 25
+    },
+    {
+     "n": 12,
+     "title": "Task-Relevant Maturity",
+     "part": "Part IV: The Players",
+     "date": "2026-11-24",
+     "minutes": 25
+    },
+    {
+     "n": 13,
+     "title": "Performance Appraisal: Manager as Judge and Jury",
+     "part": "Part IV: The Players",
+     "date": "2026-11-25",
+     "minutes": 25
+    },
+    {
+     "n": 14,
+     "title": "Two Difficult Tasks",
+     "part": "Part IV: The Players",
+     "date": "2026-11-26",
+     "minutes": 25
+    },
+    {
+     "n": 15,
+     "title": "Compensation as Task-Relevant Feedback",
+     "part": "Part IV: The Players",
+     "date": "2026-11-27",
+     "minutes": 25
+    },
+    {
+     "n": 16,
+     "title": "Why Training Is the Boss's Job",
+     "part": "Part IV: The Players",
+     "date": "2026-11-30",
+     "minutes": 25
+    }
+   ]
+  }
+ ]
+}
