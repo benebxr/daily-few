@@ -1,0 +1,94 @@
+{
+ "date": "2026-11-05",
+ "thesis": "Encode your best rep before you scale the queue.",
+ "scanned": 98,
+ "sourcesScanned": 60,
+ "picks": [
+  {
+   "id": "1105-leadagent",
+   "title": "SaaStr 885: Going from 10 to 1 SDRs. How We Deployed AI Across our Sales Org with Vercel's COO",
+   "source": "The Official SaaStr Podcast",
+   "author": "Jeanne DeWitt Grosser",
+   "url": "https://saastr.libsyn.com/saastr-885-going-from-10-to-1-sdrs-how-we-deployed-ai-across-our-sales-org-with-vercels-coo",
+   "spotifyUrl": "https://open.spotify.com/episode/6DzVasbUTJyFvzRIfnxTdt",
+   "published": "2026-11-04",
+   "shelf": "fast",
+   "mode": "listen",
+   "minutes": 22,
+   "track": "pro",
+   "horizon": "now",
+   "domain": "Lead routing and qualification under a demand spike",
+   "score": 72,
+   "why": "A COO's account of replacing inbound lead qualification with an agent built by a small team of a GTM engineer, a data scientist and the best rep in the function, with a human reviewing outputs until quality stopped improving. Useful if your inbound queue is worked in arrival order and is about to grow. Caveats: the talk was given at a SaaStr conference in May 2026 and published as an episode now; the headcount and ROI figures are the speaker's own and vary between write-ups (10 to 1 or 1.25 people, about 5,000 a year in running cost). A search today found no correction to the story, only differing numbers.",
+   "lookFor": [
+    "How did they turn the best rep's judgement into rules the agent could follow, and who signed off on the result?",
+    "What did the human in the loop review, for how long, and how did they know the agent had stopped improving?",
+    "Which parts of the data foundation had to exist before the agent was worth building?"
+   ],
+   "gist": "Six weeks into the job the COO set up a GTM engineering team that pairs an engineer, a data scientist and the strongest subject expert in a function to document best practice and encode it into an agent. The inbound lead qualification agent launched with a fraction of one engineer's time, was improved for six weeks with a human reviewing its outputs, and now handles the work a team of ten did, with one person left for the US and part of a person for other regions. She names three preconditions: a product that agents can call without a UI, clean data, and a new build-versus-buy calculus now that one engineer can outship a vendor in weeks. The episode also covers agents for support, meeting notes and data questions."
+  },
+  {
+   "id": "1105-agents",
+   "title": "Your customers don't just want an agent. They want agents.",
+   "source": "Growth Unhinged",
+   "author": "Isabel Macdonald (Irrational Labs), guest post for Kyle Poyar",
+   "url": "https://www.growthunhinged.com/p/ai-agent-messaging-study",
+   "published": "2026-11-04",
+   "shelf": "fast",
+   "mode": "read",
+   "minutes": 7,
+   "track": "pro",
+   "horizon": "year",
+   "domain": "Pricing, packaging and activation in a self-serve funnel",
+   "score": 66,
+   "why": "A framing experiment with 1,014 software buyers: calling a product an agent did nothing, describing the same features as a team of agents raised stated purchase interest. The durable part is the unpacking effect, which tells you how to present a package: name the jobs buyers want, one by one. Caveats: stated intent in a survey, no real purchases; only the team-versus-one-agent gap is significant; the newsletter's sponsor sells billing software. A search found no replication yet, and one 2025 field study found framing did not move willingness to pay.",
+   "lookFor": [
+    "Why would splitting the same product into parts raise interest, and when does it backfire?",
+    "What does the drop in perceived ease of use predict for activation after purchase?",
+    "Which jobs in your own package are essential to buyers, and which would you leave off the page?"
+   ],
+   "gist": "Buyers saw identical pages for three small-business AI tools framed with no agent, one agent or a team of agents. The team framing was 6.3 percentage points more likely to produce purchase interest than the one-agent framing (p = 0.022); willingness to pay moved the same way but not significantly, and the team framing was rated harder to use. The authors explain it with the unpacking effect: parts described separately feel like more than the same whole. Their advice is to make each wanted job visible, drop jobs buyers see as irrelevant because one bad fit can lower the value of the whole, and keep setup looking simple."
+  }
+ ],
+ "practice": {
+  "id": "1105-p",
+  "type": "First principles",
+  "horizon": "year",
+  "minutes": 12,
+  "title": "Which jobs to unpack on the plan page",
+  "prompt": "Pen and paper. Take a paid plan in a self-serve software product that does five jobs for a small business. Step 1 (4 min): list the five jobs; for each, write who at the customer cares about it and whether a typical buyer would call it essential, nice to have or irrelevant. Step 2 (4 min): from the unpacking effect and the risk of one irrelevant item lowering the value of the whole, derive a rule for what gets its own named line on the plan page, what gets folded into one line, and what is left off. Step 3 (4 min): the study measured stated intent only. Write the test you would run with real buyers: what changes, what stays fixed, the one metric you judge it by, and the result that would make you drop the idea.",
+  "reveal": "A workable rule: give each essential job its own line, tied to the role that benefits; fold nice-to-haves into one line; leave irrelevant jobs off, since a buyer who sees one job that does not fit can discount the whole plan. Pair the longer list with a visibly short setup, because more parts read as more effort. The test: same plan, same price, two pages that differ only in how the jobs are listed. Judge it by paid conversion and by activity 90 days later, since the cost of looking harder to use shows up after purchase. Drop it if paid conversion does not move, or if it moves but activation falls. Expect a smaller effect on real purchases than on survey intent, so plan the run long enough to detect a few points or treat the itemised page as a cheap default."
+ },
+ "cuts": [
+  {
+   "title": "How a 19-year-old intern built the growth engine behind this $2B AI company | Hector Serrano",
+   "source": "Lenny's Podcast",
+   "reason": "Already cut on 03.11.; 88 minutes of one company's growth story does not fit a short edition."
+  },
+  {
+   "title": "The Trillion-Dollar Cost of Leaders Who Talk Too Much",
+   "source": "SPEAK LIKE A CEO",
+   "reason": "Communication advice without evidence or a method you could apply in one meeting."
+  },
+  {
+   "title": "K.C. Irving: Competing with Giants",
+   "source": "The Knowledge Project",
+   "reason": "A business history episode of about two hours; too long for a weekday and no line to a live problem."
+  },
+  {
+   "title": "The Financial Engineering Essential for AI in 2027",
+   "source": "Tomasz Tunguz",
+   "reason": "On how AI infrastructure gets financed; a market view with no lesson for an operator."
+  },
+  {
+   "title": "Revisiting the China Shock (with Joseph Francis)",
+   "source": "EconTalk",
+   "reason": "Still queued for a weekend personal slot; 64 minutes."
+  },
+  {
+   "title": "E72: I Collapsed My GTM Org Chart. This Is Why",
+   "source": "The Revenue Leadership Podcast",
+   "reason": "Still queued for org design; 77 minutes does not fit while editions are kept short."
+  }
+ ]
+}
