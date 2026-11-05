@@ -1,0 +1,95 @@
+{
+ "date": "2026-11-06",
+ "thesis": "Fund new bets with named cuts, and hand off work by maturity.",
+ "scanned": 125,
+ "sourcesScanned": 70,
+ "picks": [
+  {
+   "id": "1106-surges",
+   "title": "Greenhouse’s CFO on Breaking the AI Hiring Doom Loop | Paul Todgham",
+   "source": "Run the Numbers",
+   "author": "CJ Gustafson with Paul Todgham",
+   "url": "https://creators.spotify.com/pod/profile/cjgustafson222/episodes/Greenhouses-CFO-on-Breaking-the-AI-Hiring-Doom-Loop--Paul-Todgham-e3ro8cn",
+   "spotifyUrl": "https://open.spotify.com/episode/0GFeAowdFYMMjmK3CM2Zwf",
+   "published": "2026-11-05",
+   "shelf": "slow",
+   "mode": "listen",
+   "minutes": 51,
+   "track": "pro",
+   "horizon": "now",
+   "domain": "Annual planning and budgeting",
+   "score": 66,
+   "why": "A software CFO on how AI changes the hurdle rate for new hires, how he judges business cases for AI spend and measures their return, and his \"Surges and Savings\" budgeting framework. The second half is the useful part if you are building next year's budget and need a way to fund new bets without asking for more in total. Caveats: the first 20 minutes are about hiring in his own product category; the summary comes from the show notes and chapter list, and a search found no write-up of the framework outside the episode.",
+   "lookFor": [
+    "What counts as a good surge for him, and what does a team have to put on the savings list to get one?",
+    "He asks whether the savings list is a trick: what keeps teams from padding it?",
+    "How does he decide whether a backfill is still needed once AI changes the hurdle rate?"
+   ],
+   "gist": "The conversation starts with the doom loop in hiring, where candidates and recruiters both use AI and trust falls, then moves to how a CFO thinks about backfills, stack ranking and retention when AI raises the bar for a new hire. It covers how to price and forecast a product that changes the business model and how to measure the return on AI spend. Around minute 40 it turns to business cases for AI spend and the \"Surges and Savings\" budgeting framework, including whether the savings list is a trick and what makes a good surge. It closes with his biggest mistake and his finance tool stack."
+  },
+  {
+   "id": "1106-delegate",
+   "title": "How I delegate while maintaining high standards",
+   "source": "Wes Kao's Newsletter",
+   "author": "Wes Kao",
+   "url": "https://newsletter.weskao.com/p/how-to-delegate-with-high-standards",
+   "published": "2025-07-09",
+   "shelf": "evergreen",
+   "holds": "Delegation by task-relevant maturity is Grove's 1983 idea and still the standard way to set oversight per person and per task. The essay is written for player-coaches of small teams, so the part about doing 20 percent or more of the work yourself fits a revenue leader with several layers less well.",
+   "mode": "read",
+   "minutes": 9,
+   "track": "pro",
+   "horizon": "career",
+   "domain": "Leverage through leaders",
+   "score": 70,
+   "why": "Five tactics for handing work off without either lowering the bar or redoing it yourself: treat delegation as a spectrum, set oversight by task-relevant maturity, stop hiding behind the work you are best at, brief the why and the risks, and own the review of a piece without owning its production. A good bridge into High Output Management, which starts Monday. Caveats: practitioner advice with no evidence behind it; reading time estimated from about 2,000 words. A search found no correction, only restatements of Grove.",
+   "lookFor": [
+    "Which of your recurring tasks sit at the do-it-yourself end of the spectrum only because you are faster at them?",
+    "How does task-relevant maturity change the oversight for one person who is strong at running things and new at designing them?",
+    "What is the difference between owning a piece of work and doing it, and what do you give back instead of a rewrite?"
+   ],
+   "gist": "The author argues that a manager stays responsible for the quality of the team's output, so \"looks good to me\" on weak work is a failure, and that \"someone else is doing it\" is often an excuse for slipping standards. Delegation is a spectrum from solving a problem yourself to solving it together to handing it off with check-ins, chosen per task and per person. Oversight follows Grove's task-relevant maturity and eases as the work improves; claiming to be the only one who can do something often hides pride and avoidance of ambiguous work. Spending 5 to 10 minutes on why a project matters, its goal and its risks saves rework, and leaders should give structural feedback, before-and-after edits and batched comments rather than create from a cold start."
+  }
+ ],
+ "practice": {
+  "id": "1106-p",
+  "type": "Estimate",
+  "horizon": "career",
+  "minutes": 12,
+  "title": "What handing off your analysis really costs",
+  "prompt": "Pen and paper. Step 1 (4 min): estimate how many hours last week you spent on drafts, analyses and reviews that one of your direct reports could own. List each block with its hours and the person who could take it, and mark that person's task-relevant maturity for that task as low, medium or high. Step 2 (5 min): take one block worth 12 hours a week and hand it off. Assume you spend 1 hour a week briefing and checking in; in weeks 1 to 3 you also review at half the original time and fix 3 hours of work yourself; in weeks 4 to 6 review drops to a quarter of the original time and fixing stops; from week 7, review is a tenth. Estimate your hours on that block over 8 weeks, compare with doing it yourself, and find the first week in which you save time. Step 3 (3 min): redo the total for a person who stalls at the week 1 to 3 level. Is the handoff still worth it, and what would you change before you give up on it?",
+  "reveal": "Doing it yourself costs 8 x 12 = 96 hours. Handed off: weeks 1 to 3 cost 1 + 6 + 3 = 10 hours each, so 30; weeks 4 to 6 cost 1 + 3 = 4 each, so 12; weeks 7 and 8 cost 1 + 1.2 = 2.2 each, so 4.4. Total 46.4 hours, a saving of about 50 hours, and you save time from week 1 already (10 against 12). The handoff only pays badly when it stalls: at 10 hours a week for all 8 weeks you spend 80, still 16 hours less than doing it yourself, but the gap is thin, and if fixing grows to 6 hours a week (1 + 6 + 6 = 13) you lose time. So the risk sits in the fixing line. Before you take the work back, shorten the loop: brief the why and the risks, return structural feedback and one before-and-after edit instead of fixing the piece yourself, and move to a check-in point at the outline stage. Your Step 1 total, multiplied by about half, is the time a second leadership layer could give back to you within two months."
+ },
+ "cuts": [
+  {
+   "title": "Why high performers make assertions",
+   "source": "Wes Kao's Newsletter",
+   "reason": "Queued: a sharp piece on framing a recommendation as a thesis with an owner, held for a board-framing slot so one author does not take two picks."
+  },
+  {
+   "title": "Board Reporting for Operators",
+   "source": "Force Multipliers",
+   "reason": "Memo-first board prep for first-time founders; too basic for someone who already writes board material."
+  },
+  {
+   "title": "Reed Hastings on Hollywood’s future, Netflix’s shakeup and knowing when to leave",
+   "source": "Masters of Scale",
+   "reason": "52 minutes, mostly on the media industry; the succession part is too small for a career slot."
+  },
+  {
+   "title": "Wer kauft KI-Agenten? Salesforce, Cresta, Braze & Marble Cognition",
+   "source": "Startup Insider",
+   "reason": "A venture investors' market view of agent vendors, with no lesson for an operator."
+  },
+  {
+   "title": "The State of the Agentic Finance Stack 2026",
+   "source": "Mostly Metrics",
+   "reason": "A vendor market map for finance teams."
+  },
+  {
+   "title": "E72: I Collapsed My GTM Org Chart. This Is Why",
+   "source": "The Revenue Leadership Podcast",
+   "reason": "Still queued for org design; 77 minutes does not fit while editions are kept short."
+  }
+ ]
+}

@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-04",
- "window": "cumulative since 16.09.2026; last sweep 04.11.2026",
+ "updated": "2026-11-05",
+ "window": "cumulative since 16.09.2026; last sweep 05.11.2026",
  "sources": [
   {
    "name": "Open web discovery",
-   "scanned": 371,
+   "scanned": 379,
    "picked": 21
   },
   {
@@ -19,17 +19,17 @@
   },
   {
    "name": "Tomasz Tunguz",
-   "scanned": 15,
+   "scanned": 17,
    "picked": 2
   },
   {
    "name": "Superhuman AI",
-   "scanned": 71,
+   "scanned": 73,
    "picked": 0
   },
   {
    "name": "The Neuron",
-   "scanned": 76,
+   "scanned": 79,
    "picked": 0
   },
   {
@@ -39,7 +39,7 @@
   },
   {
    "name": "Think Fast Talk Smart",
-   "scanned": 49,
+   "scanned": 52,
    "picked": 0
   },
   {
@@ -114,7 +114,7 @@
   },
   {
    "name": "Growth Unhinged",
-   "scanned": 18,
+   "scanned": 19,
    "picked": 4
   },
   {
@@ -139,7 +139,7 @@
   },
   {
    "name": "Masters of Scale",
-   "scanned": 100,
+   "scanned": 104,
    "picked": 0
   },
   {
@@ -149,7 +149,7 @@
   },
   {
    "name": "Mostly Metrics",
-   "scanned": 32,
+   "scanned": 33,
    "picked": 12
   },
   {
@@ -189,8 +189,8 @@
   },
   {
    "name": "Run the Numbers",
-   "scanned": 90,
-   "picked": 7
+   "scanned": 91,
+   "picked": 8
   },
   {
    "name": "BenAI",
@@ -199,12 +199,12 @@
   },
   {
    "name": "In Our Time",
-   "scanned": 69,
+   "scanned": 72,
    "picked": 5
   },
   {
    "name": "Worklife with Molly Graham",
-   "scanned": 39,
+   "scanned": 40,
    "picked": 3
   },
   {
@@ -239,12 +239,12 @@
   },
   {
    "name": "Odd Lots",
-   "scanned": 99,
+   "scanned": 104,
    "picked": 5
   },
   {
    "name": "HBR IdeaCast",
-   "scanned": 39,
+   "scanned": 40,
    "picked": 3
   },
   {
@@ -259,7 +259,7 @@
   },
   {
    "name": "Capital Allocators",
-   "scanned": 50,
+   "scanned": 52,
    "picked": 0
   },
   {
@@ -269,7 +269,7 @@
   },
   {
    "name": "Prof G Markets",
-   "scanned": 150,
+   "scanned": 156,
    "picked": 1
   },
   {
@@ -279,7 +279,7 @@
   },
   {
    "name": "The McKinsey Podcast",
-   "scanned": 27,
+   "scanned": 29,
    "picked": 0
   },
   {
@@ -294,7 +294,7 @@
   },
   {
    "name": "Hard Fork",
-   "scanned": 27,
+   "scanned": 28,
    "picked": 0
   },
   {
@@ -349,12 +349,12 @@
   },
   {
    "name": "Top Founders",
-   "scanned": 15,
+   "scanned": 16,
    "picked": 0
   },
   {
    "name": "Startup Insider",
-   "scanned": 98,
+   "scanned": 104,
    "picked": 0
   },
   {
@@ -364,12 +364,12 @@
   },
   {
    "name": "The Jefferson Fisher Podcast",
-   "scanned": 33,
+   "scanned": 35,
    "picked": 0
   },
   {
    "name": "SPEAK LIKE A CEO",
-   "scanned": 14,
+   "scanned": 15,
    "picked": 1
   },
   {
@@ -409,7 +409,7 @@
   },
   {
    "name": "Kassenzone CEO Interviews",
-   "scanned": 5,
+   "scanned": 7,
    "picked": 0
   },
   {
@@ -446,6 +446,11 @@
    "name": "Sifted Fintech",
    "scanned": 1,
    "picked": 0
+  },
+  {
+   "name": "Wes Kao's Newsletter",
+   "scanned": 23,
+   "picked": 1
   }
  ]
 }
