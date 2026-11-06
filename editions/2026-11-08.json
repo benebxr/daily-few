@@ -1,0 +1,72 @@
+{
+ "date": "2026-11-08",
+ "thesis": "Talk less in your meetings, and your leaders start to run them.",
+ "scanned": 112,
+ "sourcesScanned": 48,
+ "picks": [
+  {
+   "id": "1108-listen",
+   "title": "The Trillion-Dollar Cost of Leaders Who Talk Too Much",
+   "source": "SPEAK LIKE A CEO",
+   "author": "Oliver Aust with Julian Treasure",
+   "url": "https://podcasts.apple.com/us/podcast/the-trillion-dollar-cost-of-leaders-who-talk-too-much/id1441419535?i=1000798534504",
+   "spotifyUrl": "https://open.spotify.com/episode/1flOMyPa5oeRDUb5xvx4TA",
+   "published": "2026-10-28",
+   "shelf": "evergreen",
+   "mode": "listen",
+   "minutes": 30,
+   "track": "pro",
+   "horizon": "year",
+   "domain": "Operating cadence and leadership layer",
+   "score": 62,
+   "why": "A sound and communication specialist on why senior leaders listen worst, how to run meetings that surface what people know, and why listening training rarely sticks. Useful if you want a leadership team that brings you problems early and runs its own meetings, because that only happens when the most senior person speaks less. Caveats: the headline numbers are loose; the \"1 in 12 employees\" figure appears to trace back to an older survey whose wording a search could not confirm, and the trillion-dollar cost is a broad estimate. The episode also promotes the guest's app and course. Summary from the show notes and chapter list.",
+   "lookFor": [
+    "What does he say makes senior leaders worse listeners than everyone else, and does it describe your last leadership meeting?",
+    "Which of the four Cs would change how you run a one-to-one where you need a commitment?",
+    "Why does listening training fail to stick, and what would make it stick in a team?"
+   ],
+   "gist": "Treasure argues that poor listening is one of the most expensive blind spots in business and that senior leaders struggle with it most. The conversation covers how to run better meetings, how to build a culture in which a team feels heard, his four Cs of conscious listening, how to stay present on video calls, and why training does not stick. It closes with silence as a tool and a challenge to try in your next meeting."
+  }
+ ],
+ "practice": {
+  "id": "1108-p",
+  "type": "First principles",
+  "horizon": "year",
+  "minutes": 12,
+  "title": "A leadership meeting that runs without you",
+  "prompt": "Pen and paper, 12 minutes. Step 1 (4 min): list the decisions your weekly leadership meeting exists to make. If an item produces no decision, write what it produces instead (information, alignment, a warning). Step 2 (4 min): for each decision, name who must speak, who must decide, and whether you are needed at all. Step 3 (4 min): design a 45-minute agenda in which you speak for at most 9 minutes. Where does your time go, and what moves to a written pre-read?",
+  "reveal": "Start from the output: a leadership meeting earns its slot only through decisions and early warnings, so status updates move to a pre-read that owners write and everyone reads before the meeting. A workable shape is 5 minutes on the action log, 25 minutes on two or three decisions each led by its owner with a clear ask, 10 minutes on risks raised by anyone, and 5 minutes to confirm owners and dates. Your 9 minutes go to questions and to the final call on the one item that is truly yours. If more than one decision needs you every week, that is a sign the decision rights below you are unclear, which is a design problem more than a meeting problem."
+ },
+ "cuts": [
+  {
+   "title": "The algorithm isn’t the advantage–the team is",
+   "source": "The McKinsey Podcast",
+   "reason": "A CEO interview anchored in one regulated industry; the leadership points are too general to earn a slot."
+  },
+  {
+   "title": "The Topics We Avoid at Work—and How to Start Talking About Them",
+   "source": "HBR IdeaCast",
+   "reason": "Broad workplace-culture advice with no line to a current operating problem."
+  },
+  {
+   "title": "10 Moves to Stand Out Without Looking Like an Egomaniac",
+   "source": "SPEAK LIKE A CEO",
+   "reason": "A ten-minute tips list; the same show's listening episode is the stronger one."
+  },
+  {
+   "title": "Thriving in chaos: top leaders’ strategies from Masters of Scale Summit",
+   "source": "Masters of Scale",
+   "reason": "A highlights compilation without enough depth on any one idea."
+  },
+  {
+   "title": "Why the Tech Right Lost Big This Week",
+   "source": "Hard Fork",
+   "reason": "Election news that will age within weeks."
+  },
+  {
+   "title": "373 | Colin Camerer on the Neuroscience of Economic Thinking",
+   "source": "Sean Carroll's Mindscape",
+   "reason": "Still queued for a weekend personal slot; 88 minutes, and it leans on brain science."
+  }
+ ]
+}

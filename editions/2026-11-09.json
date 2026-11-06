@@ -1,0 +1,100 @@
+{
+ "date": "2026-11-09",
+ "thesis": "Find the slowest step, then coach the skill there with fast feedback.",
+ "scanned": 112,
+ "sourcesScanned": 48,
+ "picks": [
+  {
+   "id": "1109-hom-01",
+   "title": "High Output Management, chapter 1: The Basics of Production: Delivering a Breakfast",
+   "source": "Andrew S. Grove",
+   "author": "Andrew S. Grove",
+   "url": "https://books.apple.com/de/book/high-output-management/id1046431786",
+   "listenUrl": "https://books.apple.com/de/audiobook/high-output-management-unabridged/id1560761735",
+   "published": "1983",
+   "shelf": "evergreen",
+   "holds": "The production logic (find the limiting step, decide where to hold inventory, catch defects at the cheapest stage) is still how operations, support and sales capacity get planned, and the book remains a standard text for new managers of managers. What has aged is the setting: the examples come from a factory and a 1980s chip company, so you have to translate units of output into calls, deals or tickets yourself.",
+   "mode": "read",
+   "minutes": 25,
+   "track": "pro",
+   "horizon": "career",
+   "series": {
+    "id": "hom",
+    "n": 1,
+    "of": 16
+   },
+   "domain": "Leverage through leaders",
+   "score": 78,
+   "why": "The start of a sixteen-part series. The introduction defines a manager's output as the output of the organisation under you plus the ones you influence, which is the frame for managing through managers. Chapter 1 then uses a breakfast (egg, toast, coffee, served hot at the same moment) to teach production basics: build the schedule around the limiting step, choose where to hold inventory, and test quality at the stage where a defect is cheapest to catch. Read it with one of your own processes in mind, such as a sales or onboarding queue.",
+   "lookFor": [
+    "What is the limiting step in the process you care most about this month, and is everything else scheduled around it?",
+    "Where in that process do you hold inventory today (leads, booked calls, open tickets), and is it in the cheapest place?",
+    "At which stage would you inspect quality if you wanted to catch a bad outcome at the lowest cost?"
+   ]
+  },
+  {
+   "id": "1109-practice",
+   "title": "337. Success Is Situational: How Feedback & Practice Transform Your Communication",
+   "source": "Think Fast Talk Smart",
+   "author": "Matt Abrahams with Angela Duckworth",
+   "url": "https://www.fastersmarter.io/337-success-is-situational-how-feedback-practice-transform-your-communication/",
+   "spotifyUrl": "https://open.spotify.com/episode/7xIlYDUpGCXXErLVwp7cCL",
+   "published": "2026-11-02",
+   "shelf": "evergreen",
+   "mode": "listen",
+   "minutes": 25,
+   "track": "pro",
+   "horizon": "now",
+   "domain": "Sales call coaching",
+   "score": 64,
+   "why": "A psychologist on what makes practice work: a specific goal, full concentration, immediate feedback and repetition, and why that is hard to do alone. Her two-line feedback form (\"It was effective when...\" and \"Next time try...\") is a ready tool for a team lead who has to coach call behaviour at team level. Caveats: the claim that practice makes most people strong performers is stronger than the research; a meta-analysis found deliberate practice explains well under half of the differences in performance, and less in professions than in games or music. Duration taken from the chapter markers.",
+   "lookFor": [
+    "Which of the four conditions for useful practice is missing when your team reviews its own calls?",
+    "How does she change feedback for a novice versus an expert, and who on your team is which for a given skill?",
+    "What specific question would you ask instead of \"Did that go well?\""
+   ],
+   "gist": "Duckworth describes Anders Ericsson's research on deliberate practice: quantity alone does not build skill; practice has to be goal-directed, done with full concentration, followed by immediate feedback and repeated, and it usually needs someone else to set the goal and give feedback. Positive feedback motivates novices, while experts prefer direct critique; she asks students to complete \"It was effective when...\" and \"Next time try...\". Matt Abrahams adds that vague questions invite easy yes answers. Her wider argument, from her book on situations, is that changing your environment and support beats trying harder."
+  }
+ ],
+ "practice": {
+  "id": "1109-p",
+  "type": "Mental math",
+  "horizon": "now",
+  "minutes": 14,
+  "title": "Protect the limiting step in a call queue",
+  "prompt": "Pen and paper, 14 minutes. A trial-based funnel: 250 signups a week, 60 percent book an onboarding call, 30 percent of booked calls are no-shows, and 40 percent of held calls buy. Four onboarders run 5 calls a day, 5 days a week, so there are 100 call slots a week. Step 1 (3 min): how many customers a week does the call team produce today, and what is the limiting step? Step 2 (3 min): demand doubles to 500 signups a week for four weeks. How many customers a week now, and how many bookings are waiting after four weeks? Step 3 (8 min): compare three levers for the spike weeks: (A) cut no-shows from 30 to 15 percent; (B) score every booking, give the 100 slots only to the top half, which buys at 50 percent of held calls, and send the bottom half to a self-serve path where 15 percent buy without a call; (C) add two onboarders who work at half speed in their first month. Which lever wins, by how much?",
+  "reveal": "Today: 150 bookings for 100 slots, so the slots are the limiting step and 50 bookings a week already wait. 100 slots x 0.7 held x 0.4 = 28 customers a week. In the spike: 300 bookings, still 100 slots, still 28 customers a week, and 200 extra bookings a week pile up, 800 after four weeks, which is eight weeks of capacity, so most of them go cold. Lever A: 100 x 0.85 x 0.4 = 34, plus 6 a week. Lever C: 2 x 5 x 5 = 50 slots at half speed = 25 slots, 25 x 0.7 x 0.4 = 7, plus 7 a week. Lever B: 100 x 0.7 x 0.5 = 35 from calls plus 150 x 0.15 = 22.5 from self-serve = 57.5, plus 29.5 a week, about four times either other lever. Grove's point in numbers: when one step limits the whole line, the gain comes from deciding what reaches that step and from not wasting it, more than from adding capacity late."
+ },
+ "cuts": [
+  {
+   "title": "How Your Situation Shapes You (with Angela Duckworth)",
+   "source": "EconTalk",
+   "reason": "The same guest and book as today's listen, at twice the length and with less on feedback."
+  },
+  {
+   "title": "Demis Hassabis says society is “not ready” for the AI future",
+   "source": "Masters of Scale",
+   "reason": "AI commentary with no operating lesson, and it will age fast."
+  },
+  {
+   "title": "Anthropic legt die Zahlen offen: Ist das 1,5 Billionen wert? #monthlyHeinemann",
+   "source": "Kassenzone",
+   "reason": "74 minutes of valuation talk about one company; news more than method."
+  },
+  {
+   "title": "Opportunistic Real Estate and Hard Asset Credit at Mavik – Vik Uppal (EP.525)",
+   "source": "Capital Allocators",
+   "reason": "A niche credit strategy; outside the weekday professional slot."
+  },
+  {
+   "title": "335. Power Play: Successfully Navigate Power, Status, and Influence at Work",
+   "source": "Think Fast Talk Smart",
+   "reason": "Solid, but one episode of the show per edition; held as a candidate for the managing-up theme."
+  },
+  {
+   "title": "E72: I Collapsed My GTM Org Chart. This Is Why",
+   "source": "The Revenue Leadership Podcast",
+   "reason": "Still queued for org design; 77 minutes does not fit next to a book chapter."
+  }
+ ]
+}

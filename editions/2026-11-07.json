@@ -1,0 +1,94 @@
+{
+ "date": "2026-11-07",
+ "thesis": "Own the call: turn what you notice into a claim you defend.",
+ "scanned": 112,
+ "sourcesScanned": 48,
+ "picks": [
+  {
+   "id": "1107-assert",
+   "title": "Why high performers make assertions",
+   "source": "Wes Kao's Newsletter",
+   "author": "Wes Kao",
+   "url": "https://newsletter.weskao.com/p/why-high-performers-make-assertions",
+   "published": "2025-04-30",
+   "shelf": "evergreen",
+   "holds": "The split between an observation, an option and an owned recommendation is how decision memos and board papers have always been judged, and nothing about it depends on tools or markets. First written in 2020 and republished in 2025; the career framing is aimed at individual contributors moving up, so the part about earning a seat matters less to someone who already has one.",
+   "mode": "read",
+   "minutes": 7,
+   "track": "pro",
+   "horizon": "career",
+   "domain": "Board narrative and decision framing",
+   "score": 71,
+   "why": "A short, sharp essay on the difference between an insight, a suggestion and an assertion, with a six-part structure for the last one: insight, claim, action, reasoning, risks and how you will handle them. Use it as a checklist for any page that asks a board or a CEO to decide something. Caveats: practitioner advice without evidence behind it; queued from Friday so that one author did not take two picks in the same edition.",
+   "lookFor": [
+    "Which of your last three recommendations stopped at an insight or an option, and who had to finish the thinking for you?",
+    "How does naming the risks and your plan for them change how much conviction a claim can carry?",
+    "Where does the author draw the line between asserting and overreaching when the facts are thin?"
+   ],
+   "gist": "The author argues that observations alone create little value at work: an insight is easy to acknowledge and dismiss, and a suggestion still leaves the decision and the responsibility with someone else. An assertion is a clear thesis with a bias toward action, a point of view held with conviction, and ownership of the outcome. Because new problems lack precedent, assertions rest on judgment, and that is exactly when they matter most. The proposed structure is to state the insight, make a claim, recommend an action, explain the reasoning, name the risks and say how you will handle them, and to answer the questions you raise instead of only asking them."
+  },
+  {
+   "id": "1107-chinashock",
+   "title": "Revisiting the China Shock (with Joseph Francis)",
+   "source": "EconTalk",
+   "author": "Russ Roberts with Joseph Francis",
+   "url": "https://www.econtalk.org/revisiting-the-china-shock-with-joseph-francis/",
+   "spotifyUrl": "https://open.spotify.com/episode/0Mc1xCG5mHD2ykWmdmETMR",
+   "published": "2026-11-02",
+   "shelf": "evergreen",
+   "mode": "listen",
+   "minutes": 64,
+   "track": "personal",
+   "domain": "Economics and research method",
+   "score": 68,
+   "why": "An economic historian walks through how a famous result on trade and lost jobs weakened once a later paper controlled for the long decline that was already under way in the affected towns, and why the part about living standards dropped out with little notice. It is a case study in instruments, specification searching and how a headline finding survives its own correction, which carries over to any analysis you have to defend. Caveats: Francis is a critic of the original work, the original authors are not on the show, and a search found no published reply from them to his 2026 article; duration taken from the feed.",
+   "lookFor": [
+    "What exactly did the original design fail to separate, and which control cut the job estimate roughly in half?",
+    "Why does Francis treat the dropped living-standards result as the bigger story?",
+    "Which of his warnings about specification searching apply to the analyses your own team brings you?"
+   ],
+   "gist": "The original study used Chinese exports to other rich countries as an instrument, so that domestic demand would not distort the estimate, and linked rising imports to lost manufacturing jobs and lower wages and incomes. Francis argues that a 2022 methods paper showed the design did not separate the trade effect from the long-running decline of manufacturing towns; with added controls the employment effect fell by about half and the effects on living standards disappeared, a result he found in an online appendix. Russ Roberts stresses technology and the decades-long fall in manufacturing employment, and both criticise specification searching and argue for broader descriptive analysis and more open post-publication critique in economics."
+  }
+ ],
+ "practice": {
+  "id": "1107-p",
+  "type": "Argument",
+  "horizon": "career",
+  "minutes": 10,
+  "title": "From observation to assertion",
+  "prompt": "Pen and paper, 10 minutes. Scenario: your analysis shows that trial users who get a live onboarding call buy at twice the rate of those who do not, but call capacity is full and the queue is growing. Step 1 (2 min): write it as an insight, one sentence. Step 2 (2 min): write it as a suggestion, one sentence with two options. Step 3 (6 min): write it as an assertion in six lines: insight, claim, action, reasoning, the two biggest risks, and what you will do about each. Then cross out every word in the assertion that hedges without adding information.",
+  "reveal": "Insight: \"Trial users with a call buy at twice the rate of those without one.\" Suggestion: \"We could add onboarding staff or prioritise who gets a call.\" Assertion: the call is our scarcest asset, so from next week we score every signup and give calls only to the top half; the rest get a guided self-serve path. Reasoning: the doubling comes partly from who books a call, so the gain from adding calls for low-intent users is smaller than the average suggests. Risk one: the score is wrong and we starve good accounts, so we hold back a random tenth of low scorers who still get calls and compare after four weeks. Risk two: self-serve conversion drops, so we set a floor in advance at which we reopen calls. The tell of a weak assertion is a claim without a date, an owner or a number that would prove it wrong."
+ },
+ "cuts": [
+  {
+   "title": "The Relationship Between Discount and Win Rate",
+   "source": "Winning by Design",
+   "reason": "A 2022 landing page with the paper behind a lead form; the core arithmetic is useful but the piece cannot be read in full without handing over contact data."
+  },
+  {
+   "title": "How a 19-year-old intern built the growth engine behind this $2B AI company | Hector Serrano",
+   "source": "Lenny's Podcast",
+   "reason": "88 minutes on one company's growth tactics; too long while editions are kept short."
+  },
+  {
+   "title": "„Die besten Companies werden gekauft“: WorkMotion-Exit an Upwork",
+   "source": "Startup Insider",
+   "reason": "A founder's exit story with little for an operator to apply."
+  },
+  {
+   "title": "The Macro Implications of the Blue Tsunami",
+   "source": "Odd Lots",
+   "reason": "Election-week macro commentary that will age within weeks."
+  },
+  {
+   "title": "Megalosaurus",
+   "source": "In Our Time (BBC Radio 4)",
+   "reason": "Queued: good science history at 56 minutes, held for a later weekend so this weekend carries one long personal listen."
+  },
+  {
+   "title": "E72: I Collapsed My GTM Org Chart. This Is Why",
+   "source": "The Revenue Leadership Podcast",
+   "reason": "Still queued for org design; 77 minutes does not fit while editions are kept short."
+  }
+ ]
+}
