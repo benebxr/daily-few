@@ -1,18 +1,19 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-07",
  "budget": {
   "total": 120,
   "ears": 90,
   "desk": 30
  },
  "pro": [
-  "Building an annual plan and budget against an investor's stretch target",
+  "Building an annual plan and budget against an investor's stretch target, with a base budget plus a tranche released on leading signals",
   "Capping a paid channel that is incremental but expensive, and explaining that to a board",
   "Launching a referral programme fast and reading its effect without a control group",
   "Closing discipline, discount behaviour and commission design in a self-serve-plus-sales motion",
   "Operational readiness for a regulation-driven demand spike",
   "Cutting a leadership team's priority list and holding senior direct reports accountable without taking the work over",
   "North-star metrics, KPI trees and kill reviews",
+  "Growth after a demand wave as a retention question",
   "Channel portfolio: partners, referral and AI search after their tests",
   "A commercial organisation that runs without its leader"
  ],
