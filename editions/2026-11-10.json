@@ -1,0 +1,101 @@
+{
+ "date": "2026-11-10",
+ "thesis": "Release money on leading signals, and pair every number with its cost.",
+ "scanned": 131,
+ "sourcesScanned": 46,
+ "picks": [
+  {
+   "id": "1110-hom-02",
+   "title": "High Output Management, chapter 2: Managing the Breakfast Factory",
+   "source": "Andrew S. Grove",
+   "author": "Andrew S. Grove",
+   "url": "https://books.apple.com/de/book/high-output-management/id1046431786",
+   "listenUrl": "https://books.apple.com/de/audiobook/high-output-management-unabridged/id1560761735",
+   "published": "1983",
+   "shelf": "evergreen",
+   "holds": "Leading indicators, paired indicators and the stagger chart are still how good operating reviews and forecast reviews are run, and they carry over to revenue teams with little change. What has aged is the setting: the examples are factory and chip-plant measures, and today's systems let you track far more indicators than Grove could, which makes his advice to pick a few and pair them more useful, not less.",
+   "mode": "read",
+   "minutes": 25,
+   "track": "pro",
+   "horizon": "career",
+   "series": {
+    "id": "hom",
+    "n": 2,
+    "of": 16
+   },
+   "domain": "Leverage through leaders",
+   "score": 78,
+   "why": "Chapter 2 turns the breakfast line into a managed operation, and it is about measurement: indicators that tell you early when a step will fail, pairs of indicators so that pushing one number does not quietly break another, and the stagger chart, which puts each month's forecast next to the earlier ones so that a slipping forecast becomes visible. Grove also treats the operation as a black box whose output you can predict only by watching what goes in and the signals along the way. This is the toolkit for running an organisation through other people's numbers instead of your own analysis.",
+   "lookFor": [
+    "Which of your key numbers has no pair, and what would people neglect if they pushed it hard?",
+    "If you drew a stagger chart of your last six monthly forecasts, which way would the numbers drift?",
+    "Which indicator would warn you a month early that a stage of your funnel will miss, and who looks at it today?"
+   ]
+  },
+  {
+   "id": "1110-budget",
+   "title": "“Your budget is counter-productive” — Michiel Boere, CFO of Remote",
+   "source": "Run the Numbers",
+   "author": "CJ Gustafson with Michiel Boere",
+   "url": "https://creators.spotify.com/pod/profile/cjgustafson222/episodes/Your-budget-is-counter-productive--Michiel-Boere--CFO-of-Remote-e3eca2r",
+   "spotifyUrl": "https://open.spotify.com/episode/4M6Yvccm4DJ9MM9gWvCM8L",
+   "published": "2025-01-16",
+   "shelf": "slow",
+   "holds": "Most finance writing from 2025 and 2026 describes the same move: keep a lean annual budget for governance and run the business on a rolling forecast tied to operating drivers, so his argument still matches practice. What has aged is the company detail: any figures or tools he names describe that company in early 2025.",
+   "mode": "listen",
+   "minutes": 22,
+   "track": "pro",
+   "horizon": "now",
+   "domain": "Budgeting and the board",
+   "score": 66,
+   "why": "A CFO of a fast-growing software company argues that a fixed annual budget leads to bad decisions, such as spending money because it was allocated or passing on an investment that would pay back, and describes how he got his board to think about budgeting differently. Listen to the segment from 26:06 to 47:31 (about 22 minutes; the full episode runs 59 minutes): underwriting risk on unit economics, why budgets backfire, the board conversation, and goals for revenue teams without a budget. Caveat: no transcript was available, so the gist follows the published show notes and chapter titles.",
+   "lookFor": [
+    "What does he give the board in place of a fixed spend number, and would it carry a base budget plus money released on signals?",
+    "How does he set ambitious goals for revenue teams without a budget cap, and what stops overspending?",
+    "Which unit-economics test does he use before he underwrites a risky growth bet?"
+   ],
+   "gist": "Boere explains Remote's model, which lets companies employ people in other countries while it handles payroll, tax and legal entities, and how he scaled a distributed finance team. He calls himself a risk-on CFO who reads unit economics to decide which growth risks to underwrite. He argues that budgets can push teams into unnecessary spending or make them miss valuable investments, and covers how to change a board's thinking about budgeting, how to set goals for revenue teams without a budget, and why the north star metric should change as a company grows."
+  }
+ ],
+ "practice": {
+  "id": "1110-p",
+  "type": "Teach-back",
+  "horizon": "year",
+  "minutes": 12,
+  "title": "Teach the stagger chart and paired indicators",
+  "prompt": "Pen and paper, 12 minutes. Step 1 (4 min): draw a stagger chart for a quarterly revenue forecast. Rows are the months in which the forecast was made (July, August, September), columns are the months being forecast (October, November, December). Fill it with invented numbers for a forecast that keeps slipping: each new row moves part of the same revenue one month later. Step 2 (4 min): for a paid channel you are scaling, write one leading indicator that would tell you a month early that the channel will miss, and pair it with a second indicator that catches the side effect of pushing the first. Step 3 (4 min): explain both tools out loud in 90 seconds to an imagined new team lead, then write the one sentence you want them to remember.",
+  "reveal": "A slipping forecast shows as a diagonal drift: in every new row the October and November cells shrink while December grows, and the quarter total stays flat or falls. That pattern means the team forecasts hope rather than pipeline, and Grove's fix is to show the chart every month so the slip becomes a conversation instead of a surprise. A useful leading indicator moves before revenue, such as qualified trials started or first real uses completed; its pair guards against gaming it, for example trials started paired with the share that reach a first real use, or new customers paired with early cancellations. The sentence for the lead: measure what you want and what you might break to get it, and read this month's forecast next to last month's."
+ },
+ "cuts": [
+  {
+   "title": "Duration Risk: Where is your company most exposed?",
+   "source": "Mostly Metrics",
+   "reason": "A finance lens on contract and customer duration; held for a later desk slot because short editions carry two picks."
+  },
+  {
+   "title": "Inside Clay’s GTM machine",
+   "source": "Growth Unhinged",
+   "reason": "A company case on automated outbound; close to a recent edition and more tooling than method."
+  },
+  {
+   "title": "339. The Write Stuff: Finding the Words for Life’s Hardest Conversations",
+   "source": "Think Fast Talk Smart",
+   "reason": "About personal letters; the link to leading a team is thin, and the show was in yesterday's edition."
+  },
+  {
+   "title": "Hubris, Humility, and the AI Revolution (with Walter Isaacson)",
+   "source": "EconTalk",
+   "reason": "AI commentary at 53 minutes with no operating lesson; a candidate for a weekend personal slot at most."
+  },
+  {
+   "title": "Why PMs are suddenly valuable again | Tulsee Doshi (Head of Product, Gemini)",
+   "source": "Lenny's Podcast",
+   "reason": "A product-role interview at 59 minutes that describes tools in their current state, and it will age fast."
+  },
+  {
+   "title": "E72: I Collapsed My GTM Org Chart. This Is Why",
+   "source": "The Revenue Leadership Podcast",
+   "reason": "Still queued for org design; 77 minutes does not fit next to a book chapter."
+  }
+ ]
+}
