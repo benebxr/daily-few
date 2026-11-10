@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08",
+ "updated": "2026-11-09",
  "budget": {
   "total": 120,
   "ears": 90,
@@ -7,10 +7,11 @@
  },
  "pro": [
   "Building an annual plan and budget against an investor's stretch target, with a base budget plus a tranche released on leading signals",
-  "Capping a paid channel that is incremental but expensive, and reallocating its budget to new channels through stage gates",
+  "Capping a paid channel that is incremental but expensive, holding the cap when the team drifts, and gating new channels",
   "Launching a referral programme fast and reading its effect without a control group",
-  "Closing discipline, discount behaviour and commission design in a self-serve-plus-sales motion",
+  "Closing habits in onboarding calls, discount governance and commission design in a self-serve-plus-sales motion",
   "Operational readiness for a regulation-driven demand spike",
+  "Net revenue retention: why acquisition growth stops showing up in net new revenue",
   "Cutting a leadership team's priority list and holding senior direct reports accountable without taking the work over",
   "North-star metrics, KPI trees and kill reviews",
   "Growth after a demand wave as a retention and product question",

@@ -1,0 +1,95 @@
+{
+ "date": "2026-11-11",
+ "thesis": "Spend your hours where they move many people, and fix the basics first.",
+ "scanned": 132,
+ "sourcesScanned": 50,
+ "picks": [
+  {
+   "id": "1111-hom-03",
+   "title": "High Output Management, chapter 3: Managerial Leverage",
+   "source": "Andrew S. Grove",
+   "author": "Andrew S. Grove",
+   "url": "https://books.apple.com/de/book/high-output-management/id1046431786",
+   "listenUrl": "https://books.apple.com/de/audiobook/high-output-management-unabridged/id1560761735",
+   "published": "1983",
+   "shelf": "evergreen",
+   "holds": "The core equation, that a manager's output is the output of the organisation under them and of the ones they influence, is still the cleanest definition of the job, and the list of high-leverage and negative-leverage activities reads as if written for today's leadership teams. What has aged is the texture: memos, paper reports and in-person visits stand in for what now runs through dashboards, chat and recorded calls, and Grove's warning about interruptions applies with more force in an always-on inbox.",
+   "mode": "read",
+   "minutes": 25,
+   "track": "pro",
+   "horizon": "career",
+   "series": {
+    "id": "hom",
+    "n": 3,
+    "of": 16
+   },
+   "domain": "Leverage through leaders",
+   "score": 78,
+   "why": "Chapter 3 opens Part II with the book's central claim: your output as a manager is the output of your organisation plus the organisations you influence, so every hour you spend has to be judged by how much of that output it moves. Grove names what gives an activity high leverage (it affects many people, it affects one person for a long time, or it uses knowledge only you have) and what gives it negative leverage, above all meddling in work your people should own. For a revenue leader who wants to run through other leaders, this is the test for your calendar and for every approval that waits on you.",
+   "lookFor": [
+    "Which of last week's hours affected many people or one person for a long time, and which only moved work you could have handed off?",
+    "Where does your involvement turn into what Grove calls meddling, and how would the person involved describe it?",
+    "Which decisions wait on you only out of habit, and what would it take to move them one level down?"
+   ]
+  },
+  {
+   "id": "1111-value",
+   "title": "What Customers Really Value–and Why Leaders Keep Getting It Wrong",
+   "source": "HBR IdeaCast",
+   "author": "Adi Ignatius and Alison Beard with Vikas Mittal",
+   "url": "https://hbr.org/podcast/2026/11/what-customers-really-value-and-why-leaders-keep-getting-it-wrong",
+   "spotifyUrl": "https://open.spotify.com/episode/7MYSikmoYhMYkeIFtX2R6b",
+   "published": "2026-11-10",
+   "shelf": "slow",
+   "mode": "listen",
+   "minutes": 28,
+   "track": "pro",
+   "horizon": "now",
+   "domain": "Retention and customer value",
+   "score": 69,
+   "why": "A marketing professor who studied 72 businesses over seven years argues that executives misjudge what drives customer value, because customers recall what is vivid and recent instead of what decides whether they stay. The useful part for retention is his asymmetry: meeting a basic expectation adds little, falling short of it costs a lot, so early churn is often a basics problem that no new feature fixes. Caveat: the study and its effect sizes come from his own consulting work and the episode gives few numbers, so treat the results as one researcher's evidence.",
+   "lookFor": [
+    "How does he separate what customers say they want from what statistically drives their value, and what data would you need to do the same?",
+    "Which of your basic expectations, if missed in a customer's first weeks, would hurt more than any extra feature could help?",
+    "How does he get leaders who trust their intuition to accept the analysis, and which of your own pet projects would fail his test?"
+   ],
+   "gist": "Mittal says leaders can report what customers ask for but usually predict wrongly what creates value; in one example residents asked for a gym that fewer than one in five used, while responsive building management mattered more. He recommends structured customer assessments analysed statistically instead of group judgment, and focusing on one or two high-impact drivers instead of many initiatives. Expectations are asymmetric: one company found that delivering early added nothing while delivering late hurt, so it moved to delivering on time to the customer's need date. He reports gains in satisfaction, retention, sales and margins, and argues that intuition works best when data bounds it."
+  }
+ ],
+ "practice": {
+  "id": "1111-p",
+  "type": "Estimate",
+  "horizon": "now",
+  "minutes": 12,
+  "title": "Fix a broken basic or add a delighter?",
+  "prompt": "Pen and paper, 12 minutes, numbers invented. A software company wins 2,000 new customers a month. 30 percent of them hit one broken basic in their first month, such as a setup step that fails. Customers who hit it cancel within 90 days at 25 percent; the rest cancel at 10 percent. Option A fixes the broken step for half of the affected customers, who then cancel like everyone else. Option B adds a feature that most customers say they want in a survey; about 20 percent of new customers will use it, and their 90-day cancellation rate falls by 2 points. Step 1 (4 min): work out early cancellations per month today. Step 2 (4 min): work out how many cancellations each option saves per month. Step 3 (4 min): find the drop in cancellation rate among feature users that Option B would need to match Option A, and say in one sentence whether that is plausible.",
+  "reveal": "Today: 600 affected customers at 25 percent is 150 cancellations, 1,400 others at 10 percent is 140, so 290 a month, or 14.5 percent. Option A moves 300 customers from 25 to 10 percent and saves 300 x 0.15 = 45 cancellations a month. Option B saves 400 x 0.02 = 8. To match A, B would need to cut cancellations among its 400 users by 45 / 400 = 11.25 points, which is more than the 10 percent rate most of them have in the first place, so it cannot match A. This is Mittal's asymmetry in numbers: a missed basic costs more than a wanted extra earns, and the survey that asked for the feature would not have shown you the broken step."
+ },
+ "cuts": [
+  {
+   "title": "Duration Risk: Where is your company most exposed?",
+   "source": "Mostly Metrics",
+   "reason": "Queued for a desk slot again; short editions on chapter days leave room for one listen only."
+  },
+  {
+   "title": "How Elon Musk Solves Problems | Jon McNeill",
+   "source": "The Knowledge Project",
+   "reason": "An operator interview that may suit the career horizon, but it runs 106 minutes, which does not fit a short edition."
+  },
+  {
+   "title": "281. Employees Have to Suffer",
+   "source": "At The Table with Patrick Lencioni",
+   "reason": "A short leadership episode; the book chapter already carries today's leadership share."
+  },
+  {
+   "title": "How to negotiate effectively with Wendy Chow",
+   "source": "Worklife with Molly Graham",
+   "reason": "General negotiation advice at 53 minutes, too long and too broad next to the chapter."
+  },
+  {
+   "title": "From underdogs to disruptors: how Tubi and e.l.f. built a different game",
+   "source": "Masters of Scale",
+   "reason": "Consumer brand stories with little to take into a software revenue team."
+  }
+ ]
+}
