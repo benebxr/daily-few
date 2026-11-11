@@ -1,0 +1,95 @@
+{
+ "date": "2026-11-12",
+ "thesis": "Meetings are the job, and expansion no longer carries growth.",
+ "scanned": 118,
+ "sourcesScanned": 44,
+ "picks": [
+  {
+   "id": "1112-hom-04",
+   "title": "High Output Management, chapter 4: Meetings: The Medium of Managerial Work",
+   "source": "Andrew S. Grove",
+   "author": "Andrew S. Grove",
+   "url": "https://books.apple.com/de/book/high-output-management/id1046431786",
+   "listenUrl": "https://books.apple.com/de/audiobook/high-output-management-unabridged/id1560761735",
+   "published": "1983",
+   "shelf": "evergreen",
+   "holds": "The split between process-oriented meetings that run on a fixed rhythm and mission-oriented meetings called to make one decision still describes how a leadership team spends its week, and the one-on-one as the report's meeting has become standard practice. What has aged is the setting: much of what Grove moved through meetings now moves through written updates, dashboards and recorded calls, so his advice on frequency and length needs adjusting for teams that already share information asynchronously.",
+   "mode": "read",
+   "minutes": 25,
+   "track": "pro",
+   "horizon": "career",
+   "series": {
+    "id": "hom",
+    "n": 4,
+    "of": 16
+   },
+   "domain": "Leverage through leaders",
+   "score": 78,
+   "why": "Grove argues that meetings are the medium through which a manager does the work, so the useful question is whether each meeting is designed for its job. He separates process-oriented meetings (one-on-ones, staff meetings, operation reviews) that exchange information on a regular rhythm from mission-oriented meetings that exist to produce one decision, and he treats the one-on-one as the report's meeting, set by their agenda. For a revenue leader who wants a leadership layer that runs without them, this chapter is the blueprint for the weekly cadence.",
+   "lookFor": [
+    "Which of your recurring meetings are process-oriented and which are really decisions in disguise, and does each one have the right people and output for its type?",
+    "In your one-on-ones, who sets the agenda, and what would change if the report brought the problems and you mostly asked questions?",
+    "Grove treats a calendar full of ad-hoc decision meetings as a sign of poor organisation; which of yours would disappear if decision rights were clearer?"
+   ]
+  },
+  {
+   "id": "1112-ndr",
+   "title": "Where Did All the 130% Net Dollar Retention Go?",
+   "source": "Mostly Growth",
+   "author": "Kyle Poyar and CJ Gustafson",
+   "url": "https://creators.spotify.com/pod/profile/mostly-growth/episodes/Where-Did-All-the-130-Net-Dollar-Retention-Go-e3kuhl4",
+   "spotifyUrl": "https://open.spotify.com/episode/34lerrLFd4qTIVj27gwG3V",
+   "published": "2026-06-19",
+   "shelf": "slow",
+   "mode": "listen",
+   "minutes": 31,
+   "track": "pro",
+   "horizon": "year",
+   "domain": "Retention and growth planning",
+   "score": 64,
+   "why": "A growth strategist and a CFO go through public filings to see what happened to the expansion rates that once carried software growth, and why so many companies stopped disclosing them. The useful part for a growth plan is the shift it documents: when expansion flattens, new revenue on a growing base has to outrun churn on its own, and investors price retention directly. Caveat: the sample is public, mostly larger companies, and the episode's numbers are the hosts' own readings of filings, so use the direction more than the exact figures.",
+   "lookFor": [
+    "Which signals do they read as a company quietly losing expansion, and which of them would show up in your own monthly numbers first?",
+    "Why do they say retention was never calculated the same way across companies, and what does that mean for the definition you report upward?",
+    "If expansion stops covering churn, what share of next year's growth target has to come from new customers, and is that realistic?"
+   ],
+   "gist": "Kyle Poyar and CJ Gustafson trace the once-common 130 percent net dollar retention through SEC filings, starting with a case where the regulator asked a large software company for the figure and it declined to give it. According to the episode notes, companies hide falling retention by dropping the metric, switching to vague language or reporting it only once a year, and the median they track fell from a peak of about 124 percent to about 110 percent. They put the value of retention at roughly one turn of revenue multiple per 10 points and discuss why usage-based AI credits do not show up in the metric."
+  }
+ ],
+ "practice": {
+  "id": "1112-p",
+  "type": "Argument",
+  "horizon": "career",
+  "minutes": 12,
+  "title": "Whose meeting is the one-on-one?",
+  "prompt": "Pen and paper, 12 minutes. A senior direct report owns an initiative that has not moved for several weeks. Your weekly one-on-one with them has turned into a status update you run from your own list, and each time you push, they come back with a new plan instead of a decision. You are tempted to add a second weekly check-in on the initiative. Step 1 (4 min): write the strongest case for the extra check-in in three sentences. Step 2 (4 min): write the strongest case, in Grove's terms, for keeping one meeting and handing its agenda back to the report, including what you would ask them to bring. Step 3 (4 min): decide, and write the two questions you would open the next one-on-one with.",
+  "reveal": "Grove would keep one meeting and give it back: the one-on-one is the report's meeting, and a second check-in run from your list trains them to wait for your agenda and turns you into the project manager, which is negative leverage. The stronger move is to ask them to bring the open decisions on the initiative, ranked by what blocks progress, and to say which of those they can make alone. Good opening questions: 'Which decision is holding this up, and who has to make it?' and 'What would you need from me to make it by Friday?' If the answer reveals that a decision sits with you, clear it in the room, because that is the one piece of the work that is genuinely yours."
+ },
+ "cuts": [
+  {
+   "title": "SaaStr 886: Per-Seat Pricing Is Dead. Why Speed is the Moat",
+   "source": "The Official SaaStr Podcast",
+   "reason": "A strong packaging topic, but it runs 68 minutes and leans on this month's vendor price moves, which age fast."
+  },
+  {
+   "title": "5 GTM plays working right now",
+   "source": "Growth Unhinged",
+   "reason": "Field reports on agent-built marketing ops that describe tools in their current state more than a principle."
+  },
+  {
+   "title": "Duration Risk: Where is your company most exposed?",
+   "source": "Mostly Metrics",
+   "reason": "Queued for a desk slot again; chapter days leave room for one listen only."
+  },
+  {
+   "title": "How Do I Stay Motivated After the Role I Wanted Went to an External Hire?",
+   "source": "Coaching Real Leaders",
+   "reason": "A coaching session on a career setback; the book chapter already carries the career share today."
+  },
+  {
+   "title": "Hubris, Humility, and the AI Revolution (with Walter Isaacson)",
+   "source": "EconTalk",
+   "reason": "A personal-track candidate for the weekend, too long for a short weekday edition."
+  }
+ ]
+}

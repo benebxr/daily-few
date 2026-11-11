@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-10",
- "window": "cumulative since 16.09.2026; last sweep 10.11.2026",
+ "updated": "2026-11-11",
+ "window": "cumulative since 16.09.2026; last sweep 11.11.2026",
  "sources": [
   {
    "name": "Open web discovery",
-   "scanned": 482,
+   "scanned": 520,
    "picked": 21
   },
   {
@@ -19,17 +19,17 @@
   },
   {
    "name": "Tomasz Tunguz",
-   "scanned": 19,
+   "scanned": 21,
    "picked": 2
   },
   {
    "name": "Superhuman AI",
-   "scanned": 80,
+   "scanned": 82,
    "picked": 0
   },
   {
    "name": "The Neuron",
-   "scanned": 86,
+   "scanned": 88,
    "picked": 0
   },
   {
@@ -39,7 +39,7 @@
   },
   {
    "name": "Think Fast Talk Smart",
-   "scanned": 61,
+   "scanned": 63,
    "picked": 1
   },
   {
@@ -49,7 +49,7 @@
   },
   {
    "name": "The Diff",
-   "scanned": 18,
+   "scanned": 19,
    "picked": 0
   },
   {
@@ -109,37 +109,37 @@
   },
   {
    "name": "The Revenue Leadership Podcast",
-   "scanned": 30,
+   "scanned": 42,
    "picked": 3
   },
   {
    "name": "Growth Unhinged",
-   "scanned": 21,
+   "scanned": 22,
    "picked": 4
   },
   {
    "name": "The Official SaaStr Podcast",
-   "scanned": 43,
+   "scanned": 45,
    "picked": 4
   },
   {
    "name": "Lenny's Podcast",
-   "scanned": 46,
+   "scanned": 47,
    "picked": 2
   },
   {
    "name": "EconTalk",
-   "scanned": 57,
+   "scanned": 58,
    "picked": 2
   },
   {
    "name": "The Knowledge Project",
-   "scanned": 46,
+   "scanned": 47,
    "picked": 1
   },
   {
    "name": "Masters of Scale",
-   "scanned": 115,
+   "scanned": 118,
    "picked": 0
   },
   {
@@ -149,7 +149,7 @@
   },
   {
    "name": "Mostly Metrics",
-   "scanned": 37,
+   "scanned": 38,
    "picked": 12
   },
   {
@@ -164,7 +164,7 @@
   },
   {
    "name": "Sifted",
-   "scanned": 27,
+   "scanned": 28,
    "picked": 0
   },
   {
@@ -189,7 +189,7 @@
   },
   {
    "name": "Run the Numbers",
-   "scanned": 131,
+   "scanned": 133,
    "picked": 9
   },
   {
@@ -204,7 +204,7 @@
   },
   {
    "name": "Worklife with Molly Graham",
-   "scanned": 43,
+   "scanned": 44,
    "picked": 3
   },
   {
@@ -239,12 +239,12 @@
   },
   {
    "name": "Odd Lots",
-   "scanned": 119,
+   "scanned": 123,
    "picked": 5
   },
   {
    "name": "HBR IdeaCast",
-   "scanned": 44,
+   "scanned": 45,
    "picked": 4
   },
   {
@@ -259,27 +259,27 @@
   },
   {
    "name": "Capital Allocators",
-   "scanned": 61,
+   "scanned": 64,
    "picked": 0
   },
   {
    "name": "Sean Carroll's Mindscape",
-   "scanned": 29,
+   "scanned": 30,
    "picked": 0
   },
   {
    "name": "Prof G Markets",
-   "scanned": 175,
+   "scanned": 181,
    "picked": 1
   },
   {
    "name": "Coaching Real Leaders",
-   "scanned": 20,
+   "scanned": 21,
    "picked": 0
   },
   {
    "name": "The McKinsey Podcast",
-   "scanned": 33,
+   "scanned": 34,
    "picked": 0
   },
   {
@@ -294,7 +294,7 @@
   },
   {
    "name": "Hard Fork",
-   "scanned": 33,
+   "scanned": 35,
    "picked": 0
   },
   {
@@ -349,27 +349,27 @@
   },
   {
    "name": "Top Founders",
-   "scanned": 19,
+   "scanned": 20,
    "picked": 0
   },
   {
    "name": "Startup Insider",
-   "scanned": 124,
+   "scanned": 130,
    "picked": 0
   },
   {
    "name": "At The Table with Patrick Lencioni",
-   "scanned": 8,
+   "scanned": 9,
    "picked": 0
   },
   {
    "name": "The Jefferson Fisher Podcast",
-   "scanned": 44,
+   "scanned": 46,
    "picked": 0
   },
   {
    "name": "SPEAK LIKE A CEO",
-   "scanned": 19,
+   "scanned": 21,
    "picked": 2
   },
   {
@@ -389,7 +389,7 @@
   },
   {
    "name": "Kassenzone (CEO Interviews)",
-   "scanned": 7,
+   "scanned": 8,
    "picked": 1
   },
   {
@@ -454,7 +454,7 @@
   },
   {
    "name": "In Our Time (BBC Radio 4)",
-   "scanned": 3,
+   "scanned": 5,
    "picked": 0
   },
   {
@@ -471,6 +471,21 @@
    "name": "Andrew S. Grove",
    "scanned": 1,
    "picked": 1
+  },
+  {
+   "name": "Adam Bryant",
+   "scanned": 1,
+   "picked": 0
+  },
+  {
+   "name": "Mostly Growth",
+   "scanned": 12,
+   "picked": 1
+  },
+  {
+   "name": "HBR On Leadership",
+   "scanned": 12,
+   "picked": 0
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "budget": {
   "total": 120,
   "ears": 90,
@@ -7,15 +7,16 @@
  },
  "pro": [
   "Building an annual plan and budget against an investor's stretch target, with a base budget plus a tranche released on leading signals",
-  "Capping a paid channel that is incremental but expensive, holding the cap when the team drifts, and gating new channels",
+  "Value-weighting acquisition channels: why a first buy from one channel is worth less than from another",
+  "Capping a paid channel that is incremental but expensive after a holdout test, and gating new channels",
   "Launching a referral programme fast and reading its effect without a control group",
   "Closing habits in onboarding calls, discount governance and commission design in a self-serve-plus-sales motion",
   "Operational readiness for a regulation-driven demand spike",
-  "Net revenue retention: why acquisition growth stops showing up in net new revenue",
-  "Cutting a leadership team's priority list and holding senior direct reports accountable without taking the work over",
-  "North-star metrics, KPI trees and kill reviews",
+  "Net revenue retention: involuntary versus voluntary churn, and why acquisition growth stops showing up in net new revenue",
+  "Diagnosing decision bottlenecks and holding senior direct reports accountable without taking the work over",
+  "North-star metrics, activation definitions, KPI trees and kill reviews",
   "Growth after a demand wave as a retention and product question",
-  "Channel portfolio: partners, referral and AI search after their tests",
+  "Channel portfolio: measurable partner channels, referral and AI search after their tests",
   "A commercial organisation that runs without its leader"
  ],
  "personal": [
