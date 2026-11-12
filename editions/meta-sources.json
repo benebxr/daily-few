@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-11",
- "window": "cumulative since 16.09.2026; last sweep 11.11.2026",
+ "updated": "2026-11-12",
+ "window": "cumulative since 16.09.2026; last sweep 12.11.2026",
  "sources": [
   {
    "name": "Open web discovery",
-   "scanned": 520,
+   "scanned": 526,
    "picked": 21
   },
   {
@@ -24,12 +24,12 @@
   },
   {
    "name": "Superhuman AI",
-   "scanned": 82,
+   "scanned": 84,
    "picked": 0
   },
   {
    "name": "The Neuron",
-   "scanned": 88,
+   "scanned": 90,
    "picked": 0
   },
   {
@@ -39,7 +39,7 @@
   },
   {
    "name": "Think Fast Talk Smart",
-   "scanned": 63,
+   "scanned": 66,
    "picked": 1
   },
   {
@@ -64,7 +64,7 @@
   },
   {
    "name": "SaaSiest",
-   "scanned": 9,
+   "scanned": 10,
    "picked": 0
   },
   {
@@ -114,7 +114,7 @@
   },
   {
    "name": "Growth Unhinged",
-   "scanned": 22,
+   "scanned": 23,
    "picked": 4
   },
   {
@@ -129,17 +129,17 @@
   },
   {
    "name": "EconTalk",
-   "scanned": 58,
+   "scanned": 59,
    "picked": 2
   },
   {
    "name": "The Knowledge Project",
-   "scanned": 47,
+   "scanned": 48,
    "picked": 1
   },
   {
    "name": "Masters of Scale",
-   "scanned": 118,
+   "scanned": 122,
    "picked": 0
   },
   {
@@ -149,7 +149,7 @@
   },
   {
    "name": "Mostly Metrics",
-   "scanned": 38,
+   "scanned": 39,
    "picked": 12
   },
   {
@@ -189,7 +189,7 @@
   },
   {
    "name": "Run the Numbers",
-   "scanned": 133,
+   "scanned": 136,
    "picked": 9
   },
   {
@@ -199,7 +199,7 @@
   },
   {
    "name": "In Our Time",
-   "scanned": 77,
+   "scanned": 80,
    "picked": 5
   },
   {
@@ -239,7 +239,7 @@
   },
   {
    "name": "Odd Lots",
-   "scanned": 123,
+   "scanned": 128,
    "picked": 5
   },
   {
@@ -259,7 +259,7 @@
   },
   {
    "name": "Capital Allocators",
-   "scanned": 64,
+   "scanned": 68,
    "picked": 0
   },
   {
@@ -269,7 +269,7 @@
   },
   {
    "name": "Prof G Markets",
-   "scanned": 181,
+   "scanned": 186,
    "picked": 1
   },
   {
@@ -294,7 +294,7 @@
   },
   {
    "name": "Hard Fork",
-   "scanned": 35,
+   "scanned": 37,
    "picked": 0
   },
   {
@@ -354,7 +354,7 @@
   },
   {
    "name": "Startup Insider",
-   "scanned": 130,
+   "scanned": 135,
    "picked": 0
   },
   {
@@ -409,7 +409,7 @@
   },
   {
    "name": "Kassenzone CEO Interviews",
-   "scanned": 8,
+   "scanned": 10,
    "picked": 0
   },
   {
@@ -469,8 +469,8 @@
   },
   {
    "name": "Andrew S. Grove",
-   "scanned": 1,
-   "picked": 1
+   "scanned": 2,
+   "picked": 2
   },
   {
    "name": "Adam Bryant",
@@ -486,6 +486,11 @@
    "name": "HBR On Leadership",
    "scanned": 12,
    "picked": 0
+  },
+  {
+   "name": "Churn FM",
+   "scanned": 41,
+   "picked": 1
   }
  ]
 }

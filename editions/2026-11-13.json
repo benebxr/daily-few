@@ -1,0 +1,100 @@
+{
+ "date": "2026-11-13",
+ "thesis": "Decide who decides, and count failed payments as their own churn.",
+ "scanned": 95,
+ "sourcesScanned": 40,
+ "picks": [
+  {
+   "id": "1113-hom-05",
+   "title": "High Output Management, chapter 5: Decisions, Decisions",
+   "source": "Andrew S. Grove",
+   "author": "Andrew S. Grove",
+   "url": "https://books.apple.com/de/book/high-output-management/id1046431786",
+   "listenUrl": "https://books.apple.com/de/audiobook/high-output-management-unabridged/id1560761735",
+   "published": "1983",
+   "shelf": "evergreen",
+   "holds": "The three-stage model of free discussion, a clear decision and full support, and the list of questions to settle before a decision is taken, still match how decision rights are taught today; later frameworks that name a single decider and separate consulted from informed people are close relatives. What has aged is the examples and the assumption that people debate in one room; in teams that decide in documents and threads, the free-discussion stage needs a deliberate written equivalent.",
+   "mode": "read",
+   "minutes": 25,
+   "track": "pro",
+   "horizon": "career",
+   "series": {
+    "id": "hom",
+    "n": 5,
+    "of": 16
+   },
+   "domain": "Leverage through leaders",
+   "score": 78,
+   "why": "Grove describes the ideal decision as free discussion, then a clear decision by one person, then full support from everyone, including those who disagreed. He explains why peers stall when nobody is senior in the room, why the person with the most knowledge and the person with the most position power both have to be present, and which questions to settle before anyone decides: what, when, who decides, who is consulted, who can veto, who is told. For a revenue leader whose decisions pile up with them, this chapter is the tool for handing decisions down without losing quality.",
+   "lookFor": [
+    "Which open decision in your area has no single named decider, and which of Grove's preliminary questions would settle it fastest?",
+    "When your direct reports disagree as peers, do they wait for you to break the tie, and how would you set up the discussion so the decision is theirs?",
+    "Grove asks for full support after a clear decision; where have you seen a decision quietly reopened, and what in the process allowed it?"
+   ]
+  },
+  {
+   "id": "1113-payments",
+   "title": "EP306 | Beyond Retries: Why Payments Fail and How to Recover Them | Jack Cregan",
+   "source": "Churn FM",
+   "author": "Andrew Michael with Jack Cregan",
+   "url": "https://www.churn.fm/episode/beyond-retries-why-payments-fail-and-how-to-recover-them",
+   "spotifyUrl": "https://open.spotify.com/episode/39bjth6b8cpSgsLs9QpvrB",
+   "published": "2026-09-30",
+   "shelf": "slow",
+   "mode": "listen",
+   "minutes": 32,
+   "track": "pro",
+   "horizon": "now",
+   "domain": "Retention and involuntary churn",
+   "score": 64,
+   "why": "When churn rises among long-standing customers, part of it is often failed payments the customer never chose, and that needs a different lever from a retention offer. The episode explains the mechanics behind declines (insufficient funds, issuer fraud checks, weak processors, cross-border routing) and why retrying on the same rail usually fails again. Caveat: the guest runs a payment recovery company, his recovery rate is his own figure, and the examples lean on card payments in high-volume consumer subscriptions, so translate the principles to your own payment methods.",
+   "lookFor": [
+    "Which decline reasons does he call recoverable and which are final, and can your billing data tell the two apart today?",
+    "Why does he say businesses often do not know how many payments fail, and who in your company would own that number?",
+    "Which of the recovery moves (another processor, waiting for new account activity, a partial charge) has a direct equivalent for the payment methods your customers use?"
+   ],
+   "gist": "Jack Cregan, founder of a payment recovery company, walks through why online payments get declined, from insufficient funds and issuer fraud suspicion to processor quality and cross-border issues. He argues that simple retries on the same processor tend to fail again, and describes recovery through alternative processors, monitoring declined cards for new activity within about 30 days, and partial authorisations that keep a subscription alive. The conversation closes on preventable churn more broadly: better cancellation flows, close attention to the first 30 to 60 days, and products embedded deeply enough to be hard to replace."
+  }
+ ],
+ "practice": {
+  "id": "1113-p",
+  "type": "First principles",
+  "horizon": "now",
+  "minutes": 12,
+  "title": "Which churn is a payment problem?",
+  "prompt": "Pen and paper, 12 minutes. Your monthly churn has risen for several months, and a first look shows that most of the rise is customers cancelled after a failed payment, many of them customers who had paid for years. Step 1 (4 min): from first principles, list every path by which a paying customer ends up counted as churned, and mark for each who acts: the customer, the bank, or your own billing system. Step 2 (4 min): for each path, name the lever that would prevent it (a retention offer, a billing or payment fix, a product change) and the team that owns it. Step 3 (4 min): use Grove's preliminary questions to set up the decision on how churn is defined for reporting: what is decided, by when, who decides, who is consulted, who can veto, who is told.",
+  "reveal": "One clean split is three groups: customers who decide to leave (voluntary), customers whose payment fails and nobody recovers it before the system cancels them (involuntary), and contracts that end by term. Only the first responds to retention offers; the second is a billing, dunning and payment-method problem owned by whoever runs billing, and it usually hits loyal customers whose card or account details changed. That is why the definition matters: if both are reported as one number, a rise in payment failures reads as a product or value problem and sends effort to the wrong team. For the decision itself, Grove would name one decider, likely whoever owns the reported number, consult the data team and billing, give finance a veto because the figure goes upward, and tell the leadership team once it is set."
+ },
+ "cuts": [
+  {
+   "title": "The Profit Whale: The Chart Every CFO Should Build | Jason Cohen",
+   "source": "Run the Numbers",
+   "reason": "Queued: plotting cumulative profit by customer fits value-weighted acquisition well, but 63 minutes does not fit a short chapter-day edition."
+  },
+  {
+   "title": "340. Rethinks: Why the Conversations You Avoid Cost You the Most",
+   "source": "Think Fast Talk Smart",
+   "reason": "An extended replay of an older episode on difficult conversations, solid but general for a senior operator."
+  },
+  {
+   "title": "Duration Risk: Where is your company most exposed?",
+   "source": "Mostly Metrics",
+   "reason": "Still queued for a desk slot; chapter days leave room for one listen only while editions are kept short."
+  },
+  {
+   "title": "E301 | Smarter Dunning: How Data and Intent Change Payment Recovery with Charles Rosenblatt of Butter Payments",
+   "source": "Churn FM",
+   "reason": "Same topic as today's listen but older and also vendor-led; today's episode covers the mechanics more directly."
+  },
+  {
+   "title": "How Elon Musk Solves Problems | Jon McNeill",
+   "source": "The Knowledge Project",
+   "reason": "An operator interview with career value, but 106 minutes and the chapter already carries the career share."
+  },
+  {
+   "title": "Hubris, Humility, and the AI Revolution (with Walter Isaacson)",
+   "source": "EconTalk",
+   "reason": "Still a personal-track candidate for the weekend, too long for a short weekday edition."
+  }
+ ]
+}
