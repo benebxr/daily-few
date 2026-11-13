@@ -1,0 +1,87 @@
+{
+ "date": "2026-11-15",
+ "thesis": "Target margin dollars, and see how a city moves its trash.",
+ "scanned": 182,
+ "sourcesScanned": 43,
+ "picks": [
+  {
+   "id": "1115-margin",
+   "title": "Scary Margin Math",
+   "source": "Impact Pricing",
+   "author": "Mark Stiving",
+   "url": "https://impactpricing.substack.com/p/scary-margin-math",
+   "published": "2026-11-02",
+   "shelf": "slow",
+   "mode": "read",
+   "minutes": 2,
+   "track": "pro",
+   "horizon": "career",
+   "domain": "Unit economics and P&L fluency",
+   "score": 62,
+   "why": "A two-minute piece with one piece of arithmetic every general manager should be able to do in their head: when a feature adds real variable cost per use, keeping your old contribution margin percentage can force an absurd price, so you should target contribution margin dollars. It is the bridge from unit economics to the P&L that boards ask about when software starts to carry usage costs.",
+   "lookFor": [
+    "Which of your products or features now carries a variable cost per use, and do you know it per customer?",
+    "Would your board react to a lower margin percentage with higher margin dollars as good news or bad news, and how would you frame it?"
+   ],
+   "gist": "Contribution margin counts only variable costs, which for classic software were small, so 85 to 95 percent was normal. Usage costs change that: if variable cost rises from 5 to 25 on 100 of revenue, getting back to 95 percent would need a price of 500. The author argues for targeting contribution margin dollars instead, because a business earning 75 on 100 can still be a very good business."
+  },
+  {
+   "id": "1115-trash",
+   "title": "This Is How New York City Takes Out Its Trash",
+   "source": "Odd Lots",
+   "author": "Joe Weisenthal and Tracy Alloway with Joshua Goodman",
+   "url": "https://omny.fm/shows/odd-lots/this-is-how-new-york-city-takes-out-its-trash",
+   "spotifyUrl": "https://open.spotify.com/episode/314E9oAUfN03OcQRa0CAWW",
+   "published": "2026-11-09",
+   "shelf": "slow",
+   "mode": "listen",
+   "minutes": 53,
+   "track": "personal",
+   "domain": "How things work: city systems",
+   "score": 65,
+   "why": "A Sunday listen on the logistics and economics of a service most people never think about: a city that collects about 24 million pounds of waste a day, for free and without limits, and has to rebuild how it does so. The guest speaks for the city's sanitation department, so expect its own view of its programmes.",
+   "lookFor": [
+    "Why does the guest say this service escaped market pricing, and what would change if households paid per bag?",
+    "What problem does moving waste into containers solve, and what does it cost in street space?",
+    "How did the department get new trucks built in under 18 months, and what made that possible?"
+   ],
+   "gist": "Joshua Goodman, a deputy commissioner at the New York City sanitation department, describes trash collection as one of the last city services run without market logic: free, unlimited, with no opt-in or means test. He explains how about 24 million pounds of waste a day are sorted and moved, why the city produces less waste than people assume, the move to containerised collection, and side-loading trucks developed in under 18 months. The episode ends with a defence of recycling."
+  }
+ ],
+ "practice": {
+  "id": "1115-p",
+  "type": "Mental math",
+  "horizon": "career",
+  "minutes": 10,
+  "title": "Margin percent or margin dollars?",
+  "prompt": "In your head or on paper, 10 minutes. A product sells at 100 per customer with variable cost of 5, so contribution margin is 95. A new feature adds 20 of variable cost per customer. Step 1: what price restores a 95 percent margin? Step 2: what price keeps contribution at 95 per customer, and what margin percentage is that? Step 3: you have 100 customers. Compare total contribution (a) before the feature, (b) with the feature at a price of 100, (c) with the feature at the price from step 2 if you lose 10 percent of customers. Step 4: at the step 2 price, how many customers could you lose before (c) falls below (b)?",
+  "reveal": "Step 1: 25 must be 5 percent of the price, so 25 / 0.05 = 500. Step 2: price 120 keeps 95 per customer, a margin of 95 / 120, about 79 percent. Step 3: (a) 100 x 95 = 9,500; (b) 100 x 75 = 7,500; (c) 90 x 95 = 8,550. Step 4: (c) equals (b) when 95 x n = 7,500, so n is about 79; you could lose about 21 customers, a fifth of the base, before the price rise is worse than absorbing the cost. The lower percentage at 120 is the better business than the higher-looking one nobody would buy at 500."
+ },
+ "cuts": [
+  {
+   "title": "Why Your Customers Buy",
+   "source": "Impact Pricing",
+   "reason": "A useful test of whether messaging names revenue, cost and risk outcomes, but it ends in a pitch for the author's own tool."
+  },
+  {
+   "title": "Hubris, Humility, and the AI Revolution (with Walter Isaacson)",
+   "source": "EconTalk",
+   "reason": "AI commentary at 53 minutes; this weekend's personal slot goes to the trash logistics episode."
+  },
+  {
+   "title": "Chasing Demand in Early-Stage Venture at Felicis - Aydin Senkut (EP.526)",
+   "source": "Capital Allocators",
+   "reason": "Venture sourcing practice with little for an operator or a personal investor."
+  },
+  {
+   "title": "Affirm: The Internet's American Express - [Business Breakdowns, EP.249]",
+   "source": "Business Breakdowns",
+   "reason": "A 72-minute company breakdown in consumer credit, far from the current problems."
+  },
+  {
+   "title": "State of the tech job market: late 2026",
+   "source": "Lenny's Newsletter",
+   "reason": "Hiring market data that will date within weeks."
+  }
+ ]
+}

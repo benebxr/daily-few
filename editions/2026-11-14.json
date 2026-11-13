@@ -1,0 +1,94 @@
+{
+ "date": "2026-11-14",
+ "thesis": "Rank customers by profit, and judge work by whether it is good.",
+ "scanned": 182,
+ "sourcesScanned": 43,
+ "picks": [
+  {
+   "id": "1114-whale",
+   "title": "The Profit Whale: The Chart Every CFO Should Build | Jason Cohen",
+   "source": "Run the Numbers",
+   "author": "CJ Gustafson with Jason Cohen",
+   "url": "https://creators.spotify.com/pod/profile/cjgustafson222/episodes/The-Profit-Whale-The-Chart-Every-CFO-Should-Build--Jason-Cohen-e3s7koj",
+   "spotifyUrl": "https://open.spotify.com/episode/0AYxbmfUu4CwWPLsofU0bn",
+   "published": "2026-11-12",
+   "shelf": "slow",
+   "mode": "listen",
+   "minutes": 63,
+   "track": "pro",
+   "horizon": "now",
+   "domain": "Value-weighted acquisition and customer profitability",
+   "score": 71,
+   "why": "When you rank customers by the profit they actually leave behind, a small group usually carries the business and a tail costs you money, and the same lens shows which acquisition channels bring the customers that end up in the profitable group. Jason Cohen, who founded two software companies and wrote a book on hidden profit drivers, explains the exercise and why fixing a problem customer often beats firing one. Caveat: this summary rests on the show notes, and the episode carries several sponsor reads.",
+   "lookFor": [
+    "How does he define profit per customer, and which costs (support, onboarding, discounts, payment failures) would you have to allocate to build the chart from your own data?",
+    "When does he say fixing a problem customer beats firing one, and what does fixing look like in a self-serve business?",
+    "Why does he say cancellations cap growth, and how would you show that cap to a board?"
+   ],
+   "gist": "CJ Gustafson talks with Jason Cohen, founder of WP Engine and SmartBear and author of Hidden Multipliers, about the profit whale: an exercise that ranks customers by profit and shows how few of them drive most of it. They discuss why fixing a problem customer often beats firing them, why selling revenue growth to a buyer beats selling cost savings, and why cancellations put a ceiling on how far a subscription business can grow."
+  },
+  {
+   "id": "1114-defensible",
+   "title": "Defensible, but not good",
+   "source": "Wes Kao's Newsletter",
+   "author": "Wes Kao",
+   "url": "https://newsletter.weskao.com/p/defensible-but-not-good",
+   "published": "2026-07-22",
+   "shelf": "evergreen",
+   "mode": "read",
+   "minutes": 4,
+   "track": "pro",
+   "horizon": "year",
+   "domain": "Holding a quality bar through leaders",
+   "score": 63,
+   "why": "A short essay with one question you can hand to your leaders: this is defensible, but is it good? It names a pattern you see in teams that report diligently and still do not move a number: work that meets every stated requirement, waits for data before using judgment, and settles for a decent idea when budget and headcount allow only a few bets. Caveat: the last third of the post is a course promotion.",
+   "lookFor": [
+    "Which recurring report or ritual in your team is defensible but no longer good, and who would have to say so?",
+    "Where does your team ask for more data when the answer is visible with judgment, and what does that cost per quarter?",
+    "How would you raise the bar from decent to good without taking the work back yourself?"
+   ],
+   "gist": "The author distinguishes work that looks useful from work that is useful: it can meet every requirement, look polished and still miss the point. She argues that teams wait for dramatic signals before asking whether something is wrong, that small teams cannot test everything and must use taste, and that decent ideas do not deserve scarce budget when only a few bets are possible. Her test is to ask of any deliverable whether it is merely defensible or actually good."
+  }
+ ],
+ "practice": {
+  "id": "1114-p",
+  "type": "Estimate",
+  "horizon": "now",
+  "minutes": 12,
+  "title": "Draw your profit whale on paper",
+  "prompt": "Pen and paper, 12 minutes. You run a self-serve software business with 1,000 customers. Ranked by yearly profit after cost to serve, the top 200 earn 900 each, the middle 600 earn 100 each, and the bottom 200 lose 300 each. Step 1 (3 min): compute total profit, and the cumulative profit after the top 800 customers as a share of the total. Step 2 (3 min): sketch the curve: cumulative profit on the y-axis, customers ranked from most to least profitable on the x-axis. Mark the peak. Step 3 (3 min): estimate the effect on total profit of bringing the bottom 200 to break-even, and compare it with firing them. Step 4 (3 min): suppose most of the bottom 200 came through one acquisition channel. Write down what that does to the value of a first purchase from that channel compared with the others, and what you would need to measure to know.",
+  "reveal": "Total profit is 200 x 900 + 600 x 100 - 200 x 300 = 180,000 + 60,000 - 60,000 = 180,000. After the top 800 the curve peaks at 240,000, which is 133 percent of the total, so the last 200 customers give back a third of it. Bringing them to break-even lifts profit to 240,000, the same as firing them on paper, but firing also loses their revenue, any word of mouth and the option to upgrade them later, which is why Cohen prefers fixing where the cause is cost to serve or a wrong plan. If one channel feeds most of the loss-making tail, a first purchase from it is worth less than its count suggests; to know, tag every customer with its acquisition channel and compare profit per customer after twelve months, not first purchases."
+ },
+ "cuts": [
+  {
+   "title": "EP309 | Your AI Employee Needs a Job Description",
+   "source": "Churn FM",
+   "reason": "The guest sells AI employees, and the lessons on narrow roles and short pilots stay at a level you already work beyond."
+  },
+  {
+   "title": "217. Nils Vold, Partner, Verdane - The next SaaS crisis isn't the agents, it's pricing pressure",
+   "source": "SaaSiest Podcast",
+   "reason": "On point for pricing, but neither its duration nor a Spotify link could be verified in this run."
+  },
+  {
+   "title": "Megalosaurus",
+   "source": "In Our Time",
+   "reason": "Queued science history, but the BBC page could not be fetched in this run, so it could not be verified."
+  },
+  {
+   "title": "Duration Risk: Where is your company most exposed?",
+   "source": "Mostly Metrics",
+   "reason": "Dropped from the queue: the page could not be fetched or verified in this run."
+  },
+  {
+   "title": "Why a $2 Billion Law Firm Suddenly Collapsed",
+   "source": "Odd Lots",
+   "reason": "A business failure story that is mostly news this week."
+  },
+  {
+   "title": "How Elon Musk Solves Problems | Jon McNeill",
+   "source": "The Knowledge Project",
+   "reason": "Still 106 minutes, too long while editions are kept short."
+  }
+ ]
+}

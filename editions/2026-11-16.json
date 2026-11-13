@@ -1,0 +1,95 @@
+{
+ "date": "2026-11-16",
+ "thesis": "Plan from the gap, and position against what buyers really use.",
+ "scanned": 182,
+ "sourcesScanned": 43,
+ "picks": [
+  {
+   "id": "1116-hom-06",
+   "title": "High Output Management, chapter 6: Planning: Today's Actions for Tomorrow's Output",
+   "source": "Andrew S. Grove",
+   "author": "Andrew S. Grove",
+   "url": "https://books.apple.com/de/book/high-output-management/id1046431786",
+   "listenUrl": "https://books.apple.com/de/audiobook/high-output-management-unabridged/id1560761735",
+   "published": "1983",
+   "shelf": "evergreen",
+   "holds": "The planning loop of projected demand, current output and the gap between them still describes how operating plans are built, and the chapter's management by objectives is the direct ancestor of the objectives and key results many companies use today. What has aged is the long planning cycle of a manufacturing company; in a software business the same loop runs monthly or weekly, and key results are now often read from live dashboards instead of quarterly reviews.",
+   "mode": "read",
+   "minutes": 25,
+   "track": "pro",
+   "horizon": "career",
+   "series": {
+    "id": "hom",
+    "n": 6,
+    "of": 16
+   },
+   "domain": "Leverage through leaders",
+   "score": 78,
+   "why": "Grove reduces planning to three questions: what will the environment demand of you, what will you produce if you keep doing what you do now, and what must you do differently to close the gap. His point is that the output of planning is the set of actions you take today, and that a plan which does not change today's actions is a document. The chapter also introduces his version of objectives and key results, few in number and measurable, which is how a revenue leader hands goals to managers without managing their work.",
+   "lookFor": [
+    "For your next quarter, can you state the projected demand, the output of current plans and the gap in one line each?",
+    "Which actions this week exist only because of the plan, and which would you be doing anyway?",
+    "Grove asks for few objectives with key results you can check; how many does each of your direct reports hold today?"
+   ]
+  },
+  {
+   "id": "1116-positioning",
+   "title": "EP308 | AI Makes Building Easier. Differentiation Still Takes Work.",
+   "source": "Churn FM",
+   "author": "Andrew Michael with April Dunford",
+   "url": "https://www.churn.fm/episode/ai-makes-building-easier-differentiation-still-takes-work",
+   "spotifyUrl": "https://open.spotify.com/episode/17XoefWvFoFoR7zqM6KjDJ",
+   "published": "2026-11-04",
+   "shelf": "slow",
+   "mode": "listen",
+   "minutes": 45,
+   "track": "pro",
+   "horizon": "now",
+   "domain": "Positioning and retention",
+   "score": 70,
+   "why": "April Dunford, the author of the standard book on positioning, argues that faster building makes features easier to copy and differentiation harder, and that positioning starts with what customers would do if you did not exist. Useful when your team disagrees about who you really compete with, or when marketing and sales tell different stories and churn follows. Caveat: the advice on customer advisory boards assumes a sales-led business with named accounts.",
+   "lookFor": [
+    "If you asked five of your leaders what a customer would do without you, would you get five answers, and which one is true?",
+    "How would you run win analysis in the first onboarding call, and who in your team would own it?",
+    "Where does your sales story differ from your marketing story, and could that gap show up as early churn?"
+   ],
+   "gist": "Dunford says AI shortens build cycles, so another feature rarely differentiates; a different approach to the customer's problem does. She recommends ongoing customer conversations and systematic win analysis, which is easy to do in the first support or onboarding call, and the host adds asking renewed customers what almost stopped them. She warns that if sales cannot tell the positioning story, reps invent one, which creates lost deals and churn, and that teams often skip the first step of positioning: agreeing on the real alternatives customers compare you with."
+  }
+ ],
+ "practice": {
+  "id": "1116-p",
+  "type": "Teach-back",
+  "horizon": "year",
+  "minutes": 12,
+  "title": "Teach Grove's planning loop to a new leader",
+  "prompt": "Pen and paper, 12 minutes. A newly promoted leader in your team has to build next quarter's plan for their area. Step 1 (4 min): write the three questions of Grove's planning loop in your own words, with one example answer each from a revenue team: projected demand, output of current plans, the gap. Step 2 (4 min): write the instruction you would give them on turning the gap into two or three objectives with key results they can check without you. Step 3 (4 min): add one question from today's listen they must answer first: what would a customer do if your product did not exist, and how does that change the projected demand?",
+  "reveal": "A good teach-back fits on one card. Demand: what customers and the business will need from this area next quarter. Current output: what the team delivers if nothing changes. Gap: the difference, stated in the same unit. The plan is the list of actions that start this week to close the gap; anything that does not change this week is not part of it. Objectives say where to go, key results say how you will know you got there, and two or three are enough. Dunford's question sharpens the demand estimate: if the real alternative is a spreadsheet, the gap is about effort and habit; if it is a rival product, it is about switching. The leader owns the plan; your job is to check that each key result is measurable and that the gap is honest."
+ },
+ "cuts": [
+  {
+   "title": "Signed, Sealed... Now What? Turning New Customers Into Long-Term Growth",
+   "source": "Churn FM",
+   "reason": "Sound on handoffs and win-back, but general customer success advice below the bar for an advanced operator."
+  },
+  {
+   "title": "Why Your Customers Buy",
+   "source": "Impact Pricing",
+   "reason": "Chapter days allow one listen and one short read at most, and this one ends in a pitch for the author's tool."
+  },
+  {
+   "title": "Before you delegate, ask yourself these 6 questions",
+   "source": "Wes Kao's Newsletter",
+   "reason": "On point for delegation, but the chapter already carries the career share on weekdays."
+  },
+  {
+   "title": "SaaStr 886: Per-Seat Pricing Is Dead. Why Speed is the Moat",
+   "source": "The Official SaaStr Podcast",
+   "reason": "Still 68 minutes and leans on this month's vendor price moves."
+  },
+  {
+   "title": "340. Rethinks: Why the Conversations You Avoid Cost You the Most",
+   "source": "Think Fast Talk Smart",
+   "reason": "A replay on difficult conversations, general for a senior operator."
+  }
+ ]
+}
