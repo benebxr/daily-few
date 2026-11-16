@@ -1,0 +1,95 @@
+{
+ "date": "2026-11-17",
+ "thesis": "Decide what to centralise, and give every agent one job.",
+ "scanned": 126,
+ "sourcesScanned": 36,
+ "picks": [
+  {
+   "id": "1117-hom-07",
+   "title": "High Output Management, chapter 7: The Breakfast Factory Goes National",
+   "source": "Andrew S. Grove",
+   "author": "Andrew S. Grove",
+   "url": "https://books.apple.com/de/book/high-output-management/id1046431786",
+   "listenUrl": "https://books.apple.com/de/audiobook/high-output-management-unabridged/id1560761735",
+   "published": "1983",
+   "shelf": "evergreen",
+   "holds": "The trade-off Grove sets up here, between groups organised around a mission or market and groups organised around a shared function, still decides how revenue teams are cut: pods per segment versus central teams for operations, enablement or onboarding. What has aged is the physical example of a restaurant chain and the slow coordination it assumes; software and shared data make central functions cheaper to run today, which shifts the balance without removing it.",
+   "mode": "read",
+   "minutes": 25,
+   "track": "pro",
+   "horizon": "career",
+   "series": {
+    "id": "hom",
+    "n": 7,
+    "of": 16
+   },
+   "domain": "Leverage through leaders",
+   "score": 78,
+   "why": "Grove grows his breakfast factory into a national chain to ask which work should sit with each local unit and which should be pooled centrally. Mission-oriented groups respond fast to their own market; functional groups give scale, shared expertise and flexible allocation, but have to serve many internal customers at once. For a revenue leader this is the question behind every team design choice, and it sets up his case for hybrid organisations in the next chapter.",
+   "lookFor": [
+    "Which of your teams are organised by mission and which by function, and was that ever a deliberate choice?",
+    "Where does a central team of yours serve several internal customers, and how does it decide whose request comes first?",
+    "What would you gain and lose if you pooled one embedded role into a central function before your next demand peak?"
+   ]
+  },
+  {
+   "id": "1117-aijobs",
+   "title": "EP309 | Your AI Employee Needs a Job Description",
+   "source": "Churn FM",
+   "author": "Andrew Michael with Gabe Larsen",
+   "url": "https://www.churn.fm/episode/your-ai-employee-needs-a-job-description",
+   "spotifyUrl": "https://open.spotify.com/episode/4GYShO6fXXjdg7M3nlf8PR",
+   "published": "2026-11-11",
+   "shelf": "fast",
+   "mode": "listen",
+   "minutes": 34,
+   "track": "pro",
+   "horizon": "year",
+   "domain": "Agentic operating model",
+   "score": 66,
+   "why": "A revenue leader who manages six AI agents reports which jobs worked (inbound qualification and booking) and which did not (a rep for larger, relationship-driven deals; one agent for the whole customer success role). The durable lesson is organisational: scope an agent like a job, give it a weekly review, and judge it on cost saved or revenue made. Caveat: the guest's company builds AI employees, so read the wins as a seller's account; a search for newer evidence found the same inbound-first pattern and no independent study.",
+   "lookFor": [
+    "Which of your roles is too broad for one agent, and into which three or four jobs would you split it?",
+    "Who in your team would run the weekly review of an agent, and what one number would they read?",
+    "Where would a month-to-month pilot tell you more than a demo, and what result would make you let the agent go?"
+   ],
+   "gist": "Larsen says inbound lead qualification and meeting booking worked well as AI jobs, while an AI rep for larger, relationship-driven deals and cold outbound struggled. Automating an entire customer success role was too broad, so he split it into onboarding, support, engagement and admin jobs. He runs weekly one-to-ones with each agent to review results and refine instructions, asks for measurable savings or revenue over impressive demos, and prefers short pilots to annual contracts. He closes by arguing that a new tool will not fix a process you have not mapped."
+  }
+ ],
+ "practice": {
+  "id": "1117-p",
+  "type": "Argument",
+  "horizon": "now",
+  "minutes": 10,
+  "title": "Central pool or embedded: where peak capacity sits",
+  "prompt": "Pen and paper, 10 minutes. Demand for onboarding will spike in a few weeks. A leader proposes to pull onboarding out of the sales teams into one central pool and to add an AI agent that takes over the whole onboarding call. Step 1 (3 min): write the strongest case for the central pool in Grove's terms: leverage, shared expertise, flexible allocation. Step 2 (3 min): write the strongest case for keeping onboarding embedded with each team: responsiveness, ownership of the outcome, one face to the customer. Step 3 (4 min): decide, state the one condition that would make you reverse the decision, and rewrite the agent's scope as one narrow job with one measure and a short pilot.",
+  "reveal": "A good answer picks one side and names its cost. A central pool is the functional choice: it absorbs a spike because capacity moves to wherever the queue is, and it lets the best onboarders set the standard; the price is that it serves many internal customers and someone has to rule on priority every day. Embedded onboarding keeps the person who sold close to the person who starts, which protects conversion, but it strands capacity in teams that are quiet while others overflow. Many leaders land on a hybrid: embedded by default, a central overflow pool that opens on a measured trigger such as days to the next free slot. The agent should get one job, for example preparing and confirming the first setup step before the call, judged on one number such as share of calls that start with that step done, on a month-to-month pilot. Handing it the whole call repeats the mistake from the listen."
+ },
+ "cuts": [
+  {
+   "title": "The “best practices” corrupting business, with Eric Ries and Krista Tippett",
+   "source": "Masters of Scale",
+   "reason": "Queued: a strong career piece on governance and shareholder primacy, held back because the chapter carries the career share on weekdays."
+  },
+  {
+   "title": "How Elon Musk Solves Problems | Jon McNeill",
+   "source": "The Knowledge Project",
+   "reason": "106 minutes, over the budget of a shortened edition."
+  },
+  {
+   "title": "How to negotiate effectively with Wendy Chow",
+   "source": "Worklife with Molly Graham",
+   "reason": "Solid on negotiation basics, general for a senior operator."
+  },
+  {
+   "title": "Elon’s Tesla and SpaceX Merger | A $3.5 Trillion Breakdown",
+   "source": "Run the Numbers",
+   "reason": "Conglomerate logic of one founder, news-driven and far from a revenue leader's decisions."
+  },
+  {
+   "title": "341. Think Outside the Bot: Communicate More Effectively With AI",
+   "source": "Think Fast Talk Smart",
+   "reason": "Prompting advice at a beginner level."
+  }
+ ]
+}
