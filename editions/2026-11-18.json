@@ -1,0 +1,95 @@
+{
+ "date": "2026-11-18",
+ "thesis": "Mix pooled and mission teams, and have the talk you keep avoiding.",
+ "scanned": 95,
+ "sourcesScanned": 42,
+ "picks": [
+  {
+   "id": "1118-hom-08",
+   "title": "High Output Management, chapter 8: Hybrid Organizations",
+   "source": "Andrew S. Grove",
+   "author": "Andrew S. Grove",
+   "url": "https://books.apple.com/de/book/high-output-management/id1046431786",
+   "listenUrl": "https://books.apple.com/de/audiobook/high-output-management-unabridged/id1560761735",
+   "published": "1983",
+   "shelf": "evergreen",
+   "holds": "Grove's claim that every organisation of some size ends up as a mix of mission-oriented units and pooled functions still describes how revenue teams are built: segment or product teams on one side, central operations, enablement, marketing or onboarding on the other. What has aged are the 1980s divisional examples and the cost of coordination they assume; shared data, tooling and now agents make some central work cheaper, which moves the line between pooled and embedded without removing the tension.",
+   "mode": "read",
+   "minutes": 25,
+   "track": "pro",
+   "horizon": "career",
+   "series": {
+    "id": "hom",
+    "n": 8,
+    "of": 16
+   },
+   "domain": "Leverage through leaders",
+   "score": 78,
+   "why": "Yesterday's chapter set up the choice between mission-oriented and functional groups; here Grove argues you never get to choose one cleanly and that a growing company becomes a hybrid of both. The work of the leader shifts from picking a structure to running the friction between units that want responsiveness and functions that want leverage. For a revenue leader who wants to manage through managers, this is the chapter that explains why the same escalations keep landing on your desk.",
+   "lookFor": [
+    "Which of your central teams serves several internal customers, and who decides whose request comes first when they collide?",
+    "Where does the conflict between a team and a pooled function reach you, and what rule or forum would settle it one level below you?",
+    "Which function would you pool or split if you designed the organisation today, and what would that cost the teams that lose control of it?"
+   ]
+  },
+  {
+   "id": "1118-avoid",
+   "title": "340. Rethinks: Why the Conversations You Avoid Cost You the Most",
+   "source": "Think Fast Talk Smart",
+   "author": "Matt Abrahams with Jenn Wynn",
+   "url": "https://www.fastersmarter.io/340-rethinks-why-the-conversations-you-avoid-cost-you-the-most/",
+   "spotifyUrl": "https://open.spotify.com/episode/3IvzsFhwwH77YEqKkWjaRL",
+   "published": "2026-11-12",
+   "shelf": "evergreen",
+   "mode": "listen",
+   "minutes": 34,
+   "track": "pro",
+   "horizon": "now",
+   "domain": "Accountability with senior direct reports",
+   "score": 67,
+   "why": "A compact method for the conversation you have postponed with a senior report or your own boss: regulate yourself first, ask before you advocate, describe behaviour and its impact, and turn the issue into a shared problem. The parts worth your time are the two-thirds listening rule, the intention contrast and the advice on giving feedback upward. Caveats: this is a rerun of an August 2025 episode, and a search found no independent study behind the frameworks it borrows from Crucial Conversations; treat it as practitioner craft.",
+   "lookFor": [
+    "Which conversation with a senior report have you postponed, and what does the delay cost each week it waits?",
+    "How would you describe the behaviour you want changed so that it is observable and leaves character out of it?",
+    "What would you ask first, before you state your view, to find out how the other person sees the same situation?"
+   ],
+   "gist": "Wynn argues that difficult conversations are hard because of our emotional reactivity more than their topic, and offers a sequence of self-awareness, a pause to regulate, and a reframe from threat to learning. She calls the choice between honesty and the relationship a false one and suggests spending about two-thirds of the conversation on questions and paraphrasing and one-third on your own view. For feedback to someone more senior she recommends tying it to shared goals, describing observable behaviour and its impact, and solving the problem together. She closes with practice on low-stakes conversations first and an exercise to name the conversation you are avoiding and take one concrete step toward it."
+  }
+ ],
+ "practice": {
+  "id": "1118-p",
+  "type": "First principles",
+  "horizon": "year",
+  "minutes": 12,
+  "title": "Settle the queue one level below you",
+  "prompt": "Pen and paper, 12 minutes. You run three segment sales teams and one central operations team that serves all three. The central team's queue is always full, and two team leads escalate to you every week to move their requests up. Step 1 (4 min): from first principles, write what each side is optimising for and why the conflict will not go away by itself. Step 2 (5 min): write the three things that must be true for priorities to be set without you: a rule, a forum and an owner. Step 3 (3 min): write the first three sentences of the conversation with the lead who escalates most, using an intention contrast and one open question.",
+  "reveal": "The segment teams optimise for speed on their own customers; the central team optimises for leverage across all of them, so in Grove's terms the friction is built into a hybrid and a better person in the middle will not remove it. What settles it is mechanism. A rule: each team gets an agreed share of central capacity per month plus a small shared reserve for urgent work. A forum: one short weekly priority meeting where the leads and the central team lead trade inside that rule. An owner: the central team lead decides within the rule, and only a change to the rule itself comes to you. The opening could be: 'I want your requests decided faster than they are today. I am not questioning your read of what your team needs. How do the escalations look from your side, and what would make the weekly priority meeting worth trusting?' Then listen for two-thirds of the time before you propose the rule."
+ },
+ "cuts": [
+  {
+   "title": "Who Will Make a Great Leader? There's a Test for That",
+   "source": "HBR IdeaCast",
+   "reason": "Queued: strong evidence on testing management skill before promoting, held back because this edition owed a now pick."
+  },
+  {
+   "title": "The “best practices” corrupting business, with Eric Ries and Krista Tippett",
+   "source": "Masters of Scale",
+   "reason": "Queued: still held because the chapter carries the career share on weekdays."
+  },
+  {
+   "title": "Does your job title even matter? with Gokul Rajaram",
+   "source": "Worklife with Molly Graham",
+   "reason": "52 minutes, over the budget of a shortened edition."
+  },
+  {
+   "title": "SaaStr 886: Per-Seat Pricing Is Dead. Why Speed is the Moat l The Agents #018 with Ulrik Lehrskov-Schmidt",
+   "source": "The Official SaaStr Podcast",
+   "reason": "68 minutes of fast-moving claims about agent pricing, over budget."
+  },
+  {
+   "title": "Token Series Part 4 | Pricing in the Age of Agentic Commerce",
+   "source": "Run the Numbers",
+   "reason": "Speculative pricing for agent-to-agent commerce, far from today's decisions."
+  }
+ ]
+}
