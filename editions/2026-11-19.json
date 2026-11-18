@@ -1,0 +1,95 @@
+{
+ "date": "2026-11-19",
+ "thesis": "Run what two bosses share, and promote by tested skill.",
+ "scanned": 98,
+ "sourcesScanned": 60,
+ "picks": [
+  {
+   "id": "1119-hom-09",
+   "title": "High Output Management, chapter 9: Dual Reporting",
+   "source": "Andrew S. Grove",
+   "author": "Andrew S. Grove",
+   "url": "https://books.apple.com/de/book/high-output-management/id1046431786",
+   "listenUrl": "https://books.apple.com/de/audiobook/high-output-management-unabridged/id1560761735",
+   "published": "1983",
+   "shelf": "evergreen",
+   "holds": "Grove's point that a hybrid organisation forces some people to answer to two bosses, one for the mission and one for the craft, still describes embedded operations, analytics and partner roles in revenue teams, and his case for peer groups as a form of supervision holds up. What has aged is the corporate setting of plant managers and divisional controllers, and his reliance on a strong shared culture to keep dual reporting from stalling, which is harder to build in remote and fast-growing teams.",
+   "mode": "read",
+   "minutes": 25,
+   "track": "pro",
+   "horizon": "career",
+   "series": {
+    "id": "hom",
+    "n": 9,
+    "of": 16
+   },
+   "domain": "Leverage through leaders",
+   "score": 78,
+   "why": "Yesterday's chapter said a growing company ends up as a hybrid; this one deals with the price of that, people who report to two managers at once, and Grove's argument that this is unavoidable and workable if decisions are pushed into groups of peers with a shared way of working. For a revenue leader who wants to manage through managers, it is the chapter on how to stop every cross-team conflict from rising to the one person both sides report to.",
+   "lookFor": [
+    "Who in your organisation answers to two managers today, formally or in practice, and which of the two wins when they disagree?",
+    "Which group of peers could set a rule together that you currently set alone, and what would they need from you to do it?",
+    "Where does the cost of dual reporting show up for you: slower decisions, duplicated reviews or escalations that should have been settled a level lower?"
+   ]
+  },
+  {
+   "id": "1119-leaders",
+   "title": "Who Will Make a Great Leader? There’s a Test for That.",
+   "source": "HBR IdeaCast",
+   "author": "Alison Beard and Adi Ignatius with David Deming",
+   "url": "https://hbr.org/podcast/2026/11/who-will-make-a-great-leader-theres-a-test-for-that",
+   "spotifyUrl": "https://open.spotify.com/episode/11qRspNLFsucmgeFEkQxIB",
+   "published": "2026-11-17",
+   "shelf": "evergreen",
+   "mode": "listen",
+   "minutes": 29,
+   "track": "pro",
+   "horizon": "year",
+   "domain": "Hiring and developing first-line leaders",
+   "score": 72,
+   "why": "Evidence you can use the next time you choose a team lead: in Deming's experiments the people who most wanted to manage did worse than randomly assigned managers, self-rated people skills predicted nothing, and a direct test of how well someone assigns people to tasks beat both promoting the best individual performer and self-nomination. Caveats: the manager study has now appeared in a top economics journal, but the teamwork result leans partly on an emotion-recognition test whose measurement quality several large studies have questioned, and Deming says the tests capture short-run management skill and leave long-term trust unmeasured.",
+   "lookFor": [
+    "How did you pick your last team lead, and which of the three rules did it resemble: best performer, volunteer or tested skill?",
+    "What short exercise could show you how a candidate assigns people to work before you promote them?",
+    "Which behaviours of good managers in the study, asking questions and drawing others in, could you watch for in your current leads' meetings?"
+   ],
+   "gist": "Deming describes a lab that measures soft skills by randomly assigning people to teams and checking who reliably raises team performance; those differences were unrelated to age, education, gender or IQ but tracked an emotion-recognition test. A separate test of allocative skill, how well someone assigns workers to tasks, predicted manager performance in the lab and in a retail chain, where stores taken over by higher-scoring managers became more profitable. People who self-selected into management performed worse, and simulations showed a direct skill assessment beats both promoting the best individual contributor and self-nomination. In one task, skill at managing people correlated strongly with skill at managing AI agents, and good managers asked more questions and drew others in without necessarily talking more."
+  }
+ ],
+ "practice": {
+  "id": "1119-p",
+  "type": "Estimate",
+  "horizon": "career",
+  "minutes": 12,
+  "title": "What promoting your best seller really costs",
+  "prompt": "Pen and paper, 12 minutes. You must name a team lead for 8 sales reps who each bring in 500k of new annual revenue at plan, and the promoted rep's seat is backfilled by a new hire who reaches 50 percent of plan in year one and 100 percent in year two. Candidate A is your top seller at 800k a year. Candidate B sells at plan, 500k, and did best on a short exercise in assigning people to work. A good lead lifts team output by 10 percent, a poor one lowers it by 5 percent. You judge A at a 50 percent chance of being a good lead and B at 70 percent. Step 1 (5 min): estimate the expected team effect of each candidate and the individual output you lose by promoting each, for year one and year two. Step 2 (4 min): compute the net difference between A and B in each year. Step 3 (3 min): find the chance of A being a good lead at which A would match B, and write what would have to change for A to be the right choice.",
+  "reveal": "Team output at plan is 8 x 500k = 4.0m, so a good lead adds 400k and a poor one costs 200k. Expected team effect: A = 0.5 x 400k - 0.5 x 200k = 100k; B = 0.7 x 400k - 0.3 x 200k = 220k. Lost output in year one: A = 800k - 250k from the new hire = 550k; B = 500k - 250k = 250k. In year two the hire is at plan: A loses 300k, B loses nothing. Net: year one A = 100k - 550k = -450k, B = 220k - 250k = -30k; year two A = 100k - 300k = -200k, B = 220k. B is ahead by 420k in both years. For A to match, A's expected team effect would have to be 320k higher, which means 600k x p - 200k = 420k, so p would need to be above 100 percent: on these numbers A can never catch up. A becomes the right choice only if you keep most of A's own selling (a player-coach role), if the gap between a good and a poor lead is far larger than assumed, or if B's test result is weak evidence. The lesson matches the episode: the output you give up by promoting your best seller is real and certain, while the management upside is a guess unless you test for it."
+ },
+ "cuts": [
+  {
+   "title": "The “best practices” corrupting business, with Eric Ries and Krista Tippett",
+   "source": "Masters of Scale",
+   "reason": "Queued: still held because the chapter carries the career share on weekdays."
+  },
+  {
+   "title": "SaaStr 887: I Was a VC at Founders Fund. Here's What Everyone Gets Wrong with Sam Blond, CEO of Monaco",
+   "source": "The Official SaaStr Podcast",
+   "reason": "Judged by title and length: a founder and investor view, further from a revenue leader's open problems than today's listen."
+  },
+  {
+   "title": "The B2B buyer journey with AI",
+   "source": "Growth Unhinged",
+   "reason": "Not opened: fast-moving survey data, and a shortened edition leaves no desk slot beside the chapter."
+  },
+  {
+   "title": "341. Think Outside the Bot: Communicate More Effectively With AI",
+   "source": "Think Fast Talk Smart",
+   "reason": "Prompting and communication with AI tools, close to what you already know."
+  },
+  {
+   "title": "The Wisdom of Montaigne (with Tyler Cowen)",
+   "source": "EconTalk",
+   "reason": "65 minutes and closer to philosophy than to the personal tracks, too long for a weekday."
+  }
+ ]
+}

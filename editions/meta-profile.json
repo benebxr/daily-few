@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "budget": {
   "total": 120,
   "ears": 90,
@@ -9,12 +9,13 @@
   "Building an annual plan and budget against an investor's stretch target, with a base budget plus a reserve released monthly on explicit conditions",
   "Showing EBITDA before and after a growth investment when revenue and profit expectations conflict",
   "Capping a paid channel that is incremental but expensive after a holdout test, and checking agency attribution against incrementality",
-  "Launching a referral programme fast, with privacy and legal sign-off, and reading its effect without a control group",
+  "Launching a referral programme fast after taking it over mid-flight, with privacy and legal sign-off, and reading its effect without a control group",
   "Rolling out a new commission model, closing habits in onboarding calls and discount governance",
   "Operational readiness for a regulation-driven demand spike: conversion lag versus capacity limits, escalation triggers and a CRM with one record per customer",
-  "Structuring churn by customer-lifecycle moment and separating involuntary churn from the target",
+  "Structuring churn by customer-lifecycle moment, cutting a long list of retention measures to the few that start now, and separating involuntary churn from the target",
   "Steering a team by shipped actions, and holding senior direct reports accountable without taking the work over",
   "North-star metrics, activation definitions, KPI trees rolled out to teams, and kill reviews",
+  "Turning aggregated product data into a press story around a regulatory deadline",
   "Pipeline hygiene and forecast commits in a demo-led B2B sale",
   "Channel portfolio: measurable partner channels, referral and AI search after their tests",
   "A commercial organisation that runs without its leader"
