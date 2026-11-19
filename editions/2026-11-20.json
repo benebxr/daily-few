@@ -1,0 +1,100 @@
+{
+ "date": "2026-11-20",
+ "thesis": "Pick how you control each job, and show profit before and after growth.",
+ "scanned": 112,
+ "sourcesScanned": 64,
+ "picks": [
+  {
+   "id": "1120-hom-10",
+   "title": "High Output Management, chapter 10: Modes of Control",
+   "source": "Andrew S. Grove",
+   "author": "Andrew S. Grove",
+   "url": "https://books.apple.com/de/book/high-output-management/id1046431786",
+   "listenUrl": "https://books.apple.com/de/audiobook/high-output-management-unabridged/id1560761735",
+   "published": "1983",
+   "shelf": "evergreen",
+   "holds": "Grove's three ways to steer behaviour, market forces, contracts and shared values, and his rule that the right one depends on how complex, uncertain and ambiguous the work is, still describe the choice between pricing, targets and culture inside a revenue team. What has aged is the examples from a 1980s chip maker and the optimism that strong shared values alone can hold a fast-growing, partly remote organisation together.",
+   "mode": "read",
+   "minutes": 25,
+   "track": "pro",
+   "horizon": "career",
+   "series": {
+    "id": "hom",
+    "n": 10,
+    "of": 16
+   },
+   "domain": "Leverage through leaders",
+   "score": 78,
+   "why": "This chapter closes Grove's part on organisations: after hybrids and dual reporting he asks how behaviour is steered at all, by market forces, by contractual obligations such as targets and policies, or by cultural values, and argues that the more complex, uncertain and ambiguous a task is, the more you have to rely on shared values. For a revenue leader who wants to manage through managers, it is a test of whether you use targets where trust would work better, or trust where a clear rule is missing.",
+   "lookFor": [
+    "Which parts of your team do you steer by internal prices or budgets, which by targets and rules, and which by shared values, and does each choice fit how ambiguous that work is?",
+    "Where do you add another target or approval step to work that is too ambiguous for a contract to cover?",
+    "What would a new team lead need to absorb before you could steer their area by values instead of by sign-off?"
+   ]
+  },
+  {
+   "id": "1120-ebitda",
+   "title": "A CFO Explains the History of EBITDA",
+   "source": "Run the Numbers",
+   "author": "CJ Gustafson with Ben Hillman",
+   "url": "https://creators.spotify.com/pod/profile/cjgustafson222/episodes/A-CFO-Explains-the-History-of-EBITDA-e3ee8un",
+   "spotifyUrl": "https://open.spotify.com/episode/6kPuHaYPR2lUtqUfGaEcaM",
+   "published": "2026-02-02",
+   "shelf": "slow",
+   "mode": "listen",
+   "minutes": 29,
+   "track": "pro",
+   "horizon": "now",
+   "domain": "Board reporting and growth versus profit",
+   "score": 66,
+   "why": "When investors ask for revenue growth and EBITDA growth at once, you need to know what the metric was built to show and where adjusted versions stop telling the truth, so you can present profit before and after a growth investment without looking like you are hiding cost. Caveats: this summary rests on the show notes and the host's companion essay, the format is an explainer more than a deep dive, and the episode carries several sponsor reads.",
+   "lookFor": [
+    "Which add-backs in your own reporting would an investor treat as real cost, and how would you show them?",
+    "What does EBITDA hide about a growth investment that you should show next to it, such as payback, cash or capex?",
+    "If you present EBITDA before and after a growth budget, which of the two numbers is the one you are asking the board to accept?"
+   ],
+   "gist": "CJ Gustafson traces EBITDA to John Malone at the cable company TCI, who needed a way to show the cash-generating power of a business that reported little profit because of heavy depreciation and interest on the debt that funded its network. Private equity and investment banks adopted it because it showed how much debt a business could carry and gave a quick common basis for valuation, and software companies later took it up to speak the language of capital markets. The episode then turns to how adjusted EBITDA can clarify or distort a business: add-backs, ignored capex and the use of the metric in today's AI-heavy companies."
+  }
+ ],
+ "practice": {
+  "id": "1120-p",
+  "type": "Mental math",
+  "horizon": "now",
+  "minutes": 10,
+  "title": "EBITDA before and after a growth reserve",
+  "prompt": "Pen and paper, 10 minutes, no calculator. A software company grew revenue from 16.0m to a planned 20.0m next year, at 80 percent gross margin, with operating costs of 12.0m before any growth reserve. You propose a growth reserve of 2.5m in marketing, released month by month only if demand is on plan. Assume every 1.0 of reserve that is released brings in 0.4 of revenue within the same year. Step 1 (3 min): EBITDA and EBITDA margin of the base plan, and its Rule of 40 score (growth rate plus EBITDA margin). Step 2 (4 min): the same three numbers if the full reserve is released, and if only 1.5m is released. Step 3 (3 min): write one sentence for the board that states which number moves and why the reserve is still worth it.",
+  "reveal": "Base: gross profit 0.8 x 20.0 = 16.0m, EBITDA 16.0 - 12.0 = 4.0m, margin 20 percent, growth 25 percent, Rule of 40 = 45. Full reserve: revenue 21.0m, gross profit 16.8m, costs 14.5m, EBITDA 2.3m, margin about 11.0 percent, growth 31.25 percent, score about 42. Partial release of 1.5m: revenue 20.6m, gross profit 16.48m, costs 13.5m, EBITDA 2.98m, margin about 14.5 percent, growth 28.75 percent, score about 43. So the reserve costs you 1.7m of EBITDA at full release but only about 3 points of Rule of 40, and the revenue it buys keeps recurring next year while the cost does not, which year-one EBITDA does not show. A board sentence could be: 'EBITDA falls from 4.0m to between 2.3m and 3.0m depending on how much reserve the demand signals release, the growth rate rises by up to 6 points, and the reserve stops automatically if the signals fail.' The decision you need is which number may move, stated before the money is spent."
+ },
+ "cuts": [
+  {
+   "title": "Day One as a CFO: What to Do and What to Leave Alone | Keith Durden",
+   "source": "Run the Numbers",
+   "reason": "Strong on working with a private equity sponsor, but 45 minutes and career horizon, which the chapter already covers on weekdays."
+  },
+  {
+   "title": "What Investors Want to Hear in Board Meetings",
+   "source": "Run the Numbers",
+   "reason": "On point for board preparation, but 53 minutes, over the budget of a shortened edition."
+  },
+  {
+   "title": "Innovation Summit 2026: Block’s Jack Dorsey on Building a Company Around Intelligence",
+   "source": "HBR IdeaCast",
+   "reason": "A CEO view of an AI-native organisation, held back because the chapter carries the career share on weekdays."
+  },
+  {
+   "title": "The “best practices” corrupting business, with Eric Ries and Krista Tippett",
+   "source": "Masters of Scale",
+   "reason": "Queued: still held because the chapter carries the career share on weekdays."
+  },
+  {
+   "title": "How Do We Measure How Blind We Are?",
+   "source": "Mostly Metrics",
+   "reason": "A teaser for a sponsored market map of finance software, with one useful line on accuracy versus confidence."
+  },
+  {
+   "title": "How did Lovable grow so fast?",
+   "source": "Elena's Growth Scoop",
+   "reason": "Judged by subject: one fast-moving company's growth story, likely to date within weeks."
+  }
+ ]
+}
