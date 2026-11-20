@@ -1,0 +1,95 @@
+{
+ "date": "2026-11-23",
+ "thesis": "Coach like a team sport, and keep customers long after the signature.",
+ "scanned": 184,
+ "sourcesScanned": 49,
+ "picks": [
+  {
+   "id": "1123-hom-11",
+   "title": "High Output Management, chapter 11: The Sports Analogy",
+   "source": "Andrew S. Grove",
+   "author": "Andrew S. Grove",
+   "url": "https://books.apple.com/de/book/high-output-management/id1046431786",
+   "listenUrl": "https://books.apple.com/de/audiobook/high-output-management-unabridged/id1560761735",
+   "published": "1983",
+   "shelf": "evergreen",
+   "holds": "Grove's claim that people perform best when they can measure their own output and compete against a standard, with the manager as a coach who sets the bar and takes no credit, still fits sales and success teams that run on scoreboards. What has aged is his reliance on Maslow's hierarchy of needs as the model of motivation, which later research treats as too rigid, and the assumption that competition motivates everyone in the same way.",
+   "mode": "read",
+   "minutes": 25,
+   "track": "pro",
+   "horizon": "career",
+   "series": {
+    "id": "hom",
+    "n": 11,
+    "of": 16
+   },
+   "domain": "Leverage through leaders",
+   "score": 78,
+   "why": "Part IV turns from structure to people: Grove asks why anyone works at the limit of their ability, moves from needs-based motivation and the fear of failure to the athlete who competes against a measure of their own performance, and casts the manager as a coach who keeps score and pushes. For a revenue leader who wants to manage through managers, it is a test of whether your team leads coach toward a standard or only report the number.",
+   "lookFor": [
+    "Where does your team have a clear scoreboard for its own output, and where does it only see results it cannot influence?",
+    "Which of your team leads coaches like a former player who no longer plays, and which still plays the game for their team?",
+    "Which standard do you hold that stretches people without becoming a reason to give up?"
+   ]
+  },
+  {
+   "id": "1123-lifecycle",
+   "title": "EP307 | Signed, Sealed… Now What? Turning New Customers Into Long-Term Growth",
+   "source": "Churn FM",
+   "author": "Andrew Michael with Emilia D'Anzica",
+   "url": "https://www.churn.fm/episode/signed-sealed-now-what-emilia-danzica",
+   "spotifyUrl": "https://open.spotify.com/episode/23v1pY2cN8pZr6ZYfqUNqd",
+   "published": "2026-10-21",
+   "shelf": "slow",
+   "mode": "listen",
+   "minutes": 34,
+   "track": "pro",
+   "horizon": "now",
+   "domain": "Retention across the customer lifecycle",
+   "score": 63,
+   "why": "Retention treated as a chain of moments after the sale: the handoff from sales to success, onboarding, adoption, expansion, renewal and a structured win-back programme for customers who already left. Useful when you order churn by the moment a customer leaves and need an owner for each step. Caveats: the guest is a coach and consultant whose examples are her own clients, the lens leans towards accounts with a named success manager, and the win-back result is a client's claim.",
+   "lookFor": [
+    "Which moment in your customer lifecycle has no owner today, and which number would show it getting worse?",
+    "What does your win-back motion learn from why customers left, and who acts on it?",
+    "What should a success manager be measured on when their job includes expansion?"
+   ],
+   "gist": "Emilia D'Anzica argues that revenue leaders increasingly own the whole lifecycle, from onboarding through adoption, expansion, renewal and win-back. She describes handoffs with a documented record of what was promised and a direct conversation between sales and success, mapping the customer journey as an operating tool, and probing for expansion during onboarding. Win-back starts with listening to why customers left and admitting real gaps, and in one client's account recovered seven figures in its first year. She also covers how usage-based pricing pushes success managers toward expansion targets and more consultative selling."
+  }
+ ],
+ "practice": {
+  "id": "1123-p",
+  "type": "Teach-back",
+  "horizon": "career",
+  "minutes": 10,
+  "title": "Teach a new lead to coach instead of play",
+  "prompt": "Pen and paper, 10 minutes. A newly promoted team lead, formerly your best seller, still takes over the hardest calls, and their team's numbers depend on it. Using today's chapter, prepare a five-minute explanation for them. Step 1 (4 min): write in three sentences what a coach does that a player does not, in Grove's sports analogy. Step 2 (3 min): pick one scoreboard their reps could see every week that measures their own output and that they can influence. Step 3 (3 min): write one behaviour you want them to stop next week, one to start, and how you will know it worked.",
+  "reveal": "A good teach-back is short: 'A coach was usually a strong player and no longer plays. They watch, measure and push each player toward their own best, and take no credit for the win. A player wins the game; a coach wins the season through others.' A useful scoreboard tracks inputs the rep controls that predict results, such as agreed next steps at the end of calls or real setup steps completed with the customer, shown next to the result. Stop: taking over calls in progress. Start: one recorded call review per rep each week with one specific thing to change. You know it works when the team's results hold in weeks the lead joins no calls. Check yourself too: asking a lead to stop playing while you still step into their deals undoes the lesson."
+ },
+ "cuts": [
+  {
+   "title": "The Hierarchy of Metrics BS: How Investors Spot Fake Numbers | Brian Neider",
+   "source": "Run the Numbers",
+   "reason": "Queued again: 56 minutes is more than a chapter day leaves for one listen."
+  },
+  {
+   "title": "Innovation Summit 2026: Block’s Jack Dorsey on Building a Company Around Intelligence",
+   "source": "HBR IdeaCast",
+   "reason": "Career horizon, which the chapter carries on weekdays."
+  },
+  {
+   "title": "E302 | Why 51% of Subscribers Cancel Each Year—and How to Reduce Voluntary Churn",
+   "source": "Churn FM",
+   "reason": "Built on a consumer subscription report, further from software churn than today's pick."
+  },
+  {
+   "title": "342. AMA Masterclass: How to Persuade in the Age of Digital Communication",
+   "source": "Think Fast Talk Smart",
+   "reason": "A short question-and-answer format with thin coverage of each question."
+  },
+  {
+   "title": "Execs Don’t Know Value",
+   "source": "Impact Pricing",
+   "reason": "A short post that repeats the lesson of an earlier pick on what customers value."
+  }
+ ]
+}

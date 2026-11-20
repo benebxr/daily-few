@@ -1,0 +1,89 @@
+{
+ "date": "2026-11-22",
+ "thesis": "Answer the question in the boardroom, and hand off work with context.",
+ "scanned": 184,
+ "sourcesScanned": 49,
+ "picks": [
+  {
+   "id": "1122-board",
+   "title": "What Investors Want to Hear in Board Meetings",
+   "source": "Run the Numbers",
+   "author": "CJ Gustafson with Paul Stansik",
+   "url": "https://creators.spotify.com/pod/show/cjgustafson222/episodes/What-Investors-Want-to-Hear-in-Board-Meetings-e3f2pv0",
+   "spotifyUrl": "https://open.spotify.com/episode/3SLBDFz7CD7WEBBi38NrdX",
+   "published": "2026-02-16",
+   "shelf": "slow",
+   "mode": "listen",
+   "minutes": 53,
+   "track": "pro",
+   "horizon": "now",
+   "domain": "Board reporting and decision framing",
+   "score": 71,
+   "why": "A private equity operating partner who sits on several portfolio boards explains what makes an executive look in command: answer the question asked, name the real problem, do the work, and keep templates and metric definitions stable so the meeting is spent on decisions. Useful in the weeks before any board meeting where you need a decision more than applause. Caveats: this summary rests on the show notes and a third-party transcript summary, it is one investor's view, and the episode carries several sponsor reads.",
+   "lookFor": [
+    "Which metric in your next board deck could start a definition debate, and where is its agreed definition written down?",
+    "Which two or three topics do you want most of your time on, and how will you ask the board for that time at the start?",
+    "Which real problem are you tempted to soften, and what would naming it plainly cost you?"
+   ],
+   "gist": "Paul Stansik of ParkerGale Capital separates Simplifiers, who answer the question, find the problem and do the work, from Complicators, who talk about effort and complexity and try to win arguments with more data. He reads changing slide formats, recycled slides and show-and-tell decks as signs a team is not in command, and recommends a 'data diet': a one-page map of recurring questions to agreed metrics and definitions, settled with the CEO and investors in advance. He suggests opening your section by proposing how to spend the time, most of it on a few key topics, and argues that naming problems builds trust: 'You can't fix a secret.'"
+  },
+  {
+   "id": "1122-delegate",
+   "title": "Before you delegate, ask yourself these 6 questions",
+   "source": "Wes Kao's Newsletter",
+   "author": "Wes Kao",
+   "url": "https://newsletter.weskao.com/p/before-you-delegate-ask-yourself",
+   "published": "2026-08-05",
+   "shelf": "evergreen",
+   "mode": "read",
+   "minutes": 7,
+   "track": "pro",
+   "horizon": "year",
+   "domain": "Delegation and decision rights",
+   "score": 61,
+   "why": "A short checklist for the handoff itself: what the person already knows, why the work matters, what they need, what great looks like, how urgent it really is and what is most likely to go wrong. Run it on the next piece of analysis you would rather do yourself. Caveats: practical more than deep, and the newsletter promotes a paid course.",
+   "lookFor": [
+    "Which task did you take back last month, and which of the six questions did you skip when you handed it off?",
+    "What example of great work could you show instead of describing it?",
+    "Where do you say 'as soon as possible' when you mean a date and an effort level?"
+   ],
+   "gist": "Kao argues that most delegation goes wrong because the person lacks context, and a few minutes of preparation prevents redoing the work. Her six questions: what the person knows and what is new to them, why the work is being done, what tools, access and people they need, what great looks like, what the timeline and priority are, and what is most likely to go wrong and how to prevent it. Sharing the purpose lets the person make judgement calls without close supervision, and the effort spent on preventing failure should rise with the stakes."
+  }
+ ],
+ "practice": {
+  "id": "1122-p",
+  "type": "Argument",
+  "horizon": "now",
+  "minutes": 12,
+  "title": "Ask the board for the time you need",
+  "prompt": "Pen and paper, 12 minutes. You present the commercial section of an upcoming board meeting and have 30 minutes. You need one decision: approval of a growth reserve released monthly on explicit conditions. Two other topics compete: a retention update with a churn figure whose definition is still disputed, and a paid channel that is incremental but above its payback guardrail this month. Step 1 (4 min): write the two opening sentences of your section, proposing how the 30 minutes are split and asking permission. Step 2 (5 min): answer the question you most fear, 'Why should we fund a reserve when your most expensive channel is over its guardrail?', in at most three sentences: answer first, name the problem, say what you are doing. Step 3 (3 min): decide what you do with the disputed churn figure and write the sentence or footnote you will use.",
+  "reveal": "One opening: 'I would like to spend 20 of our 30 minutes on one decision, the growth reserve, and split the rest between the expensive channel and retention. Is that the right use of your time?' For the feared question: 'Because the reserve is only released when demand, cost per order and capacity are on plan, and the expensive channel is capped from next month under the same rule. This month's overspend was a deliberate exception, recorded with its reason and end date. If the cap does not hold, the reserve does not release either.' That answers first, names the problem and states the action. For churn: show no number whose definition is disputed; show the direction and the split by lifecycle moment, add a footnote that one definition is being agreed between finance and data, and commit to the meeting where the number will appear. A Complicator shows all the figures and explains the differences; a Simplifier shows none until they agree."
+ },
+ "cuts": [
+  {
+   "title": "The Hierarchy of Metrics BS: How Investors Spot Fake Numbers | Brian Neider",
+   "source": "Run the Numbers",
+   "reason": "Queued: strong on misleading metrics and add-backs, but 56 minutes next to today's board listen."
+  },
+  {
+   "title": "Day One as a CFO: What to Do and What to Leave Alone | Keith Durden",
+   "source": "Run the Numbers",
+   "reason": "Good on working with a private equity sponsor, but 45 minutes and career horizon, already above its share this week."
+  },
+  {
+   "title": "Token Series Part 4 | Pricing in the Age of Agentic Commerce",
+   "source": "Run the Numbers",
+   "reason": "A short talk with the billing vendor that sponsors the series; its pricing claims are likely to date quickly."
+  },
+  {
+   "title": "The Wisdom of Montaigne (with Tyler Cowen)",
+   "source": "EconTalk",
+   "reason": "A good curiosity listen, but 65 minutes and both slots go to professional picks today."
+  },
+  {
+   "title": "Why a $2 Billion Law Firm Suddenly Collapsed",
+   "source": "Odd Lots",
+   "reason": "An interesting failure story, held because yesterday already carried the personal pick."
+  }
+ ]
+}

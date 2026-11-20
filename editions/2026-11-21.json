@@ -1,0 +1,88 @@
+{
+ "date": "2026-11-21",
+ "thesis": "Give agents autonomy one rung at a time, then meet the first dinosaur.",
+ "scanned": 184,
+ "sourcesScanned": 49,
+ "picks": [
+  {
+   "id": "1121-agents",
+   "title": "Where should agents work in your GTM org?",
+   "source": "The Signal",
+   "author": "Brendan Short with Adam Schoenfeld",
+   "url": "https://www.thesignal.club/p/where-should-agents-work-in-your-gtm-org",
+   "published": "2026-11-19",
+   "shelf": "fast",
+   "mode": "read",
+   "minutes": 8,
+   "track": "pro",
+   "horizon": "year",
+   "domain": "Governing AI agents in a GTM team",
+   "score": 67,
+   "why": "A usable rule for deciding which revenue jobs to hand to agents and how fast: place each job by autonomy and by deployment complexity (one person or many, what a mistake costs, read or write access), then let it climb one rung at a time, and expect a human back in the loop when a workflow proven for one person is rolled out to the team. Caveats: the newsletter is sponsored by several agent vendors, the authors call the framework a first draft and ask readers to challenge it, and there is no outcome data behind it.",
+   "lookFor": [
+    "Which job in your team has cheap mistakes and nobody doing it today, so it could start at high autonomy?",
+    "Which agent workflow that works for one person would need a human check again before it writes to shared systems or feeds a forecast?",
+    "What would an agent have to prove before you let it own an outcome instead of assisting a person?"
+   ],
+   "gist": "Short and Schoenfeld propose a matrix with agent autonomy on one axis and deployment complexity on the other, giving four stages: assists the person, scales the person, scales the team and owns the goal. They argue most jobs should climb these in order, starting from what already works manually, and that the step from one person to the whole team needs renewed human checks because errors then reach shared data and the forecast. Jobs where errors are cheap and nobody does the work today, such as answering low-value inbound leads, can start at high autonomy. Deal execution is worked through as an example, with shorter ladders sketched for paid media, outbound and inbound."
+  },
+  {
+   "id": "1121-megalosaurus",
+   "title": "Megalosaurus",
+   "source": "In Our Time (BBC Radio 4)",
+   "author": "Misha Glenny with Emily Rayfield, Emma Nicholls and Steve Brusatte",
+   "url": "https://www.bbc.co.uk/programmes/m0032fqb",
+   "spotifyUrl": "https://open.spotify.com/episode/0x9DwGFw5f6W8ddSwam2cO",
+   "published": "2026-11-05",
+   "shelf": "evergreen",
+   "mode": "listen",
+   "minutes": 56,
+   "track": "personal",
+   "domain": "Science and how things work",
+   "score": 66,
+   "why": "Science history with a lesson in method: a few bones that matched no living animal made a geologist name something new in 1824, before the word dinosaur existed, and much of what was claimed from that thin evidence has since been revised. Queued since early November because the page could not be verified in earlier runs; the summary rests on the BBC description.",
+   "lookFor": [
+    "What could Buckland fairly infer from a jaw and a few bones, and where did he go beyond the evidence?",
+    "How do palaeontologists today estimate size, posture and behaviour from fragments, and how sure can they be?",
+    "Which ideas of the time made it hard to accept that whole groups of animals had died out?"
+   ],
+   "gist": "Misha Glenny and three palaeontologists tell the story of the first dinosaur to be scientifically named: William Buckland announced Megalosaurus to the Geological Society of London in 1824, from large fossil bones unlike any living animal, almost twenty years before the word dinosaur was coined. The discussion covers the roles of William and Mary Buckland, why the nineteenth century was a period of deep theological and scientific change, how researchers learn about animals that lived more than 160 million years ago, and how the understanding of mid-Jurassic dinosaurs has changed since."
+  }
+ ],
+ "practice": {
+  "id": "1121-p",
+  "type": "First principles",
+  "horizon": "year",
+  "minutes": 10,
+  "title": "Which jobs get an agent first",
+  "prompt": "Pen and paper, 10 minutes. Take five recurring jobs in a revenue team: (a) answering low-value inbound leads that nobody works today, (b) drafting follow-up emails after sales calls for the rep to send, (c) updating CRM fields and deal risk after every call for the whole team, (d) shifting paid media budget between campaigns every day, (e) drafting the monthly forecast summary for leadership. Score each on three questions, 0 to 2 points each: what one mistake costs, how many people or systems one mistake reaches, and whether the agent only reads (0), drafts for a human (1) or acts directly (2). Step 1 (5 min): score all five and rank them from lowest to highest risk. Step 2 (3 min): for the two lowest, say whether a person does the work well today and decide where each starts on the ladder. Step 3 (2 min): for one of the highest, write the result an agent would have to show before you remove the human check.",
+  "reveal": "One reasonable scoring: (a) cost 0, reach 1 (it talks to prospects), acts 2 = 3. (b) cost 1, reach 0 (one rep reviews it), drafts 1 = 2. (c) cost 1, reach 2 (shared data and the forecast), acts 2 = 5. (d) cost 2, reach 1, acts 2 = 5. (e) cost 2, reach 2, drafts 1 = 5. The two lowest are (b) and (a), for different reasons: (b) is work good reps already do, so it starts at 'assists the person' and climbs; (a) is work nobody does, so a fast imperfect answer beats none and it can start near the top, with a weekly sample review. For (c), a fair bar is that over several weeks its updates match a manager's spot check on almost every sampled deal and no forecast change goes unexplained. The lesson: risk comes mostly from reach and write access, less from how hard the task is, and (c) shows the dip, since a workflow proven for one rep needs human checks again once it writes for the whole team."
+ },
+ "cuts": [
+  {
+   "title": "This Is The Problem With AI's Most Bullish Chart",
+   "source": "Odd Lots",
+   "reason": "Good economics, but 70 minutes on a market story that moves weekly, and the weekend listen is already taken."
+  },
+  {
+   "title": "Does your job title even matter? with Gokul Rajaram",
+   "source": "Worklife with Molly Graham",
+   "reason": "Queued: on point for org design, but 52 minutes does not fit a shortened edition."
+  },
+  {
+   "title": "The “best practices” corrupting business, with Eric Ries and Krista Tippett",
+   "source": "Masters of Scale",
+   "reason": "Queued: career picks are already above their share this week because of the book series."
+  },
+  {
+   "title": "Your AI costs are growing. Is your business?",
+   "source": "The McKinsey Podcast",
+   "reason": "Fits the cost side of AI, but a consulting overview with less to act on than today's framework."
+  },
+  {
+   "title": "How did Lovable grow so fast?",
+   "source": "Elena Verna",
+   "reason": "One fast-moving company's growth story, likely to date within weeks."
+  }
+ ]
+}
