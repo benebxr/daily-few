@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-20",
- "window": "cumulative since 16.09.2026; last sweep 20.11.2026",
+ "updated": "2026-11-23",
+ "window": "cumulative since 16.09.2026; last sweep 23.11.2026",
  "sources": [
   {
    "name": "Open web discovery",
-   "scanned": 603,
+   "scanned": 615,
    "picked": 21
   },
   {
@@ -24,12 +24,12 @@
   },
   {
    "name": "Superhuman AI",
-   "scanned": 98,
+   "scanned": 101,
    "picked": 0
   },
   {
    "name": "The Neuron",
-   "scanned": 102,
+   "scanned": 104,
    "picked": 0
   },
   {
@@ -39,12 +39,12 @@
   },
   {
    "name": "Think Fast Talk Smart",
-   "scanned": 82,
-   "picked": 2
+   "scanned": 85,
+   "picked": 3
   },
   {
    "name": "Big Think",
-   "scanned": 22,
+   "scanned": 23,
    "picked": 0
   },
   {
@@ -59,7 +59,7 @@
   },
   {
    "name": "Lenny's Newsletter",
-   "scanned": 36,
+   "scanned": 37,
    "picked": 0
   },
   {
@@ -79,7 +79,7 @@
   },
   {
    "name": "The Anthropic Stack",
-   "scanned": 18,
+   "scanned": 19,
    "picked": 0
   },
   {
@@ -114,22 +114,22 @@
   },
   {
    "name": "Growth Unhinged",
-   "scanned": 24,
+   "scanned": 25,
    "picked": 4
   },
   {
    "name": "The Official SaaStr Podcast",
-   "scanned": 51,
+   "scanned": 52,
    "picked": 4
   },
   {
    "name": "Lenny's Podcast",
-   "scanned": 52,
+   "scanned": 54,
    "picked": 2
   },
   {
    "name": "EconTalk",
-   "scanned": 65,
+   "scanned": 67,
    "picked": 2
   },
   {
@@ -139,7 +139,7 @@
   },
   {
    "name": "Masters of Scale",
-   "scanned": 141,
+   "scanned": 144,
    "picked": 0
   },
   {
@@ -149,7 +149,7 @@
   },
   {
    "name": "Mostly Metrics",
-   "scanned": 47,
+   "scanned": 48,
    "picked": 12
   },
   {
@@ -159,12 +159,12 @@
   },
   {
    "name": "Polymath Investor",
-   "scanned": 9,
+   "scanned": 10,
    "picked": 0
   },
   {
    "name": "Sifted",
-   "scanned": 29,
+   "scanned": 30,
    "picked": 0
   },
   {
@@ -189,7 +189,7 @@
   },
   {
    "name": "Run the Numbers",
-   "scanned": 159,
+   "scanned": 163,
    "picked": 12
   },
   {
@@ -199,12 +199,12 @@
   },
   {
    "name": "In Our Time",
-   "scanned": 95,
+   "scanned": 98,
    "picked": 6
   },
   {
    "name": "Worklife with Molly Graham",
-   "scanned": 50,
+   "scanned": 51,
    "picked": 3
   },
   {
@@ -219,7 +219,7 @@
   },
   {
    "name": "20VC",
-   "scanned": 4,
+   "scanned": 5,
    "picked": 0
   },
   {
@@ -239,12 +239,12 @@
   },
   {
    "name": "Odd Lots",
-   "scanned": 159,
+   "scanned": 165,
    "picked": 6
   },
   {
    "name": "HBR IdeaCast",
-   "scanned": 52,
+   "scanned": 54,
    "picked": 5
   },
   {
@@ -259,27 +259,27 @@
   },
   {
    "name": "Capital Allocators",
-   "scanned": 88,
+   "scanned": 92,
    "picked": 0
   },
   {
    "name": "Sean Carroll's Mindscape",
-   "scanned": 36,
+   "scanned": 38,
    "picked": 0
   },
   {
    "name": "Prof G Markets",
-   "scanned": 223,
+   "scanned": 230,
    "picked": 1
   },
   {
    "name": "Coaching Real Leaders",
-   "scanned": 23,
+   "scanned": 24,
    "picked": 0
   },
   {
    "name": "The McKinsey Podcast",
-   "scanned": 41,
+   "scanned": 42,
    "picked": 0
   },
   {
@@ -294,7 +294,7 @@
   },
   {
    "name": "Hard Fork",
-   "scanned": 46,
+   "scanned": 47,
    "picked": 0
   },
   {
@@ -349,7 +349,7 @@
   },
   {
    "name": "Top Founders",
-   "scanned": 26,
+   "scanned": 27,
    "picked": 0
   },
   {
@@ -364,12 +364,12 @@
   },
   {
    "name": "The Jefferson Fisher Podcast",
-   "scanned": 59,
+   "scanned": 61,
    "picked": 0
   },
   {
    "name": "SPEAK LIKE A CEO",
-   "scanned": 28,
+   "scanned": 29,
    "picked": 2
   },
   {
@@ -464,8 +464,8 @@
   },
   {
    "name": "High Output Management (series)",
-   "scanned": 1,
-   "picked": 1
+   "scanned": 2,
+   "picked": 2
   },
   {
    "name": "Andrew S. Grove",

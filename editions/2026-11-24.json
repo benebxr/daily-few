@@ -1,0 +1,100 @@
+{
+ "date": "2026-11-24",
+ "thesis": "Match your style to the task, and design meetings backwards.",
+ "scanned": 111,
+ "sourcesScanned": 45,
+ "picks": [
+  {
+   "id": "1124-hom-12",
+   "title": "High Output Management, chapter 12: Task-Relevant Maturity",
+   "source": "Andrew S. Grove",
+   "author": "Andrew S. Grove",
+   "url": "https://books.apple.com/de/book/high-output-management/id1046431786",
+   "listenUrl": "https://books.apple.com/de/audiobook/high-output-management-unabridged/id1560761735",
+   "published": "1983",
+   "shelf": "evergreen",
+   "holds": "The core idea still holds: there is no single best management style, the right one depends on how experienced a person is with this specific task, and a new task resets the clock even for a strong leader. What has aged is the neat three-step curve borrowed from situational leadership models: research since the 1980s gives it only partial support and finds maturity hard to measure, so treat it as a diagnostic habit with limited evidence behind the exact curve.",
+   "mode": "read",
+   "minutes": 25,
+   "track": "pro",
+   "horizon": "career",
+   "series": {
+    "id": "hom",
+    "n": 12,
+    "of": 16
+   },
+   "domain": "Leverage through leaders",
+   "score": 79,
+   "why": "This is the chapter most managers quote from the book: Grove argues that the most effective style moves from structured and task-oriented, through individual coaching with two-way communication, to setting objectives and monitoring, as a person's task-relevant maturity grows. For a revenue leader who wants to manage through managers, it explains both micromanaging a strong lead and abandoning someone on a task they have never done, and it makes raising maturity the manager's job.",
+   "lookFor": [
+    "For each of your direct reports, what is their most important task this quarter, and how mature are they on that task, separate from how senior they are?",
+    "Where are you still telling someone how to do work they have mastered, and where have you delegated a new task to someone without enough structure?",
+    "What would have to be true for a report to move up one maturity level within three months, and what is your part in it?"
+   ]
+  },
+  {
+   "id": "1124-facilitate",
+   "title": "343. Converse With Confidence: How to Read and Run the Room",
+   "source": "Think Fast Talk Smart",
+   "author": "Matt Abrahams with Lisa Kay Solomon",
+   "url": "https://www.fastersmarter.io/343-converse-with-confidence-how-to-read-and-run-the-room/",
+   "spotifyUrl": "https://open.spotify.com/episode/4RdGySIxZb8NqGqqeH97xv",
+   "published": "2026-11-23",
+   "shelf": "slow",
+   "mode": "listen",
+   "minutes": 25,
+   "track": "pro",
+   "horizon": "now",
+   "domain": "Meeting cadence that produces decisions",
+   "score": 66,
+   "why": "A compact case for facilitation as a leadership skill: design a meeting backwards from what people should know, feel and do at the end, prepare several minutes per meeting minute, and decide upfront whether a session builds understanding, shapes options or makes a decision. Useful when you rebuild a team meeting that produces discussion but no owners. Caveats: the guest's background is strategy workshops more than recurring operating meetings, and the advice on dominant voices assumes you are not the most senior person in the room.",
+   "lookFor": [
+    "Which of your recurring meetings is meant to decide, and which only to inform or shape options, and does the agenda say so?",
+    "What should each participant know, feel and do at the end of your next team meeting, and which block of the agenda serves none of the three?",
+    "Who do you need to talk to before the meeting so the decision does not stall in the room?"
+   ],
+   "gist": "Lisa Kay Solomon describes facilitation as a service role in which the participants are the focus and the facilitator stays in the background. She recommends starting from the end: decide what people should know, feel and do afterwards and build the agenda backwards, interview decision-makers, affected people and sceptics in advance, and open with a clear purpose and scope. In the room she watches time, energy and who dominates or stays quiet, and handles disruptive voices with private conversations before the meeting, a change of format such as silent brainstorming, or a time box. She warns against running a generative discussion and then presenting a plan that was decided beforehand, and notes that each meeting sets up the next."
+  }
+ ],
+ "practice": {
+  "id": "1124-p",
+  "type": "Estimate",
+  "horizon": "year",
+  "minutes": 12,
+  "title": "Estimate where your supervision hours should go",
+  "prompt": "Pen and paper, 12 minutes. Assume you lead six managers. Step 1 (3 min): for each, name their single most important task this quarter and rate their task-relevant maturity on that task as low, medium or high. Step 2 (4 min): use rough weekly costs per person for the fitting style: low 4 hours (structured: what, when, how, frequent check-ins), medium 2 hours (coaching and two-way discussion), high half an hour (agreed objectives, monitoring by exception). Write next to it the hours you actually spend on each person today. Step 3 (3 min): add up the fitting hours and the actual hours, and write the gap per person. Step 4 (2 min): take the person with the largest gap and write one thing you change next week.",
+  "reveal": "Worked example: one low, three medium and two high ratings give 4 + 3 x 2 + 2 x 0.5 = 4 + 6 + 1 = 11 fitting hours a week. A leader who gives everyone the same 2 hours spends 6 x 2 = 12 hours, almost the same total, but the low-maturity manager is 2 hours short and the two high-maturity managers get 3 hours too many between them (2 x 2 - 1 = 3), and 3 - 2 = 1 is the net difference. The gap sits in the allocation: equal time feels fair while it micromanages the strong and abandons the new. Two checks: a rating is per task, so a strong manager on a task they have never done is low again; and the fitting hours for a low rating should fall over the quarter as you raise maturity, which is the real return on the time. The hour values are assumptions for this exercise; Grove gives none."
+ },
+ "cuts": [
+  {
+   "title": "The Hierarchy of Metrics BS: How Investors Spot Fake Numbers | Brian Neider",
+   "source": "Run the Numbers",
+   "reason": "Queued again: 56 minutes does not fit a shortened chapter-day edition."
+  },
+  {
+   "title": "Friction Is Margin, Margin Is Friction",
+   "source": "Mostly Metrics",
+   "reason": "Queued: a sharp essay on where profit hides in add-ons, held for a day with a desk slot."
+  },
+  {
+   "title": "Perk’s CFO on Doubling Gross Margins With AI | Roy Hefer",
+   "source": "Run the Numbers",
+   "reason": "41 minutes of claims about current AI tools that need a freshness check, over a shortened edition's budget."
+  },
+  {
+   "title": "First principles: What it takes to be a great product manager in the AI era | Sherif Mansour",
+   "source": "Lenny's Podcast",
+   "reason": "An 82-minute product-role interview, too long and further from a revenue leader's job."
+  },
+  {
+   "title": "Ask Muriel Anything with Special Guest Michael Bungay Stanier",
+   "source": "Coaching Real Leaders",
+   "reason": "A 48-minute question-and-answer episode; today's chapter already carries the coaching theme."
+  },
+  {
+   "title": "375 | Karen Lutfey Spencer on Dying and How to Prepare for It",
+   "source": "Sean Carroll's Mindscape",
+   "reason": "A personal-track listen at 61 minutes, and weekday editions stay professional."
+  }
+ ]
+}

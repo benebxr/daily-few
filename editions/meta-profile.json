@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20",
+ "updated": "2026-11-22",
  "budget": {
   "total": 120,
   "ears": 90,
@@ -10,7 +10,7 @@
   "Showing EBITDA before and after a growth investment when revenue and profit expectations conflict",
   "Capping a paid channel that is incremental but expensive after a holdout test, and checking agency attribution against incrementality",
   "Launching a referral programme fast after taking it over mid-flight, with privacy and legal sign-off on personalisation and terms, and reading its effect without a control group",
-  "Rolling out a new commission model, closing habits in onboarding calls and discount governance",
+  "Rolling out a new commission model, closing habits in onboarding calls and discount governance before a demand spike",
   "Operational readiness for a regulation-driven demand spike: conversion lag versus capacity limits, escalation triggers and a CRM with one record per customer",
   "Structuring churn by customer-lifecycle moment, setting individual retention targets on controllable impact measured against control groups, and separating involuntary churn from the target",
   "Steering a team by shipped actions, meeting cadences that produce decisions and follow-through that runs without the leader, and holding senior direct reports accountable without taking the work over",
@@ -20,6 +20,7 @@
   "Turning aggregated product data into a press story around a regulatory deadline",
   "Pipeline hygiene and forecast commits in a demo-led B2B sale",
   "Channel portfolio: measurable partner channels, referral and AI search after their tests",
+  "Growing a personal multi-agent system into a strategic partner for a commercial team: least-privilege tool access, approval per task and quality-gated rollout",
   "A commercial organisation that runs without its leader"
  ],
  "personal": [
