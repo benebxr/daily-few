@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23",
- "window": "cumulative since 16.09.2026; last sweep 23.11.2026",
+ "updated": "2026-11-24",
+ "window": "cumulative since 16.09.2026; last sweep 24.11.2026",
  "sources": [
   {
    "name": "Open web discovery",
@@ -24,27 +24,27 @@
   },
   {
    "name": "Superhuman AI",
-   "scanned": 101,
+   "scanned": 103,
    "picked": 0
   },
   {
    "name": "The Neuron",
-   "scanned": 104,
+   "scanned": 106,
    "picked": 0
   },
   {
    "name": "Doomberg",
-   "scanned": 13,
+   "scanned": 14,
    "picked": 0
   },
   {
    "name": "Think Fast Talk Smart",
-   "scanned": 85,
+   "scanned": 88,
    "picked": 3
   },
   {
    "name": "Big Think",
-   "scanned": 23,
+   "scanned": 24,
    "picked": 0
   },
   {
@@ -59,7 +59,7 @@
   },
   {
    "name": "Lenny's Newsletter",
-   "scanned": 37,
+   "scanned": 38,
    "picked": 0
   },
   {
@@ -79,7 +79,7 @@
   },
   {
    "name": "The Anthropic Stack",
-   "scanned": 19,
+   "scanned": 20,
    "picked": 0
   },
   {
@@ -119,27 +119,27 @@
   },
   {
    "name": "The Official SaaStr Podcast",
-   "scanned": 52,
+   "scanned": 53,
    "picked": 4
   },
   {
    "name": "Lenny's Podcast",
-   "scanned": 54,
+   "scanned": 55,
    "picked": 2
   },
   {
    "name": "EconTalk",
-   "scanned": 67,
+   "scanned": 68,
    "picked": 2
   },
   {
    "name": "The Knowledge Project",
-   "scanned": 51,
+   "scanned": 52,
    "picked": 1
   },
   {
    "name": "Masters of Scale",
-   "scanned": 144,
+   "scanned": 148,
    "picked": 0
   },
   {
@@ -149,8 +149,8 @@
   },
   {
    "name": "Mostly Metrics",
-   "scanned": 48,
-   "picked": 12
+   "scanned": 49,
+   "picked": 13
   },
   {
    "name": "GTM Engineer Pulse",
@@ -159,12 +159,12 @@
   },
   {
    "name": "Polymath Investor",
-   "scanned": 10,
+   "scanned": 11,
    "picked": 0
   },
   {
    "name": "Sifted",
-   "scanned": 30,
+   "scanned": 32,
    "picked": 0
   },
   {
@@ -189,7 +189,7 @@
   },
   {
    "name": "Run the Numbers",
-   "scanned": 163,
+   "scanned": 167,
    "picked": 12
   },
   {
@@ -199,12 +199,12 @@
   },
   {
    "name": "In Our Time",
-   "scanned": 98,
+   "scanned": 100,
    "picked": 6
   },
   {
    "name": "Worklife with Molly Graham",
-   "scanned": 51,
+   "scanned": 53,
    "picked": 3
   },
   {
@@ -239,12 +239,12 @@
   },
   {
    "name": "Odd Lots",
-   "scanned": 165,
+   "scanned": 171,
    "picked": 6
   },
   {
    "name": "HBR IdeaCast",
-   "scanned": 54,
+   "scanned": 57,
    "picked": 5
   },
   {
@@ -259,27 +259,27 @@
   },
   {
    "name": "Capital Allocators",
-   "scanned": 92,
+   "scanned": 94,
    "picked": 0
   },
   {
    "name": "Sean Carroll's Mindscape",
-   "scanned": 38,
+   "scanned": 39,
    "picked": 0
   },
   {
    "name": "Prof G Markets",
-   "scanned": 230,
+   "scanned": 237,
    "picked": 1
   },
   {
    "name": "Coaching Real Leaders",
-   "scanned": 24,
+   "scanned": 25,
    "picked": 0
   },
   {
    "name": "The McKinsey Podcast",
-   "scanned": 42,
+   "scanned": 43,
    "picked": 0
   },
   {
@@ -294,7 +294,7 @@
   },
   {
    "name": "Hard Fork",
-   "scanned": 47,
+   "scanned": 49,
    "picked": 0
   },
   {
@@ -319,7 +319,7 @@
   },
   {
    "name": "Claude Code for Non-Coders",
-   "scanned": 6,
+   "scanned": 7,
    "picked": 0
   },
   {
@@ -349,27 +349,27 @@
   },
   {
    "name": "Top Founders",
-   "scanned": 27,
+   "scanned": 29,
    "picked": 0
   },
   {
    "name": "Startup Insider",
-   "scanned": 215,
+   "scanned": 223,
    "picked": 0
   },
   {
    "name": "At The Table with Patrick Lencioni",
-   "scanned": 12,
+   "scanned": 13,
    "picked": 0
   },
   {
    "name": "The Jefferson Fisher Podcast",
-   "scanned": 61,
+   "scanned": 64,
    "picked": 0
   },
   {
    "name": "SPEAK LIKE A CEO",
-   "scanned": 29,
+   "scanned": 30,
    "picked": 2
   },
   {
@@ -409,7 +409,7 @@
   },
   {
    "name": "Kassenzone CEO Interviews",
-   "scanned": 18,
+   "scanned": 19,
    "picked": 0
   },
   {
@@ -499,8 +499,33 @@
   },
   {
    "name": "Andrew S. Grove (book series)",
-   "scanned": 2,
-   "picked": 2
+   "scanned": 3,
+   "picked": 3
+  },
+  {
+   "name": "20VC Newsletter",
+   "scanned": 1,
+   "picked": 0
+  },
+  {
+   "name": "Aakash Gupta",
+   "scanned": 1,
+   "picked": 0
+  },
+  {
+   "name": "Carilu",
+   "scanned": 1,
+   "picked": 0
+  },
+  {
+   "name": "Sam Harris",
+   "scanned": 1,
+   "picked": 0
+  },
+  {
+   "name": "Ruben",
+   "scanned": 1,
+   "picked": 0
   }
  ]
 }

@@ -1,0 +1,99 @@
+{
+ "date": "2026-11-25",
+ "thesis": "Judge output, not effort, and know which costs follow revenue down.",
+ "scanned": 81,
+ "sourcesScanned": 47,
+ "picks": [
+  {
+   "id": "1125-hom-13",
+   "title": "High Output Management, chapter 13: Performance Appraisal: Manager as Judge and Jury",
+   "source": "Andrew S. Grove",
+   "author": "Andrew S. Grove",
+   "url": "https://books.apple.com/de/book/high-output-management/id1046431786",
+   "listenUrl": "https://books.apple.com/de/audiobook/high-output-management-unabridged/id1560761735",
+   "published": "1983",
+   "shelf": "evergreen",
+   "holds": "The core still holds: an appraisal is the most important piece of task-relevant feedback a manager gives, it should judge a person's output against what was expected, and the conversation only works when the message is clear and the person has heard it. What has aged is the once-a-year written review as the main vehicle: most companies now pair it with continuous feedback, and research on rating bias shows that a single manager's score says much about the rater, so calibrate ratings across managers before you trust them.",
+   "mode": "read",
+   "minutes": 25,
+   "track": "pro",
+   "horizon": "career",
+   "series": {
+    "id": "hom",
+    "n": 13,
+    "of": 16
+   },
+   "domain": "Leverage through leaders",
+   "score": 78,
+   "why": "Grove treats the review as the moment a manager acts as judge: assess the output of a person and, for a manager, the output of their organisation, keep activity and potential separate from results, and deliver one clear message that the person has to accept before anything changes. For a revenue leader who manages through managers, it is the tool that turns the standards from the last chapters into consequences.",
+   "lookFor": [
+    "For each of your managers, what output did you expect this period, and could you state their result in one sentence without describing how busy they were?",
+    "Where are you rating potential or effort and calling it performance?",
+    "Which review message have you softened so much that the person never had to accept it?"
+   ]
+  },
+  {
+   "id": "1125-costs",
+   "title": "Your P&L Is Hiding Secrets About Variable Costs",
+   "source": "Mostly Metrics",
+   "author": "CJ Gustafson",
+   "url": "https://www.mostlymetrics.com/p/your-p-l-is-hiding-secrets-about-variable-costs",
+   "published": "2026-11-24",
+   "shelf": "slow",
+   "mode": "read",
+   "minutes": 9,
+   "track": "pro",
+   "horizon": "now",
+   "domain": "Planning and budgeting under a stretch target",
+   "score": 72,
+   "why": "A practical lens for any budget that has to survive both a demand spike and a downside case: sort costs by how they behave instead of where they sit on the income statement, separate variable from step-variable from fixed, and separate how variable a cost is from how fast you can remove it. Useful when you build a list of costs you can defer or cut under pressure, and when onboarding or support capacity grows in steps. Caveats: the large-company cost figures come from one CFO interview, the worked comparison is illustrative, and the piece follows a sponsor message.",
+   "lookFor": [
+    "Which of your ten largest cost lines fall automatically when revenue falls, which only by a decision, and how many months does each decision take to show up?",
+    "Where does your plan add capacity in steps, and at what volume does the next step trigger?",
+    "How much of your planned efficiency gain is people you do not hire, and is that written into the plan?"
+   ],
+   "gist": "Gustafson describes an investor who asked a founder to reorder the whole P&L from most to least variable expense, with the driver of each. Drawing a line between activity-driven and fixed costs gives contribution margin per revenue stream and answers how much of the cost base has to grow for the business to grow. He distinguishes variable costs such as payment fees from step-variable costs such as support headcount, which stay in place after revenue falls, and variability from flexibility. A worked example shows that a fixed-heavy cost structure earns far more when revenue doubles and swings into a loss when it halves, so paying more per transaction can be the right choice for a smaller company with uncertain demand. He closes with a two-scenario exercise: revenue up 20 percent and down 20 percent across your ten largest expenses."
+  }
+ ],
+ "practice": {
+  "id": "1125-p",
+  "type": "Mental math",
+  "horizon": "now",
+  "minutes": 12,
+  "title": "Run the up and down case on one cost base",
+  "prompt": "Pen and paper, no calculator, 12 minutes. A software business has revenue of 20 (in millions) and EBITDA of 3. Its costs of 17 split three ways: variable costs of 20 percent of revenue (4 today; payment fees, hosting, commissions), a step-variable onboarding and support team of 25 people at 0.12 each (3 today), where each person can carry 0.8 of revenue, so the team is at full capacity, and fixed costs of 10. Step 1 (4 min): revenue grows 20 percent. How many people do you need, what is EBITDA, and what share of the extra revenue reaches EBITDA? Step 2 (4 min): revenue falls 20 percent. What is EBITDA if you keep all 25 people, and what if you reduce the team to what the volume needs from day one? Step 3 (4 min): at what revenue do you break even in each of the two staffing cases, and does the smaller team still have the capacity for that revenue?",
+  "reveal": "Up case: revenue 24 needs 24 / 0.8 = 30 people, so the team costs 30 x 0.12 = 3.6. Variable costs 0.2 x 24 = 4.8, fixed 10, total 18.4, EBITDA 24 - 18.4 = 5.6. Extra revenue 4, extra EBITDA 2.6, so 65 percent flows through. Down case: revenue 16, variable 3.2. Keeping 25 people: costs 3.2 + 3 + 10 = 16.2, EBITDA -0.2. Cutting to 16 / 0.8 = 20 people: team 2.4, costs 15.6, EBITDA 0.4. Revenue fell by 4 and EBITDA by 3.2 (80 percent) when you keep the team, or by 2.6 (65 percent) when you act at once. Break-even: every unit of revenue leaves 0.8 after variable costs, so with 25 people 0.8 x R = 13 gives R = 16.25; with 20 people 0.8 x R = 12.4 gives R = 15.5, and 20 people carry up to 16, so the capacity holds. The lesson: the step cost makes the downside steeper than the upside until someone decides to remove it, so name that decision and its trigger in the plan before you need it. Check it once more: 0.8 x 24 = 19.2, minus 3.6 and 10, gives 5.6."
+ },
+ "cuts": [
+  {
+   "title": "The Hierarchy of Metrics BS: How Investors Spot Fake Numbers | Brian Neider",
+   "source": "Run the Numbers",
+   "reason": "Queued again: 56 minutes does not fit a shortened chapter-day edition."
+  },
+  {
+   "title": "Friction Is Margin, Margin Is Friction",
+   "source": "Mostly Metrics",
+   "reason": "Queued: today's desk slot went to the newer piece from the same author on cost behaviour."
+  },
+  {
+   "title": "Day One as a CFO: What to Do and What to Leave Alone | Keith Durden",
+   "source": "Run the Numbers",
+   "reason": "A 45-minute finance-leadership interview that serves the career horizon, which the chapter carries on weekdays."
+  },
+  {
+   "title": "A CFO Explains Continuation Vehicles",
+   "source": "Run the Numbers",
+   "reason": "A short primer on private-equity fund structures; career horizon, held while the book carries that share."
+  },
+  {
+   "title": "Your AI costs are growing. Is your business?",
+   "source": "The McKinsey Podcast",
+   "reason": "Claims about current AI spending that would need a freshness check, and today's cost lens is already covered."
+  },
+  {
+   "title": "The Subtle Marketing Tactics That Shape What We Buy",
+   "source": "HBR IdeaCast",
+   "reason": "Consumer-psychology framing, further from a software sale than today's picks."
+  }
+ ]
+}
