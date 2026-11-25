@@ -1,0 +1,100 @@
+{
+ "date": "2026-11-26",
+ "thesis": "Hire for what people did, and price free as a lever.",
+ "scanned": 117,
+ "sourcesScanned": 48,
+ "picks": [
+  {
+   "id": "1126-hom-14",
+   "title": "High Output Management, chapter 14: Two Difficult Tasks",
+   "source": "Andrew S. Grove",
+   "author": "Andrew S. Grove",
+   "url": "https://books.apple.com/de/book/high-output-management/id1046431786",
+   "listenUrl": "https://books.apple.com/de/audiobook/high-output-management-unabridged/id1560761735",
+   "published": "1983",
+   "shelf": "evergreen",
+   "holds": "Both tasks still hold: an interview is a short, structured sample in which the candidate should do most of the talking about what they actually did, and a valued person who says they quit usually decided weeks earlier, so the first minutes decide whether you can still keep them. What has aged is the reliance on the interviewer's judgment alone: later research favours structured interviews with the same questions and a scoring rubric for every candidate, and work samples predict performance better than conversation.",
+   "mode": "read",
+   "minutes": 25,
+   "track": "pro",
+   "horizon": "career",
+   "series": {
+    "id": "hom",
+    "n": 14,
+    "of": 16
+   },
+   "domain": "Leverage through leaders",
+   "score": 78,
+   "why": "Grove picks the two moments where a manager's skill shows most and where most managers improvise: interviewing a candidate, where you have an hour to judge whether someone can do work you cannot watch, and the moment a valued employee says they quit, where your first reaction decides the outcome. For a revenue leader who is about to hire managers and cannot afford to lose the ones who carry the team, both are leverage decisions in Grove's sense.",
+   "lookFor": [
+    "In your last interview for a leadership role, how many minutes did you talk, and what evidence of past output did the candidate give that you could check?",
+    "Which two people would hurt most if they resigned tomorrow, and what would you say in the first five minutes?",
+    "What would you have to offer or change to keep them, and could you have done it before they asked?"
+   ]
+  },
+  {
+   "id": "1126-free",
+   "title": "The Economics of Free: When Zero Breaks the Pricing Curve",
+   "source": "Mostly Growth",
+   "author": "Kyle Poyar, CJ Gustafson and Ben Hillman",
+   "url": "https://creators.spotify.com/pod/profile/mostly-growth/episodes/The-Economics-of-Free-When-Zero-Breaks-the-Pricing-Curve-e3ejmjc",
+   "spotifyUrl": "https://open.spotify.com/episode/6jtbL8shsy3Ywhln3RWpdD",
+   "published": "2026-02-04",
+   "shelf": "slow",
+   "mode": "listen",
+   "minutes": 41,
+   "track": "pro",
+   "horizon": "year",
+   "domain": "Free-to-paid conversion and packaging",
+   "score": 67,
+   "why": "A finance and pricing view of every free motion side by side: freemium, free trial, reverse trial, ungated product and credit-card trial, with the trade-off each makes between acquisition volume and revenue. Useful when you redesign what a free user loses at the end of a trial. Caveats: the conversion benchmarks come from early 2026 survey data, so treat them as ranges, and the last three minutes are market news you can skip.",
+   "lookFor": [
+    "Which free motion does your product run today, and what is it optimised for: sign-ups, activation or paid conversion?",
+    "What does a user lose on the day the trial ends, and would they notice?",
+    "If you added a card at sign-up, how many fewer sign-ups could you accept before paid conversions fall?"
+   ],
+   "gist": "The hosts argue that the step from free to even one cent changes behaviour more than any later price step, and that this works differently in B2B than in consumer markets. They compare free trials, freemium, reverse trials, ungated products and credit-card-gated trials, walk through the math of conversion leakage in a free funnel, and explain why small conversion gains matter in freemium. They discuss when freemium works (network effects and compounding value), how to choose trial length and what to gate, and why card-gated trials convert better but bring weaker users. Their conclusion is that free is a set of levers to be matched to what a company is optimising for at its stage."
+  }
+ ],
+ "practice": {
+  "id": "1126-p",
+  "type": "Argument",
+  "horizon": "career",
+  "minutes": 12,
+  "title": "Your strongest seller says they are leaving",
+  "prompt": "Pen and paper, 12 minutes. Your best account executive, the one you planned to promote to team lead next quarter, stops you after a meeting and says they have accepted an offer elsewhere. Step 1 (3 min): write the first three sentences you say, following Grove's advice for this moment. Step 2 (5 min): write the case for keeping them in five bullet points, as you would put it to your own manager to get approval for a counter-offer or a changed role, including the strongest argument against keeping them. Step 3 (4 min): decide which you would do, and write the one thing you should have done three months ago that would have made this conversation unnecessary.",
+  "reveal": "Grove's sequence: drop what you are doing, sit down and let them talk, and do not argue or react with hurt; the prepared speech comes first, your answer later. Then go to your own manager the same day and treat it as an emergency, because the person is testing whether they matter. A strong case rests on the replacement cost (months to hire and ramp a senior seller, plus lost pipeline and the signal to the team) and on what the person actually wants, which is often scope or a path as well as money. The strongest argument against: a counter-offer bought only with money tends to delay the exit, and it tells the team that resigning is how you get a raise. The three-months-ago move is usually a direct conversation about the promotion path with a date, which turns a plan in your head into a commitment the person can see."
+ },
+ "cuts": [
+  {
+   "title": "The Hierarchy of Metrics BS: How Investors Spot Fake Numbers | Brian Neider",
+   "source": "Run the Numbers",
+   "reason": "Queued again: 56 minutes does not fit a shortened chapter-day edition."
+  },
+  {
+   "title": "Friction is Margin, Margin is Friction",
+   "source": "Mostly Metrics",
+   "reason": "Queued: the only slot next to the chapter went to a listen on the year horizon."
+  },
+  {
+   "title": "The Free-to-Paid Conversion Playbook for SaaS",
+   "source": "Mostly Growth",
+   "reason": "Same hosts on the same topic, but it opens with channel and SEO basics; today's episode goes deeper on the trade-offs."
+  },
+  {
+   "title": "The secret to getting people to say “yes” with Olivia Fox Cabane",
+   "source": "Worklife with Molly Graham",
+   "reason": "45 minutes on persuasion and charisma, a career theme the chapter already carries on weekdays."
+  },
+  {
+   "title": "The Genius of Teams",
+   "source": "At The Table with Patrick Lencioni",
+   "reason": "A short episode built around the host's own team assessment, more promotion than method."
+  },
+  {
+   "title": "What marketers should build next with AI",
+   "source": "MKT1 Newsletter",
+   "reason": "A list of 30 build ideas, close to what you already know and dated by the tools it names."
+  }
+ ]
+}
