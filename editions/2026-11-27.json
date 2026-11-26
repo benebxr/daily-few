@@ -1,0 +1,101 @@
+{
+ "date": "2026-11-27",
+ "thesis": "Pay as feedback on output, and design commission before the rush.",
+ "scanned": 126,
+ "sourcesScanned": 52,
+ "picks": [
+  {
+   "id": "1127-hom-15",
+   "title": "High Output Management, chapter 15: Compensation as Task-Relevant Feedback",
+   "source": "Andrew S. Grove",
+   "author": "Andrew S. Grove",
+   "url": "https://books.apple.com/de/book/high-output-management/id1046431786",
+   "listenUrl": "https://books.apple.com/de/audiobook/high-output-management-unabridged/id1560761735",
+   "published": "1983",
+   "shelf": "evergreen",
+   "holds": "The core idea holds: pay is a message about performance, so it should move with output the person can influence, and the further a job sits from measurable output, the more pay has to rest on a judged appraisal. Promotion as a form of pay, and the risk of promoting people into jobs they cannot do, is as current as ever. What has aged is the reliance on forced ranking across a whole population, which many companies dropped after it hurt collaboration, and the assumption that pay decisions stay private: pay transparency rules in the EU and several US states now require pay ranges and explainable criteria.",
+   "mode": "read",
+   "minutes": 25,
+   "track": "pro",
+   "horizon": "career",
+   "series": {
+    "id": "hom",
+    "n": 15,
+    "of": 16
+   },
+   "domain": "Leverage through leaders",
+   "score": 78,
+   "why": "Grove treats every pay decision as feedback: the raise, the bonus and the promotion tell people what the organisation values, whatever the manager says in the review. For a revenue leader who sets commission for sellers and pay for the managers above them, the chapter is a test of whether each plan rewards the output you want from that level, and whether a promotion is a reward or a job the person can do.",
+   "lookFor": [
+    "For each role you manage, is pay tied to the person's own output, the group's output, or neither, and does that match how much of the result they control?",
+    "Which of your recent promotions rewarded past performance in one job without evidence of ability in the next?",
+    "If a seller read your plan without any explanation, what would they conclude you value most?"
+   ]
+  },
+  {
+   "id": "1127-comp",
+   "title": "A Crash Course in Sales Compensation With CJ Gustafson",
+   "source": "Run the Numbers",
+   "author": "CJ Gustafson",
+   "url": "https://creators.spotify.com/pod/profile/cjgustafson222/episodes/A-Crash-Course-in-Sales-Compensation-With-CJ-Gustafson-e3eca3i",
+   "spotifyUrl": "https://open.spotify.com/episode/5Csd0ZKgbWef9f9YWNp117",
+   "published": "2024-05-20",
+   "shelf": "slow",
+   "holds": "The design logic still holds: who owns the plan, the split between base and variable pay, what counts as a booking, how accelerators change behaviour and when a short incentive works. The commission rates and benchmarks at the end are from 2024 and US-centred, so treat them as a rough reference. Newer treatments exist from the same show (2025) and elsewhere (2026), but they run over 55 minutes and add little on plan mechanics.",
+   "mode": "listen",
+   "minutes": 46,
+   "track": "pro",
+   "horizon": "now",
+   "domain": "Sales compensation and incentive design",
+   "score": 70,
+   "why": "A finance-side walk through how a sales comp plan is built, from base and variable split to what counts as a booking, with an early enterprise software plan as a case study and a full section on short sales incentives: when they work, when they backfire and how to structure them. Useful pairing with today's chapter if you are rolling out a new commission model before a demand peak. Caveat: solo episode with sponsor breaks; the last ten minutes on rates and benchmarks are the part that has aged most, so skip them if time is short.",
+   "lookFor": [
+    "What exactly counts as a booking in your plan, and which edge cases (discounts, cancellations within weeks, upgrades) would a seller argue about first?",
+    "Where does your plan pay for volume that arrives on its own, and how would you separate that from sales effort?",
+    "Which one behaviour would you reward with a short incentive right now, and how would you know it worked?"
+   ],
+   "gist": "The host lays out who designs a sales comp plan (finance, sales leadership, operations) and how to set the split between base and variable pay and the ratio of on-target earnings to quota. He explains how to baseline expected attainment, what accelerators do to behaviour above target, and why the definition of a booking causes most disputes, using an early enterprise software plan to show how plan flaws get exploited. A section on short sales incentives covers why they succeed or fail, when to run one and how to structure it. He closes with commission rates for account executives and what the total commission cost looks like once managers and support roles are included."
+  }
+ ],
+ "practice": {
+  "id": "1127-p",
+  "type": "First principles",
+  "horizon": "now",
+  "minutes": 12,
+  "title": "A commission plan for the rush",
+  "prompt": "Pen and paper, 12 minutes. A regulatory deadline will send a wave of inbound buyers to your product next quarter; many will buy with little selling. Your sellers are paid a commission on every closed deal, with an accelerator above target, and they can grant discounts. Step 1 (3 min): starting from what a commission is supposed to buy, write what this plan would reward during the wave that you do not want. Step 2 (5 min): design two changes to the plan, each in one sentence, that keep pay tied to effort and quality while the volume comes on its own. Step 3 (4 min): write the three sentences you would use to explain the changes to the team, in Grove's sense of pay as feedback, so they read as fair before the wave starts.",
+  "reveal": "A commission buys extra effort and judgement that would not happen otherwise. In a wave, the plan pays the same for an order that walked in as for one that was won, the accelerator turns inbound luck into windfall pay, and discount rights let sellers buy speed with margin. Two common fixes: pay differently by lead source or raise the target for the wave period, so the accelerator only fires on real outperformance; and pay on net price or on customers still paying after the first months, so discounts and weak buyers cost the seller too. A short incentive can target the one behaviour you most need, such as onboarding a buyer within a day. The explanation works when it says what the company values, why the wave changes what counts as performance, and that the rules are set before the volume arrives, which is what makes them feel fair."
+ },
+ "cuts": [
+  {
+   "title": "The Hierarchy of Metrics BS: How Investors Spot Fake Numbers | Brian Neider",
+   "source": "Run the Numbers",
+   "reason": "Queued again: 56 minutes does not fit next to the chapter on a short edition."
+  },
+  {
+   "title": "Friction is Margin, Margin is Friction",
+   "source": "Mostly Metrics",
+   "reason": "Queued: the slot next to the chapter went to the compensation listen that pairs with it."
+  },
+  {
+   "title": "What happens after the acquisition? Lessons from 180+ companies at Visma",
+   "source": "SaaSiest",
+   "reason": "Queued: a strong career piece on buy-and-build from the acquirer's side, held because the chapter carries the career share on weekdays."
+  },
+  {
+   "title": "“Most Sales Reps Are Coin-Operated”: A Guide To Building Better Comp Plans",
+   "source": "Run the Numbers",
+   "reason": "Newer and good on capping big deals, but 73 minutes and half of it is career talk."
+  },
+  {
+   "title": "He's Seen 300+ Sales Comp Plans. 90% Make the Same Mistake | Siva Rajamani (Everstage CEO)",
+   "source": "The GTMnow Podcast",
+   "reason": "57 minutes with the CEO of a comp software vendor, close to product promotion."
+  },
+  {
+   "title": "The Subtle Marketing Tactics That Shape What We Buy",
+   "source": "HBR IdeaCast",
+   "reason": "Consumer shopping psychology, a weak line to a software sale."
+  }
+ ]
+}

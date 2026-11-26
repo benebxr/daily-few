@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-25",
- "window": "cumulative since 16.09.2026; last sweep 25.11.2026",
+ "updated": "2026-11-26",
+ "window": "cumulative since 16.09.2026; last sweep 26.11.2026",
  "sources": [
   {
    "name": "Open web discovery",
-   "scanned": 617,
+   "scanned": 631,
    "picked": 21
   },
   {
@@ -14,7 +14,7 @@
   },
   {
    "name": "The Signal",
-   "scanned": 24,
+   "scanned": 25,
    "picked": 5
   },
   {
@@ -24,12 +24,12 @@
   },
   {
    "name": "Superhuman AI",
-   "scanned": 105,
+   "scanned": 107,
    "picked": 0
   },
   {
    "name": "The Neuron",
-   "scanned": 108,
+   "scanned": 110,
    "picked": 0
   },
   {
@@ -39,12 +39,12 @@
   },
   {
    "name": "Think Fast Talk Smart",
-   "scanned": 90,
+   "scanned": 92,
    "picked": 3
   },
   {
    "name": "Big Think",
-   "scanned": 27,
+   "scanned": 30,
    "picked": 0
   },
   {
@@ -64,27 +64,27 @@
   },
   {
    "name": "SaaSiest",
-   "scanned": 11,
-   "picked": 0
-  },
-  {
-   "name": "AI by Aakash",
-   "scanned": 9,
-   "picked": 0
-  },
-  {
-   "name": "AI Genius Lab",
    "scanned": 12,
    "picked": 0
   },
   {
+   "name": "AI by Aakash",
+   "scanned": 10,
+   "picked": 0
+  },
+  {
+   "name": "AI Genius Lab",
+   "scanned": 13,
+   "picked": 0
+  },
+  {
    "name": "The Anthropic Stack",
-   "scanned": 21,
+   "scanned": 22,
    "picked": 0
   },
   {
    "name": "The Pragmatic Engineer",
-   "scanned": 19,
+   "scanned": 20,
    "picked": 0
   },
   {
@@ -109,7 +109,7 @@
   },
   {
    "name": "The Revenue Leadership Podcast",
-   "scanned": 50,
+   "scanned": 52,
    "picked": 3
   },
   {
@@ -139,7 +139,7 @@
   },
   {
    "name": "Masters of Scale",
-   "scanned": 151,
+   "scanned": 155,
    "picked": 0
   },
   {
@@ -149,7 +149,7 @@
   },
   {
    "name": "Mostly Metrics",
-   "scanned": 50,
+   "scanned": 51,
    "picked": 13
   },
   {
@@ -189,8 +189,8 @@
   },
   {
    "name": "Run the Numbers",
-   "scanned": 170,
-   "picked": 12
+   "scanned": 176,
+   "picked": 13
   },
   {
    "name": "BenAI",
@@ -239,12 +239,12 @@
   },
   {
    "name": "Odd Lots",
-   "scanned": 177,
+   "scanned": 183,
    "picked": 6
   },
   {
    "name": "HBR IdeaCast",
-   "scanned": 60,
+   "scanned": 63,
    "picked": 5
   },
   {
@@ -269,7 +269,7 @@
   },
   {
    "name": "Prof G Markets",
-   "scanned": 244,
+   "scanned": 250,
    "picked": 1
   },
   {
@@ -354,7 +354,7 @@
   },
   {
    "name": "Startup Insider",
-   "scanned": 241,
+   "scanned": 257,
    "picked": 0
   },
   {
@@ -525,6 +525,11 @@
   {
    "name": "Ruben",
    "scanned": 2,
+   "picked": 0
+  },
+  {
+   "name": "The GTMnow Podcast",
+   "scanned": 3,
    "picked": 0
   }
  ]

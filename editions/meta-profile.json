@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "budget": {
   "total": 120,
   "ears": 90,
@@ -9,7 +9,7 @@
   "Building an annual plan and budget against an investor's stretch target, with a base budget plus a reserve released monthly on explicit conditions, a role-based personnel plan and a list of deferrable costs for covenant pressure",
   "Showing EBITDA before and after a growth investment when revenue and profit expectations conflict",
   "Capping a paid channel that is incremental but expensive after a holdout test, and checking agency attribution against incrementality",
-  "Launching a referral programme fast after taking it over mid-flight: consent versus legitimate interest for client-side tracking, documenting a residual legal risk as a management decision, and turning that decision into product follow-on work",
+  "Launching a referral programme fast after taking it over mid-flight: consent versus legitimate interest for client-side tracking, documenting a residual legal risk as a management decision, and turning that decision into product follow-on work, plus abuse controls when widening eligibility and holding a vendor to the agreed scope",
   "Rolling out a new commission model, closing habits in onboarding calls and discount governance before a demand spike",
   "Operational readiness for a regulation-driven demand spike: conversion lag versus capacity limits, lifecycle messaging audits, escalation triggers and a CRM with one record per customer",
   "Structuring churn by customer-lifecycle moment, setting individual retention targets on controllable impact measured against control groups, and separating involuntary churn from the target",
@@ -19,6 +19,7 @@
   "Free-to-paid conversion: reverse trials, activation in the first two weeks and paid entry tiers",
   "Turning aggregated product data into a press story around a regulatory deadline",
   "Pipeline hygiene and forecast commits in a demo-led B2B sale",
+  "Technology partnerships with ERP vendors: from a listing to referrals and co-selling",
   "Channel portfolio: measurable partner channels, referral and AI search after their tests",
   "Growing a personal multi-agent system into a strategic partner for a commercial team: least-privilege tool access, approval per task or by checklist, and quality-gated rollout",
   "A commercial organisation that runs without its leader"
