@@ -1,0 +1,90 @@
+{
+ "date": "2026-11-29",
+ "thesis": "Check your numbers the way investors will, and know who owns you next.",
+ "scanned": 118,
+ "sourcesScanned": 43,
+ "picks": [
+  {
+   "id": "1129-metrics",
+   "title": "The Hierarchy of Metrics BS: How Investors Spot Fake Numbers | Brian Neider",
+   "source": "Run the Numbers",
+   "author": "CJ Gustafson with Brian Neider",
+   "url": "https://creators.spotify.com/pod/profile/cjgustafson222/episodes/The-Hierarchy-of-Metrics-BS-How-Investors-Spot-Fake-Numbers--Brian-Neider-e3r7a34",
+   "spotifyUrl": "https://open.spotify.com/episode/0j0xaDnaAzA3Z8Q2qKZtfV",
+   "published": "2026-11-02",
+   "shelf": "slow",
+   "mode": "listen",
+   "minutes": 56,
+   "track": "pro",
+   "horizon": "now",
+   "domain": "Board and investor communication",
+   "score": 72,
+   "why": "A growth investor walks through the metrics management teams dress up and how investors see through them, including the EBITDA add-backs he trusts least. Useful before any board or investor deck: listen as the person across the table and mark every number in your own deck that would draw his question. Back from the queue, where it has waited since 22 November for a slot long enough. Caveat: sponsor breaks, and the segment on AI and software defensibility is opinion that will date faster than the rest.",
+   "lookFor": [
+    "Which metric in your next deck is defined in a way you would not accept from a company you were investing in?",
+    "Which of your adjustments to profit would survive the question 'will this cost come back next year'?",
+    "What is the difference he draws between a good company and a good investment, and which side does your plan argue?"
+   ],
+   "gist": "CJ Gustafson talks with Brian Neider of Lead Edge Capital, author of a widely shared ranking of misleading metrics. They cover how investors spot numbers that flatter a company, the difference between a good company and a good investment, and the worst EBITDA add-backs. They also discuss how AI is changing the defensibility of software businesses."
+  },
+  {
+   "id": "1129-cv",
+   "title": "A CFO Explains Continuation Vehicles",
+   "source": "Run the Numbers",
+   "author": "CJ Gustafson",
+   "url": "https://creators.spotify.com/pod/profile/cjgustafson222/episodes/A-CFO-Explains-Continuation-Vehicles-e3st1qr",
+   "spotifyUrl": "https://open.spotify.com/episode/3fCtKm7pkBoFNe6vdwPLSe",
+   "published": "2026-11-24",
+   "shelf": "slow",
+   "mode": "listen",
+   "minutes": 12,
+   "track": "pro",
+   "horizon": "career",
+   "domain": "Private equity structures",
+   "score": 63,
+   "why": "Twelve minutes on a structure that decides the next three to four years of many management teams in sponsor-backed companies: the sponsor sells the company to a new fund it also manages, so it sits on both sides of the deal. For a leader who wants a seat at the top of such a company, it explains what changes for management, including why an expected exit and its payout may not come. Caveat: a solo explainer with sponsor reads, so check the mechanics against one other source before you rely on them.",
+   "lookFor": [
+    "Who sits on each side of a continuation deal, and whose interest protects the price?",
+    "What happens to management equity and its timeline when the exit you planned for becomes a sale to the same owner?",
+    "Which question would you ask your board if this structure came up, before agreeing to stay another cycle?"
+   ],
+   "gist": "The host explains continuation vehicles in private equity: a sponsor moves a company it already owns from an older fund into a new vehicle it also manages, acting as both buyer and seller. He covers why sponsors like the structure and what it means for the CFO and the management team, who may end up working for the same owner for another three to four years, without necessarily getting paid out."
+  }
+ ],
+ "practice": {
+  "id": "1129-p",
+  "type": "Mental math",
+  "horizon": "now",
+  "minutes": 10,
+  "title": "Strip the add-backs before the investor does",
+  "prompt": "No calculator, 10 minutes. A company with 20 million of revenue reports EBITDA of 2.0 million. Management presents adjusted EBITDA of 3.8 million with four add-backs: a one-off restructuring 0.4, savings from cuts planned for next year 0.5, stock-based compensation 0.3, and growth marketing labelled as investment 0.6. Net debt is 9.6 million. Step 1 (3 min): adjusted EBITDA margin as presented, and the margin as reported. Step 2 (4 min): decide which add-backs an investor in this episode's mould would accept, and compute the margin and the leverage ratio (net debt over EBITDA) on your version and on management's. Step 3 (3 min): at a valuation of 10 times EBITDA, how much value rests on the add-backs you rejected?",
+  "reveal": "As presented: 3.8 on 20 is 19 percent; reported 2.0 is 10 percent. A hard-nosed reading accepts only the truly one-off restructuring: 2.4 million, 12 percent margin. Planned savings have not happened, growth marketing comes back every year, and stock comp is a real cost of paying people (some investors tolerate it, so 2.7 and 13.5 percent is the generous version). Leverage: 9.6 over 3.8 is about 2.5 times; over 2.4 it is 4.0 times, which is where covenants start to bite. At 10 times, the 1.4 million of rejected add-backs carries 14 million of value. The lesson: show the reported number first and each adjustment as a line the reader can strike out, so the debate happens on your page instead of in their model."
+ },
+ "cuts": [
+  {
+   "title": "Does your job title even matter? with Gokul Rajaram",
+   "source": "Worklife with Molly Graham",
+   "reason": "Still queued for org design, but 52 minutes next to today's 56-minute listen is over a shortened edition."
+  },
+  {
+   "title": "Perk's CFO on Doubling Gross Margins With AI | Roy Hefer",
+   "source": "Run the Numbers",
+   "reason": "One company's AI cost story, likely to date fast and close to today's show twice over."
+  },
+  {
+   "title": "Mostly Classics | A History of EBITDA",
+   "source": "Run the Numbers",
+   "reason": "A replay of the EBITDA history episode picked on 20 November."
+  },
+  {
+   "title": "The “best practices” corrupting business, with Eric Ries and Krista Tippett",
+   "source": "Masters of Scale",
+   "reason": "Queued: still a strong career piece, held because career picks are above their share this week."
+  },
+  {
+   "title": "Aswath Damodaran On Nvidia's Collapse & Anthropic's $1.5T IPO",
+   "source": "Prof G Markets",
+   "reason": "Market news that will look different in a week."
+  }
+ ]
+}

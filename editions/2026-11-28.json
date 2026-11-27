@@ -1,0 +1,88 @@
+{
+ "date": "2026-11-28",
+ "thesis": "Find where your profit really sits, then see how parcels conquered cities.",
+ "scanned": 118,
+ "sourcesScanned": 43,
+ "picks": [
+  {
+   "id": "1128-friction",
+   "title": "Friction is Margin, Margin is Friction",
+   "source": "Mostly Metrics",
+   "author": "CJ Gustafson",
+   "url": "https://www.mostlymetrics.com/p/friction-is-margin-margin-is-friction",
+   "published": "2026-11-22",
+   "shelf": "slow",
+   "mode": "read",
+   "minutes": 8,
+   "track": "pro",
+   "horizon": "year",
+   "domain": "Packaging and monetisation",
+   "score": 66,
+   "why": "A short essay on where profit pools hide: in the add-ons that are hard to compare, sold after the customer has already committed. It gives you one question to ask of every packaging and pricing decision: does this line earn its margin from value, or from the effort it takes to shop around? Caveat: the part on AI agents removing comparison friction is a prediction, so treat it as a scenario to test.",
+   "lookFor": [
+    "Which of your add-ons or services carry a higher margin than the core plan, and would a buyer pay the same if they could compare them side by side?",
+    "At which moment in your purchase path does the customer become least price-sensitive, and what do you sell there?",
+    "If a buyer's AI assistant compared every line of your offer with two rivals, which margin would shrink first?"
+   ],
+   "gist": "The author describes buying a truck online, skipping trade-in, financing and add-ons, and still being pitched an extended warranty, then uses a large car dealer's mix to show that dealers earn much of their gross profit from finance and insurance products rather than the vehicles. He argues that margin concentrates where comparison is hard and where customers have already committed. He extends the idea to travel and software platforms, predicting that AI agents will erode margins built on search and comparison friction, and advises finance leaders to map where their gross profit sits and ask whether customers pay for some lines only because switching is painful."
+  },
+  {
+   "id": "1128-ups",
+   "title": "Marc Levinson on How UPS Created Modern Logistics",
+   "source": "Odd Lots",
+   "author": "Joe Weisenthal and Tracy Alloway with Marc Levinson",
+   "url": "https://omny.fm/shows/odd-lots/marc-levinson-on-how-ups-created-modern-logistics",
+   "spotifyUrl": "https://open.spotify.com/episode/3rC5ffsoS9qp7Nk0Q68CX4",
+   "published": "2026-11-26",
+   "shelf": "evergreen",
+   "mode": "listen",
+   "minutes": 50,
+   "track": "personal",
+   "domain": "Economics and how things work",
+   "score": 65,
+   "why": "The economic historian behind the standard account of the shipping container talks about his new biography of the founder of UPS, who started with a bicycle messenger service and helped solve the last-mile problem. A weekend listen on how an operating system built on scientific management became an industry, with a quiet lesson for anyone who designs routines that thousands of people have to run the same way.",
+   "lookFor": [
+    "Which problem did parcel delivery solve that the postal service and freight carriers left open, and why was it hard?",
+    "How did measuring every step of a route change both cost and the culture of the company?",
+    "What made the founder keep the company's history out of view, and what did that cost later?"
+   ],
+   "gist": "Marc Levinson discusses his biography of James E. Casey, who co-founded the business that became UPS in Seattle as a messenger and bicycle courier service. He explains how Casey and his partners worked out the economics of the last mile and made parcel delivery a mass service, why the company has been so secretive about its own history, and how scientific management shaped everything from route planning to the design of trucks and uniforms."
+  }
+ ],
+ "practice": {
+  "id": "1128-p",
+  "type": "Estimate",
+  "horizon": "year",
+  "minutes": 12,
+  "title": "Map your profit pools on one page",
+  "prompt": "Pen and paper, 12 minutes. A software company has 10,000 customers on a core plan at 600 a year with an 80 percent gross margin. Three add-ons: a premium module bought by 30 percent of customers at 200 a year (90 percent margin); paid onboarding bought by 40 percent of the 3,000 new customers each year at 300 one-off (40 percent margin); and a payments service used by 20 percent of customers that brings 400 of net revenue a year each (60 percent margin). Operating costs below gross profit are 4.764 million. Step 1 (5 min): compute the share of revenue and the share of gross profit that comes from add-ons. Step 2 (3 min): buyers start comparing payment fees with an assistant and the payments margin halves. How much gross profit is lost, and what share of EBITDA is that? Step 3 (4 min): write one sentence on which add-on earns its margin from value and which from friction, and what you would test first.",
+  "reveal": "Revenue: core 6.0 million, premium 600k, onboarding 360k, payments 800k, total 7.76 million, so add-ons are about 23 percent of revenue. Gross profit: core 4.8 million, premium 540k, onboarding 144k, payments 480k, total 5.964 million, add-ons about 19.5 percent. EBITDA is 5.964 minus 4.764 = 1.2 million. Halving the payments margin to 30 percent cuts its gross profit to 240k, a loss of 240k: 4 percent of gross profit, but 20 percent of EBITDA. The premium module looks like value (a feature a buyer can judge); payments is the friction pool, priced where the buyer is least likely to compare. The first test is to show the payment fee next to a market benchmark for a cohort and watch take-up and churn, before someone else shows it for you."
+ },
+ "cuts": [
+  {
+   "title": "Isabella Weber's Vision for an Affordability Agenda",
+   "source": "Odd Lots",
+   "reason": "A good policy debate, but one personal pick per edition and the UPS episode teaches more about how things work."
+  },
+  {
+   "title": "Immune cells",
+   "source": "In Our Time (BBC Radio 4)",
+   "reason": "Strong science, held because brain and health topics are limited to one pick in two weeks and today has a better fit."
+  },
+  {
+   "title": "Roland Fryer's Relentless Search for Truth",
+   "source": "EconTalk",
+   "reason": "Method-rich economics, but 68 minutes on top of today's listen is over a shortened edition."
+  },
+  {
+   "title": "Learning From Bezos, Jobs, and Spielberg | Bing Gordon",
+   "source": "The Knowledge Project",
+   "reason": "70 minutes of career stories, long for the weekend slot that already holds the personal listen."
+  },
+  {
+   "title": "Compounding Excellence - Part I",
+   "source": "The Polymath Investor",
+   "reason": "Judged by subject and snippet only: the first part of a series on quality investing, worth a look once more parts are out."
+  }
+ ]
+}

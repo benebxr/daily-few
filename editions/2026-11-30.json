@@ -1,0 +1,95 @@
+{
+ "date": "2026-11-30",
+ "thesis": "Train your people yourself, and lead managers without doing their job.",
+ "scanned": 118,
+ "sourcesScanned": 43,
+ "picks": [
+  {
+   "id": "1130-hom-16",
+   "title": "High Output Management, chapter 16: Why Training Is the Boss's Job",
+   "source": "Andrew S. Grove",
+   "author": "Andrew S. Grove",
+   "url": "https://books.apple.com/de/book/high-output-management/id1046431786",
+   "listenUrl": "https://books.apple.com/de/audiobook/high-output-management-unabridged/id1560761735",
+   "published": "1983",
+   "shelf": "evergreen",
+   "holds": "The core argument holds: training is one of the highest-leverage things a manager can do, because a few hours of preparation raise the output of many people for a long time, and it works best when the manager teaches what the team actually does here. What has aged is the format: Grove pictures classroom lectures, while today much of the same job is done through recorded sessions, call reviews, written playbooks and coaching in the flow of work. The principle that a manager should own it, instead of handing it to a training department, has held up.",
+   "mode": "read",
+   "minutes": 25,
+   "track": "pro",
+   "horizon": "career",
+   "series": {
+    "id": "hom",
+    "n": 16,
+    "of": 16
+   },
+   "domain": "Leverage through leaders",
+   "score": 78,
+   "why": "The last chapter closes the book's argument: there are two ways to raise someone's output, motivation and training, and only the second is fully in the manager's hands. Grove makes the case with leverage arithmetic and insists that the boss, not a separate department, teaches the method of the organisation. For a revenue leader building a layer of managers, it is the reason to put your own hours into teaching how deals, plans and reviews are done here.",
+   "lookFor": [
+    "What does your team do differently from how a new hire did it at their last company, and who teaches that today?",
+    "Run Grove's arithmetic on one session you could give: hours in, people reached, improvement needed to pay back.",
+    "Which part of your method lives only in your head, so that it leaves with you?"
+   ]
+  },
+  {
+   "id": "1130-coach",
+   "title": "Ask Muriel Anything with Special Guest Michael Bungay Stanier",
+   "source": "Coaching Real Leaders (HBR)",
+   "author": "Muriel Wilkins with Michael Bungay Stanier",
+   "url": "https://podcasts.apple.com/us/podcast/ask-muriel-anything-with-special-guest-michael-bungay/id1545444200?i=1000803593121",
+   "spotifyUrl": "https://open.spotify.com/episode/2Im5ZwvhoCRxIcN8ahvLUF",
+   "published": "2026-11-23",
+   "shelf": "evergreen",
+   "mode": "listen",
+   "minutes": 48,
+   "track": "pro",
+   "horizon": "now",
+   "domain": "Leading leaders",
+   "score": 64,
+   "why": "An executive coach and the author of a well-known book on coaching answer listener questions, and the middle one is yours: how to move from managing a team to leading managers without micromanaging, and how to let go of day-to-day decisions. It pairs with the chapter: Grove says teach the method, they say stop answering the questions your managers should answer. Caveat: a listener Q&A, so part of it, on promotions and recognition, is less relevant; the episode page is the Apple Podcasts listing because the show's own page could not be found.",
+   "lookFor": [
+    "Which recurring decision do your managers still bring to you that they could make with the right question from you?",
+    "How do they separate a skills gap from a confidence gap, and which one do your newest leaders have?",
+    "What would you stop attending if you trusted your managers to run it, and what would you ask afterwards instead?"
+   ],
+   "gist": "Muriel Wilkins and Michael Bungay Stanier take listener questions on common leadership problems. They discuss how to judge readiness for a bigger role and tell a skills gap from a confidence gap, how to let go of day-to-day decisions when you move into leading other leaders, and how to ask for the feedback and encouragement you need while learning to recognise your own progress."
+  }
+ ],
+ "practice": {
+  "id": "1130-p",
+  "type": "Teach-back",
+  "horizon": "career",
+  "minutes": 12,
+  "title": "Teach a new manager why training is their job",
+  "prompt": "Pen and paper, 12 minutes. A newly promoted sales team lead says training belongs to enablement, not to them. Step 1 (4 min): do the arithmetic you will use. They spend 12 hours preparing and running four one-hour sessions for 8 sellers, each working about 1,800 hours a year. What improvement in the sellers' output pays back the 12 hours, and what is the return if the improvement is 1 percent? Step 2 (5 min): write the five-minute explanation you would give them, covering why training is leverage, why the boss has to teach the way things are done here, and what the first session should be about. Step 3 (3 min): write the one question you would ask a week after the first session to check that it changed behaviour.",
+  "reveal": "The team works 8 times 1,800 = 14,400 hours a year. Twelve hours pay back at 12 / 14,400, about 0.08 percent better output. A 1 percent gain is 144 hours, twelve times the investment, before counting next year's hires who inherit the material. The explanation lands when it says: a few hours of your time change thousands of theirs; enablement can teach the product, only you can teach how this team qualifies, forecasts and closes; start with the one habit you correct most often in deal reviews. A good check question: 'show me a deal where you did it the new way, and what happened' asks for evidence of behaviour, not of attendance."
+ },
+ "cuts": [
+  {
+   "title": "What happens after the acquisition? Lessons from 180+ companies at Visma",
+   "source": "SaaSiest",
+   "reason": "Queued: a strong career piece, held because the chapter carries today's career share; it fits a desk slot next week once the series ends."
+  },
+  {
+   "title": "SaaStr 885: Going from 10 to 1 SDRs. How We Deployed AI Across our Sales Org with Vercel's COO",
+   "source": "The Official SaaStr Podcast",
+   "reason": "One company's AI rollout, likely to date within weeks."
+  },
+  {
+   "title": "Innovation Summit 2026: Block's Jack Dorsey on Building a Company Around Intelligence",
+   "source": "HBR IdeaCast",
+   "reason": "Career horizon and a conference talk; the chapter already holds the career slot."
+  },
+  {
+   "title": "344. Find the Vibe: Build Stronger Connections Through Communication Part 2",
+   "source": "Think Fast Talk Smart",
+   "reason": "General connection advice, thin for a senior operator."
+  },
+  {
+   "title": "The Genius of Teams",
+   "source": "At The Table with Patrick Lencioni",
+   "reason": "Built around the host's own team assessment model, close to promotion."
+  }
+ ]
+}

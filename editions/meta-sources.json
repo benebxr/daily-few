@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-26",
- "window": "cumulative since 16.09.2026; last sweep 26.11.2026",
+ "updated": "2026-11-27",
+ "window": "cumulative since 16.09.2026; last sweep 27.11.2026",
  "sources": [
   {
    "name": "Open web discovery",
-   "scanned": 631,
+   "scanned": 639,
    "picked": 21
   },
   {
@@ -24,12 +24,12 @@
   },
   {
    "name": "Superhuman AI",
-   "scanned": 107,
+   "scanned": 109,
    "picked": 0
   },
   {
    "name": "The Neuron",
-   "scanned": 110,
+   "scanned": 111,
    "picked": 0
   },
   {
@@ -39,12 +39,12 @@
   },
   {
    "name": "Think Fast Talk Smart",
-   "scanned": 92,
+   "scanned": 96,
    "picked": 3
   },
   {
    "name": "Big Think",
-   "scanned": 30,
+   "scanned": 32,
    "picked": 0
   },
   {
@@ -54,7 +54,7 @@
   },
   {
    "name": "GTM Strategist",
-   "scanned": 16,
+   "scanned": 17,
    "picked": 2
   },
   {
@@ -64,27 +64,27 @@
   },
   {
    "name": "SaaSiest",
-   "scanned": 12,
-   "picked": 0
-  },
-  {
-   "name": "AI by Aakash",
-   "scanned": 10,
-   "picked": 0
-  },
-  {
-   "name": "AI Genius Lab",
    "scanned": 13,
    "picked": 0
   },
   {
+   "name": "AI by Aakash",
+   "scanned": 12,
+   "picked": 0
+  },
+  {
+   "name": "AI Genius Lab",
+   "scanned": 14,
+   "picked": 0
+  },
+  {
    "name": "The Anthropic Stack",
-   "scanned": 22,
+   "scanned": 23,
    "picked": 0
   },
   {
    "name": "The Pragmatic Engineer",
-   "scanned": 20,
+   "scanned": 21,
    "picked": 0
   },
   {
@@ -94,7 +94,7 @@
   },
   {
    "name": "Making Sense",
-   "scanned": 6,
+   "scanned": 7,
    "picked": 0
   },
   {
@@ -109,7 +109,7 @@
   },
   {
    "name": "The Revenue Leadership Podcast",
-   "scanned": 52,
+   "scanned": 53,
    "picked": 3
   },
   {
@@ -119,27 +119,27 @@
   },
   {
    "name": "The Official SaaStr Podcast",
-   "scanned": 54,
+   "scanned": 62,
    "picked": 4
   },
   {
    "name": "Lenny's Podcast",
-   "scanned": 56,
+   "scanned": 57,
    "picked": 2
   },
   {
    "name": "EconTalk",
-   "scanned": 69,
+   "scanned": 70,
    "picked": 2
   },
   {
    "name": "The Knowledge Project",
-   "scanned": 53,
+   "scanned": 54,
    "picked": 1
   },
   {
    "name": "Masters of Scale",
-   "scanned": 155,
+   "scanned": 159,
    "picked": 0
   },
   {
@@ -149,8 +149,8 @@
   },
   {
    "name": "Mostly Metrics",
-   "scanned": 51,
-   "picked": 13
+   "scanned": 53,
+   "picked": 14
   },
   {
    "name": "GTM Engineer Pulse",
@@ -189,8 +189,8 @@
   },
   {
    "name": "Run the Numbers",
-   "scanned": 176,
-   "picked": 13
+   "scanned": 182,
+   "picked": 15
   },
   {
    "name": "BenAI",
@@ -199,12 +199,12 @@
   },
   {
    "name": "In Our Time",
-   "scanned": 100,
+   "scanned": 103,
    "picked": 6
   },
   {
    "name": "Worklife with Molly Graham",
-   "scanned": 54,
+   "scanned": 55,
    "picked": 3
   },
   {
@@ -239,12 +239,12 @@
   },
   {
    "name": "Odd Lots",
-   "scanned": 183,
-   "picked": 6
+   "scanned": 190,
+   "picked": 7
   },
   {
    "name": "HBR IdeaCast",
-   "scanned": 63,
+   "scanned": 66,
    "picked": 5
   },
   {
@@ -259,7 +259,7 @@
   },
   {
    "name": "Capital Allocators",
-   "scanned": 96,
+   "scanned": 98,
    "picked": 0
   },
   {
@@ -269,7 +269,7 @@
   },
   {
    "name": "Prof G Markets",
-   "scanned": 250,
+   "scanned": 257,
    "picked": 1
   },
   {
@@ -279,7 +279,7 @@
   },
   {
    "name": "The McKinsey Podcast",
-   "scanned": 44,
+   "scanned": 45,
    "picked": 0
   },
   {
@@ -294,7 +294,7 @@
   },
   {
    "name": "Hard Fork",
-   "scanned": 51,
+   "scanned": 54,
    "picked": 0
   },
   {
@@ -319,7 +319,7 @@
   },
   {
    "name": "Claude Code for Non-Coders",
-   "scanned": 8,
+   "scanned": 9,
    "picked": 0
   },
   {
@@ -349,27 +349,27 @@
   },
   {
    "name": "Top Founders",
-   "scanned": 30,
+   "scanned": 31,
    "picked": 0
   },
   {
    "name": "Startup Insider",
-   "scanned": 257,
+   "scanned": 272,
    "picked": 0
   },
   {
    "name": "At The Table with Patrick Lencioni",
-   "scanned": 14,
+   "scanned": 15,
    "picked": 0
   },
   {
    "name": "The Jefferson Fisher Podcast",
-   "scanned": 66,
+   "scanned": 69,
    "picked": 0
   },
   {
    "name": "SPEAK LIKE A CEO",
-   "scanned": 32,
+   "scanned": 33,
    "picked": 2
   },
   {
@@ -404,12 +404,12 @@
   },
   {
    "name": "Mindscape",
-   "scanned": 2,
+   "scanned": 3,
    "picked": 0
   },
   {
    "name": "Kassenzone CEO Interviews",
-   "scanned": 20,
+   "scanned": 22,
    "picked": 0
   },
   {
@@ -479,7 +479,7 @@
   },
   {
    "name": "Mostly Growth",
-   "scanned": 21,
+   "scanned": 22,
    "picked": 2
   },
   {
@@ -489,7 +489,7 @@
   },
   {
    "name": "Churn FM",
-   "scanned": 61,
+   "scanned": 69,
    "picked": 4
   },
   {
@@ -531,6 +531,31 @@
    "name": "The GTMnow Podcast",
    "scanned": 3,
    "picked": 0
+  },
+  {
+   "name": "The Polymath Investor",
+   "scanned": 1,
+   "picked": 0
+  },
+  {
+   "name": "GTM Engineer School",
+   "scanned": 1,
+   "picked": 0
+  },
+  {
+   "name": "Finn Thormeier",
+   "scanned": 1,
+   "picked": 0
+  },
+  {
+   "name": "Ben's Bites / BenAI",
+   "scanned": 2,
+   "picked": 0
+  },
+  {
+   "name": "Coaching Real Leaders (HBR)",
+   "scanned": 3,
+   "picked": 1
   }
  ]
 }
