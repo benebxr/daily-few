@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "budget": {
   "total": 120,
   "ears": 90,
@@ -7,15 +7,16 @@
  },
  "pro": [
   "Building an annual plan and budget against an investor's stretch target, with a base budget plus a reserve released monthly on explicit conditions, a role-based personnel plan and a list of deferrable costs for covenant pressure",
+  "Countering misleading unit-economics framings in board reporting, such as marginal marketing cost read against entry revenue only",
   "Showing EBITDA before and after a growth investment when revenue and profit expectations conflict",
   "Capping a paid channel that is incremental but expensive after a holdout test, and checking agency attribution against incrementality",
-  "Launching a referral programme fast after taking it over mid-flight: consent versus legitimate interest for client-side tracking, documenting a residual legal risk as a management decision, and turning that decision into product follow-on work, plus abuse controls when widening eligibility and holding a vendor to the agreed scope",
+  "Launching a referral programme fast after taking it over mid-flight: consent versus legitimate interest for client-side tracking, documenting a residual legal risk as a management decision, one technical owner for a cross-team launch, abuse controls when widening eligibility and holding a vendor to the agreed scope",
   "Rolling out a new commission model, closing habits in onboarding calls and discount governance before a demand spike, while moving the purchase path to self-serve with sales stepping in only where it fails",
   "Operational readiness for a regulation-driven demand spike: conversion lag versus capacity limits, lifecycle messaging audits, escalation triggers and a CRM with one record per customer",
   "Structuring churn by customer-lifecycle moment, setting individual retention targets on controllable impact measured against control groups, and separating involuntary churn from the target",
   "Fixing billing friction that drives churn without giving away revenue",
   "Steering a team by shipped actions with one place where progress counts, meeting cadences that produce decisions and follow-through that runs without the leader, and holding senior direct reports accountable without taking the work over",
-  "Working with a new product leader: one intake between product and go-to-market, a shared ICP and a joint activation definition",
+  "Working with a new product leader: one intake between product and go-to-market, a shared ICP and a joint activation definition; onboarding a new growth and AI lead with a few bounded, measurable projects",
   "North-star metrics, activation definitions, KPI trees rolled out to teams, and kill reviews",
   "Free-to-paid conversion: reverse trials, activation in the first two weeks and paid entry tiers",
   "Turning aggregated product data into a press story around a regulatory deadline",
@@ -23,7 +24,8 @@
   "Technology partnerships with ERP vendors: from a listing to referrals and co-selling",
   "Channel portfolio: measurable partner channels, referral and AI search after their tests",
   "Growing a personal multi-agent system into a strategic partner for a commercial team: least-privilege tool access, approval per task or by checklist, and quality-gated rollout",
-  "A commercial organisation that runs without its leader"
+  "A commercial organisation that runs without its leader",
+  "Privacy governance in a fast-moving go-to-market team: pre-launch privacy checks, consent for calling new B2B sign-ups, processor data in sales tools, sub-processor lists and rationing scarce expert capacity"
  ],
  "personal": [
   "Science and how things work",
